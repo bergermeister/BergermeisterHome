@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_console_1_1_app" kind="class" language="C++" prot="public">
+    <compoundname>Console::App</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IXamlMetadataProvider</basecompoundref>
+    <includes refid="_console_2_app_8xaml_8h" local="no">App.xaml.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_console_1_1_app_1a5aecf8105f8359a628eb132448bb5167" prot="private" static="no" mutable="no">
+        <type>::<ref refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider" kindref="compound">XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</ref> ^</type>
+        <definition>::XamlTypeInfo::InfoProvider::XamlTypeInfoProvider ^ Console::App::_provider</definition>
+        <argsstring></argsstring>
+        <name>_provider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/App.g.h" line="23" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/App.g.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_console_1_1_app_1a55e5f73d04f7952ddfde4322165a1c16" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Console::App::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/App.g.h" line="24" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/App.g.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_console_1_1_app_1a850b50800225e29269fa01831d1af441" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Console::App::OnLaunched</definition>
+        <argsstring>(Windows::ApplicationModel::Activation::LaunchActivatedEventArgs^ aopArg) override</argsstring>
+        <name>OnLaunched</name>
+        <param>
+          <type>Windows::ApplicationModel::Activation::LaunchActivatedEventArgs^</type>
+          <declname>aopArg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/App.xaml.h" line="18" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_console_1_1_app_1acb8cbf3e285b91d0170ffe87df5989c5" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>App::App</definition>
+        <argsstring>()</argsstring>
+        <name>App</name>
+        <briefdescription>
+<para>Initializes the singleton application object. This is the first line of authored code executed, and as such is the logical equivalent of main() or WinMain(). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/App.xaml.h" line="21" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/App.xaml.cpp" bodystart="33" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_console_1_1_app_1aac3f9f257d55b59a2b3bd97dbfc82f83" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Console::App::OnSuspending</definition>
+        <argsstring>(Platform::Object^ aopSender, Windows::ApplicationModel::SuspendingEventArgs^ aopArgs)</argsstring>
+        <name>OnSuspending</name>
+        <param>
+          <type>Platform::Object^</type>
+          <declname>aopSender</declname>
+        </param>
+        <param>
+          <type>Windows::ApplicationModel::SuspendingEventArgs^</type>
+          <declname>aopArgs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/App.xaml.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_console_1_1_app_1aa1eeb9be26ae18afd5055419b5c77ee2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Console::App::OnNavigationFailed</definition>
+        <argsstring>(Platform::Object^ aopSender, Windows::UI::Xaml::Navigation::NavigationFailedEventArgs^ aopArgs)</argsstring>
+        <name>OnNavigationFailed</name>
+        <param>
+          <type>Platform::Object^</type>
+          <declname>aopSender</declname>
+        </param>
+        <param>
+          <type>Windows::UI::Xaml::Navigation::NavigationFailedEventArgs^</type>
+          <declname>aopArgs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/App.xaml.h" line="25" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_console_1_1_app_1aeaadf4574f8c5b5131ef9d076e4771f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Console::App::InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/App.g.h" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_console_1_1_app_1ab264b34bbb46988b5b66c03705aa27ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Windows::UI::Xaml::Markup::IXamlType ^</type>
+        <definition>virtual ::Windows::UI::Xaml::Markup::IXamlType ^ Console::App::GetXamlType</definition>
+        <argsstring>(::Windows::UI::Xaml::Interop::TypeName type)</argsstring>
+        <name>GetXamlType</name>
+        <param>
+          <type>::Windows::UI::Xaml::Interop::TypeName</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/App.g.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_console_1_1_app_1ab3e42f369ce3625ca5c88be3364761cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Windows::UI::Xaml::Markup::IXamlType ^</type>
+        <definition>virtual ::Windows::UI::Xaml::Markup::IXamlType ^ Console::App::GetXamlType</definition>
+        <argsstring>(::Platform::String^ fullName)</argsstring>
+        <name>GetXamlType</name>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>fullName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/App.g.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_console_1_1_app_1a9ff31ca8f383ec11f15e945999ef285e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Platform::Array&lt;::Windows::UI::Xaml::Markup::XmlnsDefinition &gt; ^</type>
+        <definition>virtual ::Platform::Array&lt;::Windows::UI::Xaml::Markup::XmlnsDefinition&gt; ^ Console::App::GetXmlnsDefinitions</definition>
+        <argsstring>()</argsstring>
+        <name>GetXmlnsDefinitions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/App.g.h" line="21" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides application-specific behavior to supplement the default Application class. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Windows::UI::Xaml::Application</label>
+      </node>
+      <node id="0">
+        <label>Console::App</label>
+        <link refid="class_console_1_1_app"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Windows::UI::Xaml::Markup::IXamlMetadataProvider</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>Windows::UI::Xaml::Application</label>
+      </node>
+      <node id="3">
+        <label>Console::App</label>
+        <link refid="class_console_1_1_app"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Windows::UI::Xaml::Markup::IXamlMetadataProvider</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Projects/BergermeisterHome/Console/App.xaml.h" line="16" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/App.xaml.h" bodystart="15" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_console_1_1_app_1a55e5f73d04f7952ddfde4322165a1c16" prot="private" virt="non-virtual"><scope>Console::App</scope><name>_contentLoaded</name></member>
+      <member refid="class_console_1_1_app_1a5aecf8105f8359a628eb132448bb5167" prot="private" virt="non-virtual"><scope>Console::App</scope><name>_provider</name></member>
+      <member refid="class_console_1_1_app_1acb8cbf3e285b91d0170ffe87df5989c5" prot="package" virt="non-virtual"><scope>Console::App</scope><name>App</name></member>
+      <member refid="class_console_1_1_app_1ab264b34bbb46988b5b66c03705aa27ec" prot="public" virt="non-virtual"><scope>Console::App</scope><name>GetXamlType</name></member>
+      <member refid="class_console_1_1_app_1ab3e42f369ce3625ca5c88be3364761cb" prot="public" virt="non-virtual"><scope>Console::App</scope><name>GetXamlType</name></member>
+      <member refid="class_console_1_1_app_1a9ff31ca8f383ec11f15e945999ef285e" prot="public" virt="non-virtual"><scope>Console::App</scope><name>GetXmlnsDefinitions</name></member>
+      <member refid="class_console_1_1_app_1aeaadf4574f8c5b5131ef9d076e4771f2" prot="public" virt="non-virtual"><scope>Console::App</scope><name>InitializeComponent</name></member>
+      <member refid="class_console_1_1_app_1a850b50800225e29269fa01831d1af441" prot="protected" virt="virtual"><scope>Console::App</scope><name>OnLaunched</name></member>
+      <member refid="class_console_1_1_app_1aa1eeb9be26ae18afd5055419b5c77ee2" prot="private" virt="non-virtual"><scope>Console::App</scope><name>OnNavigationFailed</name></member>
+      <member refid="class_console_1_1_app_1aac3f9f257d55b59a2b3bd97dbfc82f83" prot="private" virt="non-virtual"><scope>Console::App</scope><name>OnSuspending</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

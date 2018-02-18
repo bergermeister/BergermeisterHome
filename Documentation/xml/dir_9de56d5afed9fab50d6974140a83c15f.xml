@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_9de56d5afed9fab50d6974140a83c15f" kind="dir">
+    <compoundname>C:/Projects/BergermeisterHome/Common/Source/Component</compoundname>
+    <innerfile refid="_event_8h">Event.h</innerfile>
+    <innerfile refid="_listener_8cpp">Listener.cpp</innerfile>
+    <innerfile refid="_listener_8h">Listener.h</innerfile>
+    <innerfile refid="_model_8cpp">Model.cpp</innerfile>
+    <innerfile refid="_model_8h">Model.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Projects/BergermeisterHome/Common/Source/Component/"/>
+  </compounddef>
+</doxygen>

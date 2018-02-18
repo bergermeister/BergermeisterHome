@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue" kind="class" language="C++" prot="public">
+    <compoundname>GNCommon::GNContainers::GTcQueue</compoundname>
+    <templateparamlist>
+      <param>
+        <type>class GTcType</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1a83aba70b79a1191bf55898677c0ad4da" prot="private" static="no" mutable="no">
+        <type>GTcType *</type>
+        <definition>GTcType* GNCommon::GNContainers::GTcQueue&lt; GTcType &gt;::vopBuffer</definition>
+        <argsstring></argsstring>
+        <name>vopBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" line="11" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1aac9a4b92d38fc0e8968aefc5d2c33f2b" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_g_n_common_1ae5485474bc8f23e462e920a17b377b53" kindref="member">GTu32</ref></type>
+        <definition>GTu32 GNCommon::GNContainers::GTcQueue&lt; GTcType &gt;::vuiSize</definition>
+        <argsstring></argsstring>
+        <name>vuiSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" line="12" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1a8ef791adce5ca9c13708218dbf384a78" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_g_n_common_1ae5485474bc8f23e462e920a17b377b53" kindref="member">GTu32</ref></type>
+        <definition>GTu32 GNCommon::GNContainers::GTcQueue&lt; GTcType &gt;::vuiCount</definition>
+        <argsstring></argsstring>
+        <name>vuiCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" line="13" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1a0338809fac269df3080f3d80cd9ba9c3" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_g_n_common_1ae5485474bc8f23e462e920a17b377b53" kindref="member">GTu32</ref></type>
+        <definition>GTu32 GNCommon::GNContainers::GTcQueue&lt; GTcType &gt;::vuiHead</definition>
+        <argsstring></argsstring>
+        <name>vuiHead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" line="14" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1a868dc74fc0d98652afa304a2ef6fabb7" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_g_n_common_1ae5485474bc8f23e462e920a17b377b53" kindref="member">GTu32</ref></type>
+        <definition>GTu32 GNCommon::GNContainers::GTcQueue&lt; GTcType &gt;::vuiTail</definition>
+        <argsstring></argsstring>
+        <name>vuiTail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" line="15" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1ae2d701dd58f10b94ce4adaf66b828eed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GNCommon::GNContainers::GTcQueue&lt; GTcType &gt;::GTcQueue</definition>
+        <argsstring>(void)</argsstring>
+        <name>GTcQueue</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" line="18" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" bodystart="30" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1a4b1733acf84dfb05e42cca118191b868" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GNCommon::GNContainers::GTcQueue&lt; GTcType &gt;::GTcQueue</definition>
+        <argsstring>(GTcType *aopBuffer, GTu32 auiSize)</argsstring>
+        <name>GTcQueue</name>
+        <param>
+          <type>GTcType *</type>
+          <declname>aopBuffer</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_g_n_common_1ae5485474bc8f23e462e920a17b377b53" kindref="member">GTu32</ref></type>
+          <declname>auiSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" line="19" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" bodystart="40" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1add09a1167bd6c8bf14b8deddee2cae5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GNCommon::GNContainers::GTcQueue&lt; GTcType &gt;::~GTcQueue</definition>
+        <argsstring>(void)</argsstring>
+        <name>~GTcQueue</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" line="20" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" bodystart="50" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1a94c6227e8ea1485c2ec6bd9b89dd4003" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a6b5283329f609e2175dd0c91fc1520ba" kindref="member">GTb8</ref></type>
+        <definition>GTb8 GNCommon::GNContainers::GTcQueue&lt; GTcType &gt;::MEnqueue</definition>
+        <argsstring>(GTcType &amp;aorElement)</argsstring>
+        <name>MEnqueue</name>
+        <param>
+          <type>GTcType &amp;</type>
+          <declname>aorElement</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" line="22" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" bodystart="60" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1a9e378ccbf4b0529207bc941ec2ee0759" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a6b5283329f609e2175dd0c91fc1520ba" kindref="member">GTb8</ref></type>
+        <definition>GTb8 GNCommon::GNContainers::GTcQueue&lt; GTcType &gt;::MDequeue</definition>
+        <argsstring>(GTcType &amp;aorElement)</argsstring>
+        <name>MDequeue</name>
+        <param>
+          <type>GTcType &amp;</type>
+          <declname>aorElement</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" line="23" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" bodystart="90" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1afdad24729246ccb674920409418519b3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a6b5283329f609e2175dd0c91fc1520ba" kindref="member">GTb8</ref></type>
+        <definition>GTb8 GNCommon::GNContainers::GTcQueue&lt; GTcType &gt;::MIsEmpty</definition>
+        <argsstring>(void) const</argsstring>
+        <name>MIsEmpty</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" line="24" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" bodystart="120" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1af576448fe19349c14da79fd10e17a993" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a6b5283329f609e2175dd0c91fc1520ba" kindref="member">GTb8</ref></type>
+        <definition>GTb8 GNCommon::GNContainers::GTcQueue&lt; GTcType &gt;::MIsFull</definition>
+        <argsstring>(void) const</argsstring>
+        <name>MIsFull</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" line="25" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" bodystart="126" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1a2678976802edc3b05226badac6841d87" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1ae5485474bc8f23e462e920a17b377b53" kindref="member">GTu32</ref></type>
+        <definition>GTu32 GNCommon::GNContainers::GTcQueue&lt; GTcType &gt;::MCount</definition>
+        <argsstring>(void) const</argsstring>
+        <name>MCount</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" line="26" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" bodystart="132" bodyend="135"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" line="9" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Containers/Queue.h" bodystart="8" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1ae2d701dd58f10b94ce4adaf66b828eed" prot="public" virt="non-virtual"><scope>GNCommon::GNContainers::GTcQueue</scope><name>GTcQueue</name></member>
+      <member refid="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1a4b1733acf84dfb05e42cca118191b868" prot="public" virt="non-virtual"><scope>GNCommon::GNContainers::GTcQueue</scope><name>GTcQueue</name></member>
+      <member refid="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1a2678976802edc3b05226badac6841d87" prot="public" virt="non-virtual"><scope>GNCommon::GNContainers::GTcQueue</scope><name>MCount</name></member>
+      <member refid="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1a9e378ccbf4b0529207bc941ec2ee0759" prot="public" virt="non-virtual"><scope>GNCommon::GNContainers::GTcQueue</scope><name>MDequeue</name></member>
+      <member refid="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1a94c6227e8ea1485c2ec6bd9b89dd4003" prot="public" virt="non-virtual"><scope>GNCommon::GNContainers::GTcQueue</scope><name>MEnqueue</name></member>
+      <member refid="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1afdad24729246ccb674920409418519b3" prot="public" virt="non-virtual"><scope>GNCommon::GNContainers::GTcQueue</scope><name>MIsEmpty</name></member>
+      <member refid="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1af576448fe19349c14da79fd10e17a993" prot="public" virt="non-virtual"><scope>GNCommon::GNContainers::GTcQueue</scope><name>MIsFull</name></member>
+      <member refid="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1a83aba70b79a1191bf55898677c0ad4da" prot="private" virt="non-virtual"><scope>GNCommon::GNContainers::GTcQueue</scope><name>vopBuffer</name></member>
+      <member refid="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1a8ef791adce5ca9c13708218dbf384a78" prot="private" virt="non-virtual"><scope>GNCommon::GNContainers::GTcQueue</scope><name>vuiCount</name></member>
+      <member refid="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1a0338809fac269df3080f3d80cd9ba9c3" prot="private" virt="non-virtual"><scope>GNCommon::GNContainers::GTcQueue</scope><name>vuiHead</name></member>
+      <member refid="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1aac9a4b92d38fc0e8968aefc5d2c33f2b" prot="private" virt="non-virtual"><scope>GNCommon::GNContainers::GTcQueue</scope><name>vuiSize</name></member>
+      <member refid="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1a868dc74fc0d98652afa304a2ef6fabb7" prot="private" virt="non-virtual"><scope>GNCommon::GNContainers::GTcQueue</scope><name>vuiTail</name></member>
+      <member refid="class_g_n_common_1_1_g_n_containers_1_1_g_tc_queue_1add09a1167bd6c8bf14b8deddee2cae5c" prot="public" virt="non-virtual"><scope>GNCommon::GNContainers::GTcQueue</scope><name>~GTcQueue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

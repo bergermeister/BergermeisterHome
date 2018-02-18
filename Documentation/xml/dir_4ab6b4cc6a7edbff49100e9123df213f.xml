@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_4ab6b4cc6a7edbff49100e9123df213f" kind="dir">
+    <compoundname>C:/Projects/BergermeisterHome/Common</compoundname>
+    <innerdir refid="dir_c8c4f62bd7db86224cb487692f2a3c53">C:/Projects/BergermeisterHome/Common/Source</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Projects/BergermeisterHome/Common/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_thermostat_2_main_page_8xaml_8h" kind="file" language="C++">
+    <compoundname>MainPage.xaml.h</compoundname>
+    <includes local="yes">MainPage.g.h</includes>
+    <includedby refid="_thermostat_2_app_8xaml_8cpp" local="yes">C:/Projects/BergermeisterHome/Thermostat/App.xaml.cpp</includedby>
+    <includedby refid="_main_page_8g_8hpp" local="yes">C:/Projects/BergermeisterHome/Thermostat/Generated Files/MainPage.g.hpp</includedby>
+    <includedby refid="_xaml_type_info_8g_8cpp" local="yes">C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp</includedby>
+    <includedby refid="_thermostat_2_main_page_8xaml_8cpp" local="yes">C:/Projects/BergermeisterHome/Thermostat/MainPage.xaml.cpp</includedby>
+    <incdepgraph>
+      <node id="457">
+        <label>C:/Projects/BergermeisterHome/Thermostat/MainPage.xaml.h</label>
+        <link refid="_thermostat_2_main_page_8xaml_8h"/>
+        <childnode refid="458" relation="include">
+        </childnode>
+      </node>
+      <node id="458">
+        <label>MainPage.g.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="461">
+        <label>C:/Projects/BergermeisterHome/Thermostat/Generated Files/MainPage.g.hpp</label>
+        <link refid="_main_page_8g_8hpp_source"/>
+        <childnode refid="462" relation="include">
+        </childnode>
+      </node>
+      <node id="463">
+        <label>C:/Projects/BergermeisterHome/Thermostat/MainPage.xaml.cpp</label>
+        <link refid="_thermostat_2_main_page_8xaml_8cpp_source"/>
+      </node>
+      <node id="460">
+        <label>C:/Projects/BergermeisterHome/Thermostat/App.xaml.cpp</label>
+        <link refid="_thermostat_2_app_8xaml_8cpp_source"/>
+      </node>
+      <node id="462">
+        <label>C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp</label>
+        <link refid="_xaml_type_info_8g_8cpp_source"/>
+      </node>
+      <node id="459">
+        <label>C:/Projects/BergermeisterHome/Thermostat/MainPage.xaml.h</label>
+        <link refid="_thermostat_2_main_page_8xaml_8h"/>
+        <childnode refid="460" relation="include">
+        </childnode>
+        <childnode refid="461" relation="include">
+        </childnode>
+        <childnode refid="462" relation="include">
+        </childnode>
+        <childnode refid="463" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_thermostat_1_1_main_page" prot="public">Thermostat::MainPage</innerclass>
+    <innernamespace refid="namespace_thermostat">Thermostat</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>MainPage.xaml.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Declaration<sp/>of<sp/>the<sp/>MainPage<sp/>class.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MainPage.g.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_thermostat" kindref="compound">Thermostat</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public<sp/>ref<sp/>class</highlight><highlight class="normal"><sp/>MainPage<sp/></highlight><highlight class="keyword">sealed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Protected<sp/>Attributes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespace_g_n_common_1ae5485474bc8f23e462e920a17b377b53" kindref="member">GNCommon::GTu32</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xuiDHTPinNumber<sp/>=<sp/>21;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_g_n_common_1_1_g_n_drivers_1_1_g_tc_d_h_t_sensor" kindref="compound">GNCommon::GNDrivers::GTcDHTSensor</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>voSensor;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Windows::System::Threading::ThreadPoolTimer^<sp/>voTimer;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Public<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>MainPage();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Protected<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Page_Loaded(<sp/>Platform::Object^<sp/>aopSender,<sp/>Windows::UI::Xaml::RoutedEventArgs^<sp/>aopArgs<sp/>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MTimerElapsed(<sp/>Windows::System::Threading::ThreadPoolTimer^<sp/>aopTimer<sp/>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Projects/BergermeisterHome/Thermostat/MainPage.xaml.h"/>
+  </compounddef>
+</doxygen>

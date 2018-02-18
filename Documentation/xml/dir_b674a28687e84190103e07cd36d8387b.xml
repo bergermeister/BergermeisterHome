@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_b674a28687e84190103e07cd36d8387b" kind="dir">
+    <compoundname>C:/Projects/BergermeisterHome/Thermostat/Generated Files</compoundname>
+    <innerfile refid="_thermostat_2_generated_01_files_2_app_8g_8h">App.g.h</innerfile>
+    <innerfile refid="_app_8g_8hpp">App.g.hpp</innerfile>
+    <innerfile refid="_thermostat_2_generated_01_files_2_main_page_8g_8h">MainPage.g.h</innerfile>
+    <innerfile refid="_main_page_8g_8hpp">MainPage.g.hpp</innerfile>
+    <innerfile refid="_thermostat_2_generated_01_files_2_xaml_binding_info_8g_8h">XamlBindingInfo.g.h</innerfile>
+    <innerfile refid="_thermostat_2_generated_01_files_2_xaml_binding_info_8g_8hpp">XamlBindingInfo.g.hpp</innerfile>
+    <innerfile refid="_thermostat_2_generated_01_files_2_xaml_lib_metadata_provider_8g_8cpp">XamlLibMetadataProvider.g.cpp</innerfile>
+    <innerfile refid="_xaml_type_info_8g_8cpp">XamlTypeInfo.g.cpp</innerfile>
+    <innerfile refid="_thermostat_2_generated_01_files_2_xaml_type_info_8g_8h">XamlTypeInfo.g.h</innerfile>
+    <innerfile refid="_thermostat_2_generated_01_files_2_xaml_type_info_8_impl_8g_8cpp">XamlTypeInfo.Impl.g.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/"/>
+  </compounddef>
+</doxygen>

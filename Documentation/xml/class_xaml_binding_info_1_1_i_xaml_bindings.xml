@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_xaml_binding_info_1_1_i_xaml_bindings" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>XamlBindingInfo::IXamlBindings</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xaml_binding_info_1_1_i_xaml_bindings_1a90ca01b1e1149195db3cc02f7c5ebcf7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual XamlBindingInfo::IXamlBindings::~IXamlBindings</definition>
+        <argsstring>()</argsstring>
+        <name>~IXamlBindings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlBindingInfo.g.h" line="18" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlBindingInfo.g.h" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_binding_info_1_1_i_xaml_bindings_1a84ac9cebecf96c2c7ccfaeb43e9d4252" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool XamlBindingInfo::IXamlBindings::IsInitialized</definition>
+        <argsstring>()=0</argsstring>
+        <name>IsInitialized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlBindingInfo.g.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_binding_info_1_1_i_xaml_bindings_1af7bbb67de71bfaedbf116df6d689f22b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void XamlBindingInfo::IXamlBindings::Update</definition>
+        <argsstring>()=0</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlBindingInfo.g.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_binding_info_1_1_i_xaml_bindings_1a35a0a9b1922e3c719c26791bdc0a102e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool XamlBindingInfo::IXamlBindings::SetDataRoot</definition>
+        <argsstring>(::Platform::Object^ data)=0</argsstring>
+        <name>SetDataRoot</name>
+        <param>
+          <type>::Platform::Object^</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlBindingInfo.g.h" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_binding_info_1_1_i_xaml_bindings_1abbffa5e36a4cc1ef3b7e14814112480a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void XamlBindingInfo::IXamlBindings::StopTracking</definition>
+        <argsstring>()=0</argsstring>
+        <name>StopTracking</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlBindingInfo.g.h" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_binding_info_1_1_i_xaml_bindings_1a9e14f106ac9c9a8fef1203dc34619865" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void XamlBindingInfo::IXamlBindings::Connect</definition>
+        <argsstring>(int connectionId, ::Platform::Object^ target)=0</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>::Platform::Object^</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlBindingInfo.g.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_binding_info_1_1_i_xaml_bindings_1a38efcb61569708b5807d32478b66b6be" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void XamlBindingInfo::IXamlBindings::ResetTemplate</definition>
+        <argsstring>()=0</argsstring>
+        <name>ResetTemplate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlBindingInfo.g.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_binding_info_1_1_i_xaml_bindings_1a9a6d53b4fae9f58a529b914e60f6a6b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int XamlBindingInfo::IXamlBindings::ProcessBindings</definition>
+        <argsstring>(::Windows::UI::Xaml::Controls::ContainerContentChangingEventArgs^ args)=0</argsstring>
+        <name>ProcessBindings</name>
+        <param>
+          <type>::Windows::UI::Xaml::Controls::ContainerContentChangingEventArgs^</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlBindingInfo.g.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_binding_info_1_1_i_xaml_bindings_1a9a6e60fee37d0cf53ccebc9d8c07d90f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void XamlBindingInfo::IXamlBindings::SubscribeForDataContextChanged</definition>
+        <argsstring>(::Windows::UI::Xaml::FrameworkElement^ object, ::XamlBindingInfo::XamlBindings^ handler)=0</argsstring>
+        <name>SubscribeForDataContextChanged</name>
+        <param>
+          <type>::Windows::UI::Xaml::FrameworkElement^</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>::<ref refid="class_xaml_binding_info_1_1_xaml_bindings" kindref="compound">XamlBindingInfo::XamlBindings</ref>^</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlBindingInfo.g.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_binding_info_1_1_i_xaml_bindings_1a90ca01b1e1149195db3cc02f7c5ebcf7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual XamlBindingInfo::IXamlBindings::~IXamlBindings</definition>
+        <argsstring>()</argsstring>
+        <name>~IXamlBindings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlBindingInfo.g.h" line="18" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlBindingInfo.g.h" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_binding_info_1_1_i_xaml_bindings_1a84ac9cebecf96c2c7ccfaeb43e9d4252" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool XamlBindingInfo::IXamlBindings::IsInitialized</definition>
+        <argsstring>()=0</argsstring>
+        <name>IsInitialized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlBindingInfo.g.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_binding_info_1_1_i_xaml_bindings_1af7bbb67de71bfaedbf116df6d689f22b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void XamlBindingInfo::IXamlBindings::Update</definition>
+        <argsstring>()=0</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlBindingInfo.g.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_binding_info_1_1_i_xaml_bindings_1a35a0a9b1922e3c719c26791bdc0a102e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool XamlBindingInfo::IXamlBindings::SetDataRoot</definition>
+        <argsstring>(::Platform::Object^ data)=0</argsstring>
+        <name>SetDataRoot</name>
+        <param>
+          <type>::Platform::Object^</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlBindingInfo.g.h" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_binding_info_1_1_i_xaml_bindings_1abbffa5e36a4cc1ef3b7e14814112480a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void XamlBindingInfo::IXamlBindings::StopTracking</definition>
+        <argsstring>()=0</argsstring>
+        <name>StopTracking</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlBindingInfo.g.h" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_binding_info_1_1_i_xaml_bindings_1a9e14f106ac9c9a8fef1203dc34619865" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void XamlBindingInfo::IXamlBindings::Connect</definition>
+        <argsstring>(int connectionId, ::Platform::Object^ target)=0</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>::Platform::Object^</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlBindingInfo.g.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_binding_info_1_1_i_xaml_bindings_1a38efcb61569708b5807d32478b66b6be" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void XamlBindingInfo::IXamlBindings::ResetTemplate</definition>
+        <argsstring>()=0</argsstring>
+        <name>ResetTemplate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlBindingInfo.g.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_binding_info_1_1_i_xaml_bindings_1a9a6d53b4fae9f58a529b914e60f6a6b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int XamlBindingInfo::IXamlBindings::ProcessBindings</definition>
+        <argsstring>(::Windows::UI::Xaml::Controls::ContainerContentChangingEventArgs^ args)=0</argsstring>
+        <name>ProcessBindings</name>
+        <param>
+          <type>::Windows::UI::Xaml::Controls::ContainerContentChangingEventArgs^</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlBindingInfo.g.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_binding_info_1_1_i_xaml_bindings_1a9a6e60fee37d0cf53ccebc9d8c07d90f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void XamlBindingInfo::IXamlBindings::SubscribeForDataContextChanged</definition>
+        <argsstring>(::Windows::UI::Xaml::FrameworkElement^ object, ::XamlBindingInfo::XamlBindings^ handler)=0</argsstring>
+        <name>SubscribeForDataContextChanged</name>
+        <param>
+          <type>::Windows::UI::Xaml::FrameworkElement^</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>::<ref refid="class_xaml_binding_info_1_1_xaml_bindings" kindref="compound">XamlBindingInfo::XamlBindings</ref>^</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlBindingInfo.g.h" line="26" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlBindingInfo.g.h" line="16" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlBindingInfo.g.h" bodystart="15" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_xaml_binding_info_1_1_i_xaml_bindings_1a9e14f106ac9c9a8fef1203dc34619865" prot="public" virt="pure-virtual"><scope>XamlBindingInfo::IXamlBindings</scope><name>Connect</name></member>
+      <member refid="class_xaml_binding_info_1_1_i_xaml_bindings_1a9e14f106ac9c9a8fef1203dc34619865" prot="public" virt="pure-virtual"><scope>XamlBindingInfo::IXamlBindings</scope><name>Connect</name></member>
+      <member refid="class_xaml_binding_info_1_1_i_xaml_bindings_1a84ac9cebecf96c2c7ccfaeb43e9d4252" prot="public" virt="pure-virtual"><scope>XamlBindingInfo::IXamlBindings</scope><name>IsInitialized</name></member>
+      <member refid="class_xaml_binding_info_1_1_i_xaml_bindings_1a84ac9cebecf96c2c7ccfaeb43e9d4252" prot="public" virt="pure-virtual"><scope>XamlBindingInfo::IXamlBindings</scope><name>IsInitialized</name></member>
+      <member refid="class_xaml_binding_info_1_1_i_xaml_bindings_1a9a6d53b4fae9f58a529b914e60f6a6b1" prot="public" virt="pure-virtual"><scope>XamlBindingInfo::IXamlBindings</scope><name>ProcessBindings</name></member>
+      <member refid="class_xaml_binding_info_1_1_i_xaml_bindings_1a9a6d53b4fae9f58a529b914e60f6a6b1" prot="public" virt="pure-virtual"><scope>XamlBindingInfo::IXamlBindings</scope><name>ProcessBindings</name></member>
+      <member refid="class_xaml_binding_info_1_1_i_xaml_bindings_1a38efcb61569708b5807d32478b66b6be" prot="public" virt="pure-virtual"><scope>XamlBindingInfo::IXamlBindings</scope><name>ResetTemplate</name></member>
+      <member refid="class_xaml_binding_info_1_1_i_xaml_bindings_1a38efcb61569708b5807d32478b66b6be" prot="public" virt="pure-virtual"><scope>XamlBindingInfo::IXamlBindings</scope><name>ResetTemplate</name></member>
+      <member refid="class_xaml_binding_info_1_1_i_xaml_bindings_1a35a0a9b1922e3c719c26791bdc0a102e" prot="public" virt="pure-virtual"><scope>XamlBindingInfo::IXamlBindings</scope><name>SetDataRoot</name></member>
+      <member refid="class_xaml_binding_info_1_1_i_xaml_bindings_1a35a0a9b1922e3c719c26791bdc0a102e" prot="public" virt="pure-virtual"><scope>XamlBindingInfo::IXamlBindings</scope><name>SetDataRoot</name></member>
+      <member refid="class_xaml_binding_info_1_1_i_xaml_bindings_1abbffa5e36a4cc1ef3b7e14814112480a" prot="public" virt="pure-virtual"><scope>XamlBindingInfo::IXamlBindings</scope><name>StopTracking</name></member>
+      <member refid="class_xaml_binding_info_1_1_i_xaml_bindings_1abbffa5e36a4cc1ef3b7e14814112480a" prot="public" virt="pure-virtual"><scope>XamlBindingInfo::IXamlBindings</scope><name>StopTracking</name></member>
+      <member refid="class_xaml_binding_info_1_1_i_xaml_bindings_1a9a6e60fee37d0cf53ccebc9d8c07d90f" prot="public" virt="pure-virtual"><scope>XamlBindingInfo::IXamlBindings</scope><name>SubscribeForDataContextChanged</name></member>
+      <member refid="class_xaml_binding_info_1_1_i_xaml_bindings_1a9a6e60fee37d0cf53ccebc9d8c07d90f" prot="public" virt="pure-virtual"><scope>XamlBindingInfo::IXamlBindings</scope><name>SubscribeForDataContextChanged</name></member>
+      <member refid="class_xaml_binding_info_1_1_i_xaml_bindings_1af7bbb67de71bfaedbf116df6d689f22b" prot="public" virt="pure-virtual"><scope>XamlBindingInfo::IXamlBindings</scope><name>Update</name></member>
+      <member refid="class_xaml_binding_info_1_1_i_xaml_bindings_1af7bbb67de71bfaedbf116df6d689f22b" prot="public" virt="pure-virtual"><scope>XamlBindingInfo::IXamlBindings</scope><name>Update</name></member>
+      <member refid="class_xaml_binding_info_1_1_i_xaml_bindings_1a90ca01b1e1149195db3cc02f7c5ebcf7" prot="public" virt="virtual"><scope>XamlBindingInfo::IXamlBindings</scope><name>~IXamlBindings</name></member>
+      <member refid="class_xaml_binding_info_1_1_i_xaml_bindings_1a90ca01b1e1149195db3cc02f7c5ebcf7" prot="public" virt="virtual"><scope>XamlBindingInfo::IXamlBindings</scope><name>~IXamlBindings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

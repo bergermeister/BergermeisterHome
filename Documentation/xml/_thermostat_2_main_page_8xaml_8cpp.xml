@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_thermostat_2_main_page_8xaml_8cpp" kind="file" language="C++">
+    <compoundname>MainPage.xaml.cpp</compoundname>
+    <includes refid="_thermostat_2pch_8h" local="yes">pch.h</includes>
+    <includes refid="_thermostat_2_main_page_8xaml_8h" local="yes">MainPage.xaml.h</includes>
+    <incdepgraph>
+      <node id="438">
+        <label>C:/Projects/BergermeisterHome/Thermostat/MainPage.xaml.cpp</label>
+        <link refid="_thermostat_2_main_page_8xaml_8cpp"/>
+        <childnode refid="439" relation="include">
+        </childnode>
+        <childnode refid="449" relation="include">
+        </childnode>
+      </node>
+      <node id="442">
+        <label>strsafe.h</label>
+      </node>
+      <node id="447">
+        <label>App.xaml.h</label>
+        <link refid="_thermostat_2_app_8xaml_8h_source"/>
+        <childnode refid="448" relation="include">
+        </childnode>
+      </node>
+      <node id="449">
+        <label>MainPage.xaml.h</label>
+        <link refid="_thermostat_2_main_page_8xaml_8h_source"/>
+        <childnode refid="450" relation="include">
+        </childnode>
+      </node>
+      <node id="444">
+        <label>Types.h</label>
+        <link refid="_types_8h"/>
+      </node>
+      <node id="443">
+        <label>bitset</label>
+      </node>
+      <node id="450">
+        <label>MainPage.g.h</label>
+      </node>
+      <node id="439">
+        <label>pch.h</label>
+        <link refid="_thermostat_2pch_8h_source"/>
+        <childnode refid="440" relation="include">
+        </childnode>
+        <childnode refid="441" relation="include">
+        </childnode>
+        <childnode refid="442" relation="include">
+        </childnode>
+        <childnode refid="443" relation="include">
+        </childnode>
+        <childnode refid="444" relation="include">
+        </childnode>
+        <childnode refid="445" relation="include">
+        </childnode>
+        <childnode refid="446" relation="include">
+        </childnode>
+        <childnode refid="447" relation="include">
+        </childnode>
+      </node>
+      <node id="446">
+        <label>Drivers\DHTSensor.h</label>
+        <link refid="_thermostat_2_drivers_2_d_h_t_sensor_8h_source"/>
+      </node>
+      <node id="448">
+        <label>App.g.h</label>
+      </node>
+      <node id="440">
+        <label>collection.h</label>
+      </node>
+      <node id="441">
+        <label>ppltasks.h</label>
+      </node>
+      <node id="445">
+        <label>StopWatch.h</label>
+        <link refid="_stop_watch_8h_source"/>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_windows_1_1_u_i_1_1_core">Windows::UI::Core</innernamespace>
+    <innernamespace refid="namespace_windows_1_1_system_1_1_threading">Windows::System::Threading</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>MainPage.xaml.cpp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Implementation<sp/>of<sp/>the<sp/>MainPage<sp/>class.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pch.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MainPage.xaml.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_thermostat" kindref="compound">Thermostat</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_platform" kindref="compound">Platform</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_windows_1_1_foundation" kindref="compound">Windows::Foundation</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_windows_1_1_foundation_1_1_collections" kindref="compound">Windows::Foundation::Collections</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_windows_1_1_u_i_1_1_xaml" kindref="compound">Windows::UI::Xaml</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_windows_1_1_u_i_1_1_xaml_1_1_controls" kindref="compound">Windows::UI::Xaml::Controls</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_windows_1_1_u_i_1_1_xaml_1_1_controls_1_1_primitives" kindref="compound">Windows::UI::Xaml::Controls::Primitives</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_windows_1_1_u_i_1_1_xaml_1_1_data" kindref="compound">Windows::UI::Xaml::Data</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_windows_1_1_u_i_1_1_xaml_1_1_input" kindref="compound">Windows::UI::Xaml::Input</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_windows_1_1_u_i_1_1_xaml_1_1_media" kindref="compound">Windows::UI::Xaml::Media</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_windows_1_1_u_i_1_1_xaml_1_1_navigation" kindref="compound">Windows::UI::Xaml::Navigation</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_windows_1_1_u_i_1_1_core" kindref="compound">Windows::UI::Core</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_windows_1_1_system_1_1_threading" kindref="compound">Windows::System::Threading</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_windows_1_1_devices_1_1_gpio" kindref="compound">Windows::Devices::Gpio</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_g_n_common" kindref="compound">GNCommon</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_g_n_common_1_1_g_n_drivers" kindref="compound">GNCommon::GNDrivers</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>Blank<sp/>Page<sp/>item<sp/>template<sp/>is<sp/>documented<sp/>at<sp/>https://go.microsoft.com/fwlink/?LinkId=402352&amp;clcid=0x409</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">MainPage::MainPage()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>InitializeComponent();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MainPage::Page_Loaded(<sp/>Object^<sp/>aopSender,<sp/>RoutedEventArgs^<sp/>aopArgs<sp/>)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><ref refid="namespace_g_n_common_1a6b5283329f609e2175dd0c91fc1520ba" kindref="member">GTb8</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kbSuccess<sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>Assume<sp/>success</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/>GpioController^<sp/>kopController<sp/>=<sp/>GpioController::GetDefault(<sp/>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/>GpioPin^<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kopPin;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/>TimeSpan<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>koPeriod<sp/>=<sp/>{<sp/>2LL<sp/>*<sp/>10000000LL<sp/>};<sp/></highlight><highlight class="comment">//<sp/>Periodic<sp/>timer<sp/>to<sp/>sample<sp/>from<sp/>the<sp/>DHT11<sp/>every<sp/>2<sp/>seconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>kopController<sp/>==<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;statusText-&gt;Text<sp/>=<sp/>L</highlight><highlight class="stringliteral">&quot;GPIO<sp/>is<sp/>not<sp/>available<sp/>on<sp/>this<sp/>sytem&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>kbSuccess<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>kbSuccess<sp/>)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kopPin<sp/>=<sp/>kopController-&gt;OpenPin<sp/>(<sp/>xuiDHTPinNumber<sp/>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(<sp/>Exception^<sp/>aopException<sp/>)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;statusText-&gt;Text<sp/>=<sp/>L</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>open<sp/>GPIO<sp/>pin:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>aopException-&gt;Message;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kbSuccess<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>kbSuccess<sp/>)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;voSensor.MInitialize(<sp/>kopPin<sp/>);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>this-&gt;voSensor.MPullResistorRequired<sp/>(<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;pullResistorText-&gt;Text<sp/>=<sp/>L</highlight><highlight class="stringliteral">&quot;10k<sp/>pull-up<sp/>resistor<sp/>required.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;pullResistorText-&gt;Text<sp/>=<sp/>L</highlight><highlight class="stringliteral">&quot;Pull-up<sp/>resistor<sp/>not<sp/>required.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;voTimer<sp/>=<sp/>ThreadPoolTimer::CreatePeriodicTimer(<sp/>ref<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>TimerElapsedHandler(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;MainPage::MTimerElapsed<sp/>),<sp/>koPeriod<sp/>);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;statusText-&gt;Text<sp/>=<sp/>L</highlight><highlight class="stringliteral">&quot;Status:<sp/>Initialized<sp/>Successfully&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MainPage::MTimerElapsed(<sp/>ThreadPoolTimer^<sp/>aopTimer<sp/>)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="namespace_g_n_common_1a6b5283329f609e2175dd0c91fc1520ba" kindref="member">GTb8</ref><sp/>kbRunning<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/>GTcDHTSensor::TeStatus<sp/>keStatus;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><ref refid="namespace_g_n_common_1ae5485474bc8f23e462e920a17b377b53" kindref="member">GTu32</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kuiRetryCount<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/>String^<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kopStrStatus;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/>String^<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kopStrHumidity;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/>String^<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kopStrTemp;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><ref refid="namespace_g_n_common_1a22b37ff753b3e7a48d9d31addf35a739" kindref="member">GTf64</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kdHumidity;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><ref refid="namespace_g_n_common_1a22b37ff753b3e7a48d9d31addf35a739" kindref="member">GTf64</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kdTemperature;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/>HRESULT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>koResult;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">wchar_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kcpBuffer[<sp/>128<sp/>];<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>kbRunning<sp/>==<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/>kbRunning<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>keStatus<sp/>=<sp/>this-&gt;voSensor.MSample(<sp/>);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<sp/>(<sp/>keStatus<sp/>!=<sp/>GTcDHTSensor::QeStatusSuccess<sp/>)<sp/>&amp;&amp;<sp/>(<sp/>kuiRetryCount++<sp/>&lt;<sp/>20<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>keStatus<sp/>==<sp/>GTcDHTSensor::QeStatusSuccess<sp/>)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>kdHumidity<sp/><sp/><sp/><sp/>=<sp/>this-&gt;voSensor.MHumidity(<sp/>);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>kdTemperature<sp/>=<sp/>(<sp/>this-&gt;voSensor.MTemperature(<sp/>)<sp/>*<sp/>9.0<sp/>/<sp/>5.0<sp/>)<sp/>+<sp/>32;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>koResult<sp/>=<sp/>StringCchPrintfW(<sp/>kcpBuffer,</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ARRAYSIZE(<sp/>kcpBuffer<sp/>),</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>L</highlight><highlight class="stringliteral">&quot;Humidity:<sp/>%.1f%%<sp/>RH&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kdHumidity<sp/>);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>FAILED(<sp/>koResult<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>ref<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Exception(<sp/>koResult,<sp/>L</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>print<sp/>string&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>kopStrHumidity<sp/>=<sp/>ref<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>String(<sp/>kcpBuffer<sp/>);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>koResult<sp/>=<sp/>StringCchPrintfW(<sp/>kcpBuffer,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ARRAYSIZE(<sp/>kcpBuffer<sp/>),</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>L</highlight><highlight class="stringliteral">&quot;Temperature:<sp/>%.1f<sp/>\u00B0F&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kdTemperature<sp/>);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>FAILED(<sp/>koResult<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>ref<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Exception(<sp/>koResult,<sp/>L</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>print<sp/>string&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>kopStrTemp<sp/>=<sp/>ref<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>String(<sp/>kcpBuffer<sp/>);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>koResult<sp/>=<sp/>StringCchPrintfW(<sp/>kcpBuffer,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ARRAYSIZE(<sp/>kcpBuffer<sp/>),</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>L</highlight><highlight class="stringliteral">&quot;Succeeded<sp/>(%d<sp/>%s)&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kuiRetryCount,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/>kuiRetryCount<sp/>==<sp/>1<sp/>)<sp/>?<sp/>L</highlight><highlight class="stringliteral">&quot;retry&quot;</highlight><highlight class="normal"><sp/>:<sp/>L</highlight><highlight class="stringliteral">&quot;retries&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>FAILED(<sp/>koResult<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>ref<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Exception(<sp/>koResult,<sp/>L</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>print<sp/>string&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>kopStrStatus<sp/>=<sp/>ref<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>String(<sp/>kcpBuffer<sp/>);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>kopStrHumidity<sp/>=<sp/>L</highlight><highlight class="stringliteral">&quot;Humidity:<sp/>(failed)&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>kopStrTemp<sp/><sp/><sp/><sp/><sp/>=<sp/>L</highlight><highlight class="stringliteral">&quot;Temperature:<sp/>(failed)&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(<sp/>keStatus<sp/>)</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>GTcDHTSensor::QeStatusTimeout:</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kopStrStatus<sp/>=<sp/>L</highlight><highlight class="stringliteral">&quot;Timed<sp/>out<sp/>waiting<sp/>for<sp/>sample&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>GTcDHTSensor::QeStatusMissingData:</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kopStrStatus<sp/>=<sp/>L</highlight><highlight class="stringliteral">&quot;Did<sp/>not<sp/>catch<sp/>all<sp/>falling<sp/>edges&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>GTcDHTSensor::QeStatusInvalidData:</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kopStrStatus<sp/>=<sp/>L</highlight><highlight class="stringliteral">&quot;Checksum<sp/>validation<sp/>failed&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>GTcDHTSensor::QeStatusStartHigh:</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kopStrStatus<sp/>=<sp/>L</highlight><highlight class="stringliteral">&quot;Pin<sp/>Started<sp/>High&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>GTcDHTSensor::QeStatusStartLow:</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kopStrStatus<sp/>=<sp/>L</highlight><highlight class="stringliteral">&quot;Pin<sp/>Stayed<sp/>Low<sp/>on<sp/>Start-up&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kopStrStatus<sp/>=<sp/>L</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>get<sp/>reading&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/>this-&gt;Dispatcher-&gt;RunAsync(<sp/>CoreDispatcherPriority::Normal,</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>ref<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>DispatchedHandler(<sp/>[<sp/>=<sp/>]<sp/>(<sp/>)</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;statusText-&gt;Text<sp/>=<sp/>kopStrStatus;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;humidityText-&gt;Text<sp/>=<sp/>kopStrHumidity;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;temperatureText-&gt;Text<sp/>=<sp/>kopStrTemp;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/>}<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/>kbRunning<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Projects/BergermeisterHome/Thermostat/MainPage.xaml.cpp"/>
+  </compounddef>
+</doxygen>

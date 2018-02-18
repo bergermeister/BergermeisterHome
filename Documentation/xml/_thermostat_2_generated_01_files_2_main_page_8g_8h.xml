@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_thermostat_2_generated_01_files_2_main_page_8g_8h" kind="file" language="C++">
+    <compoundname>MainPage.g.h</compoundname>
+    <includedby refid="_console_2_main_page_8xaml_8h" local="yes">C:/Projects/BergermeisterHome/Console/MainPage.xaml.h</includedby>
+    <includedby refid="_thermostat_2_main_page_8xaml_8h" local="yes">C:/Projects/BergermeisterHome/Thermostat/MainPage.xaml.h</includedby>
+    <invincdepgraph>
+      <node id="368">
+        <label>C:/Projects/BergermeisterHome/Thermostat/Generated Files/MainPage.g.hpp</label>
+        <link refid="_main_page_8g_8hpp_source"/>
+        <childnode refid="369" relation="include">
+        </childnode>
+      </node>
+      <node id="370">
+        <label>C:/Projects/BergermeisterHome/Thermostat/MainPage.xaml.cpp</label>
+        <link refid="_thermostat_2_main_page_8xaml_8cpp_source"/>
+      </node>
+      <node id="362">
+        <label>C:/Projects/BergermeisterHome/Thermostat/Generated Files/MainPage.g.h</label>
+        <link refid="_thermostat_2_generated_01_files_2_main_page_8g_8h"/>
+        <childnode refid="363" relation="include">
+        </childnode>
+        <childnode refid="366" relation="include">
+        </childnode>
+      </node>
+      <node id="364">
+        <label>C:/Projects/BergermeisterHome/Console/App.xaml.cpp</label>
+        <link refid="_console_2_app_8xaml_8cpp_source"/>
+      </node>
+      <node id="367">
+        <label>C:/Projects/BergermeisterHome/Thermostat/App.xaml.cpp</label>
+        <link refid="_thermostat_2_app_8xaml_8cpp_source"/>
+      </node>
+      <node id="369">
+        <label>C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp</label>
+        <link refid="_xaml_type_info_8g_8cpp_source"/>
+      </node>
+      <node id="366">
+        <label>C:/Projects/BergermeisterHome/Thermostat/MainPage.xaml.h</label>
+        <link refid="_thermostat_2_main_page_8xaml_8h_source"/>
+        <childnode refid="367" relation="include">
+        </childnode>
+        <childnode refid="368" relation="include">
+        </childnode>
+        <childnode refid="369" relation="include">
+        </childnode>
+        <childnode refid="370" relation="include">
+        </childnode>
+      </node>
+      <node id="363">
+        <label>C:/Projects/BergermeisterHome/Console/MainPage.xaml.h</label>
+        <link refid="_console_2_main_page_8xaml_8h_source"/>
+        <childnode refid="364" relation="include">
+        </childnode>
+        <childnode refid="365" relation="include">
+        </childnode>
+      </node>
+      <node id="365">
+        <label>C:/Projects/BergermeisterHome/Console/MainPage.xaml.cpp</label>
+        <link refid="_console_2_main_page_8xaml_8cpp_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_thermostat_1_1_main_page" prot="public">Thermostat::MainPage</innerclass>
+    <innernamespace refid="namespace_windows">Windows</innernamespace>
+    <innernamespace refid="namespace_windows_1_1_u_i">Windows::UI</innernamespace>
+    <innernamespace refid="namespace_windows_1_1_u_i_1_1_xaml">Windows::UI::Xaml</innernamespace>
+    <innernamespace refid="namespace_windows_1_1_u_i_1_1_xaml_1_1_controls">Windows::UI::Xaml::Controls</innernamespace>
+    <innernamespace refid="namespace_thermostat">Thermostat</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>This<sp/>code<sp/>was<sp/>generated<sp/>by<sp/>a<sp/>tool.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>Changes<sp/>to<sp/>this<sp/>file<sp/>may<sp/>cause<sp/>incorrect<sp/>behavior<sp/>and<sp/>will<sp/>be<sp/>lost<sp/>if</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>the<sp/>code<sp/>is<sp/>regenerated.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_windows" kindref="compound">Windows</ref><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">UI<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Xaml<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Controls<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">ref<sp/>class</highlight><highlight class="normal"><sp/>TextBlock;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_thermostat" kindref="compound">Thermostat</ref></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>[::Windows::Foundation::Metadata::WebHostHidden]</highlight></codeline>
+<codeline lineno="23" refid="class_thermostat_1_1_main_page" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/>partial<sp/></highlight><highlight class="keyword">ref<sp/>class</highlight><highlight class="normal"><sp/><ref refid="class_thermostat_1_1_main_page" kindref="compound">MainPage</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::Windows::UI::Xaml::Controls::Page,<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::Windows::UI::Xaml::Markup::IComponentConnector,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::Windows::UI::Xaml::Markup::IComponentConnector2</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>InitializeComponent();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Connect(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>connectionId,<sp/>::Platform::Object^<sp/>target);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>virtual<sp/>::Windows::UI::Xaml::Markup::IComponentConnector^<sp/>GetBindingConnector(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>connectionId,<sp/>::Platform::Object^<sp/>target);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_contentLoaded;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/>::Windows::UI::Xaml::Controls::TextBlock^<sp/>titleText;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/>::Windows::UI::Xaml::Controls::TextBlock^<sp/>pullResistorText;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/>::Windows::UI::Xaml::Controls::TextBlock^<sp/>humidityText;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/>::Windows::UI::Xaml::Controls::TextBlock^<sp/>temperatureText;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/>::Windows::UI::Xaml::Controls::TextBlock^<sp/>statusText;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/MainPage.g.h"/>
+  </compounddef>
+</doxygen>

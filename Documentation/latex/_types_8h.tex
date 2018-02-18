@@ -1,0 +1,85 @@
+\hypertarget{_types_8h}{}\section{C\+:/\+Projects/\+Bergermeister\+Home/\+Common/\+Source/\+Types.h File Reference}
+\label{_types_8h}\index{C\+:/\+Projects/\+Bergermeister\+Home/\+Common/\+Source/\+Types.\+h@{C\+:/\+Projects/\+Bergermeister\+Home/\+Common/\+Source/\+Types.\+h}}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_types_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespace_g_n_common}{G\+N\+Common}}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef bool \mbox{\hyperlink{namespace_g_n_common_a6b5283329f609e2175dd0c91fc1520ba}{G\+N\+Common\+::\+G\+Tb8}}
+\item 
+typedef char \mbox{\hyperlink{namespace_g_n_common_a60a636fae316405f6926d7c1cf5fb97b}{G\+N\+Common\+::\+G\+Tc8}}
+\item 
+typedef signed char \mbox{\hyperlink{namespace_g_n_common_ae28c69bd0651262bb808483447a43563}{G\+N\+Common\+::\+G\+Ti8}}
+\item 
+typedef unsigned char \mbox{\hyperlink{namespace_g_n_common_a551fbbb7c62c00956ef69d960ca9ccc3}{G\+N\+Common\+::\+G\+Tu8}}
+\item 
+typedef signed short \mbox{\hyperlink{namespace_g_n_common_a965aa02d673a0945678428639d7a3376}{G\+N\+Common\+::\+G\+Ti16}}
+\item 
+typedef unsigned short \mbox{\hyperlink{namespace_g_n_common_a505de69afe5b556e7537ee63e9172c40}{G\+N\+Common\+::\+G\+Tu16}}
+\item 
+typedef signed long \mbox{\hyperlink{namespace_g_n_common_a260b179001602cd6e8226d384ec8581c}{G\+N\+Common\+::\+G\+Ti32}}
+\item 
+typedef unsigned long \mbox{\hyperlink{namespace_g_n_common_ae5485474bc8f23e462e920a17b377b53}{G\+N\+Common\+::\+G\+Tu32}}
+\item 
+typedef signed long long \mbox{\hyperlink{namespace_g_n_common_aa8cf8a182d3e48f629056ff975f607ed}{G\+N\+Common\+::\+G\+Ti64}}
+\item 
+typedef unsigned long long \mbox{\hyperlink{namespace_g_n_common_a01e8527dabf7ab4f123156b0701945eb}{G\+N\+Common\+::\+G\+Tu64}}
+\item 
+typedef float \mbox{\hyperlink{namespace_g_n_common_a95fc9a7f3918597669a4d0bd371d2e9b}{G\+N\+Common\+::\+G\+Tf32}}
+\item 
+typedef double \mbox{\hyperlink{namespace_g_n_common_a22b37ff753b3e7a48d9d31addf35a739}{G\+N\+Common\+::\+G\+Tf64}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Defines the common namespace (\mbox{\hyperlink{namespace_g_n_common}{G\+N\+Common}}), common primitive types, and provides the style guide to be used.
+
+\begin{DoxyVerb}* Style Guide
+*
+*  (S)cope:                                
+*                | Priv  |  Pub  | Global |
+*                |-------|-------|--------|
+* Class Variable |   v   |   V   |  ----  |
+* Stack Variable |   k   |  ---  |  ----  | 
+*       Argument |   a   |  ---  |  ----  |
+*        Typedef |   t   |   T   |   GT   |
+*   Constant ROM |   x   |   X   |   GX   |
+*         Method |   m   |   M   |   GM   |
+*                                          
+*  (T)ype:                                 
+*           | Prefix |                     
+*           |--------|                     
+*      GTb8 |    b   |                     
+*      GTc8 |    c   |                     
+*      GTi8 |    c   |                     
+*      GTu8 |   uc   |                     
+*     GTi16 |    s   |                     
+*     GTu16 |   us   |                     
+*     GTi32 |    i   |                     
+*     GTu32 |   ui   |                     
+*     GTi64 |    l   |                     
+*     GTu64 |   ul   |                     
+*     GTf32 |    f   |                     
+*     GTf64 |    d   |                     
+*                                          
+*  (O)perator:                             
+*               | Prefix |                 
+*               |--------|                 
+*     pointer   |    p   |                 
+*     reference |    r   |                 
+*                                          
+*  Naming Convention:                      
+*     STOCamelCaseName                     
+*     GMuiFunctionReturnsUnsignedLong
+* \end{DoxyVerb}
+ 

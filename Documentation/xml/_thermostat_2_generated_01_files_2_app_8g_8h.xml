@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_thermostat_2_generated_01_files_2_app_8g_8h" kind="file" language="C++">
+    <compoundname>App.g.h</compoundname>
+    <includes refid="_thermostat_2_generated_01_files_2_xaml_type_info_8g_8h" local="yes">XamlTypeInfo.g.h</includes>
+    <includedby refid="_console_2_app_8xaml_8h" local="yes">C:/Projects/BergermeisterHome/Console/App.xaml.h</includedby>
+    <includedby refid="_thermostat_2_app_8xaml_8h" local="yes">C:/Projects/BergermeisterHome/Thermostat/App.xaml.h</includedby>
+    <incdepgraph>
+      <node id="334">
+        <label>C:/Projects/BergermeisterHome/Thermostat/Generated Files/App.g.h</label>
+        <link refid="_thermostat_2_generated_01_files_2_app_8g_8h"/>
+        <childnode refid="335" relation="include">
+        </childnode>
+      </node>
+      <node id="335">
+        <label>XamlTypeInfo.g.h</label>
+        <link refid="_thermostat_2_generated_01_files_2_xaml_type_info_8g_8h_source"/>
+        <childnode refid="336" relation="include">
+        </childnode>
+      </node>
+      <node id="336">
+        <label>collection.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="354">
+        <label>C:/Projects/BergermeisterHome/Thermostat/Generated Files/MainPage.g.hpp</label>
+        <link refid="_main_page_8g_8hpp_source"/>
+        <childnode refid="353" relation="include">
+        </childnode>
+      </node>
+      <node id="357">
+        <label>C:/Projects/BergermeisterHome/Thermostat/MainPage.xaml.cpp</label>
+        <link refid="_thermostat_2_main_page_8xaml_8cpp_source"/>
+      </node>
+      <node id="349">
+        <label>C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.Impl.g.cpp</label>
+        <link refid="_console_2_generated_01_files_2_xaml_type_info_8_impl_8g_8cpp_source"/>
+      </node>
+      <node id="352">
+        <label>C:/Projects/BergermeisterHome/Thermostat/Generated Files/App.g.hpp</label>
+        <link refid="_app_8g_8hpp_source"/>
+        <childnode refid="353" relation="include">
+        </childnode>
+      </node>
+      <node id="340">
+        <label>C:/Projects/BergermeisterHome/Console/App.xaml.cpp</label>
+        <link refid="_console_2_app_8xaml_8cpp_source"/>
+      </node>
+      <node id="350">
+        <label>C:/Projects/BergermeisterHome/Thermostat/App.xaml.cpp</label>
+        <link refid="_thermostat_2_app_8xaml_8cpp_source"/>
+      </node>
+      <node id="341">
+        <label>C:/Projects/BergermeisterHome/Console/DHTSensor.cpp</label>
+        <link refid="_console_2_d_h_t_sensor_8cpp_source"/>
+      </node>
+      <node id="348">
+        <label>C:/Projects/BergermeisterHome/Console/Generated Files/XamlBindingInfo.g.hpp</label>
+        <link refid="_console_2_generated_01_files_2_xaml_binding_info_8g_8hpp_source"/>
+      </node>
+      <node id="353">
+        <label>C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp</label>
+        <link refid="_xaml_type_info_8g_8cpp_source"/>
+      </node>
+      <node id="343">
+        <label>C:/Projects/BergermeisterHome/Console/pch.cpp</label>
+        <link refid="_console_2pch_8cpp_source"/>
+      </node>
+      <node id="358">
+        <label>C:/Projects/BergermeisterHome/Thermostat/pch.cpp</label>
+        <link refid="_thermostat_2pch_8cpp_source"/>
+      </node>
+      <node id="344">
+        <label>C:/Projects/BergermeisterHome/Thermostat/App.xaml.h</label>
+        <link refid="_thermostat_2_app_8xaml_8h_source"/>
+        <childnode refid="345" relation="include">
+        </childnode>
+        <childnode refid="352" relation="include">
+        </childnode>
+        <childnode refid="353" relation="include">
+        </childnode>
+      </node>
+      <node id="355">
+        <label>C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlBindingInfo.g.hpp</label>
+        <link refid="_thermostat_2_generated_01_files_2_xaml_binding_info_8g_8hpp_source"/>
+        <childnode refid="353" relation="include">
+        </childnode>
+      </node>
+      <node id="347">
+        <label>C:/Projects/BergermeisterHome/Common/Source/Component/Model.cpp</label>
+        <link refid="_model_8cpp_source"/>
+      </node>
+      <node id="346">
+        <label>C:/Projects/BergermeisterHome/Common/Source/Component/Listener.cpp</label>
+        <link refid="_listener_8cpp_source"/>
+      </node>
+      <node id="351">
+        <label>C:/Projects/BergermeisterHome/Thermostat/Drivers/DHTSensor.cpp</label>
+        <link refid="_thermostat_2_drivers_2_d_h_t_sensor_8cpp_source"/>
+      </node>
+      <node id="339">
+        <label>C:/Projects/BergermeisterHome/Console/pch.h</label>
+        <link refid="_console_2pch_8h_source"/>
+        <childnode refid="340" relation="include">
+        </childnode>
+        <childnode refid="341" relation="include">
+        </childnode>
+        <childnode refid="342" relation="include">
+        </childnode>
+        <childnode refid="343" relation="include">
+        </childnode>
+      </node>
+      <node id="345">
+        <label>C:/Projects/BergermeisterHome/Thermostat/pch.h</label>
+        <link refid="_thermostat_2pch_8h_source"/>
+        <childnode refid="346" relation="include">
+        </childnode>
+        <childnode refid="347" relation="include">
+        </childnode>
+        <childnode refid="348" relation="include">
+        </childnode>
+        <childnode refid="349" relation="include">
+        </childnode>
+        <childnode refid="350" relation="include">
+        </childnode>
+        <childnode refid="351" relation="include">
+        </childnode>
+        <childnode refid="352" relation="include">
+        </childnode>
+        <childnode refid="354" relation="include">
+        </childnode>
+        <childnode refid="355" relation="include">
+        </childnode>
+        <childnode refid="353" relation="include">
+        </childnode>
+        <childnode refid="356" relation="include">
+        </childnode>
+        <childnode refid="357" relation="include">
+        </childnode>
+        <childnode refid="358" relation="include">
+        </childnode>
+      </node>
+      <node id="337">
+        <label>C:/Projects/BergermeisterHome/Thermostat/Generated Files/App.g.h</label>
+        <link refid="_thermostat_2_generated_01_files_2_app_8g_8h"/>
+        <childnode refid="338" relation="include">
+        </childnode>
+        <childnode refid="344" relation="include">
+        </childnode>
+      </node>
+      <node id="338">
+        <label>C:/Projects/BergermeisterHome/Console/App.xaml.h</label>
+        <link refid="_console_2_app_8xaml_8h_source"/>
+        <childnode refid="339" relation="include">
+        </childnode>
+      </node>
+      <node id="342">
+        <label>C:/Projects/BergermeisterHome/Console/MainPage.xaml.cpp</label>
+        <link refid="_console_2_main_page_8xaml_8cpp_source"/>
+      </node>
+      <node id="356">
+        <label>C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.Impl.g.cpp</label>
+        <link refid="_thermostat_2_generated_01_files_2_xaml_type_info_8_impl_8g_8cpp_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_thermostat_1_1_app" prot="public">Thermostat::App</innerclass>
+    <innernamespace refid="namespace_thermostat">Thermostat</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>This<sp/>code<sp/>was<sp/>generated<sp/>by<sp/>a<sp/>tool.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>Changes<sp/>to<sp/>this<sp/>file<sp/>may<sp/>cause<sp/>incorrect<sp/>behavior<sp/>and<sp/>will<sp/>be<sp/>lost<sp/>if</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>the<sp/>code<sp/>is<sp/>regenerated.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;XamlTypeInfo.g.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_thermostat" kindref="compound">Thermostat</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>partial<sp/></highlight><highlight class="keyword">ref<sp/>class</highlight><highlight class="normal"><sp/>App<sp/>:<sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::Windows::UI::Xaml::Application,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::Windows::UI::Xaml::Markup::IXamlMetadataProvider</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>InitializeComponent();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[Windows::Foundation::Metadata::DefaultOverload]</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>virtual<sp/>::Windows::UI::Xaml::Markup::IXamlType^<sp/>GetXamlType(::Windows::UI::Xaml::Interop::TypeName<sp/>type);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>virtual<sp/>::Windows::UI::Xaml::Markup::IXamlType^<sp/>GetXamlType(::Platform::String^<sp/>fullName);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>virtual<sp/>::Platform::Array&lt;::Windows::UI::Xaml::Markup::XmlnsDefinition&gt;^<sp/>GetXmlnsDefinitions();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider" kindref="compound">::XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</ref>^<sp/>_provider;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_contentLoaded;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/App.g.h"/>
+  </compounddef>
+</doxygen>

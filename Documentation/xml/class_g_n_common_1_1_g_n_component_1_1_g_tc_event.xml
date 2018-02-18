@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_g_n_common_1_1_g_n_component_1_1_g_tc_event" kind="class" language="C++" prot="public">
+    <compoundname>GNCommon::GNComponent::GTcEvent</compoundname>
+    <templateparamlist>
+      <param>
+        <type><ref refid="namespace_g_n_common_1ae5485474bc8f23e462e920a17b377b53" kindref="member">GTu32</ref></type>
+        <declname>auiMaxListeners</declname>
+        <defname>auiMaxListeners</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_g_n_common_1_1_g_n_component_1_1_g_tc_event_1a2c7fde6aa76e38ce816fbad446b2f3ea" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_g_n_common_1_1_g_n_containers_1_1_g_tc_list_node" kindref="compound">GNCommon::GNContainers::GTcListNode</ref>&lt; <ref refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_listener" kindref="compound">GTcListener</ref> &gt;</type>
+        <definition>GNCommon::GNContainers::GTcListNode&lt; GTcListener &gt; GNCommon::GNComponent::GTcEvent&lt; auiMaxListeners &gt;::voBuffer[auiMaxListeners]</definition>
+        <argsstring>[auiMaxListeners]</argsstring>
+        <name>voBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Component/Event.h" line="14" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Component/Event.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_g_n_component_1_1_g_tc_event_1a1158c71b941779b471dd3905737e38f0" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_g_n_common_1_1_g_n_containers_1_1_g_tc_linked_list" kindref="compound">GNCommon::GNContainers::GTcLinkedList</ref>&lt; <ref refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_listener" kindref="compound">GTcListener</ref> &gt;</type>
+        <definition>GNCommon::GNContainers::GTcLinkedList&lt; GTcListener &gt; GNCommon::GNComponent::GTcEvent&lt; auiMaxListeners &gt;::voListeners</definition>
+        <argsstring></argsstring>
+        <name>voListeners</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Component/Event.h" line="15" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Component/Event.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_n_common_1_1_g_n_component_1_1_g_tc_event_1a763b833d7aeb2f8c11d8eda7d0fe9a2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GNCommon::GNComponent::GTcEvent&lt; auiMaxListeners &gt;::GTcEvent</definition>
+        <argsstring>(void)</argsstring>
+        <name>GTcEvent</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Component/Event.h" line="18" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Component/Event.h" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_n_component_1_1_g_tc_event_1af9de9eae28735dd151417b235b687ac5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GNCommon::GNComponent::GTcEvent&lt; auiMaxListeners &gt;::~GTcEvent</definition>
+        <argsstring>(void)</argsstring>
+        <name>~GTcEvent</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Component/Event.h" line="19" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Component/Event.h" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_n_component_1_1_g_tc_event_1a61508ce090053f2b3085bb12a42c1256" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GNCommon::GNComponent::GTcEvent&lt; auiMaxListeners &gt;::MNotify</definition>
+        <argsstring>(void *aopSender, const GTu32 auiIdentifier)</argsstring>
+        <name>MNotify</name>
+        <param>
+          <type>void *</type>
+          <declname>aopSender</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespace_g_n_common_1ae5485474bc8f23e462e920a17b377b53" kindref="member">GTu32</ref></type>
+          <declname>auiIdentifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Component/Event.h" line="21" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Component/Event.h" bodystart="42" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_n_component_1_1_g_tc_event_1a2829cf154092d3c49fb543ef783a183c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_event" kindref="compound">GTcEvent</ref> &amp;</type>
+        <definition>GTcEvent&lt; auiMaxListeners &gt; &amp; GNCommon::GNComponent::GTcEvent&lt; auiMaxListeners &gt;::operator+=</definition>
+        <argsstring>(const GTcListener &amp;aorListener)</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const <ref refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_listener" kindref="compound">GTcListener</ref> &amp;</type>
+          <declname>aorListener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Component/Event.h" line="23" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Component/Event.h" bodystart="51" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_n_component_1_1_g_tc_event_1a4ae57ee3fcb71ffb1320c73cb57cb426" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_event" kindref="compound">GTcEvent</ref> &amp;</type>
+        <definition>GTcEvent&lt; auiMaxListeners &gt; &amp; GNCommon::GNComponent::GTcEvent&lt; auiMaxListeners &gt;::operator-=</definition>
+        <argsstring>(const GTcListener &amp;aorListener)</argsstring>
+        <name>operator-=</name>
+        <param>
+          <type>const <ref refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_listener" kindref="compound">GTcListener</ref> &amp;</type>
+          <declname>aorListener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Component/Event.h" line="24" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Component/Event.h" bodystart="62" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="24">
+        <label>GNCommon::GNComponent::GTcListener</label>
+        <link refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_listener"/>
+      </node>
+      <node id="23">
+        <label>GNCommon::GNContainers::GTcListNode&lt; GNCommon::GNComponent::GTcListener &gt;</label>
+        <link refid="class_g_n_common_1_1_g_n_containers_1_1_g_tc_list_node"/>
+        <childnode refid="23" relation="usage">
+          <edgelabel>vopPrev</edgelabel>
+          <edgelabel>vopNext</edgelabel>
+        </childnode>
+        <childnode refid="24" relation="usage">
+          <edgelabel>voObject</edgelabel>
+        </childnode>
+      </node>
+      <node id="25">
+        <label>GNCommon::GNContainers::GTcLinkedList&lt; GNCommon::GNComponent::GTcListener &gt;</label>
+        <link refid="class_g_n_common_1_1_g_n_containers_1_1_g_tc_linked_list"/>
+        <childnode refid="23" relation="usage">
+          <edgelabel>vopBuff</edgelabel>
+          <edgelabel>vopHead</edgelabel>
+          <edgelabel>vopTail</edgelabel>
+        </childnode>
+      </node>
+      <node id="22">
+        <label>GNCommon::GNComponent::GTcEvent&lt; auiMaxListeners &gt;</label>
+        <link refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_event"/>
+        <childnode refid="23" relation="usage">
+          <edgelabel>voBuffer</edgelabel>
+        </childnode>
+        <childnode refid="25" relation="usage">
+          <edgelabel>voListeners</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Projects/BergermeisterHome/Common/Source/Component/Event.h" line="9" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Component/Event.h" bodystart="8" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_event_1a763b833d7aeb2f8c11d8eda7d0fe9a2c" prot="public" virt="non-virtual"><scope>GNCommon::GNComponent::GTcEvent</scope><name>GTcEvent</name></member>
+      <member refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_event_1a61508ce090053f2b3085bb12a42c1256" prot="public" virt="non-virtual"><scope>GNCommon::GNComponent::GTcEvent</scope><name>MNotify</name></member>
+      <member refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_event_1a2829cf154092d3c49fb543ef783a183c" prot="public" virt="non-virtual"><scope>GNCommon::GNComponent::GTcEvent</scope><name>operator+=</name></member>
+      <member refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_event_1a4ae57ee3fcb71ffb1320c73cb57cb426" prot="public" virt="non-virtual"><scope>GNCommon::GNComponent::GTcEvent</scope><name>operator-=</name></member>
+      <member refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_event_1a2c7fde6aa76e38ce816fbad446b2f3ea" prot="protected" virt="non-virtual"><scope>GNCommon::GNComponent::GTcEvent</scope><name>voBuffer</name></member>
+      <member refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_event_1a1158c71b941779b471dd3905737e38f0" prot="protected" virt="non-virtual"><scope>GNCommon::GNComponent::GTcEvent</scope><name>voListeners</name></member>
+      <member refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_event_1af9de9eae28735dd151417b235b687ac5" prot="public" virt="non-virtual"><scope>GNCommon::GNComponent::GTcEvent</scope><name>~GTcEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

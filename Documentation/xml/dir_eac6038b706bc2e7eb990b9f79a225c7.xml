@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_eac6038b706bc2e7eb990b9f79a225c7" kind="dir">
+    <compoundname>C:/Projects/BergermeisterHome/Serial</compoundname>
+    <innerfile refid="dllmain_8cpp">dllmain.cpp</innerfile>
+    <innerfile refid="_serial_2pch_8cpp">pch.cpp</innerfile>
+    <innerfile refid="_serial_2pch_8h">pch.h</innerfile>
+    <innerfile refid="_port_8cpp">Port.cpp</innerfile>
+    <innerfile refid="_port_8h">Port.h</innerfile>
+    <innerfile refid="targetver_8h">targetver.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Projects/BergermeisterHome/Serial/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type" kind="class" language="C++" prot="public">
+    <compoundname>XamlTypeInfo::InfoProvider::XamlUserType</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IXamlType</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IXamlType</basecompoundref>
+      <sectiondef kind="package-type">
+      <memberdef kind="typedef" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a1b1a91e24ebf38b364368008677cd15b" prot="package" static="no">
+        <type>::Platform::Object ^(*</type>
+        <definition>typedef ::Platform::Object ^(* XamlTypeInfo::InfoProvider::XamlUserType::ActivatorFn) ()</definition>
+        <argsstring>)()</argsstring>
+        <name>ActivatorFn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="239" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ab8ee29c97ae85194ca608d01c502e604" prot="package" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* XamlTypeInfo::InfoProvider::XamlUserType::AddToCollectionFn) (::Platform::Object^ instance, ::Platform::Object^ item)</definition>
+        <argsstring>)(::Platform::Object^ instance, ::Platform::Object^ item)</argsstring>
+        <name>AddToCollectionFn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="240" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1affcfe67ce15e02244ac25533b4103bcd" prot="package" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* XamlTypeInfo::InfoProvider::XamlUserType::AddToDictionaryFn) (::Platform::Object^ instance, ::Platform::Object^ key, ::Platform::Object^ item)</definition>
+        <argsstring>)(::Platform::Object^ instance, ::Platform::Object^ key, ::Platform::Object^ item)</argsstring>
+        <name>AddToDictionaryFn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="241" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ad614331de3505dae7288157fa6643578" prot="package" static="no">
+        <type>::Platform::Object ^(*</type>
+        <definition>typedef ::Platform::Object ^(* XamlTypeInfo::InfoProvider::XamlUserType::StringConverterFn) (::XamlTypeInfo::InfoProvider::XamlUserType^ userType, ::Platform::String^ input)</definition>
+        <argsstring>)(::XamlTypeInfo::InfoProvider::XamlUserType^ userType, ::Platform::String^ input)</argsstring>
+        <name>StringConverterFn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="242" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a1b1a91e24ebf38b364368008677cd15b" prot="package" static="no">
+        <type>::Platform::Object ^(*</type>
+        <definition>typedef ::Platform::Object ^(* XamlTypeInfo::InfoProvider::XamlUserType::ActivatorFn) ()</definition>
+        <argsstring>)()</argsstring>
+        <name>ActivatorFn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="239" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ab8ee29c97ae85194ca608d01c502e604" prot="package" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* XamlTypeInfo::InfoProvider::XamlUserType::AddToCollectionFn) (::Platform::Object^ instance, ::Platform::Object^ item)</definition>
+        <argsstring>)(::Platform::Object^ instance, ::Platform::Object^ item)</argsstring>
+        <name>AddToCollectionFn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="240" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1affcfe67ce15e02244ac25533b4103bcd" prot="package" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* XamlTypeInfo::InfoProvider::XamlUserType::AddToDictionaryFn) (::Platform::Object^ instance, ::Platform::Object^ key, ::Platform::Object^ item)</definition>
+        <argsstring>)(::Platform::Object^ instance, ::Platform::Object^ key, ::Platform::Object^ item)</argsstring>
+        <name>AddToDictionaryFn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="241" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ad614331de3505dae7288157fa6643578" prot="package" static="no">
+        <type>::Platform::Object ^(*</type>
+        <definition>typedef ::Platform::Object ^(* XamlTypeInfo::InfoProvider::XamlUserType::StringConverterFn) (::XamlTypeInfo::InfoProvider::XamlUserType^ userType, ::Platform::String^ input)</definition>
+        <argsstring>)(::XamlTypeInfo::InfoProvider::XamlUserType^ userType, ::Platform::String^ input)</argsstring>
+        <name>StringConverterFn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="242" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a2980a74482f9f20d62e24a091b72d096" prot="public" static="no" mutable="no">
+        <type>property ::Platform::String ^</type>
+        <definition>property::Platform::String XamlTypeInfo::InfoProvider::XamlUserType::FullName</definition>
+        <argsstring></argsstring>
+        <name>FullName</name>
+        <initializer>{
+                ::Platform::String^ get()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="139" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ae4f73351219be7832cb30b118ed7f257" prot="public" static="no" mutable="no">
+        <type>property ::Platform::String ^</type>
+        <definition>property::Platform::String XamlTypeInfo::InfoProvider::XamlUserType::Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <initializer>{
+                ::Platform::String^ get()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="144" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1aa5bdf0da240db6feabb8ae26953c57cd" prot="public" static="no" mutable="no">
+        <type>property ::Windows::UI::Xaml::Interop::TypeName</type>
+        <definition>property::Windows::UI::Xaml::Interop::TypeName XamlTypeInfo::InfoProvider::XamlUserType::UnderlyingType</definition>
+        <argsstring></argsstring>
+        <name>UnderlyingType</name>
+        <initializer>{
+                ::Windows::UI::Xaml::Interop::TypeName get()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="149" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a8f8a691f4ca24641dd43829ecddc1e6b" prot="public" static="no" mutable="no">
+        <type>property ::Windows::UI::Xaml::Markup::IXamlType ^</type>
+        <definition>property::Windows::UI::Xaml::Markup::IXamlType XamlTypeInfo::InfoProvider::XamlUserType::BaseType</definition>
+        <argsstring></argsstring>
+        <name>BaseType</name>
+        <initializer>{ 
+                ::Windows::UI::Xaml::Markup::IXamlType^ get()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="159" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ade211767c5690abfb557f603c02e7528" prot="public" static="no" mutable="no">
+        <type>property ::Windows::UI::Xaml::Markup::IXamlMember ^</type>
+        <definition>property::Windows::UI::Xaml::Markup::IXamlMember XamlTypeInfo::InfoProvider::XamlUserType::ContentProperty</definition>
+        <argsstring></argsstring>
+        <name>ContentProperty</name>
+        <initializer>{ 
+                ::Windows::UI::Xaml::Markup::IXamlMember^ get()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="203" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a59724917c3bbf71f7c641d4b9d4b7cb6" prot="public" static="no" mutable="no">
+        <type>property ::Windows::UI::Xaml::Markup::IXamlType ^</type>
+        <definition>property::Windows::UI::Xaml::Markup::IXamlType XamlTypeInfo::InfoProvider::XamlUserType::ItemType</definition>
+        <argsstring></argsstring>
+        <name>ItemType</name>
+        <initializer>{ 
+                ::Windows::UI::Xaml::Markup::IXamlType^ get()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="208" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a2afcdd6aa7f0f45728c5d4ef0e0d25f5" prot="public" static="no" mutable="no">
+        <type>property ::Windows::UI::Xaml::Markup::IXamlType ^</type>
+        <definition>property::Windows::UI::Xaml::Markup::IXamlType XamlTypeInfo::InfoProvider::XamlUserType::KeyType</definition>
+        <argsstring></argsstring>
+        <name>KeyType</name>
+        <initializer>{ 
+                ::Windows::UI::Xaml::Markup::IXamlType^ get()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="213" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ad334f792ef4910ed2d36c6b65dda2e4b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool XamlTypeInfo::InfoProvider::XamlUserType::IsSystemType</definition>
+        <argsstring></argsstring>
+        <name>IsSystemType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="149" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="154" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="property" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ae50864bc731a88748e2900be23bea67e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool XamlTypeInfo::InfoProvider::XamlUserType::IsArray</definition>
+        <argsstring></argsstring>
+        <name>IsArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="159" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="164" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="property" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1afe23cd8567621d0f1b73d820ba16661b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool XamlTypeInfo::InfoProvider::XamlUserType::IsCollection</definition>
+        <argsstring></argsstring>
+        <name>IsCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="159" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="170" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="property" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ab4c1b7a5c932b0d200740406f70d1844" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool XamlTypeInfo::InfoProvider::XamlUserType::IsConstructible</definition>
+        <argsstring></argsstring>
+        <name>IsConstructible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="159" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="175" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="property" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a611953c59013e34b80a13293ff63d59c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool XamlTypeInfo::InfoProvider::XamlUserType::IsDictionary</definition>
+        <argsstring></argsstring>
+        <name>IsDictionary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="159" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="180" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="property" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a6b4cce8b831bf6b0e1d29da25e7763f2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool XamlTypeInfo::InfoProvider::XamlUserType::IsMarkupExtension</definition>
+        <argsstring></argsstring>
+        <name>IsMarkupExtension</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="159" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="185" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="property" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1aa12ec3e05d9426ca25a5e6f185965133" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool XamlTypeInfo::InfoProvider::XamlUserType::IsEnum</definition>
+        <argsstring></argsstring>
+        <name>IsEnum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="159" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="191" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="property" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ac9c45117680e53e00098ee9490c09b93" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool XamlTypeInfo::InfoProvider::XamlUserType::IsBindable</definition>
+        <argsstring></argsstring>
+        <name>IsBindable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="159" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="197" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="property" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1affd75cdc104291f57d99ba498c60a247" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool XamlTypeInfo::InfoProvider::XamlUserType::IsReturnTypeStub</definition>
+        <argsstring></argsstring>
+        <name>IsReturnTypeStub</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="223" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="226" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="property" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a7bd48d31945050a6efccdea405693865" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool XamlTypeInfo::InfoProvider::XamlUserType::IsLocalType</definition>
+        <argsstring></argsstring>
+        <name>IsLocalType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="223" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="232" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="property" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a50168e237ca125fb0e946e8f5a704631" prot="package" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ActivatorFn</type>
+        <definition>ActivatorFn XamlTypeInfo::InfoProvider::XamlUserType::Activator</definition>
+        <argsstring></argsstring>
+        <name>Activator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="242" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1af18e9d8505734b555f340926f6f08965" prot="package" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>AddToCollectionFn</type>
+        <definition>AddToCollectionFn XamlTypeInfo::InfoProvider::XamlUserType::CollectionAdd</definition>
+        <argsstring></argsstring>
+        <name>CollectionAdd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="242" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1aca315aa3d9c4569c47ed47e9698a6870" prot="package" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>AddToDictionaryFn</type>
+        <definition>AddToDictionaryFn XamlTypeInfo::InfoProvider::XamlUserType::DictionaryAdd</definition>
+        <argsstring></argsstring>
+        <name>DictionaryAdd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="242" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a931450d412b0b6d02859ce1333d4d31a" prot="package" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>StringConverterFn</type>
+        <definition>StringConverterFn XamlTypeInfo::InfoProvider::XamlUserType::FromStringConverter</definition>
+        <argsstring></argsstring>
+        <name>FromStringConverter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="247" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a1382084323b057ccaaad7823aacafbf1" prot="package" static="no" mutable="no">
+        <type>property ::Windows::UI::Xaml::Interop::TypeKind</type>
+        <definition>property::Windows::UI::Xaml::Interop::TypeKind XamlTypeInfo::InfoProvider::XamlUserType::KindOfType</definition>
+        <argsstring></argsstring>
+        <name>KindOfType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="247" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a49975dae8daf6a527e271e36d6e1fb7b" prot="package" static="no" mutable="no">
+        <type>property ::Platform::String ^</type>
+        <definition>property::Platform::String XamlTypeInfo::InfoProvider::XamlUserType::ContentPropertyName</definition>
+        <argsstring></argsstring>
+        <name>ContentPropertyName</name>
+        <initializer>{
+                void set(::Platform::String^ value)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="250" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a571e2134ab9537029fc58b629fac2fb5" prot="package" static="no" mutable="no">
+        <type>property ::Platform::String ^</type>
+        <definition>property::Platform::String XamlTypeInfo::InfoProvider::XamlUserType::ItemTypeName</definition>
+        <argsstring></argsstring>
+        <name>ItemTypeName</name>
+        <initializer>{
+                void set(::Platform::String^ value)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="255" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a0a90f473ca32855a788284f4db615c99" prot="package" static="no" mutable="no">
+        <type>property ::Platform::String ^</type>
+        <definition>property::Platform::String XamlTypeInfo::InfoProvider::XamlUserType::KeyTypeName</definition>
+        <argsstring></argsstring>
+        <name>KeyTypeName</name>
+        <initializer>{
+                void set(::Platform::String^ value)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="260" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a79c66bf374d5731ca7c0d882f8e6ebd9" prot="private" static="no" mutable="no">
+        <type>::<ref refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider" kindref="compound">XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</ref> ^</type>
+        <definition>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider XamlTypeInfo::InfoProvider::XamlUserType::_provider</definition>
+        <argsstring></argsstring>
+        <name>_provider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="270" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a07f729132a4e72abadcc28369b9deec0" prot="private" static="no" mutable="no">
+        <type>::Windows::UI::Xaml::Markup::IXamlType ^</type>
+        <definition>Windows::UI::Xaml::Markup::IXamlType XamlTypeInfo::InfoProvider::XamlUserType::_baseType</definition>
+        <argsstring></argsstring>
+        <name>_baseType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="271" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a90190d9abc2e8b4d3fb2abdfe392da8a" prot="private" static="no" mutable="no">
+        <type>::Platform::String ^</type>
+        <definition>Platform::String XamlTypeInfo::InfoProvider::XamlUserType::_contentPropertyName</definition>
+        <argsstring></argsstring>
+        <name>_contentPropertyName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="272" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1aafe7eb71eeb8625b943df21ac226e290" prot="private" static="no" mutable="no">
+        <type>::Platform::String ^</type>
+        <definition>Platform::String XamlTypeInfo::InfoProvider::XamlUserType::_itemTypeName</definition>
+        <argsstring></argsstring>
+        <name>_itemTypeName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="273" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ab8ce90138d5c86c870f5d506f39364ec" prot="private" static="no" mutable="no">
+        <type>::Platform::String ^</type>
+        <definition>Platform::String XamlTypeInfo::InfoProvider::XamlUserType::_keyTypeName</definition>
+        <argsstring></argsstring>
+        <name>_keyTypeName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="274" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ac35fde2bb14381e89e882d2fc48a3738" prot="private" static="no" mutable="no">
+        <type>::Platform::String ^</type>
+        <definition>Platform::String XamlTypeInfo::InfoProvider::XamlUserType::_fullName</definition>
+        <argsstring></argsstring>
+        <name>_fullName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="275" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a3b2e72600c504e11802cef02a70f0992" prot="private" static="no" mutable="no">
+        <type>std::map&lt;::Platform::String^, ::Platform::String^&gt;</type>
+        <definition>std::map&lt;::Platform::String^,::Platform::String^&gt; XamlTypeInfo::InfoProvider::XamlUserType::_memberNames</definition>
+        <argsstring></argsstring>
+        <name>_memberNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="276" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a03a78286ae270ae7ef415b63b9937c8e" prot="private" static="no" mutable="no">
+        <type>std::map&lt; std::wstring, ::Platform::Object^&gt;</type>
+        <definition>std::map&lt; std::wstring,::Platform::Object^&gt; XamlTypeInfo::InfoProvider::XamlUserType::_enumValues</definition>
+        <argsstring></argsstring>
+        <name>_enumValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="277" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1aad7e1e8f8e3d0691ac418867261caabb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool XamlTypeInfo::InfoProvider::XamlUserType::_isArray</definition>
+        <argsstring></argsstring>
+        <name>_isArray</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="278" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a4708109571c26d3dcbb058b5781c5ca6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool XamlTypeInfo::InfoProvider::XamlUserType::_isMarkupExtension</definition>
+        <argsstring></argsstring>
+        <name>_isMarkupExtension</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="279" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ad31c749a8753a90390324e88073f5e75" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool XamlTypeInfo::InfoProvider::XamlUserType::_isEnum</definition>
+        <argsstring></argsstring>
+        <name>_isEnum</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="280" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a25553558597cf7c2ce198c8fd09492af" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool XamlTypeInfo::InfoProvider::XamlUserType::_isBindable</definition>
+        <argsstring></argsstring>
+        <name>_isBindable</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="281" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1af987f61d57c450d3dda9be76ff8939ce" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool XamlTypeInfo::InfoProvider::XamlUserType::_isReturnTypeStub</definition>
+        <argsstring></argsstring>
+        <name>_isReturnTypeStub</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="282" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a4bb846920f630b41f6aca0b982e38e8a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool XamlTypeInfo::InfoProvider::XamlUserType::_isLocalType</definition>
+        <argsstring></argsstring>
+        <name>_isLocalType</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="283" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a7f906ce99749c33c6aa6be6772067651" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XamlTypeInfo::InfoProvider::XamlUserType::XamlUserType</definition>
+        <argsstring>(::XamlTypeInfo::InfoProvider::XamlTypeInfoProvider^ provider, ::Platform::String^ fullName, ::Windows::UI::Xaml::Markup::IXamlType^ baseType)</argsstring>
+        <name>XamlUserType</name>
+        <param>
+          <type>::<ref refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider" kindref="compound">XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</ref>^</type>
+          <declname>provider</declname>
+        </param>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>fullName</declname>
+        </param>
+        <param>
+          <type>::Windows::UI::Xaml::Markup::IXamlType^</type>
+          <declname>baseType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="135" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.Impl.g.cpp" bodystart="256" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a06a2143b79e55e138bde68f50c269c93" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XamlTypeInfo::InfoProvider::XamlUserType::AddMemberName</definition>
+        <argsstring>(::Platform::String^ shortName)</argsstring>
+        <name>AddMemberName</name>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>shortName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="265" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1aaef55913372b6f7152af80cacb84a94b" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XamlTypeInfo::InfoProvider::XamlUserType::AddEnumValue</definition>
+        <argsstring>(::Platform::String^ name, ::Platform::Object^ value)</argsstring>
+        <name>AddEnumValue</name>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>::Platform::Object^</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="266" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ac48c59175341999f453829bad9e40b98" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32</type>
+        <definition>uint32 XamlTypeInfo::InfoProvider::XamlUserType::CreateEnumUIntFromString</definition>
+        <argsstring>(::Platform::String^ input)</argsstring>
+        <name>CreateEnumUIntFromString</name>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="267" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a7f906ce99749c33c6aa6be6772067651" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XamlTypeInfo::InfoProvider::XamlUserType::XamlUserType</definition>
+        <argsstring>(::XamlTypeInfo::InfoProvider::XamlTypeInfoProvider^ provider, ::Platform::String^ fullName, ::Windows::UI::Xaml::Markup::IXamlType^ baseType)</argsstring>
+        <name>XamlUserType</name>
+        <param>
+          <type>::<ref refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider" kindref="compound">XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</ref>^</type>
+          <declname>provider</declname>
+        </param>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>fullName</declname>
+        </param>
+        <param>
+          <type>::Windows::UI::Xaml::Markup::IXamlType^</type>
+          <declname>baseType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="135" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a06a2143b79e55e138bde68f50c269c93" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XamlTypeInfo::InfoProvider::XamlUserType::AddMemberName</definition>
+        <argsstring>(::Platform::String^ shortName)</argsstring>
+        <name>AddMemberName</name>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>shortName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="265" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1aaef55913372b6f7152af80cacb84a94b" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XamlTypeInfo::InfoProvider::XamlUserType::AddEnumValue</definition>
+        <argsstring>(::Platform::String^ name, ::Platform::Object^ value)</argsstring>
+        <name>AddEnumValue</name>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>::Platform::Object^</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="266" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ac48c59175341999f453829bad9e40b98" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32</type>
+        <definition>uint32 XamlTypeInfo::InfoProvider::XamlUserType::CreateEnumUIntFromString</definition>
+        <argsstring>(::Platform::String^ input)</argsstring>
+        <name>CreateEnumUIntFromString</name>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="267" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a4c1839fa1be2287b32c86ab5d45b2af3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Windows::UI::Xaml::Markup::IXamlMember ^</type>
+        <definition>Windows::UI::Xaml::Markup::IXamlMember XamlTypeInfo::InfoProvider::XamlUserType::GetMember</definition>
+        <argsstring>(::Platform::String^ name)</argsstring>
+        <name>GetMember</name>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="218" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.Impl.g.cpp" bodystart="408" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ab23d0c633fe997f65be39c9486152408" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Platform::Object ^</type>
+        <definition>Platform::Object XamlTypeInfo::InfoProvider::XamlUserType::ActivateInstance</definition>
+        <argsstring>()</argsstring>
+        <name>ActivateInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="219" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.Impl.g.cpp" bodystart="418" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1aa2d1cf0cc528940509545ebdeb61926c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void XamlTypeInfo::InfoProvider::XamlUserType::AddToMap</definition>
+        <argsstring>(::Platform::Object^ instance, ::Platform::Object^ key, ::Platform::Object^ value)</argsstring>
+        <name>AddToMap</name>
+        <param>
+          <type>::Platform::Object^</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type>::Platform::Object^</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>::Platform::Object^</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="220" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a93b639b8ab3dd00a61776a99a0da3f54" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void XamlTypeInfo::InfoProvider::XamlUserType::AddToVector</definition>
+        <argsstring>(::Platform::Object^ instance, ::Platform::Object^ value)</argsstring>
+        <name>AddToVector</name>
+        <param>
+          <type>::Platform::Object^</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type>::Platform::Object^</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="221" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a27ab5687ea814468d9382aa7e6502465" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void XamlTypeInfo::InfoProvider::XamlUserType::RunInitializer</definition>
+        <argsstring>()</argsstring>
+        <name>RunInitializer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="222" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a7657d00c04fc9d34365f79d064227ba1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Platform::Object ^</type>
+        <definition>Platform::Object XamlTypeInfo::InfoProvider::XamlUserType::CreateFromString</definition>
+        <argsstring>(::Platform::String^ value)</argsstring>
+        <name>CreateFromString</name>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="223" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.Impl.g.cpp" bodystart="438" bodyend="441"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ac876d5510485e0fd2e91b1a866c1d54d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Windows::UI::Xaml::Markup::IXamlMember ^</type>
+        <definition>virtual ::Windows::UI::Xaml::Markup::IXamlMember ^ XamlTypeInfo::InfoProvider::XamlUserType::GetMember</definition>
+        <argsstring>(::Platform::String^ name)</argsstring>
+        <name>GetMember</name>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="218" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a6d0a15b5a83f03b7a37ebc450662a205" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Platform::Object ^</type>
+        <definition>virtual ::Platform::Object ^ XamlTypeInfo::InfoProvider::XamlUserType::ActivateInstance</definition>
+        <argsstring>()</argsstring>
+        <name>ActivateInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="219" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1aa2d1cf0cc528940509545ebdeb61926c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void XamlTypeInfo::InfoProvider::XamlUserType::AddToMap</definition>
+        <argsstring>(::Platform::Object^ instance, ::Platform::Object^ key, ::Platform::Object^ value)</argsstring>
+        <name>AddToMap</name>
+        <param>
+          <type>::Platform::Object^</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type>::Platform::Object^</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>::Platform::Object^</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="220" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a93b639b8ab3dd00a61776a99a0da3f54" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void XamlTypeInfo::InfoProvider::XamlUserType::AddToVector</definition>
+        <argsstring>(::Platform::Object^ instance, ::Platform::Object^ value)</argsstring>
+        <name>AddToVector</name>
+        <param>
+          <type>::Platform::Object^</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type>::Platform::Object^</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="221" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a27ab5687ea814468d9382aa7e6502465" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void XamlTypeInfo::InfoProvider::XamlUserType::RunInitializer</definition>
+        <argsstring>()</argsstring>
+        <name>RunInitializer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="222" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a889a00c934bfc7d5366f218dd3f50e48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Platform::Object ^</type>
+        <definition>virtual ::Platform::Object ^ XamlTypeInfo::InfoProvider::XamlUserType::CreateFromString</definition>
+        <argsstring>(::Platform::String^ value)</argsstring>
+        <name>CreateFromString</name>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="223" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="97">
+        <label>XamlTypeInfo::InfoProvider::XamlUserType</label>
+        <link refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+        <childnode refid="99" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="99">
+        <label>IXamlType</label>
+      </node>
+      <node id="98">
+        <label>Platform::Metadata::RuntimeClassName::Windows::UI::Xaml::Markup::IXamlType</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="100">
+        <label>XamlTypeInfo::InfoProvider::XamlUserType</label>
+        <link refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type"/>
+        <childnode refid="101" relation="public-inheritance">
+        </childnode>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>IXamlType</label>
+      </node>
+      <node id="101">
+        <label>Platform::Metadata::RuntimeClassName::Windows::UI::Xaml::Markup::IXamlType</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="133" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="132" bodyend="284"/>
+    <listofallmembers>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a07f729132a4e72abadcc28369b9deec0" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>_baseType</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a90190d9abc2e8b4d3fb2abdfe392da8a" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>_contentPropertyName</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a03a78286ae270ae7ef415b63b9937c8e" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>_enumValues</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ac35fde2bb14381e89e882d2fc48a3738" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>_fullName</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1aad7e1e8f8e3d0691ac418867261caabb" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>_isArray</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a25553558597cf7c2ce198c8fd09492af" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>_isBindable</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ad31c749a8753a90390324e88073f5e75" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>_isEnum</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a4bb846920f630b41f6aca0b982e38e8a" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>_isLocalType</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a4708109571c26d3dcbb058b5781c5ca6" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>_isMarkupExtension</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1af987f61d57c450d3dda9be76ff8939ce" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>_isReturnTypeStub</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1aafe7eb71eeb8625b943df21ac226e290" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>_itemTypeName</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ab8ce90138d5c86c870f5d506f39364ec" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>_keyTypeName</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a3b2e72600c504e11802cef02a70f0992" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>_memberNames</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a79c66bf374d5731ca7c0d882f8e6ebd9" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>_provider</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ab23d0c633fe997f65be39c9486152408" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>ActivateInstance</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a6d0a15b5a83f03b7a37ebc450662a205" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>ActivateInstance</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a50168e237ca125fb0e946e8f5a704631" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>Activator</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a1b1a91e24ebf38b364368008677cd15b" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>ActivatorFn</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a1b1a91e24ebf38b364368008677cd15b" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>ActivatorFn</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1aaef55913372b6f7152af80cacb84a94b" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>AddEnumValue</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1aaef55913372b6f7152af80cacb84a94b" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>AddEnumValue</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a06a2143b79e55e138bde68f50c269c93" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>AddMemberName</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a06a2143b79e55e138bde68f50c269c93" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>AddMemberName</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ab8ee29c97ae85194ca608d01c502e604" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>AddToCollectionFn</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ab8ee29c97ae85194ca608d01c502e604" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>AddToCollectionFn</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1affcfe67ce15e02244ac25533b4103bcd" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>AddToDictionaryFn</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1affcfe67ce15e02244ac25533b4103bcd" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>AddToDictionaryFn</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1aa2d1cf0cc528940509545ebdeb61926c" prot="public" virt="virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>AddToMap</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1aa2d1cf0cc528940509545ebdeb61926c" prot="public" virt="virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>AddToMap</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a93b639b8ab3dd00a61776a99a0da3f54" prot="public" virt="virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>AddToVector</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a93b639b8ab3dd00a61776a99a0da3f54" prot="public" virt="virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>AddToVector</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a8f8a691f4ca24641dd43829ecddc1e6b" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>BaseType</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1af18e9d8505734b555f340926f6f08965" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>CollectionAdd</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ade211767c5690abfb557f603c02e7528" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>ContentProperty</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a49975dae8daf6a527e271e36d6e1fb7b" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>ContentPropertyName</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ac48c59175341999f453829bad9e40b98" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>CreateEnumUIntFromString</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ac48c59175341999f453829bad9e40b98" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>CreateEnumUIntFromString</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a7657d00c04fc9d34365f79d064227ba1" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>CreateFromString</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a889a00c934bfc7d5366f218dd3f50e48" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>CreateFromString</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1aca315aa3d9c4569c47ed47e9698a6870" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>DictionaryAdd</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a931450d412b0b6d02859ce1333d4d31a" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>FromStringConverter</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a2980a74482f9f20d62e24a091b72d096" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>FullName</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a4c1839fa1be2287b32c86ab5d45b2af3" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>GetMember</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ac876d5510485e0fd2e91b1a866c1d54d" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>GetMember</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ae50864bc731a88748e2900be23bea67e" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>IsArray</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ac9c45117680e53e00098ee9490c09b93" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>IsBindable</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1afe23cd8567621d0f1b73d820ba16661b" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>IsCollection</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ab4c1b7a5c932b0d200740406f70d1844" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>IsConstructible</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a611953c59013e34b80a13293ff63d59c" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>IsDictionary</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1aa12ec3e05d9426ca25a5e6f185965133" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>IsEnum</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a7bd48d31945050a6efccdea405693865" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>IsLocalType</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a6b4cce8b831bf6b0e1d29da25e7763f2" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>IsMarkupExtension</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1affd75cdc104291f57d99ba498c60a247" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>IsReturnTypeStub</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ad334f792ef4910ed2d36c6b65dda2e4b" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>IsSystemType</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a59724917c3bbf71f7c641d4b9d4b7cb6" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>ItemType</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a571e2134ab9537029fc58b629fac2fb5" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>ItemTypeName</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a2afcdd6aa7f0f45728c5d4ef0e0d25f5" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>KeyType</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a0a90f473ca32855a788284f4db615c99" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>KeyTypeName</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a1382084323b057ccaaad7823aacafbf1" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>KindOfType</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ae4f73351219be7832cb30b118ed7f257" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>Name</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a27ab5687ea814468d9382aa7e6502465" prot="public" virt="virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>RunInitializer</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a27ab5687ea814468d9382aa7e6502465" prot="public" virt="virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>RunInitializer</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ad614331de3505dae7288157fa6643578" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>StringConverterFn</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1ad614331de3505dae7288157fa6643578" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>StringConverterFn</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1aa5bdf0da240db6feabb8ae26953c57cd" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>UnderlyingType</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a7f906ce99749c33c6aa6be6772067651" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>XamlUserType</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_user_type_1a7f906ce99749c33c6aa6be6772067651" prot="package" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlUserType</scope><name>XamlUserType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

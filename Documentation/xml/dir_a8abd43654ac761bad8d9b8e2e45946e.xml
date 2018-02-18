@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_a8abd43654ac761bad8d9b8e2e45946e" kind="dir">
+    <compoundname>C:/Projects/BergermeisterHome/Common/Source/Drivers-bak</compoundname>
+    <innerfile refid="_common_2_source_2_drivers-bak_2_d_h_t_sensor_8cpp">DHTSensor.cpp</innerfile>
+    <innerfile refid="_common_2_source_2_drivers-bak_2_d_h_t_sensor_8h">DHTSensor.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Projects/BergermeisterHome/Common/Source/Drivers-bak/"/>
+  </compounddef>
+</doxygen>

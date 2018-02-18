@@ -1,0 +1,85 @@
+\hypertarget{class_console_1_1_g_tc_d_h_t_sensor}{}\section{Console\+:\+:G\+Tc\+D\+H\+T\+Sensor Class Reference}
+\label{class_console_1_1_g_tc_d_h_t_sensor}\index{Console\+::\+G\+Tc\+D\+H\+T\+Sensor@{Console\+::\+G\+Tc\+D\+H\+T\+Sensor}}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_console_1_1_g_tc_d_h_t_sensor_a773cdd4c7af39e023dbc893f07f6ad32}\label{class_console_1_1_g_tc_d_h_t_sensor_a773cdd4c7af39e023dbc893f07f6ad32}} 
+enum {\bfseries Te\+Status} \{ \newline
+{\bfseries Qe\+Status\+None} = 0, 
+{\bfseries Qe\+Status\+Timeout}, 
+{\bfseries Qe\+Status\+Missing\+Data}, 
+{\bfseries Qe\+Status\+Invalid\+Data}, 
+\newline
+{\bfseries Qe\+Status\+Success}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_console_1_1_g_tc_d_h_t_sensor_a28a32f003a0916d1009564d0dedf75de}\label{class_console_1_1_g_tc_d_h_t_sensor_a28a32f003a0916d1009564d0dedf75de}} 
+{\bfseries G\+Tc\+D\+H\+T\+Sensor} (const \mbox{\hyperlink{class_console_1_1_g_tc_d_h_t_sensor}{G\+Tc\+D\+H\+T\+Sensor}} \&aor\+Sensor)
+\item 
+\mbox{\Hypertarget{class_console_1_1_g_tc_d_h_t_sensor_a42e5b9edaea5dcfc2c914a25ba41b1ef}\label{class_console_1_1_g_tc_d_h_t_sensor_a42e5b9edaea5dcfc2c914a25ba41b1ef}} 
+\mbox{\hyperlink{class_console_1_1_g_tc_d_h_t_sensor}{G\+Tc\+D\+H\+T\+Sensor}} \& {\bfseries operator=} (const \mbox{\hyperlink{class_console_1_1_g_tc_d_h_t_sensor}{G\+Tc\+D\+H\+T\+Sensor}} \&aor\+Sensor)
+\item 
+\mbox{\Hypertarget{class_console_1_1_g_tc_d_h_t_sensor_a66a5d9d2f43f1a42dce542181d98acb5}\label{class_console_1_1_g_tc_d_h_t_sensor_a66a5d9d2f43f1a42dce542181d98acb5}} 
+void {\bfseries M\+Initialize} (Windows\+::\+Devices\+::\+Gpio\+::\+Gpio\+Pin$^\wedge$ aop\+Pin)
+\item 
+\mbox{\Hypertarget{class_console_1_1_g_tc_d_h_t_sensor_af433fb954e3f8c8b5ed2c794d1be2563}\label{class_console_1_1_g_tc_d_h_t_sensor_af433fb954e3f8c8b5ed2c794d1be2563}} 
+Te\+Status {\bfseries M\+Sample} (void)
+\item 
+\mbox{\Hypertarget{class_console_1_1_g_tc_d_h_t_sensor_a6a29ed7188a817c4e35a8d87ee34d65c}\label{class_console_1_1_g_tc_d_h_t_sensor_a6a29ed7188a817c4e35a8d87ee34d65c}} 
+\mbox{\hyperlink{namespace_g_n_common_a6b5283329f609e2175dd0c91fc1520ba}{G\+N\+Common\+::\+G\+Tb8}} {\bfseries M\+Pull\+Resistor\+Required} (void) const
+\item 
+\mbox{\Hypertarget{class_console_1_1_g_tc_d_h_t_sensor_aedc75ca476023f30adfc10cf27e431cd}\label{class_console_1_1_g_tc_d_h_t_sensor_aedc75ca476023f30adfc10cf27e431cd}} 
+\mbox{\hyperlink{namespace_g_n_common_a6b5283329f609e2175dd0c91fc1520ba}{G\+N\+Common\+::\+G\+Tb8}} {\bfseries M\+Is\+Valid} (void) const
+\item 
+\mbox{\Hypertarget{class_console_1_1_g_tc_d_h_t_sensor_a17d7fe7d6cd82e388b48c2653a95077d}\label{class_console_1_1_g_tc_d_h_t_sensor_a17d7fe7d6cd82e388b48c2653a95077d}} 
+\mbox{\hyperlink{namespace_g_n_common_a22b37ff753b3e7a48d9d31addf35a739}{G\+N\+Common\+::\+G\+Tf64}} {\bfseries M\+Humidity} (void) const
+\item 
+\mbox{\Hypertarget{class_console_1_1_g_tc_d_h_t_sensor_a717cd7d8fe381f24edcb3fa69436b0fb}\label{class_console_1_1_g_tc_d_h_t_sensor_a717cd7d8fe381f24edcb3fa69436b0fb}} 
+\mbox{\hyperlink{namespace_g_n_common_a22b37ff753b3e7a48d9d31addf35a739}{G\+N\+Common\+::\+G\+Tf64}} {\bfseries M\+Temperature} (void) const
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_console_1_1_g_tc_d_h_t_sensor_ac7dd137b30bbda611805f59ec56a42e8}\label{class_console_1_1_g_tc_d_h_t_sensor_ac7dd137b30bbda611805f59ec56a42e8}} 
+Windows\+::\+Devices\+::\+Gpio\+::\+Gpio\+Pin $^\wedge$ {\bfseries vop\+Pin}
+\item 
+\mbox{\Hypertarget{class_console_1_1_g_tc_d_h_t_sensor_aae9001c25efa86a88f5931a00373d60d}\label{class_console_1_1_g_tc_d_h_t_sensor_aae9001c25efa86a88f5931a00373d60d}} 
+Windows\+::\+Devices\+::\+Gpio\+::\+Gpio\+Pin\+Drive\+Mode {\bfseries ve\+Input\+Drive\+Mode}
+\item 
+\mbox{\Hypertarget{class_console_1_1_g_tc_d_h_t_sensor_aa2a05e14611469c21527ea7bb85d88f6}\label{class_console_1_1_g_tc_d_h_t_sensor_aa2a05e14611469c21527ea7bb85d88f6}} 
+std\+::bitset$<$ 40 $>$ {\bfseries vo\+Bits}
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_console_1_1_g_tc_d_h_t_sensor_ae039fda43f1f4fcb89f0dcd42a9f8536}\label{class_console_1_1_g_tc_d_h_t_sensor_ae039fda43f1f4fcb89f0dcd42a9f8536}} 
+static const \mbox{\hyperlink{namespace_g_n_common_a01e8527dabf7ab4f123156b0701945eb}{G\+N\+Common\+::\+G\+Tu64}} {\bfseries xul\+Threshold} = 110\+LL
+\item 
+\mbox{\Hypertarget{class_console_1_1_g_tc_d_h_t_sensor_abe17cac05439ef8b1305bf2800b34806}\label{class_console_1_1_g_tc_d_h_t_sensor_abe17cac05439ef8b1305bf2800b34806}} 
+static const \mbox{\hyperlink{namespace_g_n_common_a01e8527dabf7ab4f123156b0701945eb}{G\+N\+Common\+::\+G\+Tu64}} {\bfseries xul\+Micros} = 1000000\+LL
+\item 
+\mbox{\Hypertarget{class_console_1_1_g_tc_d_h_t_sensor_a7817e1d85a7235c9d7cb75cee501a718}\label{class_console_1_1_g_tc_d_h_t_sensor_a7817e1d85a7235c9d7cb75cee501a718}} 
+static const \mbox{\hyperlink{namespace_g_n_common_ae5485474bc8f23e462e920a17b377b53}{G\+N\+Common\+::\+G\+Tu32}} {\bfseries xui\+Sample\+Hold\+Low\+Millis} = 18
+\item 
+\mbox{\Hypertarget{class_console_1_1_g_tc_d_h_t_sensor_a23fdf91d2ac3beef278a969e63bcb91a}\label{class_console_1_1_g_tc_d_h_t_sensor_a23fdf91d2ac3beef278a969e63bcb91a}} 
+static const \mbox{\hyperlink{namespace_g_n_common_a01e8527dabf7ab4f123156b0701945eb}{G\+N\+Common\+::\+G\+Tu64}} {\bfseries xul\+Timeout\+Edge} = 1
+\item 
+\mbox{\Hypertarget{class_console_1_1_g_tc_d_h_t_sensor_a3e60c98618191a61bddfe22791840ad2}\label{class_console_1_1_g_tc_d_h_t_sensor_a3e60c98618191a61bddfe22791840ad2}} 
+static const \mbox{\hyperlink{namespace_g_n_common_a01e8527dabf7ab4f123156b0701945eb}{G\+N\+Common\+::\+G\+Tu64}} {\bfseries xul\+Timeout\+Sample} = 10
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 7 of file D\+H\+T\+Sensor.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Projects/\+Bergermeister\+Home/\+Console/D\+H\+T\+Sensor.\+h\item 
+C\+:/\+Projects/\+Bergermeister\+Home/\+Console/D\+H\+T\+Sensor.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="struct_type_info" kind="struct" language="C++" prot="public">
+    <compoundname>TypeInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_type_info_1ac96e0ac3a90519fe82d52dcb1d437b69" prot="public" static="no" mutable="no">
+        <type>PCWSTR</type>
+        <definition>PCWSTR TypeInfo::typeName</definition>
+        <argsstring></argsstring>
+        <name>typeName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" line="44" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_type_info_1a7b879dc1c4f39f9dea21325fac36a490" prot="public" static="no" mutable="no">
+        <type>PCWSTR</type>
+        <definition>PCWSTR TypeInfo::contentPropertyName</definition>
+        <argsstring></argsstring>
+        <name>contentPropertyName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" line="45" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_type_info_1ac4c8d6c095cd9a703cbbd5b129f83fc3" prot="public" static="no" mutable="no">
+        <type>::Platform::Object ^(*</type>
+        <definition>::Platform::Object ^(* TypeInfo::activator) ()</definition>
+        <argsstring>)()</argsstring>
+        <name>activator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" line="45" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_type_info_1a8b3397574a15cdf11f51fe273d88666e" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* TypeInfo::collectionAdd) (::Platform::Object^, ::Platform::Object^)</definition>
+        <argsstring>)(::Platform::Object^, ::Platform::Object^)</argsstring>
+        <name>collectionAdd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" line="47" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_type_info_1a5ad8d3830f375c9fa644207e251b33ff" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* TypeInfo::dictionaryAdd) (::Platform::Object^, ::Platform::Object^, ::Platform::Object^)</definition>
+        <argsstring>)(::Platform::Object^, ::Platform::Object^, ::Platform::Object^)</argsstring>
+        <name>dictionaryAdd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" line="48" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_type_info_1a37bb5833bafdb1cb3dd230b2cb760178" prot="public" static="no" mutable="no">
+        <type>::Platform::Object ^(*</type>
+        <definition>::Platform::Object ^(* TypeInfo::fromStringConverter) (::XamlTypeInfo::InfoProvider::XamlUserType^, ::Platform::String^)</definition>
+        <argsstring>)(::XamlTypeInfo::InfoProvider::XamlUserType^, ::Platform::String^)</argsstring>
+        <name>fromStringConverter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" line="48" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_type_info_1aff93d3f95b4616d747537c0685309690" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TypeInfo::baseTypeIndex</definition>
+        <argsstring></argsstring>
+        <name>baseTypeIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" line="50" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_type_info_1a2817c0975e3c8779d48abccb85005e4e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TypeInfo::firstMemberIndex</definition>
+        <argsstring></argsstring>
+        <name>firstMemberIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" line="51" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_type_info_1a5855e9582230c60baf51dbf169826eb8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TypeInfo::firstEnumValueIndex</definition>
+        <argsstring></argsstring>
+        <name>firstEnumValueIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" line="52" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_type_info_1a14cc3e3f7308040c5d956b83933628c3" prot="public" static="no" mutable="no">
+        <type>::Windows::UI::Xaml::Interop::TypeKind</type>
+        <definition>::Windows::UI::Xaml::Interop::TypeKind TypeInfo::kindofType</definition>
+        <argsstring></argsstring>
+        <name>kindofType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" line="53" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_type_info_1a03fa39f04aeb505921a27cc7d1188c33" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TypeInfo::isLocalType</definition>
+        <argsstring></argsstring>
+        <name>isLocalType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" line="54" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_type_info_1aed510c71aa8bafb3d7371a70defd3980" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TypeInfo::isSystemType</definition>
+        <argsstring></argsstring>
+        <name>isSystemType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" line="55" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_type_info_1a1480b09b916bd173390ed5a5333977ea" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TypeInfo::isReturnTypeStub</definition>
+        <argsstring></argsstring>
+        <name>isReturnTypeStub</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" line="56" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_type_info_1ad02282e9a35d686d639faa71ac7890e7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TypeInfo::isBindable</definition>
+        <argsstring></argsstring>
+        <name>isBindable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" line="57" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" line="43" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" bodystart="42" bodyend="58"/>
+    <listofallmembers>
+      <member refid="struct_type_info_1ac4c8d6c095cd9a703cbbd5b129f83fc3" prot="public" virt="non-virtual"><scope>TypeInfo</scope><name>activator</name></member>
+      <member refid="struct_type_info_1aff93d3f95b4616d747537c0685309690" prot="public" virt="non-virtual"><scope>TypeInfo</scope><name>baseTypeIndex</name></member>
+      <member refid="struct_type_info_1a8b3397574a15cdf11f51fe273d88666e" prot="public" virt="non-virtual"><scope>TypeInfo</scope><name>collectionAdd</name></member>
+      <member refid="struct_type_info_1a7b879dc1c4f39f9dea21325fac36a490" prot="public" virt="non-virtual"><scope>TypeInfo</scope><name>contentPropertyName</name></member>
+      <member refid="struct_type_info_1a5ad8d3830f375c9fa644207e251b33ff" prot="public" virt="non-virtual"><scope>TypeInfo</scope><name>dictionaryAdd</name></member>
+      <member refid="struct_type_info_1a5855e9582230c60baf51dbf169826eb8" prot="public" virt="non-virtual"><scope>TypeInfo</scope><name>firstEnumValueIndex</name></member>
+      <member refid="struct_type_info_1a2817c0975e3c8779d48abccb85005e4e" prot="public" virt="non-virtual"><scope>TypeInfo</scope><name>firstMemberIndex</name></member>
+      <member refid="struct_type_info_1a37bb5833bafdb1cb3dd230b2cb760178" prot="public" virt="non-virtual"><scope>TypeInfo</scope><name>fromStringConverter</name></member>
+      <member refid="struct_type_info_1ad02282e9a35d686d639faa71ac7890e7" prot="public" virt="non-virtual"><scope>TypeInfo</scope><name>isBindable</name></member>
+      <member refid="struct_type_info_1a03fa39f04aeb505921a27cc7d1188c33" prot="public" virt="non-virtual"><scope>TypeInfo</scope><name>isLocalType</name></member>
+      <member refid="struct_type_info_1a1480b09b916bd173390ed5a5333977ea" prot="public" virt="non-virtual"><scope>TypeInfo</scope><name>isReturnTypeStub</name></member>
+      <member refid="struct_type_info_1aed510c71aa8bafb3d7371a70defd3980" prot="public" virt="non-virtual"><scope>TypeInfo</scope><name>isSystemType</name></member>
+      <member refid="struct_type_info_1a14cc3e3f7308040c5d956b83933628c3" prot="public" virt="non-virtual"><scope>TypeInfo</scope><name>kindofType</name></member>
+      <member refid="struct_type_info_1ac96e0ac3a90519fe82d52dcb1d437b69" prot="public" virt="non-virtual"><scope>TypeInfo</scope><name>typeName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

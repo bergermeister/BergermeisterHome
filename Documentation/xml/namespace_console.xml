@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespace_console" kind="namespace" language="C++">
+    <compoundname>Console</compoundname>
+    <innerclass refid="class_console_1_1_app" prot="public">Console::App</innerclass>
+    <innerclass refid="class_console_1_1_g_tc_d_h_t_sensor" prot="public">Console::GTcDHTSensor</innerclass>
+    <innerclass refid="class_console_1_1_main_page" prot="public">Console::MainPage</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Projects/BergermeisterHome/Console/App.xaml.h" line="11" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="struct_g_n_common_1_1_g_tc_alert_1_1_ts_code" kind="struct" language="C++" prot="public">
+    <compoundname>GNCommon::GTcAlert::TsCode</compoundname>
+    <includes refid="_alert_8h" local="no">Alert.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_g_n_common_1_1_g_tc_alert_1_1_ts_code_1a26e48af7d046561144f85fe111cbc8b3" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_g_n_common_1ae5485474bc8f23e462e920a17b377b53" kindref="member">GTu32</ref></type>
+        <definition>GTu32 GNCommon::GTcAlert::TsCode::vuiIndex</definition>
+        <argsstring></argsstring>
+        <name>vuiIndex</name>
+        <bitfield> 8</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bits 0 - 7 : Index </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="49" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_n_common_1_1_g_tc_alert_1_1_ts_code_1a5d0eff781b125af6518d4d11304bf1a5" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_n_common_1_1_g_tc_alert_1a2deb7f82fcf5d88b4e10d74fa6c28cb7" kindref="member">TeGroup</ref></type>
+        <definition>TeGroup GNCommon::GTcAlert::TsCode::veGroup</definition>
+        <argsstring></argsstring>
+        <name>veGroup</name>
+        <bitfield> 8</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bits 8 - 15 : Group </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="50" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_n_common_1_1_g_tc_alert_1_1_ts_code_1a0ebb96c706c4df9641d0c9a55bf00f4b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_n_common_1_1_g_tc_alert_1aec0a7908321c01ae225df4908d7f3fa0" kindref="member">TeComponent</ref></type>
+        <definition>TeComponent GNCommon::GTcAlert::TsCode::veCompDet</definition>
+        <argsstring></argsstring>
+        <name>veCompDet</name>
+        <bitfield> 8</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bits 16 - 23 : Detecting Component </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="51" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_n_common_1_1_g_tc_alert_1_1_ts_code_1aab8ef411910f365c4149b13da11228cb" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_n_common_1_1_g_tc_alert_1aec0a7908321c01ae225df4908d7f3fa0" kindref="member">TeComponent</ref></type>
+        <definition>TeComponent GNCommon::GTcAlert::TsCode::veCompGen</definition>
+        <argsstring></argsstring>
+        <name>veCompGen</name>
+        <bitfield> 8</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bits 24 - 31 : Generating Component </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="52" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Code Structure </para>    </detaileddescription>
+    <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="48" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.h" bodystart="47" bodyend="53"/>
+    <listofallmembers>
+      <member refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_code_1a0ebb96c706c4df9641d0c9a55bf00f4b" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert::TsCode</scope><name>veCompDet</name></member>
+      <member refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_code_1aab8ef411910f365c4149b13da11228cb" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert::TsCode</scope><name>veCompGen</name></member>
+      <member refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_code_1a5d0eff781b125af6518d4d11304bf1a5" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert::TsCode</scope><name>veGroup</name></member>
+      <member refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_code_1a26e48af7d046561144f85fe111cbc8b3" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert::TsCode</scope><name>vuiIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

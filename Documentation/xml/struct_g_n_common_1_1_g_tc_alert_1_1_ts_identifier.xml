@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier" kind="struct" language="C++" prot="public">
+    <compoundname>GNCommon::GTcAlert::TsIdentifier</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1a83bb4d784e9f8d772b79a2faab4c279c" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_g_n_common_1ae5485474bc8f23e462e920a17b377b53" kindref="member">GTu32</ref></type>
+        <definition>GTu32 GNCommon::GTcAlert::TsIdentifier::vuiIndex</definition>
+        <argsstring></argsstring>
+        <name>vuiIndex</name>
+        <bitfield> 8</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bits 0 - 7 : Index </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="54" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.h" bodystart="54" bodyend="-1"/>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1ab4874dff7fccf2444439e7e5e4304125" compoundref="_alert_8cpp" startline="8" endline="26">GNCommon::GTcAlert::GTcAlert</referencedby>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1aba9a3373bd29884b049dfc525f655e5c" compoundref="_alert_8cpp" startline="42" endline="62">GNCommon::GTcAlert::operator=</referencedby>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1acbb3761e5ca1af6896c20933be06255f" compoundref="_alert_8cpp" startline="76" endline="82">GNCommon::GTcAlert::MSetIdentifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1af23bb4b61df8abb45a4a77162a91e980" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_n_common_1_1_g_tc_alert_1a2deb7f82fcf5d88b4e10d74fa6c28cb7" kindref="member">TeGroup</ref></type>
+        <definition>TeGroup GNCommon::GTcAlert::TsIdentifier::veGroup</definition>
+        <argsstring></argsstring>
+        <name>veGroup</name>
+        <bitfield> 8</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bits 8 - 15 : Group </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="55" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.h" bodystart="55" bodyend="-1"/>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1ab4874dff7fccf2444439e7e5e4304125" compoundref="_alert_8cpp" startline="8" endline="26">GNCommon::GTcAlert::GTcAlert</referencedby>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1aba9a3373bd29884b049dfc525f655e5c" compoundref="_alert_8cpp" startline="42" endline="62">GNCommon::GTcAlert::operator=</referencedby>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1acbb3761e5ca1af6896c20933be06255f" compoundref="_alert_8cpp" startline="76" endline="82">GNCommon::GTcAlert::MSetIdentifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1ac500c0db17c543fec720ef745966a53b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_n_common_1_1_g_tc_alert_1aec0a7908321c01ae225df4908d7f3fa0" kindref="member">TeComponent</ref></type>
+        <definition>TeComponent GNCommon::GTcAlert::TsIdentifier::veCompDet</definition>
+        <argsstring></argsstring>
+        <name>veCompDet</name>
+        <bitfield> 8</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bits 16 - 23 : Detecting Component </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="56" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.h" bodystart="56" bodyend="-1"/>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1ab4874dff7fccf2444439e7e5e4304125" compoundref="_alert_8cpp" startline="8" endline="26">GNCommon::GTcAlert::GTcAlert</referencedby>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1aba9a3373bd29884b049dfc525f655e5c" compoundref="_alert_8cpp" startline="42" endline="62">GNCommon::GTcAlert::operator=</referencedby>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1acbb3761e5ca1af6896c20933be06255f" compoundref="_alert_8cpp" startline="76" endline="82">GNCommon::GTcAlert::MSetIdentifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1a410931b980bb13ee9eeece7f69c576b1" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_n_common_1_1_g_tc_alert_1aec0a7908321c01ae225df4908d7f3fa0" kindref="member">TeComponent</ref></type>
+        <definition>TeComponent GNCommon::GTcAlert::TsIdentifier::veCompGen</definition>
+        <argsstring></argsstring>
+        <name>veCompGen</name>
+        <bitfield> 8</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bits 24 - 31 : Generating Component </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="57" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.h" bodystart="57" bodyend="-1"/>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1ab4874dff7fccf2444439e7e5e4304125" compoundref="_alert_8cpp" startline="8" endline="26">GNCommon::GTcAlert::GTcAlert</referencedby>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1aba9a3373bd29884b049dfc525f655e5c" compoundref="_alert_8cpp" startline="42" endline="62">GNCommon::GTcAlert::operator=</referencedby>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1acbb3761e5ca1af6896c20933be06255f" compoundref="_alert_8cpp" startline="76" endline="82">GNCommon::GTcAlert::MSetIdentifier</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="53" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.h" bodystart="52" bodyend="58"/>
+    <listofallmembers>
+      <member refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1ac500c0db17c543fec720ef745966a53b" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert::TsIdentifier</scope><name>veCompDet</name></member>
+      <member refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1a410931b980bb13ee9eeece7f69c576b1" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert::TsIdentifier</scope><name>veCompGen</name></member>
+      <member refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1af23bb4b61df8abb45a4a77162a91e980" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert::TsIdentifier</scope><name>veGroup</name></member>
+      <member refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1a83bb4d784e9f8d772b79a2faab4c279c" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert::TsIdentifier</scope><name>vuiIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

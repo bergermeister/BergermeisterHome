@@ -1,0 +1,574 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_g_n_common_1_1_g_tc_alert" kind="class" language="C++" prot="public">
+    <compoundname>GNCommon::GTcAlert</compoundname>
+    <includes refid="_alert_8h" local="no">Alert.h</includes>
+    <innerclass refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier" prot="public">GNCommon::GTcAlert::TsIdentifier</innerclass>
+    <innerclass refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status" prot="public">GNCommon::GTcAlert::TsStatus</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_g_n_common_1_1_g_tc_alert_1a9ef9363f62aae79a7323005ab126507e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>TeLevel</name>
+        <enumvalue id="class_g_n_common_1_1_g_tc_alert_1a9ef9363f62aae79a7323005ab126507eae3bf0642bc4457afb752f6f41a507d86" prot="public">
+          <name>XeLevelNone</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Enumerated Alert Level: None </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_g_n_common_1_1_g_tc_alert_1a9ef9363f62aae79a7323005ab126507eacebd57948648fe7897a9f0e5bb091b31" prot="public">
+          <name>XeLevelNotice</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Enumerated Alert Level: None </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_g_n_common_1_1_g_tc_alert_1a9ef9363f62aae79a7323005ab126507eaf9a9623077a914bb1b9fc28183670765" prot="public">
+          <name>XeLevelWarning</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Enumerated Alert Level: None </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_g_n_common_1_1_g_tc_alert_1a9ef9363f62aae79a7323005ab126507ea7a378abd7d3362d4e0677adb5af49bbf" prot="public">
+          <name>XeLevelAlarm</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Enumerated Alert Level: None </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="23" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.h" bodystart="22" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_g_n_common_1_1_g_tc_alert_1aec0a7908321c01ae225df4908d7f3fa0" prot="public" static="no" strong="no">
+        <type></type>
+        <name>TeComponent</name>
+        <enumvalue id="class_g_n_common_1_1_g_tc_alert_1aec0a7908321c01ae225df4908d7f3fa0ab675dd902eb07ebb108c78de28abfc00" prot="public">
+          <name>XeComponentNone</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Enumerated Component: None </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_g_n_common_1_1_g_tc_alert_1aec0a7908321c01ae225df4908d7f3fa0a03e5a94b7c7c39ffa6b7461800a2fa7a" prot="public">
+          <name>XeComponentServer</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Enumerated Component: Server </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_g_n_common_1_1_g_tc_alert_1aec0a7908321c01ae225df4908d7f3fa0a6966d846ba577a7db9225222b7b57235" prot="public">
+          <name>XeComponentSensor</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Enumerated Component: Sensor </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="34" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.h" bodystart="33" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_g_n_common_1_1_g_tc_alert_1a2deb7f82fcf5d88b4e10d74fa6c28cb7" prot="public" static="no" strong="no">
+        <type></type>
+        <name>TeGroup</name>
+        <enumvalue id="class_g_n_common_1_1_g_tc_alert_1a2deb7f82fcf5d88b4e10d74fa6c28cb7a8c11493234d6ebc2d5654bbbc738be92" prot="public">
+          <name>XeGroupNone</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Enumerated Group: None </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_g_n_common_1_1_g_tc_alert_1a2deb7f82fcf5d88b4e10d74fa6c28cb7a51d90a061a469018e2d235d5919a3ab9" prot="public">
+          <name>XeGroupNetwork</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Enumerated Group: Network </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="44" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.h" bodystart="43" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_g_n_common_1_1_g_tc_alert_1a17e549148a2f549495b0e8567f546e81" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1ae5485474bc8f23e462e920a17b377b53" kindref="member">GTu32</ref></type>
+        <definition>const GTu32 GNCommon::GTcAlert::XuiSizeOfIdentifier</definition>
+        <argsstring></argsstring>
+        <name>XuiSizeOfIdentifier</name>
+        <initializer>= sizeof( <ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier" kindref="compound">TsIdentifier</ref> )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of <ref refid="struct_identifier" kindref="compound">Identifier</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="75" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_g_tc_alert_1a8d30391ac04c117ef5e25b9a0fa693e5" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1ae5485474bc8f23e462e920a17b377b53" kindref="member">GTu32</ref></type>
+        <definition>const GTu32 GNCommon::GTcAlert::XuiSizeOfStatus</definition>
+        <argsstring></argsstring>
+        <name>XuiSizeOfStatus</name>
+        <initializer>= sizeof( <ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status" kindref="compound">TsStatus</ref>     )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of <ref refid="struct_status" kindref="compound">Status</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="76" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" prot="protected" static="no" mutable="no">
+        <type><ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier" kindref="compound">TsIdentifier</ref></type>
+        <definition>TsIdentifier GNCommon::GTcAlert::voID</definition>
+        <argsstring></argsstring>
+        <name>voID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Encoded <ref refid="struct_identifier" kindref="compound">Identifier</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="79" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.h" bodystart="79" bodyend="-1"/>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1ab4874dff7fccf2444439e7e5e4304125" compoundref="_alert_8cpp" startline="8" endline="26">GTcAlert</referencedby>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1aba9a3373bd29884b049dfc525f655e5c" compoundref="_alert_8cpp" startline="42" endline="62">operator=</referencedby>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1acbb3761e5ca1af6896c20933be06255f" compoundref="_alert_8cpp" startline="76" endline="82">MSetIdentifier</referencedby>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1a0baa69459d87c780b3bad22883f29dec" compoundref="_alert_8cpp" startline="115" endline="118">MGetIdentifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" prot="protected" static="no" mutable="no">
+        <type><ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status" kindref="compound">TsStatus</ref></type>
+        <definition>TsStatus GNCommon::GTcAlert::voStatus</definition>
+        <argsstring></argsstring>
+        <name>voStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Encoded <ref refid="struct_status" kindref="compound">Status</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="80" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.h" bodystart="80" bodyend="-1"/>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1ab4874dff7fccf2444439e7e5e4304125" compoundref="_alert_8cpp" startline="8" endline="26">GTcAlert</referencedby>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1aba9a3373bd29884b049dfc525f655e5c" compoundref="_alert_8cpp" startline="42" endline="62">operator=</referencedby>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1a6e5a7e686b2e78573337c18a49f8d421" compoundref="_alert_8cpp" startline="88" endline="91">MSetStatus</referencedby>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1a8f37913185860432ccdd65dea58ffe37" compoundref="_alert_8cpp" startline="124" endline="127">MGetStatus</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_g_tc_alert_1acc753824948e4d169e7af7083ced87a0" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespace_g_n_common_1a01e8527dabf7ab4f123156b0701945eb" kindref="member">GTu64</ref></type>
+        <definition>GTu64 GNCommon::GTcAlert::vulTimestamp</definition>
+        <argsstring></argsstring>
+        <name>vulTimestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>64-bit Timestamp of Occurrence </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="81" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.h" bodystart="81" bodyend="-1"/>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1ab4874dff7fccf2444439e7e5e4304125" compoundref="_alert_8cpp" startline="8" endline="26">GTcAlert</referencedby>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1aba9a3373bd29884b049dfc525f655e5c" compoundref="_alert_8cpp" startline="42" endline="62">operator=</referencedby>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1aca52809ad95713c5ad550cf5d1fc51fa" compoundref="_alert_8cpp" startline="97" endline="100">MSetTimestamp</referencedby>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1ae00bea560ef82ed36c4b741d92bd27e6" compoundref="_alert_8cpp" startline="133" endline="136">MGetTimestamp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_g_tc_alert_1a125041e4424d1f43c332e980a5f2aaa2" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespace_g_n_common_1a01e8527dabf7ab4f123156b0701945eb" kindref="member">GTu64</ref></type>
+        <definition>GTu64 GNCommon::GTcAlert::vulData</definition>
+        <argsstring></argsstring>
+        <name>vulData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>64-bit Additional Data </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="82" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.h" bodystart="82" bodyend="-1"/>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1ab4874dff7fccf2444439e7e5e4304125" compoundref="_alert_8cpp" startline="8" endline="26">GTcAlert</referencedby>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1aba9a3373bd29884b049dfc525f655e5c" compoundref="_alert_8cpp" startline="42" endline="62">operator=</referencedby>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1a04f768514f3e12f95e3a6887b02c0576" compoundref="_alert_8cpp" startline="106" endline="109">MSetData</referencedby>
+        <referencedby refid="class_g_n_common_1_1_g_tc_alert_1a9e582dccb2205b74923c5d93d787811e" compoundref="_alert_8cpp" startline="142" endline="145">MGetTrigger</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_n_common_1_1_g_tc_alert_1ab4874dff7fccf2444439e7e5e4304125" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GTcAlert::GTcAlert</definition>
+        <argsstring>(void)</argsstring>
+        <name>GTcAlert</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default Constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="85" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.cpp" bodystart="8" bodyend="26"/>
+        <references refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" compoundref="_alert_8h" startline="79">voID</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1a83bb4d784e9f8d772b79a2faab4c279c" compoundref="_alert_8h" startline="54">GNCommon::GTcAlert::TsIdentifier::vuiIndex</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1af23bb4b61df8abb45a4a77162a91e980" compoundref="_alert_8h" startline="55">GNCommon::GTcAlert::TsIdentifier::veGroup</references>
+        <references refid="class_g_n_common_1_1_g_tc_alert_1a2deb7f82fcf5d88b4e10d74fa6c28cb7a8c11493234d6ebc2d5654bbbc738be92" compoundref="_alert_8h" startline="45">XeGroupNone</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1ac500c0db17c543fec720ef745966a53b" compoundref="_alert_8h" startline="56">GNCommon::GTcAlert::TsIdentifier::veCompDet</references>
+        <references refid="class_g_n_common_1_1_g_tc_alert_1aec0a7908321c01ae225df4908d7f3fa0ab675dd902eb07ebb108c78de28abfc00" compoundref="_alert_8h" startline="35">XeComponentNone</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1a410931b980bb13ee9eeece7f69c576b1" compoundref="_alert_8h" startline="57">GNCommon::GTcAlert::TsIdentifier::veCompGen</references>
+        <references refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" compoundref="_alert_8h" startline="80">voStatus</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1aa206fc59cb92b2cfeb34c5074b4abfe4" compoundref="_alert_8h" startline="65">GNCommon::GTcAlert::TsStatus::vuiActive</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1a5b40a0ae7eb67bf0348bddeebf858781" compoundref="_alert_8h" startline="66">GNCommon::GTcAlert::TsStatus::vuiAcknowledged</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1afb7934e444fdf241fd10a95a9888536d" compoundref="_alert_8h" startline="67">GNCommon::GTcAlert::TsStatus::vuiCleared</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1ae6313a5a599b864766e2fc003051369b" compoundref="_alert_8h" startline="68">GNCommon::GTcAlert::TsStatus::vuiTrigger</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1a75cbc54d7ee85cf6b2a199909727c63a" compoundref="_alert_8h" startline="69">GNCommon::GTcAlert::TsStatus::vuiSpare1</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1a5111d4b6b076f35d3877ea913fb48b2c" compoundref="_alert_8h" startline="70">GNCommon::GTcAlert::TsStatus::veLevel</references>
+        <references refid="class_g_n_common_1_1_g_tc_alert_1a9ef9363f62aae79a7323005ab126507eae3bf0642bc4457afb752f6f41a507d86" compoundref="_alert_8h" startline="24">XeLevelNone</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1af954bf8fbb9e2de3ee236fbd8cd7fe24" compoundref="_alert_8h" startline="71">GNCommon::GTcAlert::TsStatus::vuiSpare2</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1ae0e02db40ef3f2a360ce4345400ab7c6" compoundref="_alert_8h" startline="72">GNCommon::GTcAlert::TsStatus::vuiChildren</references>
+        <references refid="class_g_n_common_1_1_g_tc_alert_1acc753824948e4d169e7af7083ced87a0" compoundref="_alert_8h" startline="81">vulTimestamp</references>
+        <references refid="class_g_n_common_1_1_g_tc_alert_1a125041e4424d1f43c332e980a5f2aaa2" compoundref="_alert_8h" startline="82">vulData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_tc_alert_1a90f33fbcc71ed945ab1a0dee83bd3ccc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GTcAlert::GTcAlert</definition>
+        <argsstring>(const GTcAlert &amp;aorAlert)</argsstring>
+        <name>GTcAlert</name>
+        <param>
+          <type>const <ref refid="class_g_n_common_1_1_g_tc_alert" kindref="compound">GTcAlert</ref> &amp;</type>
+          <declname>aorAlert</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Copy Constructor <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aorAlert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Alert Constant Reference to copy </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="86" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.cpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_tc_alert_1aba9a3373bd29884b049dfc525f655e5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_g_n_common_1_1_g_tc_alert" kindref="compound">GTcAlert</ref> &amp;</type>
+        <definition>GTcAlert &amp; GTcAlert::operator=</definition>
+        <argsstring>(const GTcAlert &amp;aorAlert)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_g_n_common_1_1_g_tc_alert" kindref="compound">GTcAlert</ref> &amp;</type>
+          <declname>aorAlert</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>operator= Override <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aorAlert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Alert Constant Reference to copy </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>*this <ref refid="class_g_n_common_1_1_g_tc_alert" kindref="compound">GTcAlert</ref> Reference </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="87" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.cpp" bodystart="42" bodyend="62"/>
+        <references refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" compoundref="_alert_8h" startline="79">voID</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1a83bb4d784e9f8d772b79a2faab4c279c" compoundref="_alert_8h" startline="54">GNCommon::GTcAlert::TsIdentifier::vuiIndex</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1af23bb4b61df8abb45a4a77162a91e980" compoundref="_alert_8h" startline="55">GNCommon::GTcAlert::TsIdentifier::veGroup</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1ac500c0db17c543fec720ef745966a53b" compoundref="_alert_8h" startline="56">GNCommon::GTcAlert::TsIdentifier::veCompDet</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1a410931b980bb13ee9eeece7f69c576b1" compoundref="_alert_8h" startline="57">GNCommon::GTcAlert::TsIdentifier::veCompGen</references>
+        <references refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" compoundref="_alert_8h" startline="80">voStatus</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1aa206fc59cb92b2cfeb34c5074b4abfe4" compoundref="_alert_8h" startline="65">GNCommon::GTcAlert::TsStatus::vuiActive</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1a5b40a0ae7eb67bf0348bddeebf858781" compoundref="_alert_8h" startline="66">GNCommon::GTcAlert::TsStatus::vuiAcknowledged</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1afb7934e444fdf241fd10a95a9888536d" compoundref="_alert_8h" startline="67">GNCommon::GTcAlert::TsStatus::vuiCleared</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1ae6313a5a599b864766e2fc003051369b" compoundref="_alert_8h" startline="68">GNCommon::GTcAlert::TsStatus::vuiTrigger</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1a75cbc54d7ee85cf6b2a199909727c63a" compoundref="_alert_8h" startline="69">GNCommon::GTcAlert::TsStatus::vuiSpare1</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1a5111d4b6b076f35d3877ea913fb48b2c" compoundref="_alert_8h" startline="70">GNCommon::GTcAlert::TsStatus::veLevel</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1af954bf8fbb9e2de3ee236fbd8cd7fe24" compoundref="_alert_8h" startline="71">GNCommon::GTcAlert::TsStatus::vuiSpare2</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1ae0e02db40ef3f2a360ce4345400ab7c6" compoundref="_alert_8h" startline="72">GNCommon::GTcAlert::TsStatus::vuiChildren</references>
+        <references refid="class_g_n_common_1_1_g_tc_alert_1acc753824948e4d169e7af7083ced87a0" compoundref="_alert_8h" startline="81">vulTimestamp</references>
+        <references refid="class_g_n_common_1_1_g_tc_alert_1a125041e4424d1f43c332e980a5f2aaa2" compoundref="_alert_8h" startline="82">vulData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_tc_alert_1ad222cd054ec90b1aa8bf6e58e09d608b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GTcAlert::~GTcAlert</definition>
+        <argsstring>(void)</argsstring>
+        <name>~GTcAlert</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default Destructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="88" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.cpp" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_tc_alert_1acbb3761e5ca1af6896c20933be06255f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GTcAlert::MSetIdentifier</definition>
+        <argsstring>(const TsIdentifier &amp;aorID)</argsstring>
+        <name>MSetIdentifier</name>
+        <param>
+          <type>const <ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier" kindref="compound">TsIdentifier</ref> &amp;</type>
+          <declname>aorID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MSetIdentifier <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aorID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="struct_identifier" kindref="compound">Identifier</ref> Structure Constant Reference </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="90" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.cpp" bodystart="76" bodyend="82"/>
+        <references refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" compoundref="_alert_8h" startline="79">voID</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1a83bb4d784e9f8d772b79a2faab4c279c" compoundref="_alert_8h" startline="54">GNCommon::GTcAlert::TsIdentifier::vuiIndex</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1af23bb4b61df8abb45a4a77162a91e980" compoundref="_alert_8h" startline="55">GNCommon::GTcAlert::TsIdentifier::veGroup</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1ac500c0db17c543fec720ef745966a53b" compoundref="_alert_8h" startline="56">GNCommon::GTcAlert::TsIdentifier::veCompDet</references>
+        <references refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1a410931b980bb13ee9eeece7f69c576b1" compoundref="_alert_8h" startline="57">GNCommon::GTcAlert::TsIdentifier::veCompGen</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_tc_alert_1a6e5a7e686b2e78573337c18a49f8d421" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GTcAlert::MSetStatus</definition>
+        <argsstring>(const TsStatus &amp;aorStatus)</argsstring>
+        <name>MSetStatus</name>
+        <param>
+          <type>const <ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status" kindref="compound">TsStatus</ref> &amp;</type>
+          <declname>aorStatus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MSetStatus <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aorStatus</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="struct_status" kindref="compound">Status</ref> Structure Constant Reference </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="91" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.cpp" bodystart="88" bodyend="91"/>
+        <references refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" compoundref="_alert_8h" startline="80">voStatus</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_tc_alert_1aca52809ad95713c5ad550cf5d1fc51fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GTcAlert::MSetTimestamp</definition>
+        <argsstring>(const GTu64 aulTimestamp)</argsstring>
+        <name>MSetTimestamp</name>
+        <param>
+          <type>const <ref refid="namespace_g_n_common_1a01e8527dabf7ab4f123156b0701945eb" kindref="member">GTu64</ref></type>
+          <declname>aulTimestamp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MSetTimeStamp <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aulTimestamp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>constant 64-bit Integer Timestamp </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="92" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.cpp" bodystart="97" bodyend="100"/>
+        <references refid="class_g_n_common_1_1_g_tc_alert_1acc753824948e4d169e7af7083ced87a0" compoundref="_alert_8h" startline="81">vulTimestamp</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_tc_alert_1a04f768514f3e12f95e3a6887b02c0576" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GTcAlert::MSetData</definition>
+        <argsstring>(const GTu64 aulTrigger)</argsstring>
+        <name>MSetData</name>
+        <param>
+          <type>const <ref refid="namespace_g_n_common_1a01e8527dabf7ab4f123156b0701945eb" kindref="member">GTu64</ref></type>
+          <declname>aulTrigger</declname>
+          <defname>aulData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MSetData <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aulData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>constant 64-bit Integer Data </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="93" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.cpp" bodystart="106" bodyend="109"/>
+        <references refid="class_g_n_common_1_1_g_tc_alert_1a125041e4424d1f43c332e980a5f2aaa2" compoundref="_alert_8h" startline="82">vulData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_tc_alert_1a0baa69459d87c780b3bad22883f29dec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier" kindref="compound">TsIdentifier</ref></type>
+        <definition>GTcAlert::TsIdentifier GTcAlert::MGetIdentifier</definition>
+        <argsstring>(void) const</argsstring>
+        <name>MGetIdentifier</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MGetIdentifier <simplesect kind="return"><para>this-&gt;voID constant <ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier" kindref="compound">TsIdentifier</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="95" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.cpp" bodystart="115" bodyend="118"/>
+        <references refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" compoundref="_alert_8h" startline="79">voID</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_tc_alert_1a8f37913185860432ccdd65dea58ffe37" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status" kindref="compound">TsStatus</ref></type>
+        <definition>GTcAlert::TsStatus GTcAlert::MGetStatus</definition>
+        <argsstring>(void) const</argsstring>
+        <name>MGetStatus</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MGetStatus <simplesect kind="return"><para>this-&gt;voStatus constant <ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status" kindref="compound">TsStatus</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="96" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.cpp" bodystart="124" bodyend="127"/>
+        <references refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" compoundref="_alert_8h" startline="80">voStatus</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_tc_alert_1ae00bea560ef82ed36c4b741d92bd27e6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a01e8527dabf7ab4f123156b0701945eb" kindref="member">GTu64</ref></type>
+        <definition>GTu64 GTcAlert::MGetTimestamp</definition>
+        <argsstring>(void) const</argsstring>
+        <name>MGetTimestamp</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MGetTimestamp <simplesect kind="return"><para>this-&gt;vulTimestamp constant 64-bit Integer Timestamp </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="97" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.cpp" bodystart="133" bodyend="136"/>
+        <references refid="class_g_n_common_1_1_g_tc_alert_1acc753824948e4d169e7af7083ced87a0" compoundref="_alert_8h" startline="81">vulTimestamp</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_tc_alert_1a9e582dccb2205b74923c5d93d787811e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a01e8527dabf7ab4f123156b0701945eb" kindref="member">GTu64</ref></type>
+        <definition>GTu64 GTcAlert::MGetTrigger</definition>
+        <argsstring>(void) const</argsstring>
+        <name>MGetTrigger</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MGetTrigger <simplesect kind="return"><para>this-&gt;vulData constant 64-bit Integer Data </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="98" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.cpp" bodystart="142" bodyend="145"/>
+        <references refid="class_g_n_common_1_1_g_tc_alert_1a125041e4424d1f43c332e980a5f2aaa2" compoundref="_alert_8h" startline="82">vulData</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Alert Class </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="13">
+        <label>GNCommon::GTcAlert</label>
+        <link refid="class_g_n_common_1_1_g_tc_alert"/>
+        <childnode refid="14" relation="usage">
+          <edgelabel>voID</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>voStatus</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>GNCommon::GTcAlert::TsStatus</label>
+        <link refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status"/>
+      </node>
+      <node id="14">
+        <label>GNCommon::GTcAlert::TsIdentifier</label>
+        <link refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.h" line="17" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Alert.h" bodystart="16" bodyend="99"/>
+    <listofallmembers>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1ab4874dff7fccf2444439e7e5e4304125" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>GTcAlert</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1a90f33fbcc71ed945ab1a0dee83bd3ccc" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>GTcAlert</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1a0baa69459d87c780b3bad22883f29dec" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>MGetIdentifier</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1a8f37913185860432ccdd65dea58ffe37" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>MGetStatus</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1ae00bea560ef82ed36c4b741d92bd27e6" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>MGetTimestamp</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1a9e582dccb2205b74923c5d93d787811e" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>MGetTrigger</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1a04f768514f3e12f95e3a6887b02c0576" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>MSetData</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1acbb3761e5ca1af6896c20933be06255f" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>MSetIdentifier</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1a6e5a7e686b2e78573337c18a49f8d421" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>MSetStatus</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1aca52809ad95713c5ad550cf5d1fc51fa" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>MSetTimestamp</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1aba9a3373bd29884b049dfc525f655e5c" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>operator=</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1aec0a7908321c01ae225df4908d7f3fa0" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>TeComponent</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1a2deb7f82fcf5d88b4e10d74fa6c28cb7" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>TeGroup</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1a9ef9363f62aae79a7323005ab126507e" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>TeLevel</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" prot="protected" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>voID</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" prot="protected" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>voStatus</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1a125041e4424d1f43c332e980a5f2aaa2" prot="protected" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>vulData</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1acc753824948e4d169e7af7083ced87a0" prot="protected" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>vulTimestamp</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1aec0a7908321c01ae225df4908d7f3fa0ab675dd902eb07ebb108c78de28abfc00" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>XeComponentNone</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1aec0a7908321c01ae225df4908d7f3fa0a6966d846ba577a7db9225222b7b57235" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>XeComponentSensor</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1aec0a7908321c01ae225df4908d7f3fa0a03e5a94b7c7c39ffa6b7461800a2fa7a" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>XeComponentServer</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1a2deb7f82fcf5d88b4e10d74fa6c28cb7a51d90a061a469018e2d235d5919a3ab9" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>XeGroupNetwork</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1a2deb7f82fcf5d88b4e10d74fa6c28cb7a8c11493234d6ebc2d5654bbbc738be92" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>XeGroupNone</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1a9ef9363f62aae79a7323005ab126507ea7a378abd7d3362d4e0677adb5af49bbf" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>XeLevelAlarm</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1a9ef9363f62aae79a7323005ab126507eae3bf0642bc4457afb752f6f41a507d86" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>XeLevelNone</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1a9ef9363f62aae79a7323005ab126507eacebd57948648fe7897a9f0e5bb091b31" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>XeLevelNotice</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1a9ef9363f62aae79a7323005ab126507eaf9a9623077a914bb1b9fc28183670765" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>XeLevelWarning</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1a17e549148a2f549495b0e8567f546e81" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>XuiSizeOfIdentifier</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1a8d30391ac04c117ef5e25b9a0fa693e5" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>XuiSizeOfStatus</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_alert_1ad222cd054ec90b1aa8bf6e58e09d608b" prot="public" virt="non-virtual"><scope>GNCommon::GTcAlert</scope><name>~GTcAlert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

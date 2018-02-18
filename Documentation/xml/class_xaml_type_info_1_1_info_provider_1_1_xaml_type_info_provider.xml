@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider" kind="class" language="C++" prot="public">
+    <compoundname>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1ab072bc20ff87c2638564e06cc5a192eb" prot="private" static="no" mutable="no">
+        <type>std::map&lt;::Platform::String^, ::Platform::WeakReference &gt;</type>
+        <definition>std::map&lt;::Platform::String^,::Platform::WeakReference &gt; XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::_xamlTypes</definition>
+        <argsstring></argsstring>
+        <name>_xamlTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="25" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a4c32ed0cc8ab75917e482125557f94b6" prot="private" static="no" mutable="no">
+        <type>std::map&lt;::Platform::String^, ::Windows::UI::Xaml::Markup::IXamlMember^&gt;</type>
+        <definition>std::map&lt;::Platform::String^,::Windows::UI::Xaml::Markup::IXamlMember^&gt; XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::_xamlMembers</definition>
+        <argsstring></argsstring>
+        <name>_xamlMembers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="26" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1af3ebf28b237c1e45de0df9426bee0619" prot="private" static="no" mutable="no">
+        <type>::Platform::Collections::Vector&lt;::Windows::UI::Xaml::Markup::IXamlMetadataProvider^&gt; ^</type>
+        <definition>Platform::Collections::Vector&lt;::Windows::UI::Xaml::Markup::IXamlMetadataProvider^&gt; XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::_otherProviders</definition>
+        <argsstring></argsstring>
+        <name>_otherProviders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="30" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a9b5e74bd1a4cbf19cd4df8d97d6e37e5" prot="private" static="no" mutable="no">
+        <type>property ::Platform::Collections::Vector&lt;::Windows::UI::Xaml::Markup::IXamlMetadataProvider^&gt; ^</type>
+        <definition>property::Platform::Collections::Vector&lt;::Windows::UI::Xaml::Markup::IXamlMetadataProvider^&gt; XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::OtherProviders</definition>
+        <argsstring></argsstring>
+        <name>OtherProviders</name>
+        <initializer>{
+                ::Platform::Collections::Vector&lt;::Windows::UI::Xaml::Markup::IXamlMetadataProvider^&gt;^ get()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="31" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a884b800e91fa2666bc4154420eefccf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Windows::UI::Xaml::Markup::IXamlType ^</type>
+        <definition>Windows::UI::Xaml::Markup::IXamlType XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::GetXamlTypeByName</definition>
+        <argsstring>(::Platform::String^ typeName)</argsstring>
+        <name>GetXamlTypeByName</name>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>typeName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="19" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.Impl.g.cpp" bodystart="34" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a61a7092d4197201ffb0904659c1ea89a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Windows::UI::Xaml::Markup::IXamlType ^</type>
+        <definition>Windows::UI::Xaml::Markup::IXamlType XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::GetXamlTypeByType</definition>
+        <argsstring>(::Windows::UI::Xaml::Interop::TypeName t)</argsstring>
+        <name>GetXamlTypeByType</name>
+        <param>
+          <type>::Windows::UI::Xaml::Interop::TypeName</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="20" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.Impl.g.cpp" bodystart="16" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1af84a49d4e30e1ed575cc8b2ac9c47e54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Windows::UI::Xaml::Markup::IXamlMember ^</type>
+        <definition>Windows::UI::Xaml::Markup::IXamlMember XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::GetMemberByLongName</definition>
+        <argsstring>(::Platform::String^ longMemberName)</argsstring>
+        <name>GetMemberByLongName</name>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>longMemberName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="21" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.Impl.g.cpp" bodystart="75" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a9b6eea2111a9c404fc281b94389c5b87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::AddOtherProvider</definition>
+        <argsstring>(::Windows::UI::Xaml::Markup::IXamlMetadataProvider^ otherProvider)</argsstring>
+        <name>AddOtherProvider</name>
+        <param>
+          <type>::Windows::UI::Xaml::Markup::IXamlMetadataProvider^</type>
+          <declname>otherProvider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a37556c5ef8fae3ce58b97c95b06c0ea9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Windows::UI::Xaml::Markup::IXamlType ^</type>
+        <definition>::Windows::UI::Xaml::Markup::IXamlType ^ XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::GetXamlTypeByName</definition>
+        <argsstring>(::Platform::String^ typeName)</argsstring>
+        <name>GetXamlTypeByName</name>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>typeName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1abd06d7d1579ab8549518aecfdaee2993" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Windows::UI::Xaml::Markup::IXamlType ^</type>
+        <definition>::Windows::UI::Xaml::Markup::IXamlType ^ XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::GetXamlTypeByType</definition>
+        <argsstring>(::Windows::UI::Xaml::Interop::TypeName t)</argsstring>
+        <name>GetXamlTypeByType</name>
+        <param>
+          <type>::Windows::UI::Xaml::Interop::TypeName</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a340eaef5dc634cc6ea25f4b40c723c3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Windows::UI::Xaml::Markup::IXamlMember ^</type>
+        <definition>::Windows::UI::Xaml::Markup::IXamlMember ^ XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::GetMemberByLongName</definition>
+        <argsstring>(::Platform::String^ longMemberName)</argsstring>
+        <name>GetMemberByLongName</name>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>longMemberName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a9b6eea2111a9c404fc281b94389c5b87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::AddOtherProvider</definition>
+        <argsstring>(::Windows::UI::Xaml::Markup::IXamlMetadataProvider^ otherProvider)</argsstring>
+        <name>AddOtherProvider</name>
+        <param>
+          <type>::Windows::UI::Xaml::Markup::IXamlMetadataProvider^</type>
+          <declname>otherProvider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="22" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1aba764f6e46e1b83234b9b7054b070b3b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Windows::UI::Xaml::Markup::IXamlType ^</type>
+        <definition>Windows::UI::Xaml::Markup::IXamlType XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::CreateXamlType</definition>
+        <argsstring>(::Platform::String^ typeName)</argsstring>
+        <name>CreateXamlType</name>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>typeName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="27" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" bodystart="155" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1ac0bbd2dd2507356ae2cc69b6c7319b1a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Windows::UI::Xaml::Markup::IXamlMember ^</type>
+        <definition>Windows::UI::Xaml::Markup::IXamlMember XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::CreateXamlMember</definition>
+        <argsstring>(::Platform::String^ longMemberName)</argsstring>
+        <name>CreateXamlMember</name>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>longMemberName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="28" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp" bodystart="186" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a374bfa72f2939add5b95918d8711a420" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Windows::UI::Xaml::Markup::IXamlType ^</type>
+        <definition>Windows::UI::Xaml::Markup::IXamlType XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::CheckOtherMetadataProvidersForName</definition>
+        <argsstring>(::Platform::String^ typeName)</argsstring>
+        <name>CheckOtherMetadataProvidersForName</name>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>typeName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="36" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.Impl.g.cpp" bodystart="98" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1ae05569c30e68bce453f8a5033e845285" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Windows::UI::Xaml::Markup::IXamlType ^</type>
+        <definition>Windows::UI::Xaml::Markup::IXamlType XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::CheckOtherMetadataProvidersForType</definition>
+        <argsstring>(::Windows::UI::Xaml::Interop::TypeName t)</argsstring>
+        <name>CheckOtherMetadataProvidersForType</name>
+        <param>
+          <type>::Windows::UI::Xaml::Interop::TypeName</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="37" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.Impl.g.cpp" bodystart="116" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1ab8b42bc4d9ac9b9eb79541b805da5592" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Windows::UI::Xaml::Markup::IXamlType ^</type>
+        <definition>::Windows::UI::Xaml::Markup::IXamlType ^ XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::CreateXamlType</definition>
+        <argsstring>(::Platform::String^ typeName)</argsstring>
+        <name>CreateXamlType</name>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>typeName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a44c72ef803340c8553796324b720e7e8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Windows::UI::Xaml::Markup::IXamlMember ^</type>
+        <definition>::Windows::UI::Xaml::Markup::IXamlMember ^ XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::CreateXamlMember</definition>
+        <argsstring>(::Platform::String^ longMemberName)</argsstring>
+        <name>CreateXamlMember</name>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>longMemberName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a397b8a917f2940467920bfd090c3452a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Windows::UI::Xaml::Markup::IXamlType ^</type>
+        <definition>::Windows::UI::Xaml::Markup::IXamlType ^ XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::CheckOtherMetadataProvidersForName</definition>
+        <argsstring>(::Platform::String^ typeName)</argsstring>
+        <name>CheckOtherMetadataProvidersForName</name>
+        <param>
+          <type>::Platform::String^</type>
+          <declname>typeName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1aef11a3da168668dc268abba01a04eaa1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>::Windows::UI::Xaml::Markup::IXamlType ^</type>
+        <definition>::Windows::UI::Xaml::Markup::IXamlType ^ XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::CheckOtherMetadataProvidersForType</definition>
+        <argsstring>(::Windows::UI::Xaml::Interop::TypeName t)</argsstring>
+        <name>CheckOtherMetadataProvidersForType</name>
+        <param>
+          <type>::Windows::UI::Xaml::Interop::TypeName</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.h" line="37" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" line="17" column="1" bodyfile="C:/Projects/BergermeisterHome/Console/Generated Files/XamlTypeInfo.g.h" bodystart="16" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1af3ebf28b237c1e45de0df9426bee0619" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</scope><name>_otherProviders</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a4c32ed0cc8ab75917e482125557f94b6" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</scope><name>_xamlMembers</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1ab072bc20ff87c2638564e06cc5a192eb" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</scope><name>_xamlTypes</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a9b6eea2111a9c404fc281b94389c5b87" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</scope><name>AddOtherProvider</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a9b6eea2111a9c404fc281b94389c5b87" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</scope><name>AddOtherProvider</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a374bfa72f2939add5b95918d8711a420" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</scope><name>CheckOtherMetadataProvidersForName</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a397b8a917f2940467920bfd090c3452a" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</scope><name>CheckOtherMetadataProvidersForName</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1ae05569c30e68bce453f8a5033e845285" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</scope><name>CheckOtherMetadataProvidersForType</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1aef11a3da168668dc268abba01a04eaa1" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</scope><name>CheckOtherMetadataProvidersForType</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1ac0bbd2dd2507356ae2cc69b6c7319b1a" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</scope><name>CreateXamlMember</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a44c72ef803340c8553796324b720e7e8" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</scope><name>CreateXamlMember</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1aba764f6e46e1b83234b9b7054b070b3b" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</scope><name>CreateXamlType</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1ab8b42bc4d9ac9b9eb79541b805da5592" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</scope><name>CreateXamlType</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1af84a49d4e30e1ed575cc8b2ac9c47e54" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</scope><name>GetMemberByLongName</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a340eaef5dc634cc6ea25f4b40c723c3a" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</scope><name>GetMemberByLongName</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a884b800e91fa2666bc4154420eefccf2" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</scope><name>GetXamlTypeByName</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a37556c5ef8fae3ce58b97c95b06c0ea9" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</scope><name>GetXamlTypeByName</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a61a7092d4197201ffb0904659c1ea89a" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</scope><name>GetXamlTypeByType</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1abd06d7d1579ab8549518aecfdaee2993" prot="public" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</scope><name>GetXamlTypeByType</name></member>
+      <member refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider_1a9b5e74bd1a4cbf19cd4df8d97d6e37e5" prot="private" virt="non-virtual"><scope>XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</scope><name>OtherProviders</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

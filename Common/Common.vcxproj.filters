@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{1e472414-65d4-453d-b36b-212e22e24027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Containers">
+      <UniqueIdentifier>{7a1faa48-91f3-4fc9-86fe-28767bf9156a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Component">
+      <UniqueIdentifier>{89dfb830-2351-422e-8fc4-68208c7dc21e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source\Notification">
+      <UniqueIdentifier>{a73e95d9-3aa1-4e99-ac00-5311a9eecb80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Constants.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Types.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Containers\ListNode.h">
+      <Filter>Source\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Containers\Queue.h">
+      <Filter>Source\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Containers\LinkedList.h">
+      <Filter>Source\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StopWatch.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Component\Event.h">
+      <Filter>Source\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Component\Listener.h">
+      <Filter>Source\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Component\Model.h">
+      <Filter>Source\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Containers\List.h">
+      <Filter>Source\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\pch.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TargetVersion.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Export.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Notification\Alert.h">
+      <Filter>Source\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Notification\ComponentId.h">
+      <Filter>Source\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Notification\Criticality.h">
+      <Filter>Source\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Notification\GroupId.h">
+      <Filter>Source\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Notification\Identifier.h">
+      <Filter>Source\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Notification\Status.h">
+      <Filter>Source\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Notification\EventId.h">
+      <Filter>Source\Notification</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\StopWatch.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Component\Listener.cpp">
+      <Filter>Source\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Component\Model.cpp">
+      <Filter>Source\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\pch.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Notification\Alert.cpp">
+      <Filter>Source\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Notification\ComponentId.cpp">
+      <Filter>Source\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Notification\Criticality.cpp">
+      <Filter>Source\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Notification\GroupId.cpp">
+      <Filter>Source\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Notification\Identifier.cpp">
+      <Filter>Source\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Notification\Status.cpp">
+      <Filter>Source\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Notification\EventId.cpp">
+      <Filter>Source\Notification</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

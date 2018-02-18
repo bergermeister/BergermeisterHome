@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_g_n_common_1_1_g_n_component_1_1_g_tc_model" kind="class" language="C++" prot="public">
+    <compoundname>GNCommon::GNComponent::GTcModel</compoundname>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="class_g_n_common_1_1_g_n_component_1_1_g_tc_model_1abb113bb12f6c3a8d97f0ced3904c408d" prot="protected" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1ae5485474bc8f23e462e920a17b377b53" kindref="member">GTu32</ref></type>
+        <definition>const GTu32 GNCommon::GNComponent::GTcModel::xuiMaxListeners</definition>
+        <argsstring></argsstring>
+        <name>xuiMaxListeners</name>
+        <initializer>= 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Component/Model.h" line="10" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Component/Model.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_g_n_common_1_1_g_n_component_1_1_g_tc_model_1a8409e444177e68c91f5d8d6ece61a881" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_event" kindref="compound">GTcEvent</ref>&lt; xuiMaxListeners &gt;</type>
+        <definition>GTcEvent&lt; xuiMaxListeners &gt; GNCommon::GNComponent::GTcModel::voEvent</definition>
+        <argsstring></argsstring>
+        <name>voEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Component/Model.h" line="13" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Component/Model.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_n_common_1_1_g_n_component_1_1_g_tc_model_1aa6a2ec284ab11679a8a79cf058c7060c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GTcModel::GTcModel</definition>
+        <argsstring>(void)</argsstring>
+        <name>GTcModel</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Component/Model.h" line="16" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Component/Model.cpp" bodystart="5" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_n_component_1_1_g_tc_model_1a54c29e1ce58480f722ea28f03b08ca26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GTcModel::~GTcModel</definition>
+        <argsstring>(void)</argsstring>
+        <name>~GTcModel</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Common/Source/Component/Model.h" line="17" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Component/Model.cpp" bodystart="10" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="36">
+        <label>GNCommon::GNComponent::GTcModel</label>
+        <link refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_model"/>
+        <childnode refid="37" relation="usage">
+          <edgelabel>voEvent</edgelabel>
+        </childnode>
+      </node>
+      <node id="39">
+        <label>GNCommon::GNComponent::GTcListener</label>
+        <link refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_listener"/>
+      </node>
+      <node id="37">
+        <label>GNCommon::GNComponent::GTcEvent&lt; xuiMaxListeners &gt;</label>
+        <link refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_event"/>
+        <childnode refid="38" relation="usage">
+          <edgelabel>voBuffer</edgelabel>
+        </childnode>
+        <childnode refid="40" relation="usage">
+          <edgelabel>voListeners</edgelabel>
+        </childnode>
+      </node>
+      <node id="38">
+        <label>GNCommon::GNContainers::GTcListNode&lt; GNCommon::GNComponent::GTcListener &gt;</label>
+        <link refid="class_g_n_common_1_1_g_n_containers_1_1_g_tc_list_node"/>
+        <childnode refid="38" relation="usage">
+          <edgelabel>vopPrev</edgelabel>
+          <edgelabel>vopNext</edgelabel>
+        </childnode>
+        <childnode refid="39" relation="usage">
+          <edgelabel>voObject</edgelabel>
+        </childnode>
+      </node>
+      <node id="40">
+        <label>GNCommon::GNContainers::GTcLinkedList&lt; GNCommon::GNComponent::GTcListener &gt;</label>
+        <link refid="class_g_n_common_1_1_g_n_containers_1_1_g_tc_linked_list"/>
+        <childnode refid="38" relation="usage">
+          <edgelabel>vopBuff</edgelabel>
+          <edgelabel>vopHead</edgelabel>
+          <edgelabel>vopTail</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Projects/BergermeisterHome/Common/Source/Component/Model.h" line="8" column="1" bodyfile="C:/Projects/BergermeisterHome/Common/Source/Component/Model.h" bodystart="7" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_model_1aa6a2ec284ab11679a8a79cf058c7060c" prot="public" virt="non-virtual"><scope>GNCommon::GNComponent::GTcModel</scope><name>GTcModel</name></member>
+      <member refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_model_1a8409e444177e68c91f5d8d6ece61a881" prot="protected" virt="non-virtual"><scope>GNCommon::GNComponent::GTcModel</scope><name>voEvent</name></member>
+      <member refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_model_1abb113bb12f6c3a8d97f0ced3904c408d" prot="protected" virt="non-virtual"><scope>GNCommon::GNComponent::GTcModel</scope><name>xuiMaxListeners</name></member>
+      <member refid="class_g_n_common_1_1_g_n_component_1_1_g_tc_model_1a54c29e1ce58480f722ea28f03b08ca26" prot="public" virt="non-virtual"><scope>GNCommon::GNComponent::GTcModel</scope><name>~GTcModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_app_8g_8hpp" kind="file" language="C++">
+    <compoundname>App.g.hpp</compoundname>
+    <includes local="yes">pch.h</includes>
+    <includes local="yes">App.xaml.h</includes>
+    <includedby refid="_xaml_type_info_8g_8cpp" local="yes">C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp</includedby>
+    <incdepgraph>
+      <node id="499">
+        <label>App.xaml.h</label>
+      </node>
+      <node id="497">
+        <label>C:/Projects/BergermeisterHome/Thermostat/Generated Files/App.g.hpp</label>
+        <link refid="_app_8g_8hpp"/>
+        <childnode refid="498" relation="include">
+        </childnode>
+        <childnode refid="499" relation="include">
+        </childnode>
+      </node>
+      <node id="498">
+        <label>pch.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="500">
+        <label>C:/Projects/BergermeisterHome/Thermostat/Generated Files/App.g.hpp</label>
+        <link refid="_app_8g_8hpp"/>
+        <childnode refid="501" relation="include">
+        </childnode>
+      </node>
+      <node id="501">
+        <label>C:/Projects/BergermeisterHome/Thermostat/Generated Files/XamlTypeInfo.g.cpp</label>
+        <link refid="_xaml_type_info_8g_8cpp_source"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_app_8g_8hpp_1a580a79ce6353f30e87e947dd9ed3a3b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int __cdecl</type>
+        <definition>int __cdecl main</definition>
+        <argsstring>(::Platform::Array&lt;::Platform::String^&gt;^ args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>::Platform::Array&lt;::Platform::String^&gt;^</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/App.g.hpp" line="85" column="1" bodyfile="C:/Projects/BergermeisterHome/Thermostat/Generated Files/App.g.hpp" bodystart="85" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>This<sp/>code<sp/>was<sp/>generated<sp/>by<sp/>a<sp/>tool.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>Changes<sp/>to<sp/>this<sp/>file<sp/>may<sp/>cause<sp/>incorrect<sp/>behavior<sp/>and<sp/>will<sp/>be<sp/>lost<sp/>if</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>the<sp/>code<sp/>is<sp/>regenerated.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pch.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;App.xaml.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined<sp/>_DEBUG<sp/>&amp;&amp;<sp/>!defined<sp/>DISABLE_XAML_GENERATED_BREAK_ON_UNHANDLED_EXCEPTION</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>__declspec(dllimport)<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>__stdcall<sp/>IsDebuggerPresent();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(defined(_M_IX86)<sp/>||<sp/>defined(_M_AMD64))<sp/>&amp;&amp;<sp/>!defined(_VSDESIGNER_DONT_LOAD_AS_DLL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_M_IX86)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>comment(linker,<sp/>&quot;/EXPORT:DllGetActivationFactory=_DllGetActivationFactory@8,PRIVATE&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>comment(linker,<sp/>&quot;/EXPORT:DllCanUnloadNow=_DllCanUnloadNow@0,PRIVATE&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>comment(linker,<sp/>&quot;/EXPORT:VSDesignerDllMain=_VSDesignerDllMain@12,PRIVATE&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>comment(linker,<sp/>&quot;/INCLUDE:___refMTAThread&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(_M_AMD64)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>comment(linker,<sp/>&quot;/EXPORT:DllGetActivationFactory=DllGetActivationFactory,PRIVATE&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>comment(linker,<sp/>&quot;/EXPORT:DllCanUnloadNow,PRIVATE&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>comment(linker,<sp/>&quot;/EXPORT:VSDesignerDllMain,PRIVATE&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>comment(linker,<sp/>&quot;/INCLUDE:__refMTAThread&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>__abi___threading_model;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>__stdcall<sp/>_DllMainCRTStartup(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>hinstDLL,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>fdwReason,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">**<sp/>lpvReserved);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>__stdcall<sp/>VSDesignerDllMain(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>hinstDLL,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>fdwReason,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">**<sp/>lpvReserved)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__abi___threading_model<sp/>=<sp/>_VCCORLIB_THREADING_MODEL_OVERRIDE;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_DllMainCRTStartup(hinstDLL,<sp/>fdwReason,<sp/>lpvReserved);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>(defined(_M_IX86)<sp/>||<sp/>defined(_M_AMD64))<sp/>&amp;&amp;<sp/>!defined(_VSDESIGNER_DONT_LOAD_AS_DLL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">void<sp/>::Thermostat::App::InitializeComponent()</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined<sp/>_DEBUG<sp/>&amp;&amp;<sp/>!defined<sp/>DISABLE_XAML_GENERATED_BREAK_ON_UNHANDLED_EXCEPTION</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>UnhandledException<sp/>+=<sp/>ref<sp/>new<sp/>::Windows::UI::Xaml::UnhandledExceptionEventHandler(</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[](::Platform::Object^<sp/>sender,<sp/>::Windows::UI::Xaml::UnhandledExceptionEventArgs^<sp/>e)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(void)sender;<sp/></highlight><highlight class="comment">//<sp/>Unused<sp/>parameter</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(IsDebuggerPresent())</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>::Platform::String^<sp/>errorMessage<sp/>=<sp/>e-&gt;Message;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__debugbreak();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">::Windows::UI::Xaml::Markup::IXamlType^<sp/>::Thermostat::App::GetXamlType(::Windows::UI::Xaml::Interop::TypeName<sp/>type)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_provider<sp/>==<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_provider<sp/>=<sp/>ref<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider" kindref="compound">XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</ref>();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_provider-&gt;GetXamlTypeByType(type);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">::Windows::UI::Xaml::Markup::IXamlType^<sp/>::Thermostat::App::GetXamlType(::Platform::String^<sp/>fullName)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_provider<sp/>==<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_provider<sp/>=<sp/>ref<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_xaml_type_info_1_1_info_provider_1_1_xaml_type_info_provider" kindref="compound">XamlTypeInfo::InfoProvider::XamlTypeInfoProvider</ref>();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_provider-&gt;GetXamlTypeByName(fullName);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">::Platform::Array&lt;::Windows::UI::Xaml::Markup::XmlnsDefinition&gt;^<sp/>::Thermostat::App::GetXmlnsDefinitions()</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ref<sp/>new<sp/>::Platform::Array&lt;::Windows::UI::Xaml::Markup::XmlnsDefinition&gt;(0);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>DISABLE_XAML_GENERATED_MAIN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>__cdecl<sp/>main(::Platform::Array&lt;::Platform::String^&gt;^<sp/>args)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>(void)args;<sp/></highlight><highlight class="comment">//<sp/>Unused<sp/>parameter</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>::Windows::UI::Xaml::Application::Start(ref<sp/>new<sp/>::Windows::UI::Xaml::ApplicationInitializationCallback(</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[](::Windows::UI::Xaml::ApplicationInitializationCallbackParams^<sp/>p)<sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(void)p;<sp/></highlight><highlight class="comment">//<sp/>Unused<sp/>parameter</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>app<sp/>=<sp/>ref<sp/>new<sp/>::Thermostat::App();</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}));</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Projects/BergermeisterHome/Thermostat/Generated Files/App.g.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_alert_8cpp" kind="file" language="C++">
+    <compoundname>Alert.cpp</compoundname>
+    <includes refid="_common_2_source_2pch_8h" local="yes">pch.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>windows.h</label>
+      </node>
+      <node id="10">
+        <label>Containers\ListNode.h</label>
+        <link refid="_list_node_8h_source"/>
+      </node>
+      <node id="12">
+        <label>Component\Listener.h</label>
+        <link refid="_listener_8h_source"/>
+      </node>
+      <node id="2">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="5">
+        <label>Constants.h</label>
+        <link refid="_constants_8h_source"/>
+      </node>
+      <node id="14">
+        <label>Component\Model.h</label>
+        <link refid="_model_8h_source"/>
+      </node>
+      <node id="1">
+        <label>pch.h</label>
+        <link refid="_common_2_source_2pch_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Types.h</label>
+        <link refid="_types_8h"/>
+      </node>
+      <node id="0">
+        <label>C:/Projects/BergermeisterHome/Common/Source/Alert.cpp</label>
+        <link refid="_alert_8cpp"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Containers\List.h</label>
+        <link refid="_list_8h_source"/>
+      </node>
+      <node id="13">
+        <label>Component\Event.h</label>
+        <link refid="_event_8h_source"/>
+      </node>
+      <node id="9">
+        <label>Containers\Queue.h</label>
+        <link refid="_queue_8h_source"/>
+      </node>
+      <node id="6">
+        <label>StopWatch.h</label>
+        <link refid="_stop_watch_8h_source"/>
+      </node>
+      <node id="7">
+        <label>Alert.h</label>
+        <link refid="_alert_8h"/>
+      </node>
+      <node id="11">
+        <label>Containers\LinkedList.h</label>
+        <link refid="_linked_list_8h_source"/>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;pch.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_g_n_common" kindref="compound">GNCommon</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_g_n_common_1_1_g_tc_alert_1ab4874dff7fccf2444439e7e5e4304125" refkind="member"><highlight class="normal"><ref refid="class_g_n_common_1_1_g_tc_alert_1ab4874dff7fccf2444439e7e5e4304125" kindref="member">GTcAlert::GTcAlert</ref>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" kindref="member">voID</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1a83bb4d784e9f8d772b79a2faab4c279c" kindref="member">vuiIndex</ref><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" kindref="member">voID</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1af23bb4b61df8abb45a4a77162a91e980" kindref="member">veGroup</ref><sp/><sp/><sp/>=<sp/><ref refid="class_g_n_common_1_1_g_tc_alert_1a2deb7f82fcf5d88b4e10d74fa6c28cb7a8c11493234d6ebc2d5654bbbc738be92" kindref="member">XeGroupNone</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" kindref="member">voID</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1ac500c0db17c543fec720ef745966a53b" kindref="member">veCompDet</ref><sp/>=<sp/><ref refid="class_g_n_common_1_1_g_tc_alert_1aec0a7908321c01ae225df4908d7f3fa0ab675dd902eb07ebb108c78de28abfc00" kindref="member">XeComponentNone</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" kindref="member">voID</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1a410931b980bb13ee9eeece7f69c576b1" kindref="member">veCompGen</ref><sp/>=<sp/><ref refid="class_g_n_common_1_1_g_tc_alert_1aec0a7908321c01ae225df4908d7f3fa0ab675dd902eb07ebb108c78de28abfc00" kindref="member">XeComponentNone</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1aa206fc59cb92b2cfeb34c5074b4abfe4" kindref="member">vuiActive</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1a5b40a0ae7eb67bf0348bddeebf858781" kindref="member">vuiAcknowledged</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1afb7934e444fdf241fd10a95a9888536d" kindref="member">vuiCleared</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1ae6313a5a599b864766e2fc003051369b" kindref="member">vuiTrigger</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1a75cbc54d7ee85cf6b2a199909727c63a" kindref="member">vuiSpare1</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1a5111d4b6b076f35d3877ea913fb48b2c" kindref="member">veLevel</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="class_g_n_common_1_1_g_tc_alert_1a9ef9363f62aae79a7323005ab126507eae3bf0642bc4457afb752f6f41a507d86" kindref="member">XeLevelNone</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1af954bf8fbb9e2de3ee236fbd8cd7fe24" kindref="member">vuiSpare2</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1ae0e02db40ef3f2a360ce4345400ab7c6" kindref="member">vuiChildren</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1acc753824948e4d169e7af7083ced87a0" kindref="member">vulTimestamp</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a125041e4424d1f43c332e980a5f2aaa2" kindref="member">vulData</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="class_g_n_common_1_1_g_tc_alert_1a90f33fbcc71ed945ab1a0dee83bd3ccc" refkind="member"><highlight class="normal"><ref refid="class_g_n_common_1_1_g_tc_alert_1ab4874dff7fccf2444439e7e5e4304125" kindref="member">GTcAlert::GTcAlert</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_g_tc_alert" kindref="compound">GTcAlert</ref>&amp;<sp/>aorAlert<sp/>)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>=<sp/>aorAlert;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="class_g_n_common_1_1_g_tc_alert_1aba9a3373bd29884b049dfc525f655e5c" refkind="member"><highlight class="normal"><ref refid="class_g_n_common_1_1_g_tc_alert" kindref="compound">GTcAlert</ref>&amp;<sp/><ref refid="class_g_n_common_1_1_g_tc_alert_1aba9a3373bd29884b049dfc525f655e5c" kindref="member">GTcAlert::operator=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_g_tc_alert" kindref="compound">GTcAlert</ref>&amp;<sp/>aorAlert<sp/>)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" kindref="member">voID</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1a83bb4d784e9f8d772b79a2faab4c279c" kindref="member">vuiIndex</ref><sp/><sp/>=<sp/>aorAlert.<ref refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" kindref="member">voID</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1a83bb4d784e9f8d772b79a2faab4c279c" kindref="member">vuiIndex</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" kindref="member">voID</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1af23bb4b61df8abb45a4a77162a91e980" kindref="member">veGroup</ref><sp/><sp/><sp/>=<sp/>aorAlert.<ref refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" kindref="member">voID</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1af23bb4b61df8abb45a4a77162a91e980" kindref="member">veGroup</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" kindref="member">voID</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1ac500c0db17c543fec720ef745966a53b" kindref="member">veCompDet</ref><sp/>=<sp/>aorAlert.<ref refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" kindref="member">voID</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1ac500c0db17c543fec720ef745966a53b" kindref="member">veCompDet</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" kindref="member">voID</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1a410931b980bb13ee9eeece7f69c576b1" kindref="member">veCompGen</ref><sp/>=<sp/>aorAlert.<ref refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" kindref="member">voID</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1a410931b980bb13ee9eeece7f69c576b1" kindref="member">veCompGen</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1aa206fc59cb92b2cfeb34c5074b4abfe4" kindref="member">vuiActive</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1aa206fc59cb92b2cfeb34c5074b4abfe4" kindref="member">vuiActive</ref>;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1a5b40a0ae7eb67bf0348bddeebf858781" kindref="member">vuiAcknowledged</ref><sp/>=<sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1a5b40a0ae7eb67bf0348bddeebf858781" kindref="member">vuiAcknowledged</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1afb7934e444fdf241fd10a95a9888536d" kindref="member">vuiCleared</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1afb7934e444fdf241fd10a95a9888536d" kindref="member">vuiCleared</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1ae6313a5a599b864766e2fc003051369b" kindref="member">vuiTrigger</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1ae6313a5a599b864766e2fc003051369b" kindref="member">vuiTrigger</ref>;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1a75cbc54d7ee85cf6b2a199909727c63a" kindref="member">vuiSpare1</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1a75cbc54d7ee85cf6b2a199909727c63a" kindref="member">vuiSpare1</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1a5111d4b6b076f35d3877ea913fb48b2c" kindref="member">veLevel</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1a5111d4b6b076f35d3877ea913fb48b2c" kindref="member">veLevel</ref>;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1af954bf8fbb9e2de3ee236fbd8cd7fe24" kindref="member">vuiSpare2</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1af954bf8fbb9e2de3ee236fbd8cd7fe24" kindref="member">vuiSpare2</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1ae0e02db40ef3f2a360ce4345400ab7c6" kindref="member">vuiChildren</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status_1ae0e02db40ef3f2a360ce4345400ab7c6" kindref="member">vuiChildren</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1acc753824948e4d169e7af7083ced87a0" kindref="member">vulTimestamp</ref><sp/>=<sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1acc753824948e4d169e7af7083ced87a0" kindref="member">vulTimestamp</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a125041e4424d1f43c332e980a5f2aaa2" kindref="member">vulData</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a125041e4424d1f43c332e980a5f2aaa2" kindref="member">vulData</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="class_g_n_common_1_1_g_tc_alert_1ad222cd054ec90b1aa8bf6e58e09d608b" refkind="member"><highlight class="normal"><ref refid="class_g_n_common_1_1_g_tc_alert_1ad222cd054ec90b1aa8bf6e58e09d608b" kindref="member">GTcAlert::~GTcAlert</ref>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Nothing<sp/>to<sp/>destruct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="class_g_n_common_1_1_g_tc_alert_1acbb3761e5ca1af6896c20933be06255f" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_g_tc_alert_1acbb3761e5ca1af6896c20933be06255f" kindref="member">GTcAlert::MSetIdentifier</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier" kindref="compound">TsIdentifier</ref>&amp;<sp/>aorID<sp/>)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" kindref="member">voID</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1a83bb4d784e9f8d772b79a2faab4c279c" kindref="member">vuiIndex</ref><sp/><sp/>=<sp/>aorID.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1a83bb4d784e9f8d772b79a2faab4c279c" kindref="member">vuiIndex</ref>;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" kindref="member">voID</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1af23bb4b61df8abb45a4a77162a91e980" kindref="member">veGroup</ref><sp/><sp/><sp/>=<sp/>aorID.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1af23bb4b61df8abb45a4a77162a91e980" kindref="member">veGroup</ref>;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" kindref="member">voID</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1ac500c0db17c543fec720ef745966a53b" kindref="member">veCompDet</ref><sp/>=<sp/>aorID.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1ac500c0db17c543fec720ef745966a53b" kindref="member">veCompDet</ref>;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" kindref="member">voID</ref>.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1a410931b980bb13ee9eeece7f69c576b1" kindref="member">veCompGen</ref><sp/>=<sp/>aorID.<ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier_1a410931b980bb13ee9eeece7f69c576b1" kindref="member">veCompGen</ref>;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="class_g_n_common_1_1_g_tc_alert_1a6e5a7e686b2e78573337c18a49f8d421" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_g_tc_alert_1a6e5a7e686b2e78573337c18a49f8d421" kindref="member">GTcAlert::MSetStatus</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status" kindref="compound">TsStatus</ref>&amp;<sp/>aorStatus<sp/>)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref><sp/>=<sp/>aorStatus;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="class_g_n_common_1_1_g_tc_alert_1aca52809ad95713c5ad550cf5d1fc51fa" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_g_tc_alert_1aca52809ad95713c5ad550cf5d1fc51fa" kindref="member">GTcAlert::MSetTimestamp</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespace_g_n_common_1a01e8527dabf7ab4f123156b0701945eb" kindref="member">GTu64</ref><sp/>aulTimestamp<sp/>)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1acc753824948e4d169e7af7083ced87a0" kindref="member">vulTimestamp</ref><sp/>=<sp/>aulTimestamp;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="class_g_n_common_1_1_g_tc_alert_1a04f768514f3e12f95e3a6887b02c0576" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_g_tc_alert_1a04f768514f3e12f95e3a6887b02c0576" kindref="member">GTcAlert::MSetData</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespace_g_n_common_1a01e8527dabf7ab4f123156b0701945eb" kindref="member">GTu64</ref><sp/>aulData<sp/>)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a125041e4424d1f43c332e980a5f2aaa2" kindref="member">vulData</ref><sp/>=<sp/>aulData;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="class_g_n_common_1_1_g_tc_alert_1a0baa69459d87c780b3bad22883f29dec" refkind="member"><highlight class="normal"><ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_identifier" kindref="compound">GTcAlert::TsIdentifier</ref><sp/><ref refid="class_g_n_common_1_1_g_tc_alert_1a0baa69459d87c780b3bad22883f29dec" kindref="member">GTcAlert::MGetIdentifier</ref>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="116"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a1a54c1bf2758812609e876b9eec75df5" kindref="member">voID</ref>;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="class_g_n_common_1_1_g_tc_alert_1a8f37913185860432ccdd65dea58ffe37" refkind="member"><highlight class="normal"><ref refid="struct_g_n_common_1_1_g_tc_alert_1_1_ts_status" kindref="compound">GTcAlert::TsStatus</ref><sp/><ref refid="class_g_n_common_1_1_g_tc_alert_1a8f37913185860432ccdd65dea58ffe37" kindref="member">GTcAlert::MGetStatus</ref><sp/>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="125"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a88ffecd8070f3a63f4cd4f677adc43b1" kindref="member">voStatus</ref>;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="class_g_n_common_1_1_g_tc_alert_1ae00bea560ef82ed36c4b741d92bd27e6" refkind="member"><highlight class="normal"><ref refid="namespace_g_n_common_1a01e8527dabf7ab4f123156b0701945eb" kindref="member">GTu64</ref><sp/><ref refid="class_g_n_common_1_1_g_tc_alert_1ae00bea560ef82ed36c4b741d92bd27e6" kindref="member">GTcAlert::MGetTimestamp</ref><sp/>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="134"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1acc753824948e4d169e7af7083ced87a0" kindref="member">vulTimestamp</ref>;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="class_g_n_common_1_1_g_tc_alert_1a9e582dccb2205b74923c5d93d787811e" refkind="member"><highlight class="normal"><ref refid="namespace_g_n_common_1a01e8527dabf7ab4f123156b0701945eb" kindref="member">GTu64</ref><sp/><ref refid="class_g_n_common_1_1_g_tc_alert_1a9e582dccb2205b74923c5d93d787811e" kindref="member">GTcAlert::MGetTrigger</ref><sp/>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="143"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;<ref refid="class_g_n_common_1_1_g_tc_alert_1a125041e4424d1f43c332e980a5f2aaa2" kindref="member">vulData</ref>;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Projects/BergermeisterHome/Common/Source/Alert.cpp"/>
+  </compounddef>
+</doxygen>
