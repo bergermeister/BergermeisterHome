@@ -21,6 +21,9 @@ using namespace Windows::UI::Xaml::Navigation;
 using namespace Windows::UI::Core;
 using namespace Windows::System::Threading;
 using namespace Windows::Devices::Gpio;
+using namespace Windows::Networking;
+using namespace Windows::Networking::Connectivity;
+using namespace Windows::Networking::Sockets;
 using namespace GNCommon;
 using namespace GNCommon::GNDrivers;
 
@@ -38,6 +41,9 @@ void MainPage::Page_Loaded( Object^ aopSender, RoutedEventArgs^ aopArgs )
    GpioController^ kopController = GpioController::GetDefault( );
    GpioPin^        kopPin;
    TimeSpan        koPeriod = { 2LL * 10000000LL }; // Periodic timer to sample from the DHT11 every 2 seconds
+
+   this->mInitUDPClients();
+   this->mStartClient();
 
    if ( kopController == nullptr )
    {
@@ -70,14 +76,14 @@ void MainPage::Page_Loaded( Object^ aopSender, RoutedEventArgs^ aopArgs )
          this->pullResistorText->Text = L"Pull-up resistor not required.";
       }
 
-      this->voTimer = ThreadPoolTimer::CreatePeriodicTimer( ref new TimerElapsedHandler( this, &MainPage::MTimerElapsed ), koPeriod );
+      this->voTimer = ThreadPoolTimer::CreatePeriodicTimer( ref new TimerElapsedHandler( this, &MainPage::mTimerElapsed ), koPeriod );
 
       this->statusText->Text = L"Status: Initialized Successfully";
    }
 }
 
 
-void MainPage::MTimerElapsed( ThreadPoolTimer^ aopTimer )
+void MainPage::mTimerElapsed( ThreadPoolTimer^ aopTimer )
 {
    static GTb8 kbRunning = false;
    GTcDHTSensor::TeStatus keStatus;
