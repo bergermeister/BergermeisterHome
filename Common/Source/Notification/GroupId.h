@@ -9,7 +9,7 @@ namespace GNCommon
        *
        *
        */
-      enum class GQCommonDLL GTcGroupId : GTu8
+      enum class GXCommonDLL GTcGroupId : GTu8
       {
          XeNone    = 0, /**< Enumerated Group: None */
          XeNetwork = 1  /**< Enumerated Group: Network */

@@ -5,7 +5,7 @@ namespace GNCommon
    namespace GNContainers
    {
       template < class GTcType >
-      class GQCommonDLL GTcLinkedList
+      class GXCommonDLL GTcLinkedList
       {
       protected:     // Protected Attributes
          GTcListNode< GTcType >* vopBuff; // Buffer of Nodes

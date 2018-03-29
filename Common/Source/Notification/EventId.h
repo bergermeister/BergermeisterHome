@@ -4,7 +4,7 @@ namespace GNCommon
 {
    namespace GNNotification
    {
-      enum class GQCommonDLL GTcEventId : GTu32
+      enum class GXCommonDLL GTcEventId : GTu32
       {
          XeIdentifier,
          XeStatus,

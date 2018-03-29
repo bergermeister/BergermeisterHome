@@ -1,9 +1,9 @@
 #pragma once
 
-#ifdef GQbExportCommon
-#define GQCommonDLL __declspec( dllexport )
+#ifdef GXbExportCommon
+#define GXCommonDLL __declspec( dllexport )
 #else
-#define GQCommonDLL __declspec( dllimport )
+#define GXCommonDLL __declspec( dllimport )
 #endif
 
 // Include all Exported Classes

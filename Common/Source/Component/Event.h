@@ -5,7 +5,7 @@ namespace GNCommon
    namespace GNComponent
    {
       template < GTu32 auiMaxListeners >
-      class GQCommonDLL GTcEvent
+      class GXCommonDLL GTcEvent
       {
       public:        // Public Types
          //typedef void ( Top)

@@ -4,7 +4,7 @@ namespace GNCommon
 {
    namespace GNDrivers
    {
-      class GQHVACDriverDLL GTcDHTSensor
+      class GXHVACDriverDLL GTcDHTSensor
       {
       public:        // Public Type Definitions
          enum TeStatus

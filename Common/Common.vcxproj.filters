@@ -79,6 +79,9 @@
     <ClInclude Include="Source\Notification\EventId.h">
       <Filter>Source\Notification</Filter>
     </ClInclude>
+    <ClInclude Include="Source\CRC32.h">
+      <Filter>Source</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\StopWatch.cpp">
@@ -96,22 +99,13 @@
     <ClCompile Include="Source\Notification\Alert.cpp">
       <Filter>Source\Notification</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Notification\ComponentId.cpp">
-      <Filter>Source\Notification</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Notification\Criticality.cpp">
-      <Filter>Source\Notification</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Notification\GroupId.cpp">
-      <Filter>Source\Notification</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Notification\Identifier.cpp">
-      <Filter>Source\Notification</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Notification\Status.cpp">
       <Filter>Source\Notification</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Notification\EventId.cpp">
+    <ClCompile Include="Source\CRC32.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Notification\Identifier.cpp">
       <Filter>Source\Notification</Filter>
     </ClCompile>
   </ItemGroup>

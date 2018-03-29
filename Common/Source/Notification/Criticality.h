@@ -7,7 +7,7 @@ namespace GNCommon
       /**
        * @class GTcCriticality
        */
-      enum class GTcCriticality : GTu8
+      enum class GXCommonDLL GTcCriticality : GTu8
       {
          XeNone    = 0, /**< Enumerated Alert Level: None */
          XeNotice  = 1, /**< Enumerated Alert Level: None */

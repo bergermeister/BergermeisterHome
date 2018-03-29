@@ -4,7 +4,7 @@ namespace GNCommon
 {
    namespace GNComponent
    {
-      class GQCommonDLL GTcModel
+      class GXCommonDLL GTcModel
       {
       protected:     // Protected Constants
          static const GTu32 xuiMaxListeners = 16;
@@ -13,15 +13,8 @@ namespace GNCommon
          GTcEvent< xuiMaxListeners > VoEvent;
 
       public:        // Public Methods
-         GTcModel( void )
-         {
-
-         }
-
-         ~GTcModel ( void )
-         {
-            // Nohing to destruct
-         }
+         GTcModel ( void );
+         ~GTcModel( void );
       };
    }
 }

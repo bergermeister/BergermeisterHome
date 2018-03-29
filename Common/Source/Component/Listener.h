@@ -4,7 +4,7 @@ namespace GNCommon
 {
    namespace GNComponent
    {
-      class GQCommonDLL GTcListener
+      class GXCommonDLL GTcListener
       {
       public:        // Public Types
          typedef void ( *TsHandle ) ( void* aopListener, void* aopParameter );

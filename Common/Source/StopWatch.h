@@ -2,7 +2,7 @@
 
 namespace GNCommon
 {
-   class GQCommonDLL GTcStopWatch
+   class GXCommonDLL GTcStopWatch
    {
    protected:     // Protected Attributes
       static const LONGLONG xlMaxQuadPart = 9223372036854775807;

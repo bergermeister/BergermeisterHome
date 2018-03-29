@@ -14,7 +14,7 @@
 #define WIN32_LEAN_AND_MEAN
 #endif
 
-#define GQbExportCommon
+#define GXbExportCommon
 
 #include <windows.h>
 

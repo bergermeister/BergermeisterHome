@@ -1,9 +1,9 @@
 #pragma once
 
-#ifdef GQbExportHVACDriver
-#define GQHVACDriverDLL __declspec( dllexport )
+#ifdef GXbExportHVACDriver
+#define GXHVACDriverDLL __declspec( dllexport )
 #else
-#define GQHVACDriverDLL __declspec( dllimport )
+#define GXHVACDriverDLL __declspec( dllimport )
 #endif
 
 // Include all Exported Classes
