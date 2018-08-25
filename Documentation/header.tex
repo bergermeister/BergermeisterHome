@@ -1,0 +1,153 @@
+% Latex header for doxygen 1.8.14
+\documentclass[oneside,letterpaper]{book}
+
+% Packages required by doxygen
+\usepackage{fixltx2e}
+\usepackage{calc}
+\usepackage{doxygen}
+\usepackage[export]{adjustbox} % also loads graphicx
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{makeidx}
+\usepackage{multicol}
+\usepackage{multirow}
+\PassOptionsToPackage{warn}{textcomp}
+\usepackage{textcomp}
+\usepackage[nointegrals]{wasysym}
+\usepackage[table]{xcolor}
+
+% Font selection
+\usepackage[T1]{fontenc}
+\usepackage[scaled=.90]{helvet}
+\usepackage{courier}
+\usepackage{amssymb}
+\usepackage{sectsty}
+\renewcommand{\familydefault}{\sfdefault}
+\allsectionsfont{%
+  \fontseries{bc}\selectfont%
+  \color{darkgray}%
+}
+\renewcommand{\DoxyLabelFont}{%
+  \fontseries{bc}\selectfont%
+  \color{darkgray}%
+}
+\newcommand{\+}{\discretionary{\mbox{\scriptsize$\hookleftarrow$}}{}{}}
+
+% Page & text layout
+\usepackage{lastpage}
+\usepackage[
+	height=9in,			% height of the text block
+	width=7in,			% width of the text block
+	top=48pt,			% distance of the text block from the top of the page
+	bottom=48pt,		% distance of the text block from the bottom of the page
+	headheight=48pt,	% height for the header block
+	headsep=12pt,		% distance from the header block to the text block
+	heightrounded,		% ensure an integer number of lines
+	%showframe,			% show the main blocks
+	verbose,			% show the values of the parameters in the log file
+]{geometry}
+%\geometry{%
+%  letterpaper,%
+%  top=2.5cm,%
+%  bottom=2.5cm,%
+%  left=2.5cm,%
+%  right=2.5cm%
+%}
+\tolerance=750
+\hfuzz=15pt
+\hbadness=750
+\setlength{\emergencystretch}{15pt}
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{3ex plus 2ex minus 2ex}
+\makeatletter
+\renewcommand{\paragraph}{%
+  \@startsection{paragraph}{4}{0ex}{-1.0ex}{1.0ex}{%
+    \normalfont\normalsize\bfseries\SS@parafont%
+  }%
+}
+\renewcommand{\subparagraph}{%
+  \@startsection{subparagraph}{5}{0ex}{-1.0ex}{1.0ex}{%
+    \normalfont\normalsize\bfseries\SS@subparafont%
+  }%
+}
+\makeatother
+
+% Headers & footers
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand{\chaptermark}[1]{%
+  \markboth{#1}{}%
+}
+\renewcommand{\sectionmark}[1]{%
+  \markright{\thesection\ #1}%
+}
+
+% Indices & bibliography
+\usepackage{natbib}
+\usepackage[titles]{tocloft}
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{5}
+\makeindex
+
+% Hyperlinks (required, but should be loaded last)
+\usepackage{ifpdf}
+\ifpdf
+  \usepackage[pdftex,pagebackref=true]{hyperref}
+\else
+  \usepackage[ps2pdf,pagebackref=true]{hyperref}
+\fi
+\hypersetup{%
+  colorlinks=true,%
+  linkcolor=blue,%
+  citecolor=blue,%
+  unicode%
+}
+
+% Custom commands
+\newcommand{\clearemptydoublepage}{%
+  \newpage{\pagestyle{empty}\cleardoublepage}%
+}
+\newcommand{\Classification}{% 
+	\fontfamily{phv}\fontseries{b}\fontsize{24}{11}\selectfont}
+
+\usepackage{caption}
+\captionsetup{labelsep=space,justification=centering,font={bf},singlelinecheck=off,skip=4pt,position=top}
+
+%===== C O N T E N T S =====
+% Header Content
+\fancyhf{}
+\fancyhead[C]{\Classification CLASSIFICATION} %\textbf{CLASSIFICATION}}
+\fancyhead[R]{
+Document Number\\
+\thepage \hspace{1pt} of \pageref {LastPage}
+}
+\fancyfoot[C]{\Classification CLASSIFICATION} %\textbf{CLASSIFICATION}}
+\begin{document}
+
+% Titlepage & ToC
+\hypersetup{pageanchor=false,
+             bookmarksnumbered=true,
+             pdfencoding=unicode
+            }
+%\pagenumbering{alph}
+\pagenumbering{arabic}
+\begin{titlepage}
+\vspace*{7cm}
+\begin{center}%
+{\Large Bergermeister Home Automation}\\
+\vspace*{1cm}
+{\large Source Code Documentation (SCD)}\\
+\end{center}
+\thispagestyle{fancy}
+\end{titlepage}
+% TODO REMOVE: \clearemptydoublepage
+% TODO REMOVE: \pagenumbering{roman}
+\setcounter{page}{2}
+\tableofcontents
+% TODO REMOVE: \clearemptydoublepage
+% TODO REMOVE: \pagenumbering{arabic}
+\hypersetup{pageanchor=true}
+
+%--- Begin generated contents ---

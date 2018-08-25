@@ -1,0 +1,28 @@
+\hypertarget{_model_8h_source}{}\section{Model.\+h}
+\label{_model_8h_source}\index{C\+:/\+Projects/\+Bergermeister\+Home/\+Software/\+Common/inc/\+Component/\+Model.\+h@{C\+:/\+Projects/\+Bergermeister\+Home/\+Software/\+Common/inc/\+Component/\+Model.\+h}}
+
+\begin{DoxyCode}
+00001 \textcolor{preprocessor}{#pragma once}
+00002 
+00003 \textcolor{preprocessor}{#include <\mbox{\hyperlink{_types_8h}{Types.h}}>}
+00004 \textcolor{preprocessor}{#include <Component\(\backslash\)Event.h>}
+00005 
+00006 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_g_n_common}{GNCommon}}
+00007 \{
+00008    \textcolor{keyword}{namespace }NComponent
+00009    \{
+\Hypertarget{_model_8h_source_l00010}\mbox{\hyperlink{class_g_n_common_1_1_n_component_1_1_tc_model}{00010}}       \textcolor{keyword}{class }\mbox{\hyperlink{class_g_n_common_1_1_n_component_1_1_tc_model}{TcModel}}
+00011       \{
+00012       \textcolor{keyword}{protected}:     \textcolor{comment}{// Protected Constants}
+00013          \textcolor{keyword}{static} \textcolor{keyword}{const} \mbox{\hyperlink{namespace_g_n_common_a941b527ef318f318aed7903dc832b7e4}{Tu32}} xuiMaxListeners = 16;
+00014 
+00015       \textcolor{keyword}{public}:     \textcolor{comment}{// Protected Attributes}
+00016          \mbox{\hyperlink{class_g_n_common_1_1_n_component_1_1_g_tc_event}{GTcEvent< xuiMaxListeners >}} VoEvent;
+00017 
+00018       \textcolor{keyword}{public}:        \textcolor{comment}{// Public Methods}
+00019          \mbox{\hyperlink{class_g_n_common_1_1_n_component_1_1_tc_model}{TcModel}} ( \textcolor{keywordtype}{void} );
+00020          ~\mbox{\hyperlink{class_g_n_common_1_1_n_component_1_1_tc_model}{TcModel}}( \textcolor{keywordtype}{void} );
+00021       \};
+00022    \}
+00023 \}
+\end{DoxyCode}

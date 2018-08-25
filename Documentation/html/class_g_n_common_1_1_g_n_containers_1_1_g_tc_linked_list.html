@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -22,8 +30,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">BergermeisterHome
+   &#160;<span id="projectnumber">Engineering Release 6</span>
    </div>
-   <div id="projectbrief">Eisenberger Family Home Control</div>
+   <div id="projectbrief">Home Automation</div>
   </td>
  </tr>
  </tbody>
@@ -46,6 +55,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('class_g_n_common_1_1_g_n_containers_1_1_g_tc_linked_list.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -60,11 +86,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="namespace_g_n_common.html">GNCommon</a></li><li class="navelem"><b>GNContainers</b></li><li class="navelem"><a class="el" href="class_g_n_common_1_1_g_n_containers_1_1_g_tc_linked_list.html">GTcLinkedList</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -77,30 +98,30 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a518200cd19bae250a9ba97924c983bb5"><td class="memItemLeft" align="right" valign="top"><a id="a518200cd19bae250a9ba97924c983bb5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>MInitialize</b> (<a class="el" href="class_g_n_common_1_1_g_n_containers_1_1_g_tc_list_node.html">GTcListNode</a>&lt; GTcType &gt; *aopBuffer, <a class="el" href="namespace_g_n_common.html#ae5485474bc8f23e462e920a17b377b53">GTu32</a> auiSize)</td></tr>
-<tr class="separator:a518200cd19bae250a9ba97924c983bb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8baca8da25b4cc84697491d5958c98b"><td class="memItemLeft" align="right" valign="top"><a id="ac8baca8da25b4cc84697491d5958c98b"></a>
-<a class="el" href="namespace_g_n_common.html#a6b5283329f609e2175dd0c91fc1520ba">GTb8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MIsInitialized</b> (void) const</td></tr>
-<tr class="separator:ac8baca8da25b4cc84697491d5958c98b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0f6acade55d81941d00d8cb232189f7"><td class="memItemLeft" align="right" valign="top"><a id="aa0f6acade55d81941d00d8cb232189f7"></a>
-<a class="el" href="namespace_g_n_common.html#a6b5283329f609e2175dd0c91fc1520ba">GTb8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MInsertAtHead</b> (GTcType &amp;aorObject)</td></tr>
-<tr class="separator:aa0f6acade55d81941d00d8cb232189f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a481b86e6615c53a1825de2a21d7ecbca"><td class="memItemLeft" align="right" valign="top"><a id="a481b86e6615c53a1825de2a21d7ecbca"></a>
-<a class="el" href="namespace_g_n_common.html#a6b5283329f609e2175dd0c91fc1520ba">GTb8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MInsertAtTail</b> (GTcType &amp;aorObject)</td></tr>
-<tr class="separator:a481b86e6615c53a1825de2a21d7ecbca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6146b5588299c553900fec7a66bca76"><td class="memItemLeft" align="right" valign="top"><a id="af6146b5588299c553900fec7a66bca76"></a>
-<a class="el" href="namespace_g_n_common.html#a6b5283329f609e2175dd0c91fc1520ba">GTb8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MInsert</b> (GTcType &amp;aorObject)</td></tr>
-<tr class="separator:af6146b5588299c553900fec7a66bca76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4eba202327f1b8cff690e27104a2cc07"><td class="memItemLeft" align="right" valign="top"><a id="a4eba202327f1b8cff690e27104a2cc07"></a>
-<a class="el" href="namespace_g_n_common.html#a6b5283329f609e2175dd0c91fc1520ba">GTb8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MRemoveHead</b> (void)</td></tr>
-<tr class="separator:a4eba202327f1b8cff690e27104a2cc07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77dbf09ee36ba902db5b1fd96fd0b180"><td class="memItemLeft" align="right" valign="top"><a id="a77dbf09ee36ba902db5b1fd96fd0b180"></a>
-<a class="el" href="namespace_g_n_common.html#a6b5283329f609e2175dd0c91fc1520ba">GTb8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MRemoveTail</b> (void)</td></tr>
-<tr class="separator:a77dbf09ee36ba902db5b1fd96fd0b180"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c668c02719387a6f465732322ee0915"><td class="memItemLeft" align="right" valign="top"><a id="a9c668c02719387a6f465732322ee0915"></a>
-<a class="el" href="namespace_g_n_common.html#a6b5283329f609e2175dd0c91fc1520ba">GTb8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MRemove</b> (GTcType &amp;aorObject)</td></tr>
-<tr class="separator:a9c668c02719387a6f465732322ee0915"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c89b58cfe17103526f7f6734b863217"><td class="memItemLeft" align="right" valign="top"><a id="a6c89b58cfe17103526f7f6734b863217"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>MInitialize</b> (<a class="el" href="class_g_n_common_1_1_g_n_containers_1_1_g_tc_list_node.html">GTcListNode</a>&lt; GTcType &gt; *aopBuffer, <a class="el" href="namespace_g_n_common.html#a941b527ef318f318aed7903dc832b7e4">Tu32</a> auiSize)</td></tr>
+<tr class="separator:a6c89b58cfe17103526f7f6734b863217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c82041ef232d7930bd2265fd69354a9"><td class="memItemLeft" align="right" valign="top"><a id="a1c82041ef232d7930bd2265fd69354a9"></a>
+<a class="el" href="namespace_g_n_common.html#a8115dc7ed53b6e5b52e6bfde1632ea74">Tb8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MIsInitialized</b> (void) const</td></tr>
+<tr class="separator:a1c82041ef232d7930bd2265fd69354a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a252f5ac54bc3d0cbdbc02768de894930"><td class="memItemLeft" align="right" valign="top"><a id="a252f5ac54bc3d0cbdbc02768de894930"></a>
+<a class="el" href="namespace_g_n_common.html#a8115dc7ed53b6e5b52e6bfde1632ea74">Tb8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MInsertAtHead</b> (GTcType &amp;aorObject)</td></tr>
+<tr class="separator:a252f5ac54bc3d0cbdbc02768de894930"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d1c79e290c1598b4c5453c0fa01f443"><td class="memItemLeft" align="right" valign="top"><a id="a0d1c79e290c1598b4c5453c0fa01f443"></a>
+<a class="el" href="namespace_g_n_common.html#a8115dc7ed53b6e5b52e6bfde1632ea74">Tb8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MInsertAtTail</b> (GTcType &amp;aorObject)</td></tr>
+<tr class="separator:a0d1c79e290c1598b4c5453c0fa01f443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d783863373f4d6821ddef003f4cc151"><td class="memItemLeft" align="right" valign="top"><a id="a0d783863373f4d6821ddef003f4cc151"></a>
+<a class="el" href="namespace_g_n_common.html#a8115dc7ed53b6e5b52e6bfde1632ea74">Tb8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MInsert</b> (GTcType &amp;aorObject)</td></tr>
+<tr class="separator:a0d783863373f4d6821ddef003f4cc151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0774cbf650894f27665f45f7563d71f"><td class="memItemLeft" align="right" valign="top"><a id="ab0774cbf650894f27665f45f7563d71f"></a>
+<a class="el" href="namespace_g_n_common.html#a8115dc7ed53b6e5b52e6bfde1632ea74">Tb8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MRemoveHead</b> (void)</td></tr>
+<tr class="separator:ab0774cbf650894f27665f45f7563d71f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2aa7ecf12c960660ed992d233d8d15f"><td class="memItemLeft" align="right" valign="top"><a id="aa2aa7ecf12c960660ed992d233d8d15f"></a>
+<a class="el" href="namespace_g_n_common.html#a8115dc7ed53b6e5b52e6bfde1632ea74">Tb8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MRemoveTail</b> (void)</td></tr>
+<tr class="separator:aa2aa7ecf12c960660ed992d233d8d15f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa2656607825f444c427ac7610ecf65f"><td class="memItemLeft" align="right" valign="top"><a id="aaa2656607825f444c427ac7610ecf65f"></a>
+<a class="el" href="namespace_g_n_common.html#a8115dc7ed53b6e5b52e6bfde1632ea74">Tb8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MRemove</b> (GTcType &amp;aorObject)</td></tr>
+<tr class="separator:aaa2656607825f444c427ac7610ecf65f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -113,15 +134,15 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ad13c0905aaed40122179dc54e6aec08f"><td class="memItemLeft" align="right" valign="top"><a id="ad13c0905aaed40122179dc54e6aec08f"></a>
 <a class="el" href="class_g_n_common_1_1_g_n_containers_1_1_g_tc_list_node.html">GTcListNode</a>&lt; GTcType &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>vopTail</b></td></tr>
 <tr class="separator:ad13c0905aaed40122179dc54e6aec08f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad14313f4f09de3c24c98bc6f7e3bba05"><td class="memItemLeft" align="right" valign="top"><a id="ad14313f4f09de3c24c98bc6f7e3bba05"></a>
-<a class="el" href="namespace_g_n_common.html#ae5485474bc8f23e462e920a17b377b53">GTu32</a>&#160;</td><td class="memItemRight" valign="bottom"><b>vuiSize</b></td></tr>
-<tr class="separator:ad14313f4f09de3c24c98bc6f7e3bba05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19cd7bdd93f5e4abe4cb582707d28975"><td class="memItemLeft" align="right" valign="top"><a id="a19cd7bdd93f5e4abe4cb582707d28975"></a>
-<a class="el" href="namespace_g_n_common.html#ae5485474bc8f23e462e920a17b377b53">GTu32</a>&#160;</td><td class="memItemRight" valign="bottom"><b>vuiCount</b></td></tr>
-<tr class="separator:a19cd7bdd93f5e4abe4cb582707d28975"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e0e22b42eed50533ac3a08b37166128"><td class="memItemLeft" align="right" valign="top"><a id="a2e0e22b42eed50533ac3a08b37166128"></a>
-<a class="el" href="namespace_g_n_common.html#a6b5283329f609e2175dd0c91fc1520ba">GTb8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>vbInitialized</b></td></tr>
-<tr class="separator:a2e0e22b42eed50533ac3a08b37166128"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2edd64a0c18412b5ed73345497fa9218"><td class="memItemLeft" align="right" valign="top"><a id="a2edd64a0c18412b5ed73345497fa9218"></a>
+<a class="el" href="namespace_g_n_common.html#a941b527ef318f318aed7903dc832b7e4">Tu32</a>&#160;</td><td class="memItemRight" valign="bottom"><b>vuiSize</b></td></tr>
+<tr class="separator:a2edd64a0c18412b5ed73345497fa9218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5810126438045bb09db80fc209bb8c61"><td class="memItemLeft" align="right" valign="top"><a id="a5810126438045bb09db80fc209bb8c61"></a>
+<a class="el" href="namespace_g_n_common.html#a941b527ef318f318aed7903dc832b7e4">Tu32</a>&#160;</td><td class="memItemRight" valign="bottom"><b>vuiCount</b></td></tr>
+<tr class="separator:a5810126438045bb09db80fc209bb8c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c387faa81ea665bcf6b2ec0a083e93f"><td class="memItemLeft" align="right" valign="top"><a id="a4c387faa81ea665bcf6b2ec0a083e93f"></a>
+<a class="el" href="namespace_g_n_common.html#a8115dc7ed53b6e5b52e6bfde1632ea74">Tb8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>vbInitialized</b></td></tr>
+<tr class="separator:a4c387faa81ea665bcf6b2ec0a083e93f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;class GTcType&gt;<br />
@@ -130,14 +151,18 @@ class GNCommon::GNContainers::GTcLinkedList&lt; GTcType &gt;</h3>
 
 <p class="definition">Definition at line <a class="el" href="_linked_list_8h_source.html#l00008">8</a> of file <a class="el" href="_linked_list_8h_source.html">LinkedList.h</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Projects/BergermeisterHome/Common/Source/Containers/<a class="el" href="_linked_list_8h_source.html">LinkedList.h</a></li>
+<li>C:/Projects/BergermeisterHome/Software/Common/inc/Containers/<a class="el" href="_linked_list_8h_source.html">LinkedList.h</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_g_n_common.html">GNCommon</a></li><li class="navelem"><b>GNContainers</b></li><li class="navelem"><a class="el" href="class_g_n_common_1_1_g_n_containers_1_1_g_tc_linked_list.html">GTcLinkedList</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>

@@ -1,0 +1,98 @@
+\hypertarget{_alert_8cpp_source}{}\section{Alert.\+cpp}
+\label{_alert_8cpp_source}\index{C\+:/\+Projects/\+Bergermeister\+Home/\+Software/\+Common/src/\+Notification/\+Alert.\+cpp@{C\+:/\+Projects/\+Bergermeister\+Home/\+Software/\+Common/src/\+Notification/\+Alert.\+cpp}}
+
+\begin{DoxyCode}
+00001 \textcolor{preprocessor}{#include <\mbox{\hyperlink{_types_8h}{Types.h}}>}
+00002 \textcolor{preprocessor}{#include <\mbox{\hyperlink{_event_id_8h}{Notification\(\backslash\)EventId.h}}>}
+00003 \textcolor{preprocessor}{#include <\mbox{\hyperlink{_identifier_8h}{Notification\(\backslash\)Identifier.h}}>}
+00004 \textcolor{preprocessor}{#include <\mbox{\hyperlink{_status_8h}{Notification\(\backslash\)Status.h}}>}
+00005 \textcolor{preprocessor}{#include <\mbox{\hyperlink{_alert_8h}{Notification\(\backslash\)Alert.h}}>}
+00006 
+00007 \textcolor{keyword}{using namespace }\mbox{\hyperlink{namespace_g_n_common}{GNCommon}};
+00008 \textcolor{keyword}{using namespace }\mbox{\hyperlink{namespace_g_n_common_1_1_n_notification}{GNCommon::NNotification}};
+00009 
+\Hypertarget{_alert_8cpp_source_l00013}\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_a683af178a44e0ab7463c529d1ebb6d9c}{00013}} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_a683af178a44e0ab7463c529d1ebb6d9c}{TcAlert::TcAlert}}( \textcolor{keywordtype}{void} )
+00014 \{
+00015    \textcolor{comment}{// this->voID     invokes the default constructor}
+00016    \textcolor{comment}{// this->voStatus invokes the default constructor}
+00017    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_a3c6f656e3e526b9f97942188d7bb2930}{vulTimestamp}} = 0;
+00018    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_ab49cb616a0e61e74234264d775a3408a}{vulData}}      = 0;
+00019 \}
+00020 
+\Hypertarget{_alert_8cpp_source_l00024}\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_abd42f842fe53942ed6d7a7008c3400c2}{00024}} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_abd42f842fe53942ed6d7a7008c3400c2}{TcAlert::~TcAlert}}( \textcolor{keywordtype}{void} )
+00025 \{
+00026    \textcolor{comment}{// Nothing to destruct}
+00027 \}
+00028 
+\Hypertarget{_alert_8cpp_source_l00033}\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_a75120f1735cec51fe7f4afa519bd631b}{00033}} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_a683af178a44e0ab7463c529d1ebb6d9c}{TcAlert::TcAlert}}( \textcolor{keyword}{const} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert}{TcAlert}}& aorAlert )
+00034 \{
+00035    *\textcolor{keyword}{this} = aorAlert;
+00036 \}
+00037 
+\Hypertarget{_alert_8cpp_source_l00043}\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_ad1371ff2988283b60a47c2879e1a0011}{00043}} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert}{TcAlert}}& \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_ad1371ff2988283b60a47c2879e1a0011}{TcAlert::operator=}}( \textcolor{keyword}{const} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert}{TcAlert}}& aorAlert )
+00044 \{
+00045    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_a5411a5d9659282e199ceb16a1b88c17d}{MSetIdentifier}}( aorAlert.\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_aa42573703fd6fa2ba90aa010fdc659ca}{voID}}         );
+00046    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_a682a17a50fc2c50bfb92ec3eeafdb5c9}{MSetStatus}}    ( aorAlert.\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_ae993e1ea34de5347b08b21c9264cdb8e}{voStatus}}     );
+00047    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_ac6ed25087bcdbb12921d71c2c4126131}{MSetTimestamp}} ( aorAlert.\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_a3c6f656e3e526b9f97942188d7bb2930}{vulTimestamp}} );
+00048    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_af4dccb7b428fdd2069a9dd1e6c12410b}{MSetData}}      ( aorAlert.\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_ab49cb616a0e61e74234264d775a3408a}{vulData}}      );
+00049 
+00050    \textcolor{keywordflow}{return} *\textcolor{keyword}{this};
+00051 \}
+00052 
+\Hypertarget{_alert_8cpp_source_l00057}\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_a5411a5d9659282e199ceb16a1b88c17d}{00057}} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_a5411a5d9659282e199ceb16a1b88c17d}{TcAlert::MSetIdentifier}}( \textcolor{keyword}{const} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_identifier}{TcIdentifier}}& aorID )
+00058 \{
+00059    \textcolor{keywordflow}{if} ( this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_aa42573703fd6fa2ba90aa010fdc659ca}{voID}} != aorID )
+00060    \{
+00061       this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_aa42573703fd6fa2ba90aa010fdc659ca}{voID}} = aorID;
+00062       this->VoEvent.MNotify( \textcolor{keyword}{this}, static\_cast< Tu32 >( TcEventId::XeIdentifier ) );
+00063    \}
+00064 \}
+00065 
+\Hypertarget{_alert_8cpp_source_l00070}\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_a682a17a50fc2c50bfb92ec3eeafdb5c9}{00070}} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_a682a17a50fc2c50bfb92ec3eeafdb5c9}{TcAlert::MSetStatus}}( \textcolor{keyword}{const} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status}{TcStatus}}& aorStatus )
+00071 \{
+00072    \textcolor{keywordflow}{if} ( this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_ae993e1ea34de5347b08b21c9264cdb8e}{voStatus}} != aorStatus )
+00073    \{
+00074       this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_ae993e1ea34de5347b08b21c9264cdb8e}{voStatus}} = aorStatus;
+00075       this->VoEvent.MNotify( \textcolor{keyword}{this}, static\_cast< Tu32 >( TcEventId::XeStatus ) );
+00076    \}
+00077 \}
+00078 
+\Hypertarget{_alert_8cpp_source_l00083}\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_ac6ed25087bcdbb12921d71c2c4126131}{00083}} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_ac6ed25087bcdbb12921d71c2c4126131}{TcAlert::MSetTimestamp}}( \textcolor{keyword}{const} \mbox{\hyperlink{namespace_g_n_common_a9404ee6090c788ae70aebd1436ceb97d}{Tu64}} aulTimestamp )
+00084 \{
+00085    \textcolor{keywordflow}{if} ( this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_a3c6f656e3e526b9f97942188d7bb2930}{vulTimestamp}} != aulTimestamp )
+00086    \{
+00087       this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_a3c6f656e3e526b9f97942188d7bb2930}{vulTimestamp}} = aulTimestamp;
+00088       this->VoEvent.MNotify( \textcolor{keyword}{this}, static\_cast< Tu32 >( TcEventId::XeTimestamp ) );
+00089    \}
+00090 \}
+00091 
+\Hypertarget{_alert_8cpp_source_l00096}\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_af4dccb7b428fdd2069a9dd1e6c12410b}{00096}} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_af4dccb7b428fdd2069a9dd1e6c12410b}{TcAlert::MSetData}}( \textcolor{keyword}{const} \mbox{\hyperlink{namespace_g_n_common_a9404ee6090c788ae70aebd1436ceb97d}{Tu64}} aulData )
+00097 \{
+00098    \textcolor{keywordflow}{if} ( this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_ab49cb616a0e61e74234264d775a3408a}{vulData}} != aulData )
+00099    \{
+00100       this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_ab49cb616a0e61e74234264d775a3408a}{vulData}} = aulData;
+00101       this->VoEvent.MNotify( \textcolor{keyword}{this}, static\_cast< Tu32 >( TcEventId::XeData ) );
+00102    \}
+00103 \}
+00104 
+\Hypertarget{_alert_8cpp_source_l00109}\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_a3387c702b35bffddf5a480cdd52498aa}{00109}} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_identifier}{TcIdentifier}} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_a3387c702b35bffddf5a480cdd52498aa}{TcAlert::MGetIdentifier}}( \textcolor{keywordtype}{void} )\textcolor{keyword}{ const}
+00110 \textcolor{keyword}{}\{
+00111    \textcolor{keywordflow}{return} this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_aa42573703fd6fa2ba90aa010fdc659ca}{voID}};
+00112 \}
+00113 
+\Hypertarget{_alert_8cpp_source_l00118}\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_af6c3e9f29e796c2140dbe52229d439ca}{00118}} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status}{TcStatus}} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_af6c3e9f29e796c2140dbe52229d439ca}{TcAlert::MGetStatus}}( \textcolor{keywordtype}{void} )\textcolor{keyword}{ const}
+00119 \textcolor{keyword}{}\{
+00120    \textcolor{keywordflow}{return} this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_ae993e1ea34de5347b08b21c9264cdb8e}{voStatus}};
+00121 \}
+00122 
+\Hypertarget{_alert_8cpp_source_l00127}\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_a99c02af9bf2a17a34810ac5ed6be8856}{00127}} \mbox{\hyperlink{namespace_g_n_common_a9404ee6090c788ae70aebd1436ceb97d}{Tu64}} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_a99c02af9bf2a17a34810ac5ed6be8856}{TcAlert::MGetTimestamp}}( \textcolor{keywordtype}{void} )\textcolor{keyword}{ const}
+00128 \textcolor{keyword}{}\{
+00129    \textcolor{keywordflow}{return} this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_a3c6f656e3e526b9f97942188d7bb2930}{vulTimestamp}};
+00130 \}
+00131 
+\Hypertarget{_alert_8cpp_source_l00136}\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_a4eeace6aa167a1b9b9a98487eee0ddb2}{00136}} \mbox{\hyperlink{namespace_g_n_common_a9404ee6090c788ae70aebd1436ceb97d}{Tu64}} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_a4eeace6aa167a1b9b9a98487eee0ddb2}{TcAlert::MGetData}}( \textcolor{keywordtype}{void} )\textcolor{keyword}{ const}
+00137 \textcolor{keyword}{}\{
+00138    \textcolor{keywordflow}{return} this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_alert_ab49cb616a0e61e74234264d775a3408a}{vulData}};
+00139 \}
+00140 
+\end{DoxyCode}

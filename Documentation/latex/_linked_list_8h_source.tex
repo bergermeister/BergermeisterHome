@@ -1,0 +1,105 @@
+\hypertarget{_linked_list_8h_source}{}\section{Linked\+List.\+h}
+\label{_linked_list_8h_source}\index{C\+:/\+Projects/\+Bergermeister\+Home/\+Software/\+Common/inc/\+Containers/\+Linked\+List.\+h@{C\+:/\+Projects/\+Bergermeister\+Home/\+Software/\+Common/inc/\+Containers/\+Linked\+List.\+h}}
+
+\begin{DoxyCode}
+00001 \textcolor{preprocessor}{#pragma once}
+00002 
+00003 \textcolor{preprocessor}{#include <\mbox{\hyperlink{_types_8h}{Types.h}}>}
+00004 \textcolor{preprocessor}{#include <Constants.h>}
+00005 
+00006 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_g_n_common}{GNCommon}}
+00007 \{
+00008    \textcolor{keyword}{namespace }NContainers
+00009    \{
+00010       \textcolor{keyword}{template} < \textcolor{keyword}{class} GTcType >
+\Hypertarget{_linked_list_8h_source_l00011}\mbox{\hyperlink{class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list}{00011}}       \textcolor{keyword}{class }\mbox{\hyperlink{class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list}{GTcLinkedList}}
+00012       \{
+00013       \textcolor{keyword}{protected}:     \textcolor{comment}{// Protected Attributes}
+00014          \mbox{\hyperlink{class_g_n_common_1_1_n_containers_1_1_g_tc_list_node}{GTcListNode< GTcType >}}* vopBuff; \textcolor{comment}{// Buffer of Nodes}
+00015          \mbox{\hyperlink{class_g_n_common_1_1_n_containers_1_1_g_tc_list_node}{GTcListNode< GTcType >}}* vopHead; \textcolor{comment}{// Pointer to the Head of the List}
+00016          \mbox{\hyperlink{class_g_n_common_1_1_n_containers_1_1_g_tc_list_node}{GTcListNode< GTcType >}}* vopTail; \textcolor{comment}{// Pointer to the Tail of the List}
+00017 
+00018          \mbox{\hyperlink{namespace_g_n_common_a941b527ef318f318aed7903dc832b7e4}{Tu32}} vuiSize;       \textcolor{comment}{// Size of the buffer of Nodes}
+00019          \mbox{\hyperlink{namespace_g_n_common_a941b527ef318f318aed7903dc832b7e4}{Tu32}} vuiCount;      \textcolor{comment}{// Number of Linked Nodes}
+00020          \mbox{\hyperlink{namespace_g_n_common_a8115dc7ed53b6e5b52e6bfde1632ea74}{Tb8}}  vbInitialized; \textcolor{comment}{// Initialized Flag}
+00021 
+00022       \textcolor{keyword}{public}:        \textcolor{comment}{// Public Methods}
+00023          \mbox{\hyperlink{class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list}{GTcLinkedList}}( \textcolor{keywordtype}{void} )
+00024          \{
+00025             this->vopBuff = NULL;
+00026             this->vopHead = NULL;
+00027             this->vopTail = NULL;
+00028 
+00029             this->vuiSize  = 0;
+00030             this->vuiCount = 0;
+00031 
+00032             this->vbInitialized = \textcolor{keyword}{false};
+00033          \}
+00034 
+00035          ~\mbox{\hyperlink{class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list}{GTcLinkedList}}( \textcolor{keywordtype}{void} )
+00036          \{
+00037             \textcolor{comment}{// Nothing to destruct}
+00038          \}
+00039 
+00040          \textcolor{keywordtype}{void} MInitialize( \mbox{\hyperlink{class_g_n_common_1_1_n_containers_1_1_g_tc_list_node}{GTcListNode< GTcType >}}* aopBuffer, 
+      \mbox{\hyperlink{namespace_g_n_common_a941b527ef318f318aed7903dc832b7e4}{Tu32}} auiSize )
+00041          \{
+00042             this->vbInitialized = \textcolor{keyword}{false};  \textcolor{comment}{// Assume not initialized}
+00043 
+00044             this->vopBuff = aopBuffer; \textcolor{comment}{// Save the node buffer pointer}
+00045             this->vuiSize = auiSize;   \textcolor{comment}{// Save the size of the node buffer}
+00046             this->vopHead = NULL;      \textcolor{comment}{// Clear the Head Node pointer}
+00047             this->vopTail = NULL;      \textcolor{comment}{// Clear the Tail Node pointer}
+00048 
+00049                                        \textcolor{comment}{// If the Node Buffer is NOT NULL and its size is greater than 0}
+00050             \textcolor{keywordflow}{if} ( ( this->vopBuff != NULL ) && ( this->vuiSize > 0 ) )
+00051             \{
+00052                this->vbInitialized = \textcolor{keyword}{true}; \textcolor{comment}{// Indicate Initialized}
+00053             \}
+00054          \}
+00055 
+00056          \mbox{\hyperlink{namespace_g_n_common_a8115dc7ed53b6e5b52e6bfde1632ea74}{Tb8}} MIsInitialized( \textcolor{keywordtype}{void} )\textcolor{keyword}{ const}
+00057 \textcolor{keyword}{         }\{
+00058             \textcolor{keywordflow}{return} this->vbInitialized;
+00059          \}
+00060 
+00061          \mbox{\hyperlink{namespace_g_n_common_a8115dc7ed53b6e5b52e6bfde1632ea74}{Tb8}} MInsertAtHead( GTcType& aorObject )
+00062          \{
+00063             \textcolor{comment}{// TODO}
+00064             \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+00065          \}
+00066 
+00067          \mbox{\hyperlink{namespace_g_n_common_a8115dc7ed53b6e5b52e6bfde1632ea74}{Tb8}} MInsertAtTail( GTcType& aorObject )
+00068          \{
+00069             \textcolor{comment}{// TODO}
+00070             \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+00071          \}
+00072 
+00073          \mbox{\hyperlink{namespace_g_n_common_a8115dc7ed53b6e5b52e6bfde1632ea74}{Tb8}} MInsert( GTcType& aorObject )
+00074          \{
+00075             \textcolor{comment}{// TODO}
+00076             \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+00077          \}
+00078 
+00079          \mbox{\hyperlink{namespace_g_n_common_a8115dc7ed53b6e5b52e6bfde1632ea74}{Tb8}} MRemoveHead( \textcolor{keywordtype}{void} )
+00080          \{
+00081             \textcolor{comment}{// TODO}
+00082             \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+00083          \}
+00084 
+00085          \mbox{\hyperlink{namespace_g_n_common_a8115dc7ed53b6e5b52e6bfde1632ea74}{Tb8}} MRemoveTail( \textcolor{keywordtype}{void} )
+00086          \{
+00087             \textcolor{comment}{// TODO}
+00088             \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+00089          \}
+00090 
+00091          \mbox{\hyperlink{namespace_g_n_common_a8115dc7ed53b6e5b52e6bfde1632ea74}{Tb8}} MRemove( GTcType& aorObject )
+00092          \{
+00093             \textcolor{comment}{// TODO}
+00094             \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+00095          \}
+00096       \};
+00097    \}
+00098 \}
+00099 
+\end{DoxyCode}

@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -22,8 +30,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">BergermeisterHome
+   &#160;<span id="projectnumber">Engineering Release 6</span>
    </div>
-   <div id="projectbrief">Eisenberger Family Home Control</div>
+   <div id="projectbrief">Home Automation</div>
   </td>
  </tr>
  </tbody>
@@ -46,6 +55,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('class_g_n_common_1_1_g_n_component_1_1_g_tc_event.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -60,11 +86,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="namespace_g_n_common.html">GNCommon</a></li><li class="navelem"><b>GNComponent</b></li><li class="navelem"><a class="el" href="class_g_n_common_1_1_g_n_component_1_1_g_tc_event.html">GTcEvent</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -74,28 +95,18 @@ $(function() {
 <div class="title">GNCommon::GNComponent::GTcEvent&lt; auiMaxListeners &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Collaboration diagram for GNCommon::GNComponent::GTcEvent&lt; auiMaxListeners &gt;:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_g_n_common_1_1_g_n_component_1_1_g_tc_event__coll__graph.png" border="0" usemap="#_g_n_common_1_1_g_n_component_1_1_g_tc_event_3_01aui_max_listeners_01_4_coll__map" alt="Collaboration graph"/></div>
-<map name="_g_n_common_1_1_g_n_component_1_1_g_tc_event_3_01aui_max_listeners_01_4_coll__map" id="_g_n_common_1_1_g_n_component_1_1_g_tc_event_3_01aui_max_listeners_01_4_coll__map">
-<area shape="rect" id="node2" href="class_g_n_common_1_1_g_n_containers_1_1_g_tc_list_node.html" title="GNCommon::GNContainers\l::GTcListNode\&lt; GNCommon\l::GNComponent::GTcListener \&gt;" alt="" coords="295,59,500,115"/>
-<area shape="rect" id="node4" href="class_g_n_common_1_1_g_n_containers_1_1_g_tc_linked_list.html" title="GNCommon::GNContainers\l::GTcLinkedList\&lt; GNCommon\l::GNComponent::GTcListener \&gt;" alt="" coords="597,101,803,157"/>
-<area shape="rect" id="node3" href="class_g_n_common_1_1_g_n_component_1_1_g_tc_listener.html" title="GNCommon::GNComponent\l::GTcListener" alt="" coords="5,66,192,107"/>
-</map>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a61508ce090053f2b3085bb12a42c1256"><td class="memItemLeft" align="right" valign="top"><a id="a61508ce090053f2b3085bb12a42c1256"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>MNotify</b> (void *aopSender, const <a class="el" href="namespace_g_n_common.html#ae5485474bc8f23e462e920a17b377b53">GTu32</a> auiIdentifier)</td></tr>
-<tr class="separator:a61508ce090053f2b3085bb12a42c1256"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2829cf154092d3c49fb543ef783a183c"><td class="memItemLeft" align="right" valign="top"><a id="a2829cf154092d3c49fb543ef783a183c"></a>
+<tr class="memitem:a97e465b1537a3a906f2e1040f60ea880"><td class="memItemLeft" align="right" valign="top"><a id="a97e465b1537a3a906f2e1040f60ea880"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>MNotify</b> (void *aopSender, const <a class="el" href="namespace_g_n_common.html#a941b527ef318f318aed7903dc832b7e4">Tu32</a> auiIdentifier)</td></tr>
+<tr class="separator:a97e465b1537a3a906f2e1040f60ea880"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb06bbd1286161d6fda279e96197e961"><td class="memItemLeft" align="right" valign="top"><a id="adb06bbd1286161d6fda279e96197e961"></a>
 <a class="el" href="class_g_n_common_1_1_g_n_component_1_1_g_tc_event.html">GTcEvent</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator+=</b> (const <a class="el" href="class_g_n_common_1_1_g_n_component_1_1_g_tc_listener.html">GTcListener</a> &amp;aorListener)</td></tr>
-<tr class="separator:a2829cf154092d3c49fb543ef783a183c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ae57ee3fcb71ffb1320c73cb57cb426"><td class="memItemLeft" align="right" valign="top"><a id="a4ae57ee3fcb71ffb1320c73cb57cb426"></a>
+<tr class="separator:adb06bbd1286161d6fda279e96197e961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a901c402621b19c65c16696c6ba5e0a48"><td class="memItemLeft" align="right" valign="top"><a id="a901c402621b19c65c16696c6ba5e0a48"></a>
 <a class="el" href="class_g_n_common_1_1_g_n_component_1_1_g_tc_event.html">GTcEvent</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator-=</b> (const <a class="el" href="class_g_n_common_1_1_g_n_component_1_1_g_tc_listener.html">GTcListener</a> &amp;aorListener)</td></tr>
-<tr class="separator:a4ae57ee3fcb71ffb1320c73cb57cb426"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a901c402621b19c65c16696c6ba5e0a48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -107,20 +118,24 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a1158c71b941779b471dd3905737e38f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;GTu32 auiMaxListeners&gt;<br />
+<div class="textblock"><h3>template&lt;Tu32 auiMaxListeners&gt;<br />
 class GNCommon::GNComponent::GTcEvent&lt; auiMaxListeners &gt;</h3>
 
 
 <p class="definition">Definition at line <a class="el" href="_event_8h_source.html#l00008">8</a> of file <a class="el" href="_event_8h_source.html">Event.h</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Projects/BergermeisterHome/Common/Source/Component/<a class="el" href="_event_8h_source.html">Event.h</a></li>
+<li>C:/Projects/BergermeisterHome/Software/Common/inc/Component/<a class="el" href="_event_8h_source.html">Event.h</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_g_n_common.html">GNCommon</a></li><li class="navelem"><b>GNComponent</b></li><li class="navelem"><a class="el" href="class_g_n_common_1_1_g_n_component_1_1_g_tc_event.html">GTcEvent</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>

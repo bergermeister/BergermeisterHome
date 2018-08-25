@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['tecomponent',['TeComponent',['../class_g_n_common_1_1_g_tc_alert.html#aec0a7908321c01ae225df4908d7f3fa0',1,'GNCommon::GTcAlert']]],
-  ['tegroup',['TeGroup',['../class_g_n_common_1_1_g_tc_alert.html#a2deb7f82fcf5d88b4e10d74fa6c28cb7',1,'GNCommon::GTcAlert']]],
-  ['televel',['TeLevel',['../class_g_n_common_1_1_g_tc_alert.html#a9ef9363f62aae79a7323005ab126507e',1,'GNCommon::GTcAlert']]]
+  ['tccomponentid',['TcComponentId',['../namespace_g_n_common_1_1_n_notification.html#ab468f440599e6d5a51d887dfa55b06b3',1,'GNCommon::NNotification']]],
+  ['tccriticality',['TcCriticality',['../namespace_g_n_common_1_1_n_notification.html#a7d5c0650483fe26fa420ae5bf787566b',1,'GNCommon::NNotification']]],
+  ['tceventid',['TcEventId',['../namespace_g_n_common_1_1_n_notification.html#a8d5ce0e5fbb0a6cdcd96e4b037656761',1,'GNCommon::NNotification']]],
+  ['tcgroupid',['TcGroupId',['../namespace_g_n_common_1_1_n_notification.html#af29017ad6ed59156beabc385a91db18e',1,'GNCommon::NNotification']]]
 ];

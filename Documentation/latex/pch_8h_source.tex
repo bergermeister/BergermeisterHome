@@ -1,0 +1,29 @@
+\hypertarget{pch_8h_source}{}\section{pch.\+h}
+\label{pch_8h_source}\index{C\+:/\+Projects/\+Bergermeister\+Home/\+Software/\+Common/inc/pch.\+h@{C\+:/\+Projects/\+Bergermeister\+Home/\+Software/\+Common/inc/pch.\+h}}
+
+\begin{DoxyCode}
+00001 
+00008 \textcolor{preprocessor}{#pragma once}
+00009 
+00010 \textcolor{preprocessor}{#include "\mbox{\hyperlink{_target_version_8h}{TargetVersion.h}}"}
+00011 
+00012 \textcolor{preprocessor}{#include "\mbox{\hyperlink{_types_8h}{Types.h}}"}
+00013 \textcolor{preprocessor}{#include "Constants.h"}              \textcolor{comment}{// Depends on Types.h}
+00014 \textcolor{preprocessor}{#include "Containers\(\backslash\)List.h"}        \textcolor{comment}{// Depends on Types.h}
+00015 \textcolor{preprocessor}{#include "Containers\(\backslash\)Queue.h"}       \textcolor{comment}{// Depends on Types.h and List.h}
+00016 \textcolor{preprocessor}{#include "Containers\(\backslash\)ListNode.h"}    \textcolor{comment}{// Depends on Types.h}
+00017 \textcolor{preprocessor}{#include "Containers\(\backslash\)LinkedList.h"}
+00018 \textcolor{preprocessor}{#include "Component\(\backslash\)Listener.h"}     \textcolor{comment}{// Depends on Types.h}
+00019 \textcolor{preprocessor}{#include "Component\(\backslash\)Event.h"}        \textcolor{comment}{// Depends on ListNode.h, LinkedList.h, and Listener.h}
+00020 \textcolor{preprocessor}{#include "Component\(\backslash\)Model.h"}
+00021 \textcolor{preprocessor}{#include "StopWatch.h"}              \textcolor{comment}{// Depends on Types.h}
+00022 
+00023 \textcolor{comment}{// Include Notification Framework}
+00024 \textcolor{preprocessor}{#include "Notification\(\backslash\)EventId.h"}
+00025 \textcolor{preprocessor}{#include "\mbox{\hyperlink{_component_id_8h}{Notification\(\backslash\)ComponentId.h}}"}
+00026 \textcolor{preprocessor}{#include "\mbox{\hyperlink{_criticality_8h}{Notification\(\backslash\)Criticality.h}}"}
+00027 \textcolor{preprocessor}{#include "Notification\(\backslash\)GroupId.h"}
+00028 \textcolor{preprocessor}{#include "\mbox{\hyperlink{_identifier_8h}{Notification\(\backslash\)Identifier.h}}"}
+00029 \textcolor{preprocessor}{#include "\mbox{\hyperlink{_status_8h}{Notification\(\backslash\)Status.h}}"}
+00030 \textcolor{preprocessor}{#include "\mbox{\hyperlink{_alert_8h}{Notification\(\backslash\)Alert.h}}"}     \textcolor{comment}{// Depends on Types.h}
+\end{DoxyCode}

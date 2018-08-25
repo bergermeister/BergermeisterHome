@@ -1,0 +1,32 @@
+\hypertarget{_listener_8h_source}{}\section{Listener.\+h}
+\label{_listener_8h_source}\index{C\+:/\+Projects/\+Bergermeister\+Home/\+Software/\+Common/inc/\+Component/\+Listener.\+h@{C\+:/\+Projects/\+Bergermeister\+Home/\+Software/\+Common/inc/\+Component/\+Listener.\+h}}
+
+\begin{DoxyCode}
+00001 \textcolor{preprocessor}{#pragma once}
+00002 
+00003 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_g_n_common}{GNCommon}}
+00004 \{
+00005    \textcolor{keyword}{namespace }NComponent
+00006    \{
+\Hypertarget{_listener_8h_source_l00007}\mbox{\hyperlink{class_g_n_common_1_1_n_component_1_1_g_tc_listener}{00007}}       \textcolor{keyword}{class }\mbox{\hyperlink{class_g_n_common_1_1_n_component_1_1_g_tc_listener}{GTcListener}}
+00008       \{
+00009       \textcolor{keyword}{public}:        \textcolor{comment}{// Public Types}
+00010          \textcolor{keyword}{typedef} void ( *TsHandle ) ( \textcolor{keywordtype}{void}* aopListener, \textcolor{keywordtype}{void}* aopParameter );
+00011 
+00012       \textcolor{keyword}{protected}:     \textcolor{comment}{// Protected Attributes}
+00013          \textcolor{keywordtype}{void}*    vopInstance;
+00014          TsHandle vopHandle;
+00015 
+00016       \textcolor{keyword}{public}:        \textcolor{comment}{// Public Methods}
+00017          \mbox{\hyperlink{class_g_n_common_1_1_n_component_1_1_g_tc_listener}{GTcListener}}  ( \textcolor{keywordtype}{void} );
+00018          \mbox{\hyperlink{class_g_n_common_1_1_n_component_1_1_g_tc_listener}{GTcListener}}  ( \textcolor{keywordtype}{void}* aopInstance, \textcolor{keyword}{const} TsHandle aopHandle );
+00019          ~\mbox{\hyperlink{class_g_n_common_1_1_n_component_1_1_g_tc_listener}{GTcListener}} ( \textcolor{keywordtype}{void} );
+00020 
+00021          \textcolor{keywordtype}{void}*    MGetInstance ( \textcolor{keywordtype}{void} ) \textcolor{keyword}{const};
+00022          TsHandle MGetHandle   ( \textcolor{keywordtype}{void} ) \textcolor{keyword}{const};
+00023 
+00024          \mbox{\hyperlink{namespace_g_n_common_a8115dc7ed53b6e5b52e6bfde1632ea74}{Tb8}} operator== ( \textcolor{keyword}{const} \mbox{\hyperlink{class_g_n_common_1_1_n_component_1_1_g_tc_listener}{GTcListener}}& aorListener );
+00025       \};
+00026    \}
+00027 \}
+\end{DoxyCode}

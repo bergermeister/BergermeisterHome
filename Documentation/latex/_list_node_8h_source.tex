@@ -1,0 +1,156 @@
+\hypertarget{_list_node_8h_source}{}\section{List\+Node.\+h}
+\label{_list_node_8h_source}\index{C\+:/\+Projects/\+Bergermeister\+Home/\+Software/\+Common/inc/\+Containers/\+List\+Node.\+h@{C\+:/\+Projects/\+Bergermeister\+Home/\+Software/\+Common/inc/\+Containers/\+List\+Node.\+h}}
+
+\begin{DoxyCode}
+00001 \textcolor{preprocessor}{#pragma once}
+00002 
+00003 \textcolor{preprocessor}{#include <\mbox{\hyperlink{_types_8h}{Types.h}}>}
+00004 \textcolor{preprocessor}{#include <Constants.h>}
+00005 
+00006 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_g_n_common}{GNCommon}}
+00007 \{
+00008    \textcolor{keyword}{namespace }NContainers
+00009    \{
+00010       \textcolor{keyword}{template} < \textcolor{keyword}{class} GTcType >
+\Hypertarget{_list_node_8h_source_l00011}\mbox{\hyperlink{class_g_n_common_1_1_n_containers_1_1_g_tc_list_node}{00011}}       \textcolor{keyword}{class }\mbox{\hyperlink{class_g_n_common_1_1_n_containers_1_1_g_tc_list_node}{GTcListNode}}
+00012       \{
+00013       \textcolor{keyword}{protected}:     \textcolor{comment}{// Protected Attributes}
+00014          \mbox{\hyperlink{class_g_n_common_1_1_n_containers_1_1_g_tc_list_node}{GTcListNode< GTcType >}}* vopNext;
+00015          \mbox{\hyperlink{class_g_n_common_1_1_n_containers_1_1_g_tc_list_node}{GTcListNode< GTcType >}}* vopPrev;
+00016          GTcType                 voObject;
+00017          \mbox{\hyperlink{namespace_g_n_common_a8115dc7ed53b6e5b52e6bfde1632ea74}{Tb8}}                    vbAvailable;
+00018 
+00019       \textcolor{keyword}{public}:        \textcolor{comment}{// Public Methods}
+00020          \mbox{\hyperlink{class_g_n_common_1_1_n_containers_1_1_g_tc_list_node}{GTcListNode}}( \textcolor{keywordtype}{void} )
+00021          \{
+00022             this->vopNext = NULL;
+00023             this->vopPrev = NULL;
+00024             this->vbAvailable = \textcolor{keyword}{true};
+00025          \}
+00026 
+00027          ~\mbox{\hyperlink{class_g_n_common_1_1_n_containers_1_1_g_tc_list_node}{GTcListNode}}( \textcolor{keywordtype}{void} )
+00028          \{
+00029             this->vbAvailable = \textcolor{keyword}{false};
+00030          \}
+00031 
+00032          \textcolor{keywordtype}{void} MSetObject( GTcType& aorObject )
+00033          \{
+00034             this->voObject = aorObject;
+00035          \}
+00036 
+00037          GTcType* MGetObject( \textcolor{keywordtype}{void} )
+00038          \{
+00039             \textcolor{keywordflow}{return} &this->voObject;
+00040          \}
+00041 
+00042          \textcolor{keywordtype}{void} MSetNext( \mbox{\hyperlink{class_g_n_common_1_1_n_containers_1_1_g_tc_list_node}{GTcListNode< GTcType >}}* aopNode )
+00043          \{
+00044             this->vopNext = aopNode;
+00045          \}
+00046 
+00047          \textcolor{keywordtype}{void} MSetPrev( \mbox{\hyperlink{class_g_n_common_1_1_n_containers_1_1_g_tc_list_node}{GTcListNode< GTcType >}}* aopNode )
+00048          \{
+00049             this->vopPrev = aopNode;
+00050          \}
+00051 
+00052          \mbox{\hyperlink{class_g_n_common_1_1_n_containers_1_1_g_tc_list_node}{GTcListNode< GTcType >}}* MSGetNext( \textcolor{keywordtype}{void} )
+00053          \{
+00054             \textcolor{keywordflow}{return} this->vopNext;
+00055          \}
+00056 
+00057          \mbox{\hyperlink{class_g_n_common_1_1_n_containers_1_1_g_tc_list_node}{GTcListNode< GTcType >}}* MSGetPrev( \textcolor{keywordtype}{void} )
+00058          \{
+00059             \textcolor{keywordflow}{return} this->vopPrev;
+00060          \}
+00061 
+00062          \mbox{\hyperlink{namespace_g_n_common_a8115dc7ed53b6e5b52e6bfde1632ea74}{Tb8}} MInsertAfter( \mbox{\hyperlink{class_g_n_common_1_1_n_containers_1_1_g_tc_list_node}{GTcListNode< GTcType >}}& aorNode )
+00063          \{
+00064             \mbox{\hyperlink{namespace_g_n_common_a8115dc7ed53b6e5b52e6bfde1632ea74}{Tb8}} kbSuccess = \textcolor{keyword}{false};
+00065 
+00066             \textcolor{comment}{// Verify the current node is part of a list (NOT Available)}
+00067             \textcolor{keywordflow}{if} ( this->vbAvailable != \textcolor{keyword}{true} )
+00068             \{
+00069                \textcolor{comment}{// Set new Node's pointers}
+00070                aorNode.MSetNext ( this->vopNext );
+00071                aorNode.MSetPrev ( \textcolor{keyword}{this} );
+00072 
+00073                \textcolor{comment}{// If the Next Node is NOT NULL}
+00074                \textcolor{keywordflow}{if} ( this->vopNext != NULL )
+00075                \{
+00076                   \textcolor{comment}{// Set the Next Node's Prev Node to the new Node}
+00077                   this->vopNext->MSetPrev ( &aorNode );
+00078                \}            
+00079 
+00080                \textcolor{comment}{// Set the Next Node Pointer to the new Node}
+00081                this->vopNext = aopNode;
+00082 
+00083                \textcolor{comment}{// Node inserted successfully}
+00084                kbSuccess = \textcolor{keyword}{true};
+00085             \}
+00086 
+00087             \textcolor{keywordflow}{return} kbSuccess;
+00088          \}
+00089 
+00090          \mbox{\hyperlink{namespace_g_n_common_a8115dc7ed53b6e5b52e6bfde1632ea74}{Tb8}} MInsertBefore( \mbox{\hyperlink{class_g_n_common_1_1_n_containers_1_1_g_tc_list_node}{GTcListNode< GTcType >}}& aorNode )
+00091          \{
+00092             \mbox{\hyperlink{namespace_g_n_common_a8115dc7ed53b6e5b52e6bfde1632ea74}{Tb8}} kbSuccess = \textcolor{keyword}{false};
+00093 
+00094             \textcolor{comment}{// Verify the current node is part of a list (NOT Available)}
+00095             \textcolor{keywordflow}{if} ( this->vbAvailable != \textcolor{keyword}{true} )
+00096             \{
+00097                \textcolor{comment}{// Set new Node's pointers}
+00098                aorNode.MSetNext ( \textcolor{keyword}{this} );
+00099                aorNode.MSetPrev ( this->vopPrev );
+00100 
+00101                \textcolor{comment}{// If the Next Node is NOT NULL}
+00102                \textcolor{keywordflow}{if} ( this->vopPrev != NULL )
+00103                \{
+00104                   \textcolor{comment}{// Set the Next Node's Prev Node to the new Node}
+00105                   this->vopPrev->MSetNext ( &aorNode );
+00106                \}
+00107 
+00108                \textcolor{comment}{// Set the Prev Node Pointer to the new Node}
+00109                this->vopPrev = aopNode;
+00110 
+00111                \textcolor{comment}{// Node inserted successfully}
+00112                kbSuccess = \textcolor{keyword}{true};
+00113             \}
+00114 
+00115             \textcolor{keywordflow}{return} kbSuccess;
+00116          \}
+00117 
+00118          \mbox{\hyperlink{namespace_g_n_common_a8115dc7ed53b6e5b52e6bfde1632ea74}{Tb8}} MRemove( \textcolor{keywordtype}{void} )
+00119          \{
+00120             \mbox{\hyperlink{namespace_g_n_common_a8115dc7ed53b6e5b52e6bfde1632ea74}{Tb8}} kbSuccess = \textcolor{keyword}{false};
+00121 
+00122             \textcolor{comment}{// If the node is NOT available, remove it}
+00123             \textcolor{keywordflow}{if} ( this->vbAvailable != \textcolor{keyword}{true} )
+00124             \{
+00125                \textcolor{comment}{// If the next Node is NOT NULL}
+00126                \textcolor{keywordflow}{if} ( this->vopNext != NULL )
+00127                \{
+00128                   \textcolor{comment}{// Set the Next Node's Previous Node to this Node's Previous Node}
+00129                   this->vopNext->MSetPrev ( this->vopPrev );
+00130                \}
+00131 
+00132                \textcolor{comment}{// If the previous Node is NOT NULL}
+00133                \textcolor{keywordflow}{if} ( this->vopPrev != NULL )
+00134                \{
+00135                   \textcolor{comment}{// Set the Previous Node's Next Node to this Node's Next Node}
+00136                   this->vopPrev->MSetNext ( this->vopNext );
+00137                \}
+00138 
+00139                \textcolor{comment}{// Mark the Node as available}
+00140                this->vbAvailable = \textcolor{keyword}{true}; 
+00141 
+00142                \textcolor{comment}{// Indicate success}
+00143                kbSuccess = \textcolor{keyword}{true};
+00144             \}
+00145 
+00146             \textcolor{keywordflow}{return} kbSuccess;
+00147          \}
+00148       \};
+00149    \}
+00150 \}
+00151 
+\end{DoxyCode}
