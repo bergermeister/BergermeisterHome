@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_alert_8cpp" kind="file" language="C++">
+    <compoundname>Alert.cpp</compoundname>
+    <includes refid="_types_8h" local="no">Types.h</includes>
+    <includes refid="_event_id_8h" local="no">Notification\EventId.h</includes>
+    <includes refid="_identifier_8h" local="no">Notification\Identifier.h</includes>
+    <includes refid="_status_8h" local="no">Notification\Status.h</includes>
+    <includes refid="_alert_8h" local="no">Notification\Alert.h</includes>
+    <incdepgraph>
+      <node id="162">
+        <label>Notification\Criticality.h</label>
+        <link refid="_criticality_8h"/>
+      </node>
+      <node id="169">
+        <label>Component\Listener.h</label>
+        <link refid="_listener_8h_source"/>
+      </node>
+      <node id="164">
+        <label>Component\Model.h</label>
+        <link refid="_model_8h_source"/>
+        <childnode refid="156" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+      </node>
+      <node id="163">
+        <label>Notification\Alert.h</label>
+        <link refid="_alert_8h"/>
+        <childnode refid="156" relation="include">
+        </childnode>
+        <childnode refid="164" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+        <childnode refid="158" relation="include">
+        </childnode>
+        <childnode refid="161" relation="include">
+        </childnode>
+      </node>
+      <node id="157">
+        <label>Notification\EventId.h</label>
+        <link refid="_event_id_8h"/>
+      </node>
+      <node id="158">
+        <label>Notification\Identifier.h</label>
+        <link refid="_identifier_8h"/>
+        <childnode refid="156" relation="include">
+        </childnode>
+        <childnode refid="159" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+      </node>
+      <node id="156">
+        <label>Types.h</label>
+        <link refid="_types_8h"/>
+      </node>
+      <node id="159">
+        <label>Notification\GroupId.h</label>
+        <link refid="_group_id_8h"/>
+      </node>
+      <node id="168">
+        <label>Containers\LinkedList.h</label>
+        <link refid="_linked_list_8h_source"/>
+        <childnode refid="156" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+      </node>
+      <node id="161">
+        <label>Notification\Status.h</label>
+        <link refid="_status_8h"/>
+        <childnode refid="156" relation="include">
+        </childnode>
+        <childnode refid="162" relation="include">
+        </childnode>
+      </node>
+      <node id="160">
+        <label>Notification\ComponentId.h</label>
+        <link refid="_component_id_8h"/>
+      </node>
+      <node id="155">
+        <label>C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Notification/Alert.cpp</label>
+        <link refid="_alert_8cpp"/>
+        <childnode refid="156" relation="include">
+        </childnode>
+        <childnode refid="157" relation="include">
+        </childnode>
+        <childnode refid="158" relation="include">
+        </childnode>
+        <childnode refid="161" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
+        </childnode>
+      </node>
+      <node id="166">
+        <label>Containers\ListNode.h</label>
+        <link refid="_list_node_8h_source"/>
+        <childnode refid="156" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+      </node>
+      <node id="167">
+        <label>Constants.h</label>
+        <link refid="_constants_8h_source"/>
+      </node>
+      <node id="165">
+        <label>Component\Event.h</label>
+        <link refid="_event_8h_source"/>
+        <childnode refid="156" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+        <childnode refid="169" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_types_8h" kindref="compound">Types.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_event_id_8h" kindref="compound">Notification\EventId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_identifier_8h" kindref="compound">Notification\Identifier.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_status_8h" kindref="compound">Notification\Status.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_alert_8h" kindref="compound">Notification\Alert.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_g_n_common" kindref="compound">GNCommon</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_g_n_common_1_1_n_notification" kindref="compound">GNCommon::NNotification</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a683af178a44e0ab7463c529d1ebb6d9c" refkind="member"><highlight class="normal"><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a683af178a44e0ab7463c529d1ebb6d9c" kindref="member">TcAlert::TcAlert</ref>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>this-&gt;voID<sp/><sp/><sp/><sp/><sp/>invokes<sp/>the<sp/>default<sp/>constructor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>this-&gt;voStatus<sp/>invokes<sp/>the<sp/>default<sp/>constructor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a3c6f656e3e526b9f97942188d7bb2930" kindref="member">vulTimestamp</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ab49cb616a0e61e74234264d775a3408a" kindref="member">vulData</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1abd42f842fe53942ed6d7a7008c3400c2" refkind="member"><highlight class="normal"><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1abd42f842fe53942ed6d7a7008c3400c2" kindref="member">TcAlert::~TcAlert</ref>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Nothing<sp/>to<sp/>destruct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a75120f1735cec51fe7f4afa519bd631b" refkind="member"><highlight class="normal"><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a683af178a44e0ab7463c529d1ebb6d9c" kindref="member">TcAlert::TcAlert</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert" kindref="compound">TcAlert</ref>&amp;<sp/>aorAlert<sp/>)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>=<sp/>aorAlert;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ad1371ff2988283b60a47c2879e1a0011" refkind="member"><highlight class="normal"><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert" kindref="compound">TcAlert</ref>&amp;<sp/><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ad1371ff2988283b60a47c2879e1a0011" kindref="member">TcAlert::operator=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert" kindref="compound">TcAlert</ref>&amp;<sp/>aorAlert<sp/>)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a5411a5d9659282e199ceb16a1b88c17d" kindref="member">MSetIdentifier</ref>(<sp/>aorAlert.<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1aa42573703fd6fa2ba90aa010fdc659ca" kindref="member">voID</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a682a17a50fc2c50bfb92ec3eeafdb5c9" kindref="member">MSetStatus</ref><sp/><sp/><sp/><sp/>(<sp/>aorAlert.<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ae993e1ea34de5347b08b21c9264cdb8e" kindref="member">voStatus</ref><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ac6ed25087bcdbb12921d71c2c4126131" kindref="member">MSetTimestamp</ref><sp/>(<sp/>aorAlert.<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a3c6f656e3e526b9f97942188d7bb2930" kindref="member">vulTimestamp</ref><sp/>);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1af4dccb7b428fdd2069a9dd1e6c12410b" kindref="member">MSetData</ref><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/>aorAlert.<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ab49cb616a0e61e74234264d775a3408a" kindref="member">vulData</ref><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a5411a5d9659282e199ceb16a1b88c17d" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a5411a5d9659282e199ceb16a1b88c17d" kindref="member">TcAlert::MSetIdentifier</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_identifier" kindref="compound">TcIdentifier</ref>&amp;<sp/>aorID<sp/>)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1aa42573703fd6fa2ba90aa010fdc659ca" kindref="member">voID</ref><sp/>!=<sp/>aorID<sp/>)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1aa42573703fd6fa2ba90aa010fdc659ca" kindref="member">voID</ref><sp/>=<sp/>aorID;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;VoEvent.MNotify(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>static_cast&lt;<sp/>Tu32<sp/>&gt;(<sp/>TcEventId::XeIdentifier<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a682a17a50fc2c50bfb92ec3eeafdb5c9" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a682a17a50fc2c50bfb92ec3eeafdb5c9" kindref="member">TcAlert::MSetStatus</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status" kindref="compound">TcStatus</ref>&amp;<sp/>aorStatus<sp/>)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ae993e1ea34de5347b08b21c9264cdb8e" kindref="member">voStatus</ref><sp/>!=<sp/>aorStatus<sp/>)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ae993e1ea34de5347b08b21c9264cdb8e" kindref="member">voStatus</ref><sp/>=<sp/>aorStatus;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;VoEvent.MNotify(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>static_cast&lt;<sp/>Tu32<sp/>&gt;(<sp/>TcEventId::XeStatus<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ac6ed25087bcdbb12921d71c2c4126131" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ac6ed25087bcdbb12921d71c2c4126131" kindref="member">TcAlert::MSetTimestamp</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kindref="member">Tu64</ref><sp/>aulTimestamp<sp/>)</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a3c6f656e3e526b9f97942188d7bb2930" kindref="member">vulTimestamp</ref><sp/>!=<sp/>aulTimestamp<sp/>)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a3c6f656e3e526b9f97942188d7bb2930" kindref="member">vulTimestamp</ref><sp/>=<sp/>aulTimestamp;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;VoEvent.MNotify(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>static_cast&lt;<sp/>Tu32<sp/>&gt;(<sp/>TcEventId::XeTimestamp<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1af4dccb7b428fdd2069a9dd1e6c12410b" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1af4dccb7b428fdd2069a9dd1e6c12410b" kindref="member">TcAlert::MSetData</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kindref="member">Tu64</ref><sp/>aulData<sp/>)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ab49cb616a0e61e74234264d775a3408a" kindref="member">vulData</ref><sp/>!=<sp/>aulData<sp/>)</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ab49cb616a0e61e74234264d775a3408a" kindref="member">vulData</ref><sp/>=<sp/>aulData;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;VoEvent.MNotify(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>static_cast&lt;<sp/>Tu32<sp/>&gt;(<sp/>TcEventId::XeData<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a3387c702b35bffddf5a480cdd52498aa" refkind="member"><highlight class="normal"><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_identifier" kindref="compound">TcIdentifier</ref><sp/><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a3387c702b35bffddf5a480cdd52498aa" kindref="member">TcAlert::MGetIdentifier</ref>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="110"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1aa42573703fd6fa2ba90aa010fdc659ca" kindref="member">voID</ref>;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1af6c3e9f29e796c2140dbe52229d439ca" refkind="member"><highlight class="normal"><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status" kindref="compound">TcStatus</ref><sp/><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1af6c3e9f29e796c2140dbe52229d439ca" kindref="member">TcAlert::MGetStatus</ref>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="119"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ae993e1ea34de5347b08b21c9264cdb8e" kindref="member">voStatus</ref>;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a99c02af9bf2a17a34810ac5ed6be8856" refkind="member"><highlight class="normal"><ref refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kindref="member">Tu64</ref><sp/><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a99c02af9bf2a17a34810ac5ed6be8856" kindref="member">TcAlert::MGetTimestamp</ref>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="128"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a3c6f656e3e526b9f97942188d7bb2930" kindref="member">vulTimestamp</ref>;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a4eeace6aa167a1b9b9a98487eee0ddb2" refkind="member"><highlight class="normal"><ref refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kindref="member">Tu64</ref><sp/><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a4eeace6aa167a1b9b9a98487eee0ddb2" kindref="member">TcAlert::MGetData</ref>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="137"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ab49cb616a0e61e74234264d775a3408a" kindref="member">vulData</ref>;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Notification/Alert.cpp"/>
+  </compounddef>
+</doxygen>

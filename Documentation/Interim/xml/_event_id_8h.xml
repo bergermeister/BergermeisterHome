@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_event_id_8h" kind="file" language="C++">
+    <compoundname>EventId.h</compoundname>
+    <includedby refid="_alert_8cpp" local="no">C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Notification/Alert.cpp</includedby>
+    <invincdepgraph>
+      <node id="94">
+        <label>C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/EventId.h</label>
+        <link refid="_event_id_8h"/>
+        <childnode refid="95" relation="include">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Notification/Alert.cpp</label>
+        <link refid="_alert_8cpp_source"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespace_g_n_common">GNCommon</innernamespace>
+    <innernamespace refid="namespace_g_n_common_1_1_n_notification">GNCommon::NNotification</innernamespace>
+    <briefdescription>
+<para>Package interface for the Event Identifier Enumeration. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="5"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_g_n_common" kindref="compound">GNCommon</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">NNotification</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12" refid="namespace_g_n_common_1_1_n_notification_1a8d5ce0e5fbb0a6cdcd96e4b037656761" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespace_g_n_common_1_1_n_notification_1a8d5ce0e5fbb0a6cdcd96e4b037656761" kindref="member">TcEventId</ref><sp/>:<sp/><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XeIdentifier,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XeStatus,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XeTimestamp,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XeData</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/EventId.h"/>
+  </compounddef>
+</doxygen>

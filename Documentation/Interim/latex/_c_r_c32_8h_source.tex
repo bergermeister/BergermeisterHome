@@ -1,0 +1,47 @@
+\hypertarget{_c_r_c32_8h_source}{}\section{C\+R\+C32.\+h}
+\label{_c_r_c32_8h_source}\index{C\+:/\+Users/edwar/\+Projects/\+Bergermeister\+Home/\+Software/\+Common/inc/\+Data\+Authentication/\+C\+R\+C32.\+h@{C\+:/\+Users/edwar/\+Projects/\+Bergermeister\+Home/\+Software/\+Common/inc/\+Data\+Authentication/\+C\+R\+C32.\+h}}
+
+\begin{DoxyCode}
+00001 
+00005 \textcolor{preprocessor}{#pragma once}
+00006 
+00007 \textcolor{preprocessor}{#include <\mbox{\hyperlink{_types_8h}{Types.h}}>}
+00008 
+00009 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_g_n_common}{GNCommon}}
+00010 \{
+\Hypertarget{_c_r_c32_8h_source_l00012}\mbox{\hyperlink{namespace_g_n_common_1_1_n_data_authentication}{00012}}    \textcolor{keyword}{namespace }NDataAuthentication
+00013    \{
+\Hypertarget{_c_r_c32_8h_source_l00015}\mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32}{00015}}       \textcolor{keyword}{class }\mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32}{TcCRC32}}
+00016       \{
+00017       \textcolor{keyword}{public}:        \textcolor{comment}{// Public Attributes}
+\Hypertarget{_c_r_c32_8h_source_l00018}\mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_a520aaabe0f4ade7f38afd480281b2180}{00018}}          \textcolor{keyword}{static} \textcolor{keyword}{const} \mbox{\hyperlink{namespace_g_n_common_a941b527ef318f318aed7903dc832b7e4}{Tu32}} \mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_a520aaabe0f4ade7f38afd480281b2180}{XuiTableSize}}  = 256;        
+\Hypertarget{_c_r_c32_8h_source_l00019}\mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_ab4394051ff10830de29fa62cbb6f1490}{00019}}          \textcolor{keyword}{static} \textcolor{keyword}{const} \mbox{\hyperlink{namespace_g_n_common_a941b527ef318f318aed7903dc832b7e4}{Tu32}} \mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_ab4394051ff10830de29fa62cbb6f1490}{XuiPolynomial}} = 0xEDB88320; 
+00021       \textcolor{keyword}{protected}:     \textcolor{comment}{// Protected Attributes}
+\Hypertarget{_c_r_c32_8h_source_l00022}\mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_a07c2c3cd02a6f0eedc7a56565f7960c1}{00022}}          \textcolor{keyword}{static} \textcolor{keyword}{const} \mbox{\hyperlink{namespace_g_n_common_a941b527ef318f318aed7903dc832b7e4}{Tu32}} \mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_a07c2c3cd02a6f0eedc7a56565f7960c1}{xuiDefaultSeed}} = 0xFFFFFFFF;  
+\Hypertarget{_c_r_c32_8h_source_l00023}\mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_aafa160e99ae03386b426884450ba3796}{00023}}          \textcolor{keyword}{static} \textcolor{keyword}{const} \mbox{\hyperlink{namespace_g_n_common_a941b527ef318f318aed7903dc832b7e4}{Tu32}} \mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_aafa160e99ae03386b426884450ba3796}{xuiTableCRC}}    = 0x6FCF9E13;  
+\Hypertarget{_c_r_c32_8h_source_l00024}\mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_aae1c17e2c8f312d0bf2e062a5412ada8}{00024}}          \textcolor{keyword}{static} \textcolor{keyword}{const} \mbox{\hyperlink{namespace_g_n_common_a941b527ef318f318aed7903dc832b7e4}{Tu32}} \mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_aae1c17e2c8f312d0bf2e062a5412ada8}{xuiShift8}}      = 8;           
+\Hypertarget{_c_r_c32_8h_source_l00025}\mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_ab156bd5eaab2fe267499870a8f6e4925}{00025}}          \textcolor{keyword}{static} \textcolor{keyword}{const} \mbox{\hyperlink{namespace_g_n_common_a941b527ef318f318aed7903dc832b7e4}{Tu32}} \mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_ab156bd5eaab2fe267499870a8f6e4925}{xuiMaskByte}}    = 0x000000FF;  
+\Hypertarget{_c_r_c32_8h_source_l00026}\mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_a4aafd40037856d1bd4ea6f6ce0928836}{00026}}          \textcolor{keyword}{static} \textcolor{keyword}{const} \mbox{\hyperlink{namespace_g_n_common_a941b527ef318f318aed7903dc832b7e4}{Tu32}} \mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_a4aafd40037856d1bd4ea6f6ce0928836}{xuiTable}}[ \mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_a520aaabe0f4ade7f38afd480281b2180}{XuiTableSize}} ];     
+00028       \textcolor{keyword}{public}:        \textcolor{comment}{// Public Methods}
+00029          \mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32}{TcCRC32}}( \textcolor{keywordtype}{void} );
+00030          \mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32}{TcCRC32}}( \textcolor{keyword}{const} \mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32}{TcCRC32}}& aorCRC );
+00031          ~\mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32}{TcCRC32}}( \textcolor{keywordtype}{void} );
+00032 
+00033          \mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32}{TcCRC32}}& operator=( \textcolor{keyword}{const} \mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32}{TcCRC32}}& aorCRC );
+00034 
+00035          \mbox{\hyperlink{namespace_g_n_common_a941b527ef318f318aed7903dc832b7e4}{Tu32}} MGet( \textcolor{keyword}{const} \mbox{\hyperlink{namespace_g_n_common_a7939e251ddbf5d3a31832dcfdc8bde39}{Tu8}}* aucpBuffer, 
+00036                     \textcolor{keyword}{const} \mbox{\hyperlink{namespace_g_n_common_a941b527ef318f318aed7903dc832b7e4}{Tu32}} auiBytes, 
+00037                     \textcolor{keyword}{const} \mbox{\hyperlink{namespace_g_n_common_a941b527ef318f318aed7903dc832b7e4}{Tu32}} auiSeed = \mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_a07c2c3cd02a6f0eedc7a56565f7960c1}{xuiDefaultSeed}}, 
+00038                     \textcolor{keyword}{const} \mbox{\hyperlink{namespace_g_n_common_a941b527ef318f318aed7903dc832b7e4}{Tu32}} auiTable[ \mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_a520aaabe0f4ade7f38afd480281b2180}{XuiTableSize}} ] = 
+      \mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_a4aafd40037856d1bd4ea6f6ce0928836}{xuiTable}} ) \textcolor{keyword}{const};
+00039 
+00040          \mbox{\hyperlink{namespace_g_n_common_a8115dc7ed53b6e5b52e6bfde1632ea74}{Tb8}} MVerify( \textcolor{keywordtype}{void} ) \textcolor{keyword}{const};
+00041 
+00042          \textcolor{keywordtype}{void} \mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_a11a20f9425a6431b0f2eb72e126a3a0e}{MGenerateTable}}( \mbox{\hyperlink{namespace_g_n_common_a941b527ef318f318aed7903dc832b7e4}{Tu32}} auiTable[ \mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_a520aaabe0f4ade7f38afd480281b2180}{XuiTableSize}} ], \textcolor{keyword}{const} 
+      \mbox{\hyperlink{namespace_g_n_common_a941b527ef318f318aed7903dc832b7e4}{Tu32}} auiPolynomial = \mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_ab4394051ff10830de29fa62cbb6f1490}{XuiPolynomial}} );
+00043          \mbox{\hyperlink{namespace_g_n_common_a8115dc7ed53b6e5b52e6bfde1632ea74}{Tb8}}  \mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_a2f822ac900cdba0a94b8e9361eb86b5c}{MCompareTable}} ( \textcolor{keyword}{const} \mbox{\hyperlink{namespace_g_n_common_a941b527ef318f318aed7903dc832b7e4}{Tu32}} auiTable[ 
+      \mbox{\hyperlink{class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_a520aaabe0f4ade7f38afd480281b2180}{XuiTableSize}} ] );
+00044       \};
+00045    \}
+00046 \}
+\end{DoxyCode}

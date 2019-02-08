@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_status_8cpp" kind="file" language="C++">
+    <compoundname>Status.cpp</compoundname>
+    <includes refid="_types_8h" local="no">Types.h</includes>
+    <includes refid="_criticality_8h" local="no">Notification\Criticality.h</includes>
+    <includes refid="_status_8h" local="no">Notification\Status.h</includes>
+    <incdepgraph>
+      <node id="179">
+        <label>Notification\Criticality.h</label>
+        <link refid="_criticality_8h"/>
+      </node>
+      <node id="177">
+        <label>C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Notification/Status.cpp</label>
+        <link refid="_status_8cpp"/>
+        <childnode refid="178" relation="include">
+        </childnode>
+        <childnode refid="179" relation="include">
+        </childnode>
+        <childnode refid="180" relation="include">
+        </childnode>
+      </node>
+      <node id="178">
+        <label>Types.h</label>
+        <link refid="_types_8h"/>
+      </node>
+      <node id="180">
+        <label>Notification\Status.h</label>
+        <link refid="_status_8h"/>
+        <childnode refid="178" relation="include">
+        </childnode>
+        <childnode refid="179" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+<para>Package implementation for the Alert Status. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="5"><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_types_8h" kindref="compound">Types.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_criticality_8h" kindref="compound">Notification\Criticality.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_status_8h" kindref="compound">Notification\Status.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_g_n_common" kindref="compound">GNCommon</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_g_n_common_1_1_n_notification" kindref="compound">GNCommon::NNotification</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a43b5990228e5a9fbe9bfe63605f7a9d2" refkind="member"><highlight class="normal"><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a43b5990228e5a9fbe9bfe63605f7a9d2" kindref="member">TcStatus::TcStatus</ref>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a69149fc8c4c5facf147993b95d171c10" kindref="member">vucActive</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a487d66407748b7a91d9d663c3fab0f2c" kindref="member">vucAcknowledged</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a36e84f5ebb3fda08f3ddaccde0a1c37b" kindref="member">vucCleared</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a4af337a51278a09d8500bab15d929af3" kindref="member">vucTrigger</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1ad8eff97b5c02e0409d3cbc65bf65c313" kindref="member">vucSpare1</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a2f8cb2528ae8cba51e3acc7f28eb2eeb" kindref="member">voCriticality</ref><sp/><sp/><sp/>=<sp/><ref refid="namespace_g_n_common_1_1_n_notification_1ab468f440599e6d5a51d887dfa55b06b3ab1dd4ba140ef44b2b6e425a90b4d11ba" kindref="member">TcCriticality::XeNone</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1aaee139b3984634b3cc3cc7e2b7175035" kindref="member">vucSpare2</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1ae398de0e32d0352b0437f4267247fd6d" kindref="member">vucChildren</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1abfb0ff092f9a23017fc89dcd1d6f4e6f" refkind="member"><highlight class="normal"><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a43b5990228e5a9fbe9bfe63605f7a9d2" kindref="member">TcStatus::TcStatus</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status" kindref="compound">TcStatus</ref>&amp;<sp/>aorStatus<sp/>)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>=<sp/>aorStatus;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1af14caf8abaf597904cebb6d414fd1dcf" refkind="member"><highlight class="normal"><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1af14caf8abaf597904cebb6d414fd1dcf" kindref="member">TcStatus::~TcStatus</ref>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Nothing<sp/>to<sp/>destruct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a97c8135ccc33bc5ba9d33f79de4ea789" refkind="member"><highlight class="normal"><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status" kindref="compound">TcStatus</ref>&amp;<sp/><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a97c8135ccc33bc5ba9d33f79de4ea789" kindref="member">TcStatus::operator=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status" kindref="compound">TcStatus</ref>&amp;<sp/>aorStatus<sp/>)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a69149fc8c4c5facf147993b95d171c10" kindref="member">vucActive</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>aorStatus.<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a69149fc8c4c5facf147993b95d171c10" kindref="member">vucActive</ref>;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a487d66407748b7a91d9d663c3fab0f2c" kindref="member">vucAcknowledged</ref><sp/>=<sp/>aorStatus.<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a487d66407748b7a91d9d663c3fab0f2c" kindref="member">vucAcknowledged</ref>;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a36e84f5ebb3fda08f3ddaccde0a1c37b" kindref="member">vucCleared</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>aorStatus.<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a36e84f5ebb3fda08f3ddaccde0a1c37b" kindref="member">vucCleared</ref>;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a4af337a51278a09d8500bab15d929af3" kindref="member">vucTrigger</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>aorStatus.<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a4af337a51278a09d8500bab15d929af3" kindref="member">vucTrigger</ref>;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1ad8eff97b5c02e0409d3cbc65bf65c313" kindref="member">vucSpare1</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>aorStatus.<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1ad8eff97b5c02e0409d3cbc65bf65c313" kindref="member">vucSpare1</ref>;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a2f8cb2528ae8cba51e3acc7f28eb2eeb" kindref="member">voCriticality</ref><sp/><sp/><sp/>=<sp/>aorStatus.<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a2f8cb2528ae8cba51e3acc7f28eb2eeb" kindref="member">voCriticality</ref>;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1aaee139b3984634b3cc3cc7e2b7175035" kindref="member">vucSpare2</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>aorStatus.<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1aaee139b3984634b3cc3cc7e2b7175035" kindref="member">vucSpare2</ref>;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1ae398de0e32d0352b0437f4267247fd6d" kindref="member">vucChildren</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>aorStatus.<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1ae398de0e32d0352b0437f4267247fd6d" kindref="member">vucChildren</ref>;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">(<sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1acf4e836982c2da53ad1e6989af623c58" refkind="member"><highlight class="normal"><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref><sp/><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1acf4e836982c2da53ad1e6989af623c58" kindref="member">TcStatus::operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status" kindref="compound">TcStatus</ref>&amp;<sp/>aorStatus<sp/>)</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref><sp/>kbEqual<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>Assume<sp/>Equal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>(<sp/>this-&gt;<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a69149fc8c4c5facf147993b95d171c10" kindref="member">vucActive</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>!=<sp/>aorStatus.<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a69149fc8c4c5facf147993b95d171c10" kindref="member">vucActive</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)<sp/>||</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/>this-&gt;vucAcknowledged<sp/>!=<sp/>aorStatus.<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a487d66407748b7a91d9d663c3fab0f2c" kindref="member">vucAcknowledged</ref><sp/>)<sp/>||</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/>this-&gt;vucCleared<sp/><sp/><sp/><sp/><sp/><sp/>!=<sp/>aorStatus.<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a36e84f5ebb3fda08f3ddaccde0a1c37b" kindref="member">vucCleared</ref><sp/><sp/><sp/><sp/><sp/><sp/>)<sp/>||</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/>this-&gt;vucTrigger<sp/><sp/><sp/><sp/><sp/><sp/>!=<sp/>aorStatus.<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a4af337a51278a09d8500bab15d929af3" kindref="member">vucTrigger</ref><sp/><sp/><sp/><sp/><sp/><sp/>)<sp/>||</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/>this-&gt;vucSpare1<sp/><sp/><sp/><sp/><sp/><sp/><sp/>!=<sp/>aorStatus.<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1ad8eff97b5c02e0409d3cbc65bf65c313" kindref="member">vucSpare1</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)<sp/>||</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/>this-&gt;voCriticality<sp/><sp/><sp/>!=<sp/>aorStatus.<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a2f8cb2528ae8cba51e3acc7f28eb2eeb" kindref="member">voCriticality</ref><sp/><sp/><sp/>)<sp/>||</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/>this-&gt;vucSpare2<sp/><sp/><sp/><sp/><sp/><sp/><sp/>!=<sp/>aorStatus.<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1aaee139b3984634b3cc3cc7e2b7175035" kindref="member">vucSpare2</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)<sp/>||</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/>this-&gt;vucChildren<sp/><sp/><sp/><sp/><sp/>!=<sp/>aorStatus.<ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1ae398de0e32d0352b0437f4267247fd6d" kindref="member">vucChildren</ref><sp/><sp/><sp/><sp/><sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>kbEqual<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">(<sp/>kbEqual<sp/>);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1acdf1eba6040e3cd5e244e21524ff0d86" refkind="member"><highlight class="normal"><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref><sp/><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1acdf1eba6040e3cd5e244e21524ff0d86" kindref="member">TcStatus::operator!=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status" kindref="compound">TcStatus</ref>&amp;<sp/>aorStatus<sp/>)</highlight></codeline>
+<codeline lineno="147"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">(<sp/>!(<sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>==<sp/>aorStatus<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Notification/Status.cpp"/>
+  </compounddef>
+</doxygen>

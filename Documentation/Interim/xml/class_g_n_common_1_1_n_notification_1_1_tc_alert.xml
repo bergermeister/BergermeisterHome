@@ -1,0 +1,485 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_g_n_common_1_1_n_notification_1_1_tc_alert" kind="class" language="C++" prot="public">
+    <compoundname>GNCommon::NNotification::TcAlert</compoundname>
+    <basecompoundref refid="class_g_n_common_1_1_n_component_1_1_tc_model" prot="public" virt="non-virtual">GNCommon::NComponent::TcModel</basecompoundref>
+    <includes refid="_alert_8h" local="no">Alert.h</includes>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a44f63050a2f1c7a4876a31ce2ffd2d06" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>const Tu32 GNCommon::NNotification::TcAlert::XuiSizeOfIdentifier</definition>
+        <argsstring></argsstring>
+        <name>XuiSizeOfIdentifier</name>
+        <initializer>= sizeof( <ref refid="class_g_n_common_1_1_n_notification_1_1_tc_identifier" kindref="compound">TcIdentifier</ref> )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of Identifier </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" line="22" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a59f856e0a33731ee0c235271bb013a34" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>const Tu32 GNCommon::NNotification::TcAlert::XuiSizeOfStatus</definition>
+        <argsstring></argsstring>
+        <name>XuiSizeOfStatus</name>
+        <initializer>= sizeof( <ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status" kindref="compound">TcStatus</ref>     )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of Status </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" line="23" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_notification_1_1_tc_alert_1aa42573703fd6fa2ba90aa010fdc659ca" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_identifier" kindref="compound">TcIdentifier</ref></type>
+        <definition>TcIdentifier GNCommon::NNotification::TcAlert::voID</definition>
+        <argsstring></argsstring>
+        <name>voID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Encoded Identifier </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" line="26" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ad1371ff2988283b60a47c2879e1a0011" compoundref="_alert_8cpp" startline="43" endline="51">operator=</referencedby>
+        <referencedby refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a5411a5d9659282e199ceb16a1b88c17d" compoundref="_alert_8cpp" startline="57" endline="64">MSetIdentifier</referencedby>
+        <referencedby refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a3387c702b35bffddf5a480cdd52498aa" compoundref="_alert_8cpp" startline="109" endline="112">MGetIdentifier</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ae993e1ea34de5347b08b21c9264cdb8e" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status" kindref="compound">TcStatus</ref></type>
+        <definition>TcStatus GNCommon::NNotification::TcAlert::voStatus</definition>
+        <argsstring></argsstring>
+        <name>voStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Encoded Status </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" line="27" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ad1371ff2988283b60a47c2879e1a0011" compoundref="_alert_8cpp" startline="43" endline="51">operator=</referencedby>
+        <referencedby refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a682a17a50fc2c50bfb92ec3eeafdb5c9" compoundref="_alert_8cpp" startline="70" endline="77">MSetStatus</referencedby>
+        <referencedby refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1af6c3e9f29e796c2140dbe52229d439ca" compoundref="_alert_8cpp" startline="118" endline="121">MGetStatus</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a3c6f656e3e526b9f97942188d7bb2930" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kindref="member">Tu64</ref></type>
+        <definition>Tu64 GNCommon::NNotification::TcAlert::vulTimestamp</definition>
+        <argsstring></argsstring>
+        <name>vulTimestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>64-bit Timestamp of Occurrence </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" line="28" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a683af178a44e0ab7463c529d1ebb6d9c" compoundref="_alert_8cpp" startline="13" endline="19">TcAlert</referencedby>
+        <referencedby refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ad1371ff2988283b60a47c2879e1a0011" compoundref="_alert_8cpp" startline="43" endline="51">operator=</referencedby>
+        <referencedby refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ac6ed25087bcdbb12921d71c2c4126131" compoundref="_alert_8cpp" startline="83" endline="90">MSetTimestamp</referencedby>
+        <referencedby refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a99c02af9bf2a17a34810ac5ed6be8856" compoundref="_alert_8cpp" startline="127" endline="130">MGetTimestamp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ab49cb616a0e61e74234264d775a3408a" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kindref="member">Tu64</ref></type>
+        <definition>Tu64 GNCommon::NNotification::TcAlert::vulData</definition>
+        <argsstring></argsstring>
+        <name>vulData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>64-bit Additional Data </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" line="29" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a683af178a44e0ab7463c529d1ebb6d9c" compoundref="_alert_8cpp" startline="13" endline="19">TcAlert</referencedby>
+        <referencedby refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ad1371ff2988283b60a47c2879e1a0011" compoundref="_alert_8cpp" startline="43" endline="51">operator=</referencedby>
+        <referencedby refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1af4dccb7b428fdd2069a9dd1e6c12410b" compoundref="_alert_8cpp" startline="96" endline="103">MSetData</referencedby>
+        <referencedby refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a4eeace6aa167a1b9b9a98487eee0ddb2" compoundref="_alert_8cpp" startline="136" endline="139">MGetData</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a683af178a44e0ab7463c529d1ebb6d9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TcAlert::TcAlert</definition>
+        <argsstring>(void)</argsstring>
+        <name>TcAlert</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default Constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" line="32" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Notification/Alert.cpp" bodystart="13" bodyend="19"/>
+        <references refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a3c6f656e3e526b9f97942188d7bb2930" compoundref="_alert_8h" startline="28">vulTimestamp</references>
+        <references refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ab49cb616a0e61e74234264d775a3408a" compoundref="_alert_8h" startline="29">vulData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_notification_1_1_tc_alert_1abd42f842fe53942ed6d7a7008c3400c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TcAlert::~TcAlert</definition>
+        <argsstring>(void)</argsstring>
+        <name>~TcAlert</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default Destructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" line="33" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Notification/Alert.cpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a75120f1735cec51fe7f4afa519bd631b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TcAlert::TcAlert</definition>
+        <argsstring>(const TcAlert &amp;aorAlert)</argsstring>
+        <name>TcAlert</name>
+        <param>
+          <type>const <ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert" kindref="compound">TcAlert</ref> &amp;</type>
+          <declname>aorAlert</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Copy Constructor <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aorAlert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Alert Constant Reference to copy </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" line="34" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Notification/Alert.cpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ad1371ff2988283b60a47c2879e1a0011" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert" kindref="compound">TcAlert</ref> &amp;</type>
+        <definition>TcAlert &amp; TcAlert::operator=</definition>
+        <argsstring>(const TcAlert &amp;aorAlert)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert" kindref="compound">TcAlert</ref> &amp;</type>
+          <declname>aorAlert</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>operator= Override <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aorAlert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Alert Constant Reference to copy </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>*this GTcAlert Reference </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" line="35" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Notification/Alert.cpp" bodystart="43" bodyend="51"/>
+        <references refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a5411a5d9659282e199ceb16a1b88c17d" compoundref="_alert_8cpp" startline="57" endline="64">MSetIdentifier</references>
+        <references refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1aa42573703fd6fa2ba90aa010fdc659ca" compoundref="_alert_8h" startline="26">voID</references>
+        <references refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a682a17a50fc2c50bfb92ec3eeafdb5c9" compoundref="_alert_8cpp" startline="70" endline="77">MSetStatus</references>
+        <references refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ae993e1ea34de5347b08b21c9264cdb8e" compoundref="_alert_8h" startline="27">voStatus</references>
+        <references refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ac6ed25087bcdbb12921d71c2c4126131" compoundref="_alert_8cpp" startline="83" endline="90">MSetTimestamp</references>
+        <references refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a3c6f656e3e526b9f97942188d7bb2930" compoundref="_alert_8h" startline="28">vulTimestamp</references>
+        <references refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1af4dccb7b428fdd2069a9dd1e6c12410b" compoundref="_alert_8cpp" startline="96" endline="103">MSetData</references>
+        <references refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ab49cb616a0e61e74234264d775a3408a" compoundref="_alert_8h" startline="29">vulData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a5411a5d9659282e199ceb16a1b88c17d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TcAlert::MSetIdentifier</definition>
+        <argsstring>(const TcIdentifier &amp;aorID)</argsstring>
+        <name>MSetIdentifier</name>
+        <param>
+          <type>const <ref refid="class_g_n_common_1_1_n_notification_1_1_tc_identifier" kindref="compound">TcIdentifier</ref> &amp;</type>
+          <declname>aorID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MSetIdentifier <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aorID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identifier Structure Constant Reference </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" line="37" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Notification/Alert.cpp" bodystart="57" bodyend="64"/>
+        <references refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1aa42573703fd6fa2ba90aa010fdc659ca" compoundref="_alert_8h" startline="26">voID</references>
+        <referencedby refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ad1371ff2988283b60a47c2879e1a0011" compoundref="_alert_8cpp" startline="43" endline="51">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a682a17a50fc2c50bfb92ec3eeafdb5c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TcAlert::MSetStatus</definition>
+        <argsstring>(const TcStatus &amp;aorStatus)</argsstring>
+        <name>MSetStatus</name>
+        <param>
+          <type>const <ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status" kindref="compound">TcStatus</ref> &amp;</type>
+          <declname>aorStatus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MSetStatus <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aorStatus</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Status Structure Constant Reference </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" line="38" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Notification/Alert.cpp" bodystart="70" bodyend="77"/>
+        <references refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ae993e1ea34de5347b08b21c9264cdb8e" compoundref="_alert_8h" startline="27">voStatus</references>
+        <referencedby refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ad1371ff2988283b60a47c2879e1a0011" compoundref="_alert_8cpp" startline="43" endline="51">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ac6ed25087bcdbb12921d71c2c4126131" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TcAlert::MSetTimestamp</definition>
+        <argsstring>(const Tu64 aulTimestamp)</argsstring>
+        <name>MSetTimestamp</name>
+        <param>
+          <type>const <ref refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kindref="member">Tu64</ref></type>
+          <declname>aulTimestamp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MSetTimeStamp <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aulTimestamp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>constant 64-bit Integer Timestamp </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" line="39" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Notification/Alert.cpp" bodystart="83" bodyend="90"/>
+        <references refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a3c6f656e3e526b9f97942188d7bb2930" compoundref="_alert_8h" startline="28">vulTimestamp</references>
+        <referencedby refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ad1371ff2988283b60a47c2879e1a0011" compoundref="_alert_8cpp" startline="43" endline="51">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_notification_1_1_tc_alert_1af4dccb7b428fdd2069a9dd1e6c12410b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TcAlert::MSetData</definition>
+        <argsstring>(const Tu64 aulData)</argsstring>
+        <name>MSetData</name>
+        <param>
+          <type>const <ref refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kindref="member">Tu64</ref></type>
+          <declname>aulData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MSetData <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aulData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>constant 64-bit Integer Data </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" line="40" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Notification/Alert.cpp" bodystart="96" bodyend="103"/>
+        <references refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ab49cb616a0e61e74234264d775a3408a" compoundref="_alert_8h" startline="29">vulData</references>
+        <referencedby refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ad1371ff2988283b60a47c2879e1a0011" compoundref="_alert_8cpp" startline="43" endline="51">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a3387c702b35bffddf5a480cdd52498aa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_identifier" kindref="compound">TcIdentifier</ref></type>
+        <definition>TcIdentifier TcAlert::MGetIdentifier</definition>
+        <argsstring>(void) const</argsstring>
+        <name>MGetIdentifier</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MGetIdentifier <simplesect kind="return"><para>this-&gt;voID constant TsIdentifier </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" line="42" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Notification/Alert.cpp" bodystart="109" bodyend="112"/>
+        <references refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1aa42573703fd6fa2ba90aa010fdc659ca" compoundref="_alert_8h" startline="26">voID</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_notification_1_1_tc_alert_1af6c3e9f29e796c2140dbe52229d439ca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_g_n_common_1_1_n_notification_1_1_tc_status" kindref="compound">TcStatus</ref></type>
+        <definition>TcStatus TcAlert::MGetStatus</definition>
+        <argsstring>(void) const</argsstring>
+        <name>MGetStatus</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MGetStatus <simplesect kind="return"><para>this-&gt;voStatus constant TsStatus </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" line="43" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Notification/Alert.cpp" bodystart="118" bodyend="121"/>
+        <references refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ae993e1ea34de5347b08b21c9264cdb8e" compoundref="_alert_8h" startline="27">voStatus</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a99c02af9bf2a17a34810ac5ed6be8856" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kindref="member">Tu64</ref></type>
+        <definition>Tu64 TcAlert::MGetTimestamp</definition>
+        <argsstring>(void) const</argsstring>
+        <name>MGetTimestamp</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MGetTimestamp <simplesect kind="return"><para>this-&gt;vulTimestamp constant 64-bit Integer Timestamp </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" line="44" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Notification/Alert.cpp" bodystart="127" bodyend="130"/>
+        <references refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a3c6f656e3e526b9f97942188d7bb2930" compoundref="_alert_8h" startline="28">vulTimestamp</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a4eeace6aa167a1b9b9a98487eee0ddb2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kindref="member">Tu64</ref></type>
+        <definition>Tu64 TcAlert::MGetData</definition>
+        <argsstring>(void) const</argsstring>
+        <name>MGetData</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MGetTrigger <simplesect kind="return"><para>this-&gt;vulData constant 64-bit Integer Data </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" line="45" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Notification/Alert.cpp" bodystart="136" bodyend="139"/>
+        <references refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ab49cb616a0e61e74234264d775a3408a" compoundref="_alert_8h" startline="29">vulData</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Alert Class </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="18">
+        <label>GNCommon::NNotification::TcAlert</label>
+        <link refid="class_g_n_common_1_1_n_notification_1_1_tc_alert"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>GNCommon::NComponent::TcModel</label>
+        <link refid="class_g_n_common_1_1_n_component_1_1_tc_model"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="27">
+        <label>GNCommon::NNotification::TcIdentifier</label>
+        <link refid="class_g_n_common_1_1_n_notification_1_1_tc_identifier"/>
+      </node>
+      <node id="20">
+        <label>GNCommon::NNotification::TcAlert</label>
+        <link refid="class_g_n_common_1_1_n_notification_1_1_tc_alert"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+        <childnode refid="26" relation="usage">
+          <edgelabel>voStatus</edgelabel>
+        </childnode>
+        <childnode refid="27" relation="usage">
+          <edgelabel>voID</edgelabel>
+        </childnode>
+      </node>
+      <node id="21">
+        <label>GNCommon::NComponent::TcModel</label>
+        <link refid="class_g_n_common_1_1_n_component_1_1_tc_model"/>
+        <childnode refid="22" relation="usage">
+          <edgelabel>VoEvent</edgelabel>
+        </childnode>
+      </node>
+      <node id="22">
+        <label>GNCommon::NComponent::GTcEvent&lt; xuiMaxListeners &gt;</label>
+        <link refid="class_g_n_common_1_1_n_component_1_1_g_tc_event"/>
+        <childnode refid="23" relation="usage">
+          <edgelabel>voBuffer</edgelabel>
+        </childnode>
+        <childnode refid="25" relation="usage">
+          <edgelabel>voListeners</edgelabel>
+        </childnode>
+      </node>
+      <node id="26">
+        <label>GNCommon::NNotification::TcStatus</label>
+        <link refid="class_g_n_common_1_1_n_notification_1_1_tc_status"/>
+      </node>
+      <node id="24">
+        <label>GNCommon::NComponent::GTcListener</label>
+        <link refid="class_g_n_common_1_1_n_component_1_1_g_tc_listener"/>
+      </node>
+      <node id="23">
+        <label>GNCommon::NContainers::GTcListNode&lt; GNCommon::NComponent::GTcListener &gt;</label>
+        <link refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node"/>
+        <childnode refid="23" relation="usage">
+          <edgelabel>vopPrev</edgelabel>
+          <edgelabel>vopNext</edgelabel>
+        </childnode>
+        <childnode refid="24" relation="usage">
+          <edgelabel>voObject</edgelabel>
+        </childnode>
+      </node>
+      <node id="25">
+        <label>GNCommon::NContainers::GTcLinkedList&lt; GNCommon::NComponent::GTcListener &gt;</label>
+        <link refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list"/>
+        <childnode refid="23" relation="usage">
+          <edgelabel>vopBuff</edgelabel>
+          <edgelabel>vopHead</edgelabel>
+          <edgelabel>vopTail</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" line="20" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" bodystart="19" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a4eeace6aa167a1b9b9a98487eee0ddb2" prot="public" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>MGetData</name></member>
+      <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a3387c702b35bffddf5a480cdd52498aa" prot="public" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>MGetIdentifier</name></member>
+      <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1af6c3e9f29e796c2140dbe52229d439ca" prot="public" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>MGetStatus</name></member>
+      <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a99c02af9bf2a17a34810ac5ed6be8856" prot="public" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>MGetTimestamp</name></member>
+      <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1af4dccb7b428fdd2069a9dd1e6c12410b" prot="public" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>MSetData</name></member>
+      <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a5411a5d9659282e199ceb16a1b88c17d" prot="public" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>MSetIdentifier</name></member>
+      <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a682a17a50fc2c50bfb92ec3eeafdb5c9" prot="public" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>MSetStatus</name></member>
+      <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ac6ed25087bcdbb12921d71c2c4126131" prot="public" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>MSetTimestamp</name></member>
+      <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ad1371ff2988283b60a47c2879e1a0011" prot="public" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>operator=</name></member>
+      <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a683af178a44e0ab7463c529d1ebb6d9c" prot="public" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>TcAlert</name></member>
+      <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a75120f1735cec51fe7f4afa519bd631b" prot="public" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>TcAlert</name></member>
+      <member refid="class_g_n_common_1_1_n_component_1_1_tc_model_1a791436aa62ff03a75b263ca2594df5a6" prot="public" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>TcModel</name></member>
+      <member refid="class_g_n_common_1_1_n_component_1_1_tc_model_1ad0a33b2b2478b257ef422db8120dde41" prot="public" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>VoEvent</name></member>
+      <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1aa42573703fd6fa2ba90aa010fdc659ca" prot="protected" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>voID</name></member>
+      <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ae993e1ea34de5347b08b21c9264cdb8e" prot="protected" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>voStatus</name></member>
+      <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ab49cb616a0e61e74234264d775a3408a" prot="protected" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>vulData</name></member>
+      <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a3c6f656e3e526b9f97942188d7bb2930" prot="protected" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>vulTimestamp</name></member>
+      <member refid="class_g_n_common_1_1_n_component_1_1_tc_model_1a43cf22126d322790c5e15239ed00682a" prot="protected" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>xuiMaxListeners</name></member>
+      <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a44f63050a2f1c7a4876a31ce2ffd2d06" prot="public" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>XuiSizeOfIdentifier</name></member>
+      <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a59f856e0a33731ee0c235271bb013a34" prot="public" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>XuiSizeOfStatus</name></member>
+      <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1abd42f842fe53942ed6d7a7008c3400c2" prot="public" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>~TcAlert</name></member>
+      <member refid="class_g_n_common_1_1_n_component_1_1_tc_model_1a2e1da7d4d334c3bdc8bb7691db047cdf" prot="public" virt="non-virtual"><scope>GNCommon::NNotification::TcAlert</scope><name>~TcModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

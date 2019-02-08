@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespace_g_n_common" kind="namespace" language="C++">
+    <compoundname>GNCommon</compoundname>
+    <innerclass refid="class_g_n_common_1_1_g_tc_stop_watch" prot="public">GNCommon::GTcStopWatch</innerclass>
+    <innernamespace refid="namespace_g_n_common_1_1_n_component">GNCommon::NComponent</innernamespace>
+    <innernamespace refid="namespace_g_n_common_1_1_n_containers">GNCommon::NContainers</innernamespace>
+    <innernamespace refid="namespace_g_n_common_1_1_n_data_authentication">GNCommon::NDataAuthentication</innernamespace>
+    <innernamespace refid="namespace_g_n_common_1_1_n_notification">GNCommon::NNotification</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" prot="public" static="no">
+        <type>bool</type>
+        <definition>typedef bool GNCommon::Tb8</definition>
+        <argsstring></argsstring>
+        <name>Tb8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Type definition for 8-bit boolean primitive </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="54" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_g_n_common_1a2d8d4c56e54519697c6ee80cc1ceda76" prot="public" static="no">
+        <type>char</type>
+        <definition>typedef char GNCommon::Tc8</definition>
+        <argsstring></argsstring>
+        <name>Tc8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Type definition for 8-bit character primitive </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="55" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_g_n_common_1a9bac2aa36db6d72a3e59b1869adf3668" prot="public" static="no">
+        <type>signed char</type>
+        <definition>typedef signed char GNCommon::Ti8</definition>
+        <argsstring></argsstring>
+        <name>Ti8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Type definition for signed 8-bit integer primitive </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="56" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_g_n_common_1a7939e251ddbf5d3a31832dcfdc8bde39" prot="public" static="no">
+        <type>unsigned char</type>
+        <definition>typedef unsigned char GNCommon::Tu8</definition>
+        <argsstring></argsstring>
+        <name>Tu8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Type definition for unsigned 8-bit integer primitive </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="57" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_g_n_common_1ab9a9a6aa84751cec965d8b6676318a65" prot="public" static="no">
+        <type>signed short</type>
+        <definition>typedef signed short GNCommon::Ti16</definition>
+        <argsstring></argsstring>
+        <name>Ti16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Type definition for signed 16-bit integer primitive </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="58" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_g_n_common_1a7f651a58155939d1e0e2bf2164fbfdbf" prot="public" static="no">
+        <type>unsigned short</type>
+        <definition>typedef unsigned short GNCommon::Tu16</definition>
+        <argsstring></argsstring>
+        <name>Tu16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Type definition for unsigned 16-bit integer primitive </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="59" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_g_n_common_1ad1f094ce51908947ac3d31355b560d55" prot="public" static="no">
+        <type>signed long</type>
+        <definition>typedef signed long GNCommon::Ti32</definition>
+        <argsstring></argsstring>
+        <name>Ti32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Type definition for signed 32-bit integer primitive </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="60" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" prot="public" static="no">
+        <type>unsigned long</type>
+        <definition>typedef unsigned long GNCommon::Tu32</definition>
+        <argsstring></argsstring>
+        <name>Tu32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Type definition for unsigned 32-bit primitive </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="61" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_g_n_common_1ad0a34f67eefe81cfbd0e515bba246d9d" prot="public" static="no">
+        <type>signed long long</type>
+        <definition>typedef signed long long GNCommon::Ti64</definition>
+        <argsstring></argsstring>
+        <name>Ti64</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Type definition for signed 64-bit integer primitive </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="62" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" prot="public" static="no">
+        <type>unsigned long long</type>
+        <definition>typedef unsigned long long GNCommon::Tu64</definition>
+        <argsstring></argsstring>
+        <name>Tu64</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Type definition for unsigned 64-bit integer primitive </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="63" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_g_n_common_1ae4ffdde6236eb7578669b280a5d1634d" prot="public" static="no">
+        <type>float</type>
+        <definition>typedef float GNCommon::Tf32</definition>
+        <argsstring></argsstring>
+        <name>Tf32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Type definition for 32-bit single-precision floating point primitive </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="64" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_g_n_common_1a73af96f1663fd8fc5741bcbc5b1427e4" prot="public" static="no">
+        <type>double</type>
+        <definition>typedef double GNCommon::Tf64</definition>
+        <argsstring></argsstring>
+        <name>Tf64</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Type definition for 64-bit double-precision floating point primitive </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="65" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_g_n_common_1ad19423414de1ede7c1f938d76b0e5289" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>const Tu32 GNCommon::XuiSizeOfTb8</definition>
+        <argsstring></argsstring>
+        <name>XuiSizeOfTb8</name>
+        <initializer>= sizeof( <ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref> )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of Tb8 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="67" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_g_n_common_1ae0c9cf1817c6e99d6d15f223f2762302" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>const Tu32 GNCommon::XuiSizeOfTi8</definition>
+        <argsstring></argsstring>
+        <name>XuiSizeOfTi8</name>
+        <initializer>= sizeof( <ref refid="namespace_g_n_common_1a9bac2aa36db6d72a3e59b1869adf3668" kindref="member">Ti8</ref> )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of Ti8 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="68" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_g_n_common_1a57aeaaa30a85bf222448cb4a501afad9" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>const Tu32 GNCommon::XuiSizeOfTu8</definition>
+        <argsstring></argsstring>
+        <name>XuiSizeOfTu8</name>
+        <initializer>= sizeof( <ref refid="namespace_g_n_common_1a7939e251ddbf5d3a31832dcfdc8bde39" kindref="member">Tu8</ref> )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of Tu8 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="69" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_g_n_common_1af84e88c89d68e2bdc7dec51b3ed1a592" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>const Tu32 GNCommon::XuiSizeOfTi16</definition>
+        <argsstring></argsstring>
+        <name>XuiSizeOfTi16</name>
+        <initializer>= sizeof( <ref refid="namespace_g_n_common_1ab9a9a6aa84751cec965d8b6676318a65" kindref="member">Ti16</ref> )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of Ti16 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="70" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_g_n_common_1a97536be80c07e22d2ea787936f79eda2" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>const Tu32 GNCommon::XuiSizeOfTu16</definition>
+        <argsstring></argsstring>
+        <name>XuiSizeOfTu16</name>
+        <initializer>= sizeof( <ref refid="namespace_g_n_common_1a7f651a58155939d1e0e2bf2164fbfdbf" kindref="member">Tu16</ref> )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of Tu16 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="71" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_g_n_common_1a71819e6385d718bcd7f61726c91f1b8d" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>const Tu32 GNCommon::XuiSizeOfTi32</definition>
+        <argsstring></argsstring>
+        <name>XuiSizeOfTi32</name>
+        <initializer>= sizeof( <ref refid="namespace_g_n_common_1ad1f094ce51908947ac3d31355b560d55" kindref="member">Ti32</ref> )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of Ti32 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="72" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_g_n_common_1a283e6fa9928bf0ae5d3b9643d3b4c2ca" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>const Tu32 GNCommon::XuiSizeOfTu32</definition>
+        <argsstring></argsstring>
+        <name>XuiSizeOfTu32</name>
+        <initializer>= sizeof( <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref> )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of Tu32 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="73" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_g_n_common_1a0364f6ff560dda65914b7c7691b0e2aa" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>const Tu32 GNCommon::XuiSizeOfTi64</definition>
+        <argsstring></argsstring>
+        <name>XuiSizeOfTi64</name>
+        <initializer>= sizeof( <ref refid="namespace_g_n_common_1ad0a34f67eefe81cfbd0e515bba246d9d" kindref="member">Ti64</ref> )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of Ti64 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="74" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_g_n_common_1a38a892217dc13d56bc3282cce6cd94d3" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>const Tu32 GNCommon::XuiSizeOfTu64</definition>
+        <argsstring></argsstring>
+        <name>XuiSizeOfTu64</name>
+        <initializer>= sizeof( <ref refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kindref="member">Tu64</ref> )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of Tu64 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="75" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_g_n_common_1a5bda6409f435e11f56a19004d6868bd2" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>const Tu32 GNCommon::XuiSizeOfTf32</definition>
+        <argsstring></argsstring>
+        <name>XuiSizeOfTf32</name>
+        <initializer>= sizeof( <ref refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kindref="member">Tu64</ref> )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of Tf32 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="76" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_g_n_common_1ac4f8478eece80362676eed4945d22642" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>const Tu32 GNCommon::XuiSizeOfTf64</definition>
+        <argsstring></argsstring>
+        <name>XuiSizeOfTf64</name>
+        <initializer>= sizeof( <ref refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kindref="member">Tu64</ref> )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of Tf64 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" line="77" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Types.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Namespace containing Common components and infrastrucutre. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Component/Event.h" line="10" column="1"/>
+  </compounddef>
+</doxygen>

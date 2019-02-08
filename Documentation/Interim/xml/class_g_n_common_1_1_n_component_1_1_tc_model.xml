@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_g_n_common_1_1_n_component_1_1_tc_model" kind="class" language="C++" prot="public">
+    <compoundname>GNCommon::NComponent::TcModel</compoundname>
+    <derivedcompoundref refid="class_g_n_common_1_1_n_notification_1_1_tc_alert" prot="public" virt="non-virtual">GNCommon::NNotification::TcAlert</derivedcompoundref>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_component_1_1_tc_model_1a43cf22126d322790c5e15239ed00682a" prot="protected" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>const Tu32 GNCommon::NComponent::TcModel::xuiMaxListeners</definition>
+        <argsstring></argsstring>
+        <name>xuiMaxListeners</name>
+        <initializer>= 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Component/Model.h" line="13" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Component/Model.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_component_1_1_tc_model_1ad0a33b2b2478b257ef422db8120dde41" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_n_common_1_1_n_component_1_1_g_tc_event" kindref="compound">GTcEvent</ref>&lt; xuiMaxListeners &gt;</type>
+        <definition>GTcEvent&lt; xuiMaxListeners &gt; GNCommon::NComponent::TcModel::VoEvent</definition>
+        <argsstring></argsstring>
+        <name>VoEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Component/Model.h" line="16" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Component/Model.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_n_common_1_1_n_component_1_1_tc_model_1a791436aa62ff03a75b263ca2594df5a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TcModel::TcModel</definition>
+        <argsstring>(void)</argsstring>
+        <name>TcModel</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Component/Model.h" line="19" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Component/Model.cpp" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_component_1_1_tc_model_1a2e1da7d4d334c3bdc8bb7691db047cdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TcModel::~TcModel</definition>
+        <argsstring>(void)</argsstring>
+        <name>~TcModel</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Component/Model.h" line="20" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Component/Model.cpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="33">
+        <label>GNCommon::NNotification::TcAlert</label>
+        <link refid="class_g_n_common_1_1_n_notification_1_1_tc_alert"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>GNCommon::NComponent::TcModel</label>
+        <link refid="class_g_n_common_1_1_n_component_1_1_tc_model"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="34">
+        <label>GNCommon::NComponent::TcModel</label>
+        <link refid="class_g_n_common_1_1_n_component_1_1_tc_model"/>
+        <childnode refid="35" relation="usage">
+          <edgelabel>VoEvent</edgelabel>
+        </childnode>
+      </node>
+      <node id="35">
+        <label>GNCommon::NComponent::GTcEvent&lt; xuiMaxListeners &gt;</label>
+        <link refid="class_g_n_common_1_1_n_component_1_1_g_tc_event"/>
+        <childnode refid="36" relation="usage">
+          <edgelabel>voBuffer</edgelabel>
+        </childnode>
+        <childnode refid="38" relation="usage">
+          <edgelabel>voListeners</edgelabel>
+        </childnode>
+      </node>
+      <node id="37">
+        <label>GNCommon::NComponent::GTcListener</label>
+        <link refid="class_g_n_common_1_1_n_component_1_1_g_tc_listener"/>
+      </node>
+      <node id="36">
+        <label>GNCommon::NContainers::GTcListNode&lt; GNCommon::NComponent::GTcListener &gt;</label>
+        <link refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node"/>
+        <childnode refid="36" relation="usage">
+          <edgelabel>vopPrev</edgelabel>
+          <edgelabel>vopNext</edgelabel>
+        </childnode>
+        <childnode refid="37" relation="usage">
+          <edgelabel>voObject</edgelabel>
+        </childnode>
+      </node>
+      <node id="38">
+        <label>GNCommon::NContainers::GTcLinkedList&lt; GNCommon::NComponent::GTcListener &gt;</label>
+        <link refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list"/>
+        <childnode refid="36" relation="usage">
+          <edgelabel>vopBuff</edgelabel>
+          <edgelabel>vopHead</edgelabel>
+          <edgelabel>vopTail</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Component/Model.h" line="11" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Component/Model.h" bodystart="10" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_g_n_common_1_1_n_component_1_1_tc_model_1a791436aa62ff03a75b263ca2594df5a6" prot="public" virt="non-virtual"><scope>GNCommon::NComponent::TcModel</scope><name>TcModel</name></member>
+      <member refid="class_g_n_common_1_1_n_component_1_1_tc_model_1ad0a33b2b2478b257ef422db8120dde41" prot="public" virt="non-virtual"><scope>GNCommon::NComponent::TcModel</scope><name>VoEvent</name></member>
+      <member refid="class_g_n_common_1_1_n_component_1_1_tc_model_1a43cf22126d322790c5e15239ed00682a" prot="protected" virt="non-virtual"><scope>GNCommon::NComponent::TcModel</scope><name>xuiMaxListeners</name></member>
+      <member refid="class_g_n_common_1_1_n_component_1_1_tc_model_1a2e1da7d4d334c3bdc8bb7691db047cdf" prot="public" virt="non-virtual"><scope>GNCommon::NComponent::TcModel</scope><name>~TcModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

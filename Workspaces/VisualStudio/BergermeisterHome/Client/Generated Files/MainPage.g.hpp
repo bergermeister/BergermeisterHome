@@ -6,6 +6,9 @@
 //------------------------------------------------------------------------------
 #include "pch.h"
 
+#pragma warning(push)
+#pragma warning(disable: 4100) // unreferenced formal parameter
+
 #if defined _DEBUG && !defined DISABLE_XAML_GENERATED_BINDING_DEBUG_OUTPUT
 extern "C" __declspec(dllimport) int __stdcall IsDebuggerPresent();
 #endif
@@ -36,5 +39,7 @@ void ::Client::MainPage::Connect(int __connectionId, ::Platform::Object^ __targe
     __target;               // unreferenced
     return nullptr;
 }
+
+#pragma warning(pop)
 
 

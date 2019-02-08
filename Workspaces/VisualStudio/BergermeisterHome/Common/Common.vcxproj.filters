@@ -1,114 +1,123 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="inc">
-      <UniqueIdentifier>{564b05f9-dd87-4c86-a8bf-e3dc714c7c9e}</UniqueIdentifier>
+    <Filter Include="Source">
+      <UniqueIdentifier>{a8bf51f9-c8bd-4cec-a491-e71df06e74ce}</UniqueIdentifier>
     </Filter>
-    <Filter Include="inc\Component">
-      <UniqueIdentifier>{459a2f58-2459-4976-8ac5-2985c1db2cff}</UniqueIdentifier>
+    <Filter Include="Source\Component">
+      <UniqueIdentifier>{08ccb5af-d18e-48cb-8a97-b9f07daa865f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="inc\Containers">
-      <UniqueIdentifier>{1a2d8fca-80f7-4206-8cb9-885d7163c657}</UniqueIdentifier>
+    <Filter Include="Source\DataAuthentication">
+      <UniqueIdentifier>{73a00c2e-45b1-42c0-bb6c-467fc75c5a50}</UniqueIdentifier>
     </Filter>
-    <Filter Include="inc\Notification">
-      <UniqueIdentifier>{c14fce7b-a659-4465-8769-fe36ae907b27}</UniqueIdentifier>
+    <Filter Include="Source\Containers">
+      <UniqueIdentifier>{d8157dd5-612a-434e-9f7f-d55658b014d6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src">
-      <UniqueIdentifier>{552beb5b-2dbd-47bf-b8be-1e56113d32e6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\Component">
-      <UniqueIdentifier>{285a69a6-8217-4902-9b54-511c2a3e0b5b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\Containers">
-      <UniqueIdentifier>{235e19fb-7c52-4cb1-ae0a-b21a693c6b32}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\Notification">
-      <UniqueIdentifier>{1022aec1-d123-4ddf-83bb-1f9830f2262b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="inc\DataAuthentication">
-      <UniqueIdentifier>{dec5c0ec-e416-42e3-96b2-4ece9f5778ee}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\DataAuthentication">
-      <UniqueIdentifier>{2241457b-ad6d-4b64-89e2-e9adab3e2549}</UniqueIdentifier>
+    <Filter Include="Source\Notification">
+      <UniqueIdentifier>{82c998d1-b583-4b21-b296-a3cc1180cd6b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Constants.h">
-      <Filter>inc</Filter>
+    <ClInclude Include="..\..\..\..\Software\Common\Constants.h">
+      <Filter>Source</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Software\Common\inc\StopWatch.h">
-      <Filter>inc</Filter>
+    <ClInclude Include="..\..\..\..\Software\Common\StopWatch.h">
+      <Filter>Source</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Types.h">
-      <Filter>inc</Filter>
+    <ClInclude Include="..\..\..\..\Software\Common\Types.h">
+      <Filter>Source</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Notification\Alert.h">
-      <Filter>inc\Notification</Filter>
+    <ClInclude Include="..\..\..\..\Software\Common\Component\Event.h">
+      <Filter>Source\Component</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Notification\ComponentId.h">
-      <Filter>inc\Notification</Filter>
+    <ClInclude Include="..\..\..\..\Software\Common\Component\Listener.h">
+      <Filter>Source\Component</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Notification\Criticality.h">
-      <Filter>inc\Notification</Filter>
+    <ClInclude Include="..\..\..\..\Software\Common\Component\Model.h">
+      <Filter>Source\Component</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Notification\EventId.h">
-      <Filter>inc\Notification</Filter>
+    <ClInclude Include="..\..\..\..\Software\Common\Containers\LinkedList.h">
+      <Filter>Source\Containers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Notification\GroupId.h">
-      <Filter>inc\Notification</Filter>
+    <ClInclude Include="..\..\..\..\Software\Common\Containers\List.h">
+      <Filter>Source\Containers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Notification\Identifier.h">
-      <Filter>inc\Notification</Filter>
+    <ClInclude Include="..\..\..\..\Software\Common\Containers\ListNode.h">
+      <Filter>Source\Containers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Notification\Status.h">
-      <Filter>inc\Notification</Filter>
+    <ClInclude Include="..\..\..\..\Software\Common\Containers\Queue.h">
+      <Filter>Source\Containers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Containers\LinkedList.h">
-      <Filter>inc\Containers</Filter>
+    <ClInclude Include="..\..\..\..\Software\Common\DataAuthentication\CRC32.h">
+      <Filter>Source\DataAuthentication</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Containers\List.h">
-      <Filter>inc\Containers</Filter>
+    <ClInclude Include="..\..\..\..\Software\Common\DataAuthentication\Hash.h">
+      <Filter>Source\DataAuthentication</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Containers\ListNode.h">
-      <Filter>inc\Containers</Filter>
+    <ClInclude Include="..\..\..\..\Software\Common\DataAuthentication\SHA.h">
+      <Filter>Source\DataAuthentication</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Containers\Queue.h">
-      <Filter>inc\Containers</Filter>
+    <ClInclude Include="..\..\..\..\Software\Common\DataAuthentication\SHA512.h">
+      <Filter>Source\DataAuthentication</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Component\Event.h">
-      <Filter>inc\Component</Filter>
+    <ClInclude Include="..\..\..\..\Software\Common\DataAuthentication\UInt512.h">
+      <Filter>Source\DataAuthentication</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Component\Listener.h">
-      <Filter>inc\Component</Filter>
+    <ClInclude Include="..\..\..\..\Software\Common\Notification\Alert.h">
+      <Filter>Source\Notification</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Component\Model.h">
-      <Filter>inc\Component</Filter>
+    <ClInclude Include="..\..\..\..\Software\Common\Notification\ComponentId.h">
+      <Filter>Source\Notification</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Software\Common\inc\DataAuthentication\CRC32.h">
-      <Filter>inc\DataAuthentication</Filter>
+    <ClInclude Include="..\..\..\..\Software\Common\Notification\Criticality.h">
+      <Filter>Source\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Software\Common\Notification\EventId.h">
+      <Filter>Source\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Software\Common\Notification\GroupId.h">
+      <Filter>Source\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Software\Common\Notification\Identifier.h">
+      <Filter>Source\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Software\Common\Notification\Status.h">
+      <Filter>Source\Notification</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Software\Common\src\StopWatch.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="..\..\..\..\Software\Common\StopWatch.cpp">
+      <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Software\Common\src\Component\Listener.cpp">
-      <Filter>src\Component</Filter>
+    <ClCompile Include="..\..\..\..\Software\Common\Component\Listener.cpp">
+      <Filter>Source\Component</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Software\Common\src\Component\Model.cpp">
-      <Filter>src\Component</Filter>
+    <ClCompile Include="..\..\..\..\Software\Common\Component\Model.cpp">
+      <Filter>Source\Component</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Software\Common\src\Notification\Alert.cpp">
-      <Filter>src\Notification</Filter>
+    <ClCompile Include="..\..\..\..\Software\Common\DataAuthentication\CRC32.cpp">
+      <Filter>Source\DataAuthentication</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Software\Common\src\Notification\Identifier.cpp">
-      <Filter>src\Notification</Filter>
+    <ClCompile Include="..\..\..\..\Software\Common\DataAuthentication\SHA.cpp">
+      <Filter>Source\DataAuthentication</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Software\Common\src\Notification\Status.cpp">
-      <Filter>src\Notification</Filter>
+    <ClCompile Include="..\..\..\..\Software\Common\DataAuthentication\SHA512.cpp">
+      <Filter>Source\DataAuthentication</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Software\Common\src\DataAuthentication\CRC32.cpp">
-      <Filter>src\DataAuthentication</Filter>
+    <ClCompile Include="..\..\..\..\Software\Common\DataAuthentication\UInt512.cpp">
+      <Filter>Source\DataAuthentication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Software\Common\Notification\Alert.cpp">
+      <Filter>Source\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Software\Common\Notification\Identifier.cpp">
+      <Filter>Source\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Software\Common\Notification\Status.cpp">
+      <Filter>Source\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Software\Common\DataAuthentication\Hash.cpp">
+      <Filter>Source\DataAuthentication</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

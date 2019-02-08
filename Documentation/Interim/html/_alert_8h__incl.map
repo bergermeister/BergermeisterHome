@@ -1,0 +1,14 @@
+<map id="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h" name="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification/Alert.h">
+<area shape="rect" id="node2" href="$_types_8h.html" title="Commnon Framework namespace, type definitions, and coding style guide Defines the common namespace (G..." alt="" coords="636,333,704,360"/>
+<area shape="rect" id="node3" href="$_model_8h_source.html" title="Component\\Model.h" alt="" coords="630,109,769,136"/>
+<area shape="rect" id="node9" href="$_component_id_8h.html" title="Notification\\ComponentId.h" alt="" coords="34,184,211,211"/>
+<area shape="rect" id="node10" href="$_identifier_8h.html" title="Package interface for the Alert Identifier. " alt="" coords="230,109,380,136"/>
+<area shape="rect" id="node12" href="$_status_8h.html" title="Package interface for the Alert Status. " alt="" coords="404,109,542,136"/>
+<area shape="rect" id="node4" href="$_event_8h_source.html" title="Component\\Event.h" alt="" coords="766,184,900,211"/>
+<area shape="rect" id="node5" href="$_list_node_8h_source.html" title="Containers\\ListNode.h" alt="" coords="932,259,1083,285"/>
+<area shape="rect" id="node7" href="$_linked_list_8h_source.html" title="Containers\\LinkedList.h" alt="" coords="1107,259,1266,285"/>
+<area shape="rect" id="node8" href="$_listener_8h_source.html" title="Component\\Listener.h" alt="" coords="758,259,908,285"/>
+<area shape="rect" id="node6" href="$_constants_8h_source.html" title="Constants.h" alt="" coords="1051,333,1143,360"/>
+<area shape="rect" id="node11" href="$_group_id_8h.html" title="Package interface for the Group Identifier Enumeration. " alt="" coords="236,184,382,211"/>
+<area shape="rect" id="node13" href="$_criticality_8h.html" title="Package interface for the Alert Criticality Enumeration. " alt="" coords="508,184,662,211"/>
+</map>

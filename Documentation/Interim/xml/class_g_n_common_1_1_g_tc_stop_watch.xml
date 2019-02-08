@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_g_n_common_1_1_g_tc_stop_watch" kind="class" language="C++" prot="public">
+    <compoundname>GNCommon::GTcStopWatch</compoundname>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="class_g_n_common_1_1_g_tc_stop_watch_1aa4ea90c5c6272835e8f11b9b0b6a31b4" prot="protected" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1ad0a34f67eefe81cfbd0e515bba246d9d" kindref="member">Ti64</ref></type>
+        <definition>const Ti64 GNCommon::GTcStopWatch::xlMaxQuadPart</definition>
+        <argsstring></argsstring>
+        <name>xlMaxQuadPart</name>
+        <initializer>= 9223372036854775807</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h" line="13" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_g_tc_stop_watch_1a525b6eebced7d4d9c3812788cfde2b75" prot="protected" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kindref="member">Tu64</ref></type>
+        <definition>const Tu64 GNCommon::GTcStopWatch::xulTimeBase</definition>
+        <argsstring></argsstring>
+        <name>xulTimeBase</name>
+        <initializer>= 1000000LL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Microseconds </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h" line="14" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_g_tc_stop_watch_1ae62f93ce0dfb63d4f14ff7124002af12" prot="protected" static="yes" mutable="no">
+        <type><ref refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kindref="member">Tu64</ref></type>
+        <definition>Tu64 GTcStopWatch::vulFrequency</definition>
+        <argsstring></argsstring>
+        <name>vulFrequency</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h" line="15" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_g_n_common_1_1_g_tc_stop_watch_1a5eb07074a371c97819296a7db87b4d27" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespace_g_n_common_1ad0a34f67eefe81cfbd0e515bba246d9d" kindref="member">Ti64</ref></type>
+        <definition>Ti64 GNCommon::GTcStopWatch::vlStart</definition>
+        <argsstring></argsstring>
+        <name>vlStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h" line="17" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_g_tc_stop_watch_1afc4a445f8c64577899076de34626ac6b" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespace_g_n_common_1ad0a34f67eefe81cfbd0e515bba246d9d" kindref="member">Ti64</ref></type>
+        <definition>Ti64 GNCommon::GTcStopWatch::vlEnd</definition>
+        <argsstring></argsstring>
+        <name>vlEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h" line="18" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_g_tc_stop_watch_1a72fd2713ee3ed00290ccaad0fafad583" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref></type>
+        <definition>Tb8 GNCommon::GTcStopWatch::vbRunning</definition>
+        <argsstring></argsstring>
+        <name>vbRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h" line="19" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_n_common_1_1_g_tc_stop_watch_1a5c812d91d963d322124c95262b432697" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GTcStopWatch::GTcStopWatch</definition>
+        <argsstring>(void)</argsstring>
+        <name>GTcStopWatch</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h" line="22" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/StopWatch.cpp" bodystart="9" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_tc_stop_watch_1ae442c6e313df8f2ad22b4ceef71b89ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GTcStopWatch::GTcStopWatch</definition>
+        <argsstring>(const GTcStopWatch &amp;aorStopWatch)</argsstring>
+        <name>GTcStopWatch</name>
+        <param>
+          <type>const <ref refid="class_g_n_common_1_1_g_tc_stop_watch" kindref="compound">GTcStopWatch</ref> &amp;</type>
+          <declname>aorStopWatch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h" line="23" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/StopWatch.cpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_tc_stop_watch_1acb6bd6759963df00601540e088bce794" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GTcStopWatch::~GTcStopWatch</definition>
+        <argsstring>(void)</argsstring>
+        <name>~GTcStopWatch</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h" line="24" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/StopWatch.cpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_tc_stop_watch_1a334776e4f98289f2093b2da4cf3cb8b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_g_n_common_1_1_g_tc_stop_watch" kindref="compound">GTcStopWatch</ref> &amp;</type>
+        <definition>GTcStopWatch &amp; GTcStopWatch::operator=</definition>
+        <argsstring>(const GTcStopWatch &amp;aorStopWatch)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_g_n_common_1_1_g_tc_stop_watch" kindref="compound">GTcStopWatch</ref> &amp;</type>
+          <declname>aorStopWatch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h" line="26" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/StopWatch.cpp" bodystart="34" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_tc_stop_watch_1ad62dfcb669827907489089ff31be6325" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GTcStopWatch::MStart</definition>
+        <argsstring>(void)</argsstring>
+        <name>MStart</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h" line="28" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/StopWatch.cpp" bodystart="43" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_tc_stop_watch_1a3b7ec35c07140a12d3a7d539dbb7b80d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kindref="member">Tu64</ref></type>
+        <definition>Tu64 GTcStopWatch::MStop</definition>
+        <argsstring>(void)</argsstring>
+        <name>MStop</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h" line="29" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/StopWatch.cpp" bodystart="52" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_g_tc_stop_watch_1a0569d663b5d612924bf287f8382359b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kindref="member">Tu64</ref></type>
+        <definition>Tu64 GTcStopWatch::MElapsed</definition>
+        <argsstring>(void)</argsstring>
+        <name>MElapsed</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h" line="30" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/StopWatch.cpp" bodystart="61" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h" line="11" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h" bodystart="10" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_g_n_common_1_1_g_tc_stop_watch_1a5c812d91d963d322124c95262b432697" prot="public" virt="non-virtual"><scope>GNCommon::GTcStopWatch</scope><name>GTcStopWatch</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_stop_watch_1ae442c6e313df8f2ad22b4ceef71b89ab" prot="public" virt="non-virtual"><scope>GNCommon::GTcStopWatch</scope><name>GTcStopWatch</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_stop_watch_1a0569d663b5d612924bf287f8382359b2" prot="public" virt="non-virtual"><scope>GNCommon::GTcStopWatch</scope><name>MElapsed</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_stop_watch_1ad62dfcb669827907489089ff31be6325" prot="public" virt="non-virtual"><scope>GNCommon::GTcStopWatch</scope><name>MStart</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_stop_watch_1a3b7ec35c07140a12d3a7d539dbb7b80d" prot="public" virt="non-virtual"><scope>GNCommon::GTcStopWatch</scope><name>MStop</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_stop_watch_1a334776e4f98289f2093b2da4cf3cb8b8" prot="public" virt="non-virtual"><scope>GNCommon::GTcStopWatch</scope><name>operator=</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_stop_watch_1a72fd2713ee3ed00290ccaad0fafad583" prot="protected" virt="non-virtual"><scope>GNCommon::GTcStopWatch</scope><name>vbRunning</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_stop_watch_1afc4a445f8c64577899076de34626ac6b" prot="protected" virt="non-virtual"><scope>GNCommon::GTcStopWatch</scope><name>vlEnd</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_stop_watch_1a5eb07074a371c97819296a7db87b4d27" prot="protected" virt="non-virtual"><scope>GNCommon::GTcStopWatch</scope><name>vlStart</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_stop_watch_1ae62f93ce0dfb63d4f14ff7124002af12" prot="protected" virt="non-virtual"><scope>GNCommon::GTcStopWatch</scope><name>vulFrequency</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_stop_watch_1aa4ea90c5c6272835e8f11b9b0b6a31b4" prot="protected" virt="non-virtual"><scope>GNCommon::GTcStopWatch</scope><name>xlMaxQuadPart</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_stop_watch_1a525b6eebced7d4d9c3812788cfde2b75" prot="protected" virt="non-virtual"><scope>GNCommon::GTcStopWatch</scope><name>xulTimeBase</name></member>
+      <member refid="class_g_n_common_1_1_g_tc_stop_watch_1acb6bd6759963df00601540e088bce794" prot="public" virt="non-virtual"><scope>GNCommon::GTcStopWatch</scope><name>~GTcStopWatch</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

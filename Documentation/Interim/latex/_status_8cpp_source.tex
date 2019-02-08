@@ -1,0 +1,74 @@
+\hypertarget{_status_8cpp_source}{}\section{Status.\+cpp}
+\label{_status_8cpp_source}\index{C\+:/\+Users/edwar/\+Projects/\+Bergermeister\+Home/\+Software/\+Common/src/\+Notification/\+Status.\+cpp@{C\+:/\+Users/edwar/\+Projects/\+Bergermeister\+Home/\+Software/\+Common/src/\+Notification/\+Status.\+cpp}}
+
+\begin{DoxyCode}
+00001 
+00005 \textcolor{preprocessor}{#include <\mbox{\hyperlink{_types_8h}{Types.h}}>}
+00006 \textcolor{preprocessor}{#include <\mbox{\hyperlink{_criticality_8h}{Notification\(\backslash\)Criticality.h}}>}
+00007 \textcolor{preprocessor}{#include <\mbox{\hyperlink{_status_8h}{Notification\(\backslash\)Status.h}}>}
+00008 
+00009 \textcolor{keyword}{using namespace }\mbox{\hyperlink{namespace_g_n_common}{GNCommon}};
+00010 \textcolor{keyword}{using namespace }\mbox{\hyperlink{namespace_g_n_common_1_1_n_notification}{GNCommon::NNotification}};
+00011 
+\Hypertarget{_status_8cpp_source_l00025}\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a43b5990228e5a9fbe9bfe63605f7a9d2}{00025}} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a43b5990228e5a9fbe9bfe63605f7a9d2}{TcStatus::TcStatus}}( \textcolor{keywordtype}{void} )
+00026 \{
+00027    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a69149fc8c4c5facf147993b95d171c10}{vucActive}}       = \textcolor{keyword}{false};
+00028    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a487d66407748b7a91d9d663c3fab0f2c}{vucAcknowledged}} = \textcolor{keyword}{false};
+00029    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a36e84f5ebb3fda08f3ddaccde0a1c37b}{vucCleared}}      = \textcolor{keyword}{false};
+00030    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a4af337a51278a09d8500bab15d929af3}{vucTrigger}}      = \textcolor{keyword}{false};
+00031    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_ad8eff97b5c02e0409d3cbc65bf65c313}{vucSpare1}}       = 0;
+00032    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a2f8cb2528ae8cba51e3acc7f28eb2eeb}{voCriticality}}   = \mbox{\hyperlink{namespace_g_n_common_1_1_n_notification_ab468f440599e6d5a51d887dfa55b06b3ab1dd4ba140ef44b2b6e425a90b4d11ba}{TcCriticality::XeNone}};
+00033    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_aaee139b3984634b3cc3cc7e2b7175035}{vucSpare2}}       = 0;
+00034    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_ae398de0e32d0352b0437f4267247fd6d}{vucChildren}}     = 0;
+00035 \}
+00036 
+\Hypertarget{_status_8cpp_source_l00050}\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_abfb0ff092f9a23017fc89dcd1d6f4e6f}{00050}} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a43b5990228e5a9fbe9bfe63605f7a9d2}{TcStatus::TcStatus}}( \textcolor{keyword}{const} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status}{TcStatus}}& aorStatus )
+00051 \{
+00052    *\textcolor{keyword}{this} = aorStatus;
+00053 \}
+00054 
+\Hypertarget{_status_8cpp_source_l00068}\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_af14caf8abaf597904cebb6d414fd1dcf}{00068}} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_af14caf8abaf597904cebb6d414fd1dcf}{TcStatus::~TcStatus}}( \textcolor{keywordtype}{void} )
+00069 \{
+00070    \textcolor{comment}{// Nothing to destruct}
+00071 \}
+00072 
+00073 
+\Hypertarget{_status_8cpp_source_l00087}\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a97c8135ccc33bc5ba9d33f79de4ea789}{00087}} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status}{TcStatus}}& \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a97c8135ccc33bc5ba9d33f79de4ea789}{TcStatus::operator=}}( \textcolor{keyword}{const} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status}{TcStatus}}& aorStatus )
+00088 \{
+00089    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a69149fc8c4c5facf147993b95d171c10}{vucActive}}       = aorStatus.\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a69149fc8c4c5facf147993b95d171c10}{vucActive}};
+00090    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a487d66407748b7a91d9d663c3fab0f2c}{vucAcknowledged}} = aorStatus.\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a487d66407748b7a91d9d663c3fab0f2c}{vucAcknowledged}};
+00091    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a36e84f5ebb3fda08f3ddaccde0a1c37b}{vucCleared}}      = aorStatus.\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a36e84f5ebb3fda08f3ddaccde0a1c37b}{vucCleared}};
+00092    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a4af337a51278a09d8500bab15d929af3}{vucTrigger}}      = aorStatus.\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a4af337a51278a09d8500bab15d929af3}{vucTrigger}};
+00093    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_ad8eff97b5c02e0409d3cbc65bf65c313}{vucSpare1}}       = aorStatus.\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_ad8eff97b5c02e0409d3cbc65bf65c313}{vucSpare1}};
+00094    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a2f8cb2528ae8cba51e3acc7f28eb2eeb}{voCriticality}}   = aorStatus.\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a2f8cb2528ae8cba51e3acc7f28eb2eeb}{voCriticality}};
+00095    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_aaee139b3984634b3cc3cc7e2b7175035}{vucSpare2}}       = aorStatus.\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_aaee139b3984634b3cc3cc7e2b7175035}{vucSpare2}};
+00096    this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_ae398de0e32d0352b0437f4267247fd6d}{vucChildren}}     = aorStatus.\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_ae398de0e32d0352b0437f4267247fd6d}{vucChildren}};
+00097 
+00098    \textcolor{keywordflow}{return}( *\textcolor{keyword}{this} );
+00099 \}
+00100 
+\Hypertarget{_status_8cpp_source_l00114}\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_acf4e836982c2da53ad1e6989af623c58}{00114}} \mbox{\hyperlink{namespace_g_n_common_a8115dc7ed53b6e5b52e6bfde1632ea74}{Tb8}} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_acf4e836982c2da53ad1e6989af623c58}{TcStatus::operator==}}( \textcolor{keyword}{const} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status}{TcStatus}}& aorStatus )
+00115 \{
+00116    \mbox{\hyperlink{namespace_g_n_common_a8115dc7ed53b6e5b52e6bfde1632ea74}{Tb8}} kbEqual = \textcolor{keyword}{true}; \textcolor{comment}{// Assume Equal}
+00117 
+00118    \textcolor{keywordflow}{if} ( ( this->\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a69149fc8c4c5facf147993b95d171c10}{vucActive}}       != aorStatus.\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a69149fc8c4c5facf147993b95d171c10}{vucActive}}       ) ||
+00119         ( this->vucAcknowledged != aorStatus.\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a487d66407748b7a91d9d663c3fab0f2c}{vucAcknowledged}} ) ||
+00120         ( this->vucCleared      != aorStatus.\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a36e84f5ebb3fda08f3ddaccde0a1c37b}{vucCleared}}      ) ||
+00121         ( this->vucTrigger      != aorStatus.\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a4af337a51278a09d8500bab15d929af3}{vucTrigger}}      ) ||
+00122         ( this->vucSpare1       != aorStatus.\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_ad8eff97b5c02e0409d3cbc65bf65c313}{vucSpare1}}       ) ||
+00123         ( this->voCriticality   != aorStatus.\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_a2f8cb2528ae8cba51e3acc7f28eb2eeb}{voCriticality}}   ) ||
+00124         ( this->vucSpare2       != aorStatus.\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_aaee139b3984634b3cc3cc7e2b7175035}{vucSpare2}}       ) ||
+00125         ( this->vucChildren     != aorStatus.\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_ae398de0e32d0352b0437f4267247fd6d}{vucChildren}}     ) )
+00126    \{
+00127       kbEqual = \textcolor{keyword}{false};
+00128    \}
+00129 
+00130    \textcolor{keywordflow}{return}( kbEqual );
+00131 \}
+00132 
+\Hypertarget{_status_8cpp_source_l00146}\mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_acdf1eba6040e3cd5e244e21524ff0d86}{00146}} \mbox{\hyperlink{namespace_g_n_common_a8115dc7ed53b6e5b52e6bfde1632ea74}{Tb8}} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status_acdf1eba6040e3cd5e244e21524ff0d86}{TcStatus::operator!=}}( \textcolor{keyword}{const} \mbox{\hyperlink{class_g_n_common_1_1_n_notification_1_1_tc_status}{TcStatus}}& aorStatus )
+00147 \{
+00148    \textcolor{keywordflow}{return}( !( *\textcolor{keyword}{this} == aorStatus ) );
+00149 \}
+00150 
+\end{DoxyCode}

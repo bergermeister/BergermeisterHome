@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_c_r_c32_8cpp" kind="file" language="C++">
+    <compoundname>CRC32.cpp</compoundname>
+    <includes refid="_types_8h" local="no">Types.h</includes>
+    <includes refid="_c_r_c32_8h" local="no">DataAuthentication\CRC32.h</includes>
+    <incdepgraph>
+      <node id="152">
+        <label>Types.h</label>
+        <link refid="_types_8h"/>
+      </node>
+      <node id="153">
+        <label>DataAuthentication\CRC32.h</label>
+        <link refid="_c_r_c32_8h"/>
+        <childnode refid="152" relation="include">
+        </childnode>
+      </node>
+      <node id="151">
+        <label>C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/DataAuthentication/CRC32.cpp</label>
+        <link refid="_c_r_c32_8cpp"/>
+        <childnode refid="152" relation="include">
+        </childnode>
+        <childnode refid="153" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_types_8h" kindref="compound">Types.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_c_r_c32_8h" kindref="compound">DataAuthentication\CRC32.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_g_n_common" kindref="compound">GNCommon</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_g_n_common_1_1_n_data_authentication" kindref="compound">GNCommon::NDataAuthentication</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">TcCRC32::TcCRC32(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">TcCRC32::TcCRC32(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32" kindref="compound">TcCRC32</ref>&amp;<sp/>aorCRC<sp/>)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>=<sp/>aorCRC;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">TcCRC32::~TcCRC32(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Nothing<sp/>to<sp/>destruct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><ref refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32" kindref="compound">TcCRC32</ref>&amp;<sp/>TcCRC32::operator=(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32" kindref="compound">TcCRC32</ref>&amp;<sp/>aorCRC<sp/>)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Nothing<sp/>to<sp/>copy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">(<sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref><sp/>TcCRC32::MGet(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespace_g_n_common_1a7939e251ddbf5d3a31832dcfdc8bde39" kindref="member">Tu8</ref>*<sp/>aucpBuffer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref><sp/>auiBytes,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref><sp/>auiSeed,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref><sp/>auiTable[<sp/>XuiTableSize<sp/>]<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="30"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kuiIndex<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kuiValue<sp/>=<sp/>auiSeed;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespace_g_n_common_1a7939e251ddbf5d3a31832dcfdc8bde39" kindref="member">Tu8</ref>*<sp/>kucpByte<sp/>=<sp/>aucpBuffer;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/>kuiIndex<sp/>=<sp/>0;<sp/>kuiIndex<sp/>&lt;<sp/>auiBytes;<sp/>kuiIndex++<sp/>)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1.<sp/>XOR<sp/>the<sp/>input<sp/>byte<sp/>with<sp/>the<sp/>low-order<sp/>byte<sp/>of<sp/>the<sp/>CRC<sp/>register<sp/>to<sp/>get<sp/>an<sp/>INDEX</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>2.<sp/>Shift<sp/>the<sp/>CRC<sp/>register<sp/>eight<sp/>bits<sp/>to<sp/>the<sp/>right</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>3.<sp/>XOR<sp/>the<sp/>CRC<sp/>register<sp/>with<sp/>the<sp/>contents<sp/>of<sp/>Table[<sp/>INDEX<sp/>]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>4.<sp/>Repeat<sp/>steps<sp/>1<sp/>through<sp/>3<sp/>for<sp/>all<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>kuiValue<sp/>=<sp/>auiTable[<sp/>*kucpByte++<sp/>^<sp/>(<sp/>kuiValue<sp/>&amp;<sp/><ref refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1ab156bd5eaab2fe267499870a8f6e4925" kindref="member">xuiMaskByte</ref><sp/>)<sp/>]<sp/>^<sp/>(<sp/>kuiValue<sp/>&gt;&gt;<sp/><ref refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1aae1c17e2c8f312d0bf2e062a5412ada8" kindref="member">xuiShift8</ref><sp/>);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//kuiValue<sp/>=<sp/>this-&gt;mGetLE(<sp/>aucpBuffer,<sp/>auiBytes,<sp/>auiSeed<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">(<sp/>~kuiValue<sp/>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref><sp/>TcCRC32::MVerify(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="49"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref><sp/>kuiValue<sp/>=<sp/>this-&gt;MGet(<sp/>(<sp/><ref refid="namespace_g_n_common_1a7939e251ddbf5d3a31832dcfdc8bde39" kindref="member">Tu8</ref>*<sp/>)&amp;<ref refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a4aafd40037856d1bd4ea6f6ce0928836" kindref="member">xuiTable</ref>[<sp/>0<sp/>],<sp/>(<sp/><ref refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a520aaabe0f4ade7f38afd480281b2180" kindref="member">XuiTableSize</ref><sp/>*<sp/>XuiSizeOfTu32<sp/>),<sp/><ref refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a07c2c3cd02a6f0eedc7a56565f7960c1" kindref="member">xuiDefaultSeed</ref><sp/>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">(<sp/>kuiValue<sp/>==<sp/><ref refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1aafa160e99ae03386b426884450ba3796" kindref="member">xuiTableCRC</ref><sp/>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a11a20f9425a6431b0f2eb72e126a3a0e" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a11a20f9425a6431b0f2eb72e126a3a0e" kindref="member">TcCRC32::MGenerateTable</ref>(<sp/><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref><sp/>auiTable[<sp/>XuiTableSize<sp/>],<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref><sp/>auiPolynomial<sp/>)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref><sp/>xuiBitCount<sp/>=<sp/>8;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref><sp/>kuiBit;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref><sp/>kuiRemainder;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><ref refid="namespace_g_n_common_1a7939e251ddbf5d3a31832dcfdc8bde39" kindref="member">Tu8</ref><sp/><sp/>kucByte<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>kuiRemainder<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal"><sp/><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref><sp/></highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(<sp/>kucByte<sp/>);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/>kuiBit<sp/>=<sp/>xuiBitCount;<sp/>kuiBit<sp/>&gt;<sp/>0;<sp/>kuiBit--<sp/>)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>kuiRemainder<sp/>&amp;<sp/>1<sp/>)</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kuiRemainder<sp/>=<sp/>(<sp/>kuiRemainder<sp/>&gt;&gt;<sp/>1<sp/>)<sp/>^<sp/>auiPolynomial;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kuiRemainder<sp/>=<sp/>(<sp/>kuiRemainder<sp/>&gt;&gt;<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>auiTable[<sp/>kucByte<sp/>]<sp/>=<sp/>kuiRemainder;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(<sp/>0<sp/>!=<sp/>++kucByte<sp/>);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a2f822ac900cdba0a94b8e9361eb86b5c" refkind="member"><highlight class="normal"><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref><sp/><ref refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a2f822ac900cdba0a94b8e9361eb86b5c" kindref="member">TcCRC32::MCompareTable</ref><sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref><sp/>auiTable[<sp/>XuiTableSize<sp/>]<sp/>)</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref><sp/><sp/>kbMatch<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref><sp/>kuiIndex;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/>kuiIndex<sp/>=<sp/>0;<sp/>kuiIndex<sp/>&lt;<sp/><ref refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a520aaabe0f4ade7f38afd480281b2180" kindref="member">XuiTableSize</ref>;<sp/>kuiIndex++<sp/>)</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a4aafd40037856d1bd4ea6f6ce0928836" kindref="member">xuiTable</ref>[<sp/>kuiIndex<sp/>]<sp/>!=<sp/>auiTable[<sp/>kuiIndex<sp/>]<sp/>)</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kbMatch<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">(<sp/>kbMatch<sp/>);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref><sp/><ref refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a4aafd40037856d1bd4ea6f6ce0928836" kindref="member">TcCRC32::xuiTable</ref>[<sp/>XuiTableSize<sp/>]<sp/>=</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/>0x00000000,<sp/>0x77073096,<sp/>0xEE0E612C,<sp/>0x990951BA,</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/>0x076DC419,<sp/>0x706AF48F,<sp/>0xE963A535,<sp/>0x9E6495A3,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/>0x0EDB8832,<sp/>0x79DCB8A4,<sp/>0xE0D5E91E,<sp/>0x97D2D988,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/>0x09B64C2B,<sp/>0x7EB17CBD,<sp/>0xE7B82D07,<sp/>0x90BF1D91,</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/>0x1DB71064,<sp/>0x6AB020F2,<sp/>0xF3B97148,<sp/>0x84BE41DE,</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/>0x1ADAD47D,<sp/>0x6DDDE4EB,<sp/>0xF4D4B551,<sp/>0x83D385C7,</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/>0x136C9856,<sp/>0x646BA8C0,<sp/>0xFD62F97A,<sp/>0x8A65C9EC,</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/>0x14015C4F,<sp/>0x63066CD9,<sp/>0xFA0F3D63,<sp/>0x8D080DF5,</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/>0x3B6E20C8,<sp/>0x4C69105E,<sp/>0xD56041E4,<sp/>0xA2677172,</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/>0x3C03E4D1,<sp/>0x4B04D447,<sp/>0xD20D85FD,<sp/>0xA50AB56B,</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/>0x35B5A8FA,<sp/>0x42B2986C,<sp/>0xDBBBC9D6,<sp/>0xACBCF940,</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/>0x32D86CE3,<sp/>0x45DF5C75,<sp/>0xDCD60DCF,<sp/>0xABD13D59,</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/>0x26D930AC,<sp/>0x51DE003A,<sp/>0xC8D75180,<sp/>0xBFD06116,</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/>0x21B4F4B5,<sp/>0x56B3C423,<sp/>0xCFBA9599,<sp/>0xB8BDA50F,</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/>0x2802B89E,<sp/>0x5F058808,<sp/>0xC60CD9B2,<sp/>0xB10BE924,</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/>0x2F6F7C87,<sp/>0x58684C11,<sp/>0xC1611DAB,<sp/>0xB6662D3D,</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/>0x76DC4190,<sp/>0x01DB7106,<sp/>0x98D220BC,<sp/>0xEFD5102A,</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/>0x71B18589,<sp/>0x06B6B51F,<sp/>0x9FBFE4A5,<sp/>0xE8B8D433,</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/>0x7807C9A2,<sp/>0x0F00F934,<sp/>0x9609A88E,<sp/>0xE10E9818,</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/>0x7F6A0DBB,<sp/>0x086D3D2D,<sp/>0x91646C97,<sp/>0xE6635C01,</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/>0x6B6B51F4,<sp/>0x1C6C6162,<sp/>0x856530D8,<sp/>0xF262004E,</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/>0x6C0695ED,<sp/>0x1B01A57B,<sp/>0x8208F4C1,<sp/>0xF50FC457,</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/>0x65B0D9C6,<sp/>0x12B7E950,<sp/>0x8BBEB8EA,<sp/>0xFCB9887C,</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/>0x62DD1DDF,<sp/>0x15DA2D49,<sp/>0x8CD37CF3,<sp/>0xFBD44C65,</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/>0x4DB26158,<sp/>0x3AB551CE,<sp/>0xA3BC0074,<sp/>0xD4BB30E2,</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/>0x4ADFA541,<sp/>0x3DD895D7,<sp/>0xA4D1C46D,<sp/>0xD3D6F4FB,</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/>0x4369E96A,<sp/>0x346ED9FC,<sp/>0xAD678846,<sp/>0xDA60B8D0,</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/>0x44042D73,<sp/>0x33031DE5,<sp/>0xAA0A4C5F,<sp/>0xDD0D7CC9,</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/>0x5005713C,<sp/>0x270241AA,<sp/>0xBE0B1010,<sp/>0xC90C2086,</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/>0x5768B525,<sp/>0x206F85B3,<sp/>0xB966D409,<sp/>0xCE61E49F,</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/>0x5EDEF90E,<sp/>0x29D9C998,<sp/>0xB0D09822,<sp/>0xC7D7A8B4,</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/>0x59B33D17,<sp/>0x2EB40D81,<sp/>0xB7BD5C3B,<sp/>0xC0BA6CAD,</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/>0xEDB88320,<sp/>0x9ABFB3B6,<sp/>0x03B6E20C,<sp/>0x74B1D29A,</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/>0xEAD54739,<sp/>0x9DD277AF,<sp/>0x04DB2615,<sp/>0x73DC1683,</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/>0xE3630B12,<sp/>0x94643B84,<sp/>0x0D6D6A3E,<sp/>0x7A6A5AA8,</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/>0xE40ECF0B,<sp/>0x9309FF9D,<sp/>0x0A00AE27,<sp/>0x7D079EB1,</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/>0xF00F9344,<sp/>0x8708A3D2,<sp/>0x1E01F268,<sp/>0x6906C2FE,</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/>0xF762575D,<sp/>0x806567CB,<sp/>0x196C3671,<sp/>0x6E6B06E7,</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/>0xFED41B76,<sp/>0x89D32BE0,<sp/>0x10DA7A5A,<sp/>0x67DD4ACC,</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/>0xF9B9DF6F,<sp/>0x8EBEEFF9,<sp/>0x17B7BE43,<sp/>0x60B08ED5,</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/>0xD6D6A3E8,<sp/>0xA1D1937E,<sp/>0x38D8C2C4,<sp/>0x4FDFF252,</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/>0xD1BB67F1,<sp/>0xA6BC5767,<sp/>0x3FB506DD,<sp/>0x48B2364B,</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/>0xD80D2BDA,<sp/>0xAF0A1B4C,<sp/>0x36034AF6,<sp/>0x41047A60,</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/>0xDF60EFC3,<sp/>0xA867DF55,<sp/>0x316E8EEF,<sp/>0x4669BE79,</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/>0xCB61B38C,<sp/>0xBC66831A,<sp/>0x256FD2A0,<sp/>0x5268E236,</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/>0xCC0C7795,<sp/>0xBB0B4703,<sp/>0x220216B9,<sp/>0x5505262F,</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/>0xC5BA3BBE,<sp/>0xB2BD0B28,<sp/>0x2BB45A92,<sp/>0x5CB36A04,</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/>0xC2D7FFA7,<sp/>0xB5D0CF31,<sp/>0x2CD99E8B,<sp/>0x5BDEAE1D,</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/>0x9B64C2B0,<sp/>0xEC63F226,<sp/>0x756AA39C,<sp/>0x026D930A,</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/>0x9C0906A9,<sp/>0xEB0E363F,<sp/>0x72076785,<sp/>0x05005713,</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/>0x95BF4A82,<sp/>0xE2B87A14,<sp/>0x7BB12BAE,<sp/>0x0CB61B38,</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/>0x92D28E9B,<sp/>0xE5D5BE0D,<sp/>0x7CDCEFB7,<sp/>0x0BDBDF21,</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/>0x86D3D2D4,<sp/>0xF1D4E242,<sp/>0x68DDB3F8,<sp/>0x1FDA836E,</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/>0x81BE16CD,<sp/>0xF6B9265B,<sp/>0x6FB077E1,<sp/>0x18B74777,</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/>0x88085AE6,<sp/>0xFF0F6A70,<sp/>0x66063BCA,<sp/>0x11010B5C,</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/>0x8F659EFF,<sp/>0xF862AE69,<sp/>0x616BFFD3,<sp/>0x166CCF45,</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/>0xA00AE278,<sp/>0xD70DD2EE,<sp/>0x4E048354,<sp/>0x3903B3C2,</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/>0xA7672661,<sp/>0xD06016F7,<sp/>0x4969474D,<sp/>0x3E6E77DB,</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/>0xAED16A4A,<sp/>0xD9D65ADC,<sp/>0x40DF0B66,<sp/>0x37D83BF0,</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/>0xA9BCAE53,<sp/>0xDEBB9EC5,<sp/>0x47B2CF7F,<sp/>0x30B5FFE9,</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/>0xBDBDF21C,<sp/>0xCABAC28A,<sp/>0x53B39330,<sp/>0x24B4A3A6,</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/>0xBAD03605,<sp/>0xCDD70693,<sp/>0x54DE5729,<sp/>0x23D967BF,</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/>0xB3667A2E,<sp/>0xC4614AB8,<sp/>0x5D681B02,<sp/>0x2A6F2B94,</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/>0xB40BBE37,<sp/>0xC30C8EA1,<sp/>0x5A05DF1B,<sp/>0x2D02EF8D</highlight></codeline>
+<codeline lineno="193"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/DataAuthentication/CRC32.cpp"/>
+  </compounddef>
+</doxygen>

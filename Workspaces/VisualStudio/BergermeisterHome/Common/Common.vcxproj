@@ -27,33 +27,41 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Component\Event.h" />
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Component\Listener.h" />
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Component\Model.h" />
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Constants.h" />
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Containers\LinkedList.h" />
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Containers\List.h" />
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Containers\ListNode.h" />
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Containers\Queue.h" />
-    <ClInclude Include="..\..\..\..\Software\Common\inc\DataAuthentication\CRC32.h" />
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Notification\Alert.h" />
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Notification\ComponentId.h" />
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Notification\Criticality.h" />
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Notification\EventId.h" />
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Notification\GroupId.h" />
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Notification\Identifier.h" />
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Notification\Status.h" />
-    <ClInclude Include="..\..\..\..\Software\Common\inc\StopWatch.h" />
-    <ClInclude Include="..\..\..\..\Software\Common\inc\Types.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\Component\Event.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\Component\Listener.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\Component\Model.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\Constants.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\Containers\LinkedList.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\Containers\List.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\Containers\ListNode.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\Containers\Queue.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\DataAuthentication\CRC32.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\DataAuthentication\Hash.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\DataAuthentication\SHA.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\DataAuthentication\SHA512.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\DataAuthentication\UInt512.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\Notification\Alert.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\Notification\ComponentId.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\Notification\Criticality.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\Notification\EventId.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\Notification\GroupId.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\Notification\Identifier.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\Notification\Status.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\StopWatch.h" />
+    <ClInclude Include="..\..\..\..\Software\Common\Types.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Software\Common\src\Component\Listener.cpp" />
-    <ClCompile Include="..\..\..\..\Software\Common\src\Component\Model.cpp" />
-    <ClCompile Include="..\..\..\..\Software\Common\src\DataAuthentication\CRC32.cpp" />
-    <ClCompile Include="..\..\..\..\Software\Common\src\Notification\Alert.cpp" />
-    <ClCompile Include="..\..\..\..\Software\Common\src\Notification\Identifier.cpp" />
-    <ClCompile Include="..\..\..\..\Software\Common\src\Notification\Status.cpp" />
-    <ClCompile Include="..\..\..\..\Software\Common\src\StopWatch.cpp" />
+    <ClCompile Include="..\..\..\..\Software\Common\Component\Listener.cpp" />
+    <ClCompile Include="..\..\..\..\Software\Common\Component\Model.cpp" />
+    <ClCompile Include="..\..\..\..\Software\Common\DataAuthentication\CRC32.cpp" />
+    <ClCompile Include="..\..\..\..\Software\Common\DataAuthentication\Hash.cpp" />
+    <ClCompile Include="..\..\..\..\Software\Common\DataAuthentication\SHA.cpp" />
+    <ClCompile Include="..\..\..\..\Software\Common\DataAuthentication\SHA512.cpp" />
+    <ClCompile Include="..\..\..\..\Software\Common\DataAuthentication\UInt512.cpp" />
+    <ClCompile Include="..\..\..\..\Software\Common\Notification\Alert.cpp" />
+    <ClCompile Include="..\..\..\..\Software\Common\Notification\Identifier.cpp" />
+    <ClCompile Include="..\..\..\..\Software\Common\Notification\Status.cpp" />
+    <ClCompile Include="..\..\..\..\Software\Common\StopWatch.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{638dbdfe-ac52-4b26-a449-2741214dbcc1}</ProjectGuid>
@@ -63,8 +71,8 @@
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <AppContainerApplication>true</AppContainerApplication>
     <ApplicationType>Windows Store</ApplicationType>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
-    <WindowsTargetPlatformMinVersion>10.0.10586.0</WindowsTargetPlatformMinVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.17134.0</WindowsTargetPlatformMinVersion>
     <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -201,7 +209,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <CompileAsWinRT>false</CompileAsWinRT>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>..\..\..\..\Software\Common\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\Software\Common\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

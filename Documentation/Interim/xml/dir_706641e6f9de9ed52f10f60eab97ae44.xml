@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_706641e6f9de9ed52f10f60eab97ae44" kind="dir">
+    <compoundname>C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers</compoundname>
+    <innerfile refid="_linked_list_8h">LinkedList.h</innerfile>
+    <innerfile refid="_list_8h">List.h</innerfile>
+    <innerfile refid="_list_node_8h">ListNode.h</innerfile>
+    <innerfile refid="_queue_8h">Queue.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/"/>
+  </compounddef>
+</doxygen>

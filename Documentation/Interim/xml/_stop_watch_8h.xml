@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_stop_watch_8h" kind="file" language="C++">
+    <compoundname>StopWatch.h</compoundname>
+    <includedby refid="_stop_watch_8cpp" local="no">C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/StopWatch.cpp</includedby>
+    <invincdepgraph>
+      <node id="118">
+        <label>C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h</label>
+        <link refid="_stop_watch_8h"/>
+        <childnode refid="119" relation="include">
+        </childnode>
+      </node>
+      <node id="119">
+        <label>C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/StopWatch.cpp</label>
+        <link refid="_stop_watch_8cpp_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_g_n_common_1_1_g_tc_stop_watch" prot="public">GNCommon::GTcStopWatch</innerclass>
+    <innernamespace refid="namespace_g_n_common">GNCommon</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Package interface for the Stop Watch class interface </para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="6"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_g_n_common" kindref="compound">GNCommon</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="class_g_n_common_1_1_g_tc_stop_watch" refkind="compound"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_g_n_common_1_1_g_tc_stop_watch" kindref="compound">GTcStopWatch</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Protected<sp/>Attributes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespace_g_n_common_1ad0a34f67eefe81cfbd0e515bba246d9d" kindref="member">Ti64</ref><sp/>xlMaxQuadPart<sp/>=<sp/>9223372036854775807;<sp/><sp/></highlight></codeline>
+<codeline lineno="14" refid="class_g_n_common_1_1_g_tc_stop_watch_1a525b6eebced7d4d9c3812788cfde2b75" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kindref="member">Tu64</ref><sp/><ref refid="class_g_n_common_1_1_g_tc_stop_watch_1a525b6eebced7d4d9c3812788cfde2b75" kindref="member">xulTimeBase</ref><sp/><sp/><sp/>=<sp/>1000000LL;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kindref="member">Tu64</ref><sp/>vulFrequency;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_g_n_common_1ad0a34f67eefe81cfbd0e515bba246d9d" kindref="member">Ti64</ref><sp/>vlStart;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_g_n_common_1ad0a34f67eefe81cfbd0e515bba246d9d" kindref="member">Ti64</ref><sp/>vlEnd;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref><sp/><sp/>vbRunning;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_g_n_common_1_1_g_tc_stop_watch" kindref="compound">GTcStopWatch</ref>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_g_n_common_1_1_g_tc_stop_watch" kindref="compound">GTcStopWatch</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_g_tc_stop_watch" kindref="compound">GTcStopWatch</ref>&amp;<sp/>aorStopWatch<sp/>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>~<ref refid="class_g_n_common_1_1_g_tc_stop_watch" kindref="compound">GTcStopWatch</ref>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_g_n_common_1_1_g_tc_stop_watch" kindref="compound">GTcStopWatch</ref>&amp;<sp/>operator=(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_g_n_common_1_1_g_tc_stop_watch" kindref="compound">GTcStopWatch</ref>&amp;<sp/>aorStopWatch<sp/>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/>MStart<sp/><sp/>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kindref="member">Tu64</ref><sp/>MStop<sp/><sp/><sp/>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kindref="member">Tu64</ref><sp/>MElapsed(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/StopWatch.h"/>
+  </compounddef>
+</doxygen>

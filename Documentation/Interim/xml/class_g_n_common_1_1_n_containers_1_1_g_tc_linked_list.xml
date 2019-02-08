@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list" kind="class" language="C++" prot="public">
+    <compoundname>GNCommon::NContainers::GTcLinkedList</compoundname>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>GTcType</declname>
+        <defname>GTcType</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a4a0f308cf69f2cb7e86a01c0b32e77aa" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node" kindref="compound">GTcListNode</ref>&lt; GTcType &gt; *</type>
+        <definition>GTcListNode&lt; GTcType &gt;* GNCommon::NContainers::GTcLinkedList&lt; GTcType &gt;::vopBuff</definition>
+        <argsstring></argsstring>
+        <name>vopBuff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" line="14" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a86116504780ba3e48e4f3c88e6d2f827" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node" kindref="compound">GTcListNode</ref>&lt; GTcType &gt; *</type>
+        <definition>GTcListNode&lt; GTcType &gt;* GNCommon::NContainers::GTcLinkedList&lt; GTcType &gt;::vopHead</definition>
+        <argsstring></argsstring>
+        <name>vopHead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" line="15" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a1773e394bf6b1eadeb37461ada2a737d" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node" kindref="compound">GTcListNode</ref>&lt; GTcType &gt; *</type>
+        <definition>GTcListNode&lt; GTcType &gt;* GNCommon::NContainers::GTcLinkedList&lt; GTcType &gt;::vopTail</definition>
+        <argsstring></argsstring>
+        <name>vopTail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" line="16" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a40e1149be848e39afe6bbfe31fed5015" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>Tu32 GNCommon::NContainers::GTcLinkedList&lt; GTcType &gt;::vuiSize</definition>
+        <argsstring></argsstring>
+        <name>vuiSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" line="18" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a720093251d1678a6a309976750d4215d" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>Tu32 GNCommon::NContainers::GTcLinkedList&lt; GTcType &gt;::vuiCount</definition>
+        <argsstring></argsstring>
+        <name>vuiCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" line="19" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a847dd5df95c4076a333745ce2aa1ff0d" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref></type>
+        <definition>Tb8 GNCommon::NContainers::GTcLinkedList&lt; GTcType &gt;::vbInitialized</definition>
+        <argsstring></argsstring>
+        <name>vbInitialized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" line="20" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a4386fec75116a7bec83ae8e9a3053311" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GNCommon::NContainers::GTcLinkedList&lt; GTcType &gt;::GTcLinkedList</definition>
+        <argsstring>(void)</argsstring>
+        <name>GTcLinkedList</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" line="23" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" bodystart="23" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a08b18f621fad8579720e5872b350ba70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GNCommon::NContainers::GTcLinkedList&lt; GTcType &gt;::~GTcLinkedList</definition>
+        <argsstring>(void)</argsstring>
+        <name>~GTcLinkedList</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" line="35" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a3a573590845e357e8a8e6f70c3fd79d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GNCommon::NContainers::GTcLinkedList&lt; GTcType &gt;::MInitialize</definition>
+        <argsstring>(GTcListNode&lt; GTcType &gt; *aopBuffer, Tu32 auiSize)</argsstring>
+        <name>MInitialize</name>
+        <param>
+          <type><ref refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node" kindref="compound">GTcListNode</ref>&lt; GTcType &gt; *</type>
+          <declname>aopBuffer</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+          <declname>auiSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" line="40" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" bodystart="40" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1af31039ab1077def5812bc7d61cd53d23" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref></type>
+        <definition>Tb8 GNCommon::NContainers::GTcLinkedList&lt; GTcType &gt;::MIsInitialized</definition>
+        <argsstring>(void) const</argsstring>
+        <name>MIsInitialized</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" line="56" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a8b10f43ce74f55d4e52bcecd39f244bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref></type>
+        <definition>Tb8 GNCommon::NContainers::GTcLinkedList&lt; GTcType &gt;::MInsertAtHead</definition>
+        <argsstring>(GTcType &amp;aorObject)</argsstring>
+        <name>MInsertAtHead</name>
+        <param>
+          <type>GTcType &amp;</type>
+          <declname>aorObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" line="61" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" bodystart="61" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a1119b8779eb4c7398e49f807eaffc23c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref></type>
+        <definition>Tb8 GNCommon::NContainers::GTcLinkedList&lt; GTcType &gt;::MInsertAtTail</definition>
+        <argsstring>(GTcType &amp;aorObject)</argsstring>
+        <name>MInsertAtTail</name>
+        <param>
+          <type>GTcType &amp;</type>
+          <declname>aorObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" line="67" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" bodystart="67" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a0a59862fc85d488e61e04978746f5d3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref></type>
+        <definition>Tb8 GNCommon::NContainers::GTcLinkedList&lt; GTcType &gt;::MInsert</definition>
+        <argsstring>(GTcType &amp;aorObject)</argsstring>
+        <name>MInsert</name>
+        <param>
+          <type>GTcType &amp;</type>
+          <declname>aorObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" line="73" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" bodystart="73" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1ad12ca960896c194e92696e9f34c742a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref></type>
+        <definition>Tb8 GNCommon::NContainers::GTcLinkedList&lt; GTcType &gt;::MRemoveHead</definition>
+        <argsstring>(void)</argsstring>
+        <name>MRemoveHead</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" line="79" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" bodystart="79" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a222dd42866a883de1008866513a6ae76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref></type>
+        <definition>Tb8 GNCommon::NContainers::GTcLinkedList&lt; GTcType &gt;::MRemoveTail</definition>
+        <argsstring>(void)</argsstring>
+        <name>MRemoveTail</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" line="85" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" bodystart="85" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1ac746f06616314b3638c25916b7102e74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref></type>
+        <definition>Tb8 GNCommon::NContainers::GTcLinkedList&lt; GTcType &gt;::MRemove</definition>
+        <argsstring>(GTcType &amp;aorObject)</argsstring>
+        <name>MRemove</name>
+        <param>
+          <type>GTcType &amp;</type>
+          <declname>aorObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" line="91" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" bodystart="91" bodyend="95"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" line="12" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" bodystart="11" bodyend="96"/>
+    <listofallmembers>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a4386fec75116a7bec83ae8e9a3053311" prot="public" virt="non-virtual"><scope>GNCommon::NContainers::GTcLinkedList</scope><name>GTcLinkedList</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a3a573590845e357e8a8e6f70c3fd79d4" prot="public" virt="non-virtual"><scope>GNCommon::NContainers::GTcLinkedList</scope><name>MInitialize</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a0a59862fc85d488e61e04978746f5d3f" prot="public" virt="non-virtual"><scope>GNCommon::NContainers::GTcLinkedList</scope><name>MInsert</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a8b10f43ce74f55d4e52bcecd39f244bf" prot="public" virt="non-virtual"><scope>GNCommon::NContainers::GTcLinkedList</scope><name>MInsertAtHead</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a1119b8779eb4c7398e49f807eaffc23c" prot="public" virt="non-virtual"><scope>GNCommon::NContainers::GTcLinkedList</scope><name>MInsertAtTail</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1af31039ab1077def5812bc7d61cd53d23" prot="public" virt="non-virtual"><scope>GNCommon::NContainers::GTcLinkedList</scope><name>MIsInitialized</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1ac746f06616314b3638c25916b7102e74" prot="public" virt="non-virtual"><scope>GNCommon::NContainers::GTcLinkedList</scope><name>MRemove</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1ad12ca960896c194e92696e9f34c742a5" prot="public" virt="non-virtual"><scope>GNCommon::NContainers::GTcLinkedList</scope><name>MRemoveHead</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a222dd42866a883de1008866513a6ae76" prot="public" virt="non-virtual"><scope>GNCommon::NContainers::GTcLinkedList</scope><name>MRemoveTail</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a847dd5df95c4076a333745ce2aa1ff0d" prot="protected" virt="non-virtual"><scope>GNCommon::NContainers::GTcLinkedList</scope><name>vbInitialized</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a4a0f308cf69f2cb7e86a01c0b32e77aa" prot="protected" virt="non-virtual"><scope>GNCommon::NContainers::GTcLinkedList</scope><name>vopBuff</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a86116504780ba3e48e4f3c88e6d2f827" prot="protected" virt="non-virtual"><scope>GNCommon::NContainers::GTcLinkedList</scope><name>vopHead</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a1773e394bf6b1eadeb37461ada2a737d" prot="protected" virt="non-virtual"><scope>GNCommon::NContainers::GTcLinkedList</scope><name>vopTail</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a720093251d1678a6a309976750d4215d" prot="protected" virt="non-virtual"><scope>GNCommon::NContainers::GTcLinkedList</scope><name>vuiCount</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a40e1149be848e39afe6bbfe31fed5015" prot="protected" virt="non-virtual"><scope>GNCommon::NContainers::GTcLinkedList</scope><name>vuiSize</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a08b18f621fad8579720e5872b350ba70" prot="public" virt="non-virtual"><scope>GNCommon::NContainers::GTcLinkedList</scope><name>~GTcLinkedList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

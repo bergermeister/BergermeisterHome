@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="class_g_n_common_1_1_n_component_1_1_g_tc_event" kind="class"><name>GNCommon::NComponent::GTcEvent</name>
+    <member refid="class_g_n_common_1_1_n_component_1_1_g_tc_event_1ae060ae772a0689936a5ce21802e1766b" kind="variable"><name>voBuffer</name></member>
+    <member refid="class_g_n_common_1_1_n_component_1_1_g_tc_event_1a4bdfc0245a63301bb4d6df850f066ef1" kind="variable"><name>voListeners</name></member>
+    <member refid="class_g_n_common_1_1_n_component_1_1_g_tc_event_1a2f1ac67376900f8aabf53d6b8c3ea5cb" kind="function"><name>GTcEvent</name></member>
+    <member refid="class_g_n_common_1_1_n_component_1_1_g_tc_event_1a65d524f2f2188d74d47e30bf9f28f385" kind="function"><name>~GTcEvent</name></member>
+    <member refid="class_g_n_common_1_1_n_component_1_1_g_tc_event_1aa4b6f4ff1c4b91c55ac4c7350174bde8" kind="function"><name>MNotify</name></member>
+    <member refid="class_g_n_common_1_1_n_component_1_1_g_tc_event_1adda36d639b1a0ddc31316559a1cddec9" kind="function"><name>operator+=</name></member>
+    <member refid="class_g_n_common_1_1_n_component_1_1_g_tc_event_1a5ecf841886dd8741f88ed053bb7c50ab" kind="function"><name>operator-=</name></member>
+  </compound>
+  <compound refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list" kind="class"><name>GNCommon::NContainers::GTcLinkedList</name>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a4a0f308cf69f2cb7e86a01c0b32e77aa" kind="variable"><name>vopBuff</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a86116504780ba3e48e4f3c88e6d2f827" kind="variable"><name>vopHead</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a1773e394bf6b1eadeb37461ada2a737d" kind="variable"><name>vopTail</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a40e1149be848e39afe6bbfe31fed5015" kind="variable"><name>vuiSize</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a720093251d1678a6a309976750d4215d" kind="variable"><name>vuiCount</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a847dd5df95c4076a333745ce2aa1ff0d" kind="variable"><name>vbInitialized</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a4386fec75116a7bec83ae8e9a3053311" kind="function"><name>GTcLinkedList</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a08b18f621fad8579720e5872b350ba70" kind="function"><name>~GTcLinkedList</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a3a573590845e357e8a8e6f70c3fd79d4" kind="function"><name>MInitialize</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1af31039ab1077def5812bc7d61cd53d23" kind="function"><name>MIsInitialized</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a8b10f43ce74f55d4e52bcecd39f244bf" kind="function"><name>MInsertAtHead</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a1119b8779eb4c7398e49f807eaffc23c" kind="function"><name>MInsertAtTail</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a0a59862fc85d488e61e04978746f5d3f" kind="function"><name>MInsert</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1ad12ca960896c194e92696e9f34c742a5" kind="function"><name>MRemoveHead</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1a222dd42866a883de1008866513a6ae76" kind="function"><name>MRemoveTail</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list_1ac746f06616314b3638c25916b7102e74" kind="function"><name>MRemove</name></member>
+  </compound>
+  <compound refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list" kind="class"><name>GNCommon::NContainers::GTcList</name>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_1a58c0d816076c5a58e0979799496af942" kind="variable"><name>VorItem</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_1a9f78930e018406bc0240b9c5f023e994" kind="variable"><name>VuirCapacity</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_1a9de552c7e334576676838a21971dd548" kind="variable"><name>VuirCount</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_1a059fe0982648142559d7c18603529848" kind="variable"><name>vopBuffer</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_1aebcb9c4c9b69df72e6387b8afc6bd126" kind="variable"><name>vuiCapacity</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_1a2fad7e9af2e3ecbd6272ec044056fadf" kind="variable"><name>vuiCount</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_1a3c9ac165409f6154366676e4895722e0" kind="function"><name>GTcList</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_1a03513b89abcd069d6bf75a110edccccc" kind="function"><name>GTcList</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_1a5569adf8d6d3ead2a39eb1d27fc9552a" kind="function"><name>~GTcList</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_1a1af49ef8b3adc4a2537c316234e7cda0" kind="function"><name>operator=</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_1af0cba95288517ccfc2af1e34a0c17f2c" kind="function"><name>MAdd</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_1ae630196feee0851049e7639ea41893d0" kind="function"><name>MInsert</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_1a178bcd2cf41597e037833c03311b2c8f" kind="function"><name>MRemove</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_1ac79097e4228c07e7214b71dbf044c6c1" kind="function"><name>MRemvoeAt</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_1a14fb16ecd5edb7b231b127192e309c1f" kind="function"><name>MClear</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_1a1066bbf8bea38cc96ac00e72fdc01160" kind="function"><name>MContains</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_1af3515d6b8a1edeb6af7283784bb139a1" kind="function"><name>MIndexOf</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_1a6122791f6636a6e7018b0cfebd6978c6" kind="function"><name>MCapacity</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_1ac05103730e108c04b3945ee6ae320382" kind="function"><name>MCount</name></member>
+  </compound>
+  <compound refid="class_g_n_common_1_1_n_component_1_1_g_tc_listener" kind="class"><name>GNCommon::NComponent::GTcListener</name>
+    <member refid="class_g_n_common_1_1_n_component_1_1_g_tc_listener_1a99a90bed304780bf96facc284bc6a3c8" kind="typedef"><name>TsHandle</name></member>
+    <member refid="class_g_n_common_1_1_n_component_1_1_g_tc_listener_1ad2f8b2b212ee0120ce41c8715abe68aa" kind="variable"><name>vopInstance</name></member>
+    <member refid="class_g_n_common_1_1_n_component_1_1_g_tc_listener_1a0add5b70f2f2f400de4ab6442fe91595" kind="variable"><name>vopHandle</name></member>
+    <member refid="class_g_n_common_1_1_n_component_1_1_g_tc_listener_1abb13f13694b940489e7da7a7793d5b6d" kind="function"><name>GTcListener</name></member>
+    <member refid="class_g_n_common_1_1_n_component_1_1_g_tc_listener_1aefc63ad4c7dc623de5c9c156848774ce" kind="function"><name>GTcListener</name></member>
+    <member refid="class_g_n_common_1_1_n_component_1_1_g_tc_listener_1a55891443db32180dff7b190ab3303048" kind="function"><name>~GTcListener</name></member>
+    <member refid="class_g_n_common_1_1_n_component_1_1_g_tc_listener_1aa7b293fa2d8fb08c31b9953557ead0c8" kind="function"><name>MGetInstance</name></member>
+    <member refid="class_g_n_common_1_1_n_component_1_1_g_tc_listener_1a401b10e5fb60ecb19c6808ba5f758674" kind="function"><name>MGetHandle</name></member>
+    <member refid="class_g_n_common_1_1_n_component_1_1_g_tc_listener_1a4ae45f5ca3166a6cef67177b22ee478a" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node" kind="class"><name>GNCommon::NContainers::GTcListNode</name>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1af93509661668861bd31387c744451143" kind="variable"><name>vopNext</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1aa5249ecdfe6ec1b7f0bd40df99fa071d" kind="variable"><name>vopPrev</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1addaf7e3067ae969fde633b63be203bf8" kind="variable"><name>voObject</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a44a4bdf6606a747e616753e68d211f76" kind="variable"><name>vbAvailable</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1aa00afe6fd00666a26c0db2402db9ca22" kind="function"><name>GTcListNode</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a33fcea43d0aa96b24ed16030695abc27" kind="function"><name>~GTcListNode</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a86d95731366df231f1b666a1deea2452" kind="function"><name>MSetObject</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a384f01990e3583745ad523f98cd9cb35" kind="function"><name>MGetObject</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a732112aa53aa5c90521fa195023934da" kind="function"><name>MSetNext</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a09704031a826c226800f987aabef2dad" kind="function"><name>MSetPrev</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a06b8ad652f01c74533b1058ce2d3d67f" kind="function"><name>MSGetNext</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1aa5a14106ad0daa010bb195dd98b07785" kind="function"><name>MSGetPrev</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a5a961a5367a0bfafe93e0946e22e583f" kind="function"><name>MInsertAfter</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a67448d9e550da3acb51a1469bb21fcf2" kind="function"><name>MInsertBefore</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a688a9ed0ea087b16d18d8bedaffa2299" kind="function"><name>MRemove</name></member>
+  </compound>
+  <compound refid="class_g_n_common_1_1_n_containers_1_1_g_tc_queue" kind="class"><name>GNCommon::NContainers::GTcQueue</name>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_queue_1a5afe0164512e4757e4b7a90954f118d5" kind="variable"><name>vopBuffer</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_queue_1a4d16c96dfc17e4d2859013701c22bcd6" kind="variable"><name>vuiSize</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_queue_1a10148707fa92d8af3903d876c850654c" kind="variable"><name>vuiCount</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_queue_1a3ee1229363dd61a0eeca9ecef0cf4e10" kind="variable"><name>vuiHead</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_queue_1afa6241e0cf9123d51ae271ce0c58f6a7" kind="variable"><name>vuiTail</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_queue_1ab881814c2268f14b87a74a85d4ffc623" kind="function"><name>GTcQueue</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_queue_1aa64bd5892456166c0295ab054aa48839" kind="function"><name>GTcQueue</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_queue_1ab7b3ed00dc50d709580f0429e9511fd9" kind="function"><name>~GTcQueue</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_queue_1a52d28010867f8ed0159b4d87d339623e" kind="function"><name>MEnqueue</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_queue_1a830d2f2082375430e547e0b99300a141" kind="function"><name>MDequeue</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_queue_1ae4c9865a672f3e48f7cd0eab79cc42e0" kind="function"><name>MIsEmpty</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_queue_1a05c9cf6f2ae03fa910072560a4a19d28" kind="function"><name>MIsFull</name></member>
+    <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_queue_1a9cae400d846f0ed6263e743cd452311a" kind="function"><name>MCount</name></member>
+  </compound>
+  <compound refid="class_g_n_common_1_1_g_tc_stop_watch" kind="class"><name>GNCommon::GTcStopWatch</name>
+    <member refid="class_g_n_common_1_1_g_tc_stop_watch_1aa4ea90c5c6272835e8f11b9b0b6a31b4" kind="variable"><name>xlMaxQuadPart</name></member>
+    <member refid="class_g_n_common_1_1_g_tc_stop_watch_1a525b6eebced7d4d9c3812788cfde2b75" kind="variable"><name>xulTimeBase</name></member>
+    <member refid="class_g_n_common_1_1_g_tc_stop_watch_1ae62f93ce0dfb63d4f14ff7124002af12" kind="variable"><name>vulFrequency</name></member>
+    <member refid="class_g_n_common_1_1_g_tc_stop_watch_1a5eb07074a371c97819296a7db87b4d27" kind="variable"><name>vlStart</name></member>
+    <member refid="class_g_n_common_1_1_g_tc_stop_watch_1afc4a445f8c64577899076de34626ac6b" kind="variable"><name>vlEnd</name></member>
+    <member refid="class_g_n_common_1_1_g_tc_stop_watch_1a72fd2713ee3ed00290ccaad0fafad583" kind="variable"><name>vbRunning</name></member>
+    <member refid="class_g_n_common_1_1_g_tc_stop_watch_1a5c812d91d963d322124c95262b432697" kind="function"><name>GTcStopWatch</name></member>
+    <member refid="class_g_n_common_1_1_g_tc_stop_watch_1ae442c6e313df8f2ad22b4ceef71b89ab" kind="function"><name>GTcStopWatch</name></member>
+    <member refid="class_g_n_common_1_1_g_tc_stop_watch_1acb6bd6759963df00601540e088bce794" kind="function"><name>~GTcStopWatch</name></member>
+    <member refid="class_g_n_common_1_1_g_tc_stop_watch_1a334776e4f98289f2093b2da4cf3cb8b8" kind="function"><name>operator=</name></member>
+    <member refid="class_g_n_common_1_1_g_tc_stop_watch_1ad62dfcb669827907489089ff31be6325" kind="function"><name>MStart</name></member>
+    <member refid="class_g_n_common_1_1_g_tc_stop_watch_1a3b7ec35c07140a12d3a7d539dbb7b80d" kind="function"><name>MStop</name></member>
+    <member refid="class_g_n_common_1_1_g_tc_stop_watch_1a0569d663b5d612924bf287f8382359b2" kind="function"><name>MElapsed</name></member>
+  </compound>
+  <compound refid="class_g_n_common_1_1_n_notification_1_1_tc_alert" kind="class"><name>GNCommon::NNotification::TcAlert</name>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a44f63050a2f1c7a4876a31ce2ffd2d06" kind="variable"><name>XuiSizeOfIdentifier</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a59f856e0a33731ee0c235271bb013a34" kind="variable"><name>XuiSizeOfStatus</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1aa42573703fd6fa2ba90aa010fdc659ca" kind="variable"><name>voID</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ae993e1ea34de5347b08b21c9264cdb8e" kind="variable"><name>voStatus</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a3c6f656e3e526b9f97942188d7bb2930" kind="variable"><name>vulTimestamp</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ab49cb616a0e61e74234264d775a3408a" kind="variable"><name>vulData</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a683af178a44e0ab7463c529d1ebb6d9c" kind="function"><name>TcAlert</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1abd42f842fe53942ed6d7a7008c3400c2" kind="function"><name>~TcAlert</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a75120f1735cec51fe7f4afa519bd631b" kind="function"><name>TcAlert</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ad1371ff2988283b60a47c2879e1a0011" kind="function"><name>operator=</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a5411a5d9659282e199ceb16a1b88c17d" kind="function"><name>MSetIdentifier</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a682a17a50fc2c50bfb92ec3eeafdb5c9" kind="function"><name>MSetStatus</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1ac6ed25087bcdbb12921d71c2c4126131" kind="function"><name>MSetTimestamp</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1af4dccb7b428fdd2069a9dd1e6c12410b" kind="function"><name>MSetData</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a3387c702b35bffddf5a480cdd52498aa" kind="function"><name>MGetIdentifier</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1af6c3e9f29e796c2140dbe52229d439ca" kind="function"><name>MGetStatus</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a99c02af9bf2a17a34810ac5ed6be8856" kind="function"><name>MGetTimestamp</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_alert_1a4eeace6aa167a1b9b9a98487eee0ddb2" kind="function"><name>MGetData</name></member>
+  </compound>
+  <compound refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32" kind="class"><name>GNCommon::NDataAuthentication::TcCRC32</name>
+    <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a520aaabe0f4ade7f38afd480281b2180" kind="variable"><name>XuiTableSize</name></member>
+    <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1ab4394051ff10830de29fa62cbb6f1490" kind="variable"><name>XuiPolynomial</name></member>
+    <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a07c2c3cd02a6f0eedc7a56565f7960c1" kind="variable"><name>xuiDefaultSeed</name></member>
+    <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1aafa160e99ae03386b426884450ba3796" kind="variable"><name>xuiTableCRC</name></member>
+    <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1aae1c17e2c8f312d0bf2e062a5412ada8" kind="variable"><name>xuiShift8</name></member>
+    <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1ab156bd5eaab2fe267499870a8f6e4925" kind="variable"><name>xuiMaskByte</name></member>
+    <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a4aafd40037856d1bd4ea6f6ce0928836" kind="variable"><name>xuiTable</name></member>
+    <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a92d89fa2eae48fedb6d596ce30798c48" kind="function"><name>TcCRC32</name></member>
+    <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a125172ccc1307fdeb7bf1d4dc95673da" kind="function"><name>TcCRC32</name></member>
+    <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1ae23a03a04ef0dfca0c0402c266704877" kind="function"><name>~TcCRC32</name></member>
+    <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a96fe7f4bb468dbab57189c5d9a39e3f4" kind="function"><name>operator=</name></member>
+    <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a170f6f898b26087d694d0e5163d4016b" kind="function"><name>MGet</name></member>
+    <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a8d798a894e55e69f847392f72fc2e84d" kind="function"><name>MVerify</name></member>
+    <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a11a20f9425a6431b0f2eb72e126a3a0e" kind="function"><name>MGenerateTable</name></member>
+    <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a2f822ac900cdba0a94b8e9361eb86b5c" kind="function"><name>MCompareTable</name></member>
+  </compound>
+  <compound refid="class_g_n_common_1_1_n_notification_1_1_tc_identifier" kind="class"><name>GNCommon::NNotification::TcIdentifier</name>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_identifier_1a704ac106036ca2d6b4fae77be75e7913" kind="variable"><name>vucIndex</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_identifier_1afcf493852b92439dca37c671b549c2d3" kind="variable"><name>voGroup</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_identifier_1a226babb1936c6e0841174fd1baac3476" kind="variable"><name>voCompDet</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_identifier_1a259c70f5d04a2cb6e8c674a07f903aff" kind="variable"><name>voCompGen</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_identifier_1a267c27d2c658da02dd9de307056e5957" kind="function"><name>TcIdentifier</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_identifier_1a38728e27be5fd22296b49b76bdda619b" kind="function"><name>TcIdentifier</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_identifier_1a24a949696317f638bc14f2fe76443373" kind="function"><name>~TcIdentifier</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_identifier_1a6a836e2b8afe92c207de676e574009ea" kind="function"><name>operator=</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_identifier_1a1250350af717cc758d44354232acbc04" kind="function"><name>operator==</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_identifier_1aaeba92963467ea1b7fb123094083633f" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="class_g_n_common_1_1_n_component_1_1_tc_model" kind="class"><name>GNCommon::NComponent::TcModel</name>
+    <member refid="class_g_n_common_1_1_n_component_1_1_tc_model_1a43cf22126d322790c5e15239ed00682a" kind="variable"><name>xuiMaxListeners</name></member>
+    <member refid="class_g_n_common_1_1_n_component_1_1_tc_model_1ad0a33b2b2478b257ef422db8120dde41" kind="variable"><name>VoEvent</name></member>
+    <member refid="class_g_n_common_1_1_n_component_1_1_tc_model_1a791436aa62ff03a75b263ca2594df5a6" kind="function"><name>TcModel</name></member>
+    <member refid="class_g_n_common_1_1_n_component_1_1_tc_model_1a2e1da7d4d334c3bdc8bb7691db047cdf" kind="function"><name>~TcModel</name></member>
+  </compound>
+  <compound refid="class_g_n_common_1_1_n_notification_1_1_tc_status" kind="class"><name>GNCommon::NNotification::TcStatus</name>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a69149fc8c4c5facf147993b95d171c10" kind="variable"><name>vucActive</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a487d66407748b7a91d9d663c3fab0f2c" kind="variable"><name>vucAcknowledged</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a36e84f5ebb3fda08f3ddaccde0a1c37b" kind="variable"><name>vucCleared</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a4af337a51278a09d8500bab15d929af3" kind="variable"><name>vucTrigger</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1ad8eff97b5c02e0409d3cbc65bf65c313" kind="variable"><name>vucSpare1</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a2f8cb2528ae8cba51e3acc7f28eb2eeb" kind="variable"><name>voCriticality</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1aaee139b3984634b3cc3cc7e2b7175035" kind="variable"><name>vucSpare2</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1ae398de0e32d0352b0437f4267247fd6d" kind="variable"><name>vucChildren</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a43b5990228e5a9fbe9bfe63605f7a9d2" kind="function"><name>TcStatus</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1abfb0ff092f9a23017fc89dcd1d6f4e6f" kind="function"><name>TcStatus</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1af14caf8abaf597904cebb6d414fd1dcf" kind="function"><name>~TcStatus</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1a97c8135ccc33bc5ba9d33f79de4ea789" kind="function"><name>operator=</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1acf4e836982c2da53ad1e6989af623c58" kind="function"><name>operator==</name></member>
+    <member refid="class_g_n_common_1_1_n_notification_1_1_tc_status_1acdf1eba6040e3cd5e244e21524ff0d86" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="namespace_g_n_common" kind="namespace"><name>GNCommon</name>
+    <member refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kind="typedef"><name>Tb8</name></member>
+    <member refid="namespace_g_n_common_1a2d8d4c56e54519697c6ee80cc1ceda76" kind="typedef"><name>Tc8</name></member>
+    <member refid="namespace_g_n_common_1a9bac2aa36db6d72a3e59b1869adf3668" kind="typedef"><name>Ti8</name></member>
+    <member refid="namespace_g_n_common_1a7939e251ddbf5d3a31832dcfdc8bde39" kind="typedef"><name>Tu8</name></member>
+    <member refid="namespace_g_n_common_1ab9a9a6aa84751cec965d8b6676318a65" kind="typedef"><name>Ti16</name></member>
+    <member refid="namespace_g_n_common_1a7f651a58155939d1e0e2bf2164fbfdbf" kind="typedef"><name>Tu16</name></member>
+    <member refid="namespace_g_n_common_1ad1f094ce51908947ac3d31355b560d55" kind="typedef"><name>Ti32</name></member>
+    <member refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kind="typedef"><name>Tu32</name></member>
+    <member refid="namespace_g_n_common_1ad0a34f67eefe81cfbd0e515bba246d9d" kind="typedef"><name>Ti64</name></member>
+    <member refid="namespace_g_n_common_1a9404ee6090c788ae70aebd1436ceb97d" kind="typedef"><name>Tu64</name></member>
+    <member refid="namespace_g_n_common_1ae4ffdde6236eb7578669b280a5d1634d" kind="typedef"><name>Tf32</name></member>
+    <member refid="namespace_g_n_common_1a73af96f1663fd8fc5741bcbc5b1427e4" kind="typedef"><name>Tf64</name></member>
+    <member refid="namespace_g_n_common_1ad19423414de1ede7c1f938d76b0e5289" kind="variable"><name>XuiSizeOfTb8</name></member>
+    <member refid="namespace_g_n_common_1ae0c9cf1817c6e99d6d15f223f2762302" kind="variable"><name>XuiSizeOfTi8</name></member>
+    <member refid="namespace_g_n_common_1a57aeaaa30a85bf222448cb4a501afad9" kind="variable"><name>XuiSizeOfTu8</name></member>
+    <member refid="namespace_g_n_common_1af84e88c89d68e2bdc7dec51b3ed1a592" kind="variable"><name>XuiSizeOfTi16</name></member>
+    <member refid="namespace_g_n_common_1a97536be80c07e22d2ea787936f79eda2" kind="variable"><name>XuiSizeOfTu16</name></member>
+    <member refid="namespace_g_n_common_1a71819e6385d718bcd7f61726c91f1b8d" kind="variable"><name>XuiSizeOfTi32</name></member>
+    <member refid="namespace_g_n_common_1a283e6fa9928bf0ae5d3b9643d3b4c2ca" kind="variable"><name>XuiSizeOfTu32</name></member>
+    <member refid="namespace_g_n_common_1a0364f6ff560dda65914b7c7691b0e2aa" kind="variable"><name>XuiSizeOfTi64</name></member>
+    <member refid="namespace_g_n_common_1a38a892217dc13d56bc3282cce6cd94d3" kind="variable"><name>XuiSizeOfTu64</name></member>
+    <member refid="namespace_g_n_common_1a5bda6409f435e11f56a19004d6868bd2" kind="variable"><name>XuiSizeOfTf32</name></member>
+    <member refid="namespace_g_n_common_1ac4f8478eece80362676eed4945d22642" kind="variable"><name>XuiSizeOfTf64</name></member>
+  </compound>
+  <compound refid="namespace_g_n_common_1_1_n_component" kind="namespace"><name>GNCommon::NComponent</name>
+  </compound>
+  <compound refid="namespace_g_n_common_1_1_n_containers" kind="namespace"><name>GNCommon::NContainers</name>
+  </compound>
+  <compound refid="namespace_g_n_common_1_1_n_data_authentication" kind="namespace"><name>GNCommon::NDataAuthentication</name>
+  </compound>
+  <compound refid="namespace_g_n_common_1_1_n_notification" kind="namespace"><name>GNCommon::NNotification</name>
+    <member refid="namespace_g_n_common_1_1_n_notification_1ab468f440599e6d5a51d887dfa55b06b3" kind="enum"><name>TcComponentId</name></member>
+    <member refid="namespace_g_n_common_1_1_n_notification_1ab468f440599e6d5a51d887dfa55b06b3ab1dd4ba140ef44b2b6e425a90b4d11ba" kind="enumvalue"><name>XeNone</name></member>
+    <member refid="namespace_g_n_common_1_1_n_notification_1ab468f440599e6d5a51d887dfa55b06b3ab55b8d4cd5d9df32ff6504e150b4a53d" kind="enumvalue"><name>XeServer</name></member>
+    <member refid="namespace_g_n_common_1_1_n_notification_1ab468f440599e6d5a51d887dfa55b06b3abf624c277a4697a96af203c9507ea0e6" kind="enumvalue"><name>XeSensor</name></member>
+    <member refid="namespace_g_n_common_1_1_n_notification_1a7d5c0650483fe26fa420ae5bf787566b" kind="enum"><name>TcCriticality</name></member>
+    <member refid="namespace_g_n_common_1_1_n_notification_1a7d5c0650483fe26fa420ae5bf787566bab1dd4ba140ef44b2b6e425a90b4d11ba" kind="enumvalue"><name>XeNone</name></member>
+    <member refid="namespace_g_n_common_1_1_n_notification_1a7d5c0650483fe26fa420ae5bf787566ba39f782b17c3f84e4d5a1520a6192a4bc" kind="enumvalue"><name>XeNotice</name></member>
+    <member refid="namespace_g_n_common_1_1_n_notification_1a7d5c0650483fe26fa420ae5bf787566ba65e6096570843ed0b2a2aadab454461c" kind="enumvalue"><name>XeWarning</name></member>
+    <member refid="namespace_g_n_common_1_1_n_notification_1a7d5c0650483fe26fa420ae5bf787566ba0e85256e385dd26a18c910f1f4d1c993" kind="enumvalue"><name>XeAlarm</name></member>
+    <member refid="namespace_g_n_common_1_1_n_notification_1a8d5ce0e5fbb0a6cdcd96e4b037656761" kind="enum"><name>TcEventId</name></member>
+    <member refid="namespace_g_n_common_1_1_n_notification_1a8d5ce0e5fbb0a6cdcd96e4b037656761a7471d192db39155dc0d39ca883dae94c" kind="enumvalue"><name>XeIdentifier</name></member>
+    <member refid="namespace_g_n_common_1_1_n_notification_1a8d5ce0e5fbb0a6cdcd96e4b037656761ad899aa90b4d684783af17209210998c9" kind="enumvalue"><name>XeStatus</name></member>
+    <member refid="namespace_g_n_common_1_1_n_notification_1a8d5ce0e5fbb0a6cdcd96e4b037656761a2e634cdbc3dc7c6865135e9c08bfd778" kind="enumvalue"><name>XeTimestamp</name></member>
+    <member refid="namespace_g_n_common_1_1_n_notification_1a8d5ce0e5fbb0a6cdcd96e4b037656761a25f295130184ac2e18832b94db82c6b3" kind="enumvalue"><name>XeData</name></member>
+    <member refid="namespace_g_n_common_1_1_n_notification_1af29017ad6ed59156beabc385a91db18e" kind="enum"><name>TcGroupId</name></member>
+    <member refid="namespace_g_n_common_1_1_n_notification_1af29017ad6ed59156beabc385a91db18eab1dd4ba140ef44b2b6e425a90b4d11ba" kind="enumvalue"><name>XeNone</name></member>
+    <member refid="namespace_g_n_common_1_1_n_notification_1af29017ad6ed59156beabc385a91db18eaf127afdc99e6a03185eab77f17740359" kind="enumvalue"><name>XeNetwork</name></member>
+  </compound>
+  <compound refid="_event_8h" kind="file"><name>Event.h</name>
+  </compound>
+  <compound refid="_listener_8h" kind="file"><name>Listener.h</name>
+  </compound>
+  <compound refid="_model_8h" kind="file"><name>Model.h</name>
+  </compound>
+  <compound refid="_constants_8h" kind="file"><name>Constants.h</name>
+    <member refid="_constants_8h_1a070d2ce7b6bb7e5c05602aa8c308d0c4" kind="define"><name>NULL</name></member>
+    <member refid="_constants_8h_1a598a3330b3c21701223ee0ca14316eca" kind="define"><name>PI</name></member>
+  </compound>
+  <compound refid="_linked_list_8h" kind="file"><name>LinkedList.h</name>
+  </compound>
+  <compound refid="_list_8h" kind="file"><name>List.h</name>
+  </compound>
+  <compound refid="_list_node_8h" kind="file"><name>ListNode.h</name>
+  </compound>
+  <compound refid="_queue_8h" kind="file"><name>Queue.h</name>
+  </compound>
+  <compound refid="_c_r_c32_8h" kind="file"><name>CRC32.h</name>
+  </compound>
+  <compound refid="_alert_8h" kind="file"><name>Alert.h</name>
+  </compound>
+  <compound refid="_component_id_8h" kind="file"><name>ComponentId.h</name>
+  </compound>
+  <compound refid="_criticality_8h" kind="file"><name>Criticality.h</name>
+  </compound>
+  <compound refid="_event_id_8h" kind="file"><name>EventId.h</name>
+  </compound>
+  <compound refid="_group_id_8h" kind="file"><name>GroupId.h</name>
+  </compound>
+  <compound refid="_identifier_8h" kind="file"><name>Identifier.h</name>
+  </compound>
+  <compound refid="_status_8h" kind="file"><name>Status.h</name>
+  </compound>
+  <compound refid="_stop_watch_8h" kind="file"><name>StopWatch.h</name>
+  </compound>
+  <compound refid="_types_8h" kind="file"><name>Types.h</name>
+  </compound>
+  <compound refid="_listener_8cpp" kind="file"><name>Listener.cpp</name>
+  </compound>
+  <compound refid="_model_8cpp" kind="file"><name>Model.cpp</name>
+  </compound>
+  <compound refid="_c_r_c32_8cpp" kind="file"><name>CRC32.cpp</name>
+  </compound>
+  <compound refid="_alert_8cpp" kind="file"><name>Alert.cpp</name>
+  </compound>
+  <compound refid="_identifier_8cpp" kind="file"><name>Identifier.cpp</name>
+  </compound>
+  <compound refid="_status_8cpp" kind="file"><name>Status.cpp</name>
+  </compound>
+  <compound refid="_stop_watch_8cpp" kind="file"><name>StopWatch.cpp</name>
+  </compound>
+  <compound refid="dir_ee95670a8ef1ad6e673d9095f49d9321" kind="dir"><name>C:/Users/edwar/Projects/BergermeisterHome/Software/Common</name>
+  </compound>
+  <compound refid="dir_91689284b79f3df4c907435625139f8b" kind="dir"><name>C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Component</name>
+  </compound>
+  <compound refid="dir_163392514b17235a912616db48e850ee" kind="dir"><name>C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Component</name>
+  </compound>
+  <compound refid="dir_706641e6f9de9ed52f10f60eab97ae44" kind="dir"><name>C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers</name>
+  </compound>
+  <compound refid="dir_cc240ebaa75102e4b1860a41596d22fa" kind="dir"><name>C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/DataAuthentication</name>
+  </compound>
+  <compound refid="dir_2be62ebb0936fcc42568d8dc8b529d5f" kind="dir"><name>C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication</name>
+  </compound>
+  <compound refid="dir_23b96034d9eeebf25b2542df5ff77575" kind="dir"><name>C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc</name>
+  </compound>
+  <compound refid="dir_1b99199350c949d8986d839ef598964f" kind="dir"><name>C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Notification</name>
+  </compound>
+  <compound refid="dir_30f75d2ca253aa4cfde7d731dead6407" kind="dir"><name>C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification</name>
+  </compound>
+  <compound refid="dir_4e9c05acfa2c3671b8618fcb95d57d96" kind="dir"><name>C:/Users/edwar/Projects/BergermeisterHome/Software</name>
+  </compound>
+  <compound refid="dir_1b4da30a265e26bb618f522a9e74121a" kind="dir"><name>C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src</name>
+  </compound>
+</doxygenindex>

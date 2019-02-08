@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node" kind="class" language="C++" prot="public">
+    <compoundname>GNCommon::NContainers::GTcListNode</compoundname>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>GTcType</declname>
+        <defname>GTcType</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1af93509661668861bd31387c744451143" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node" kindref="compound">GTcListNode</ref>&lt; GTcType &gt; *</type>
+        <definition>GTcListNode&lt; GTcType &gt;* GNCommon::NContainers::GTcListNode&lt; GTcType &gt;::vopNext</definition>
+        <argsstring></argsstring>
+        <name>vopNext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" line="14" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1aa5249ecdfe6ec1b7f0bd40df99fa071d" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node" kindref="compound">GTcListNode</ref>&lt; GTcType &gt; *</type>
+        <definition>GTcListNode&lt; GTcType &gt;* GNCommon::NContainers::GTcListNode&lt; GTcType &gt;::vopPrev</definition>
+        <argsstring></argsstring>
+        <name>vopPrev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" line="15" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1addaf7e3067ae969fde633b63be203bf8" prot="protected" static="no" mutable="no">
+        <type>GTcType</type>
+        <definition>GTcType GNCommon::NContainers::GTcListNode&lt; GTcType &gt;::voObject</definition>
+        <argsstring></argsstring>
+        <name>voObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" line="16" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a44a4bdf6606a747e616753e68d211f76" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref></type>
+        <definition>Tb8 GNCommon::NContainers::GTcListNode&lt; GTcType &gt;::vbAvailable</definition>
+        <argsstring></argsstring>
+        <name>vbAvailable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" line="17" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1aa00afe6fd00666a26c0db2402db9ca22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GNCommon::NContainers::GTcListNode&lt; GTcType &gt;::GTcListNode</definition>
+        <argsstring>(void)</argsstring>
+        <name>GTcListNode</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" line="20" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" bodystart="20" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a33fcea43d0aa96b24ed16030695abc27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GNCommon::NContainers::GTcListNode&lt; GTcType &gt;::~GTcListNode</definition>
+        <argsstring>(void)</argsstring>
+        <name>~GTcListNode</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" line="27" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a86d95731366df231f1b666a1deea2452" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GNCommon::NContainers::GTcListNode&lt; GTcType &gt;::MSetObject</definition>
+        <argsstring>(GTcType &amp;aorObject)</argsstring>
+        <name>MSetObject</name>
+        <param>
+          <type>GTcType &amp;</type>
+          <declname>aorObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" line="32" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a384f01990e3583745ad523f98cd9cb35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GTcType *</type>
+        <definition>GTcType* GNCommon::NContainers::GTcListNode&lt; GTcType &gt;::MGetObject</definition>
+        <argsstring>(void)</argsstring>
+        <name>MGetObject</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" line="37" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a732112aa53aa5c90521fa195023934da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GNCommon::NContainers::GTcListNode&lt; GTcType &gt;::MSetNext</definition>
+        <argsstring>(GTcListNode&lt; GTcType &gt; *aopNode)</argsstring>
+        <name>MSetNext</name>
+        <param>
+          <type><ref refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node" kindref="compound">GTcListNode</ref>&lt; GTcType &gt; *</type>
+          <declname>aopNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" line="42" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a09704031a826c226800f987aabef2dad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GNCommon::NContainers::GTcListNode&lt; GTcType &gt;::MSetPrev</definition>
+        <argsstring>(GTcListNode&lt; GTcType &gt; *aopNode)</argsstring>
+        <name>MSetPrev</name>
+        <param>
+          <type><ref refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node" kindref="compound">GTcListNode</ref>&lt; GTcType &gt; *</type>
+          <declname>aopNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" line="47" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a06b8ad652f01c74533b1058ce2d3d67f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node" kindref="compound">GTcListNode</ref>&lt; GTcType &gt; *</type>
+        <definition>GTcListNode&lt; GTcType &gt;* GNCommon::NContainers::GTcListNode&lt; GTcType &gt;::MSGetNext</definition>
+        <argsstring>(void)</argsstring>
+        <name>MSGetNext</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" line="52" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1aa5a14106ad0daa010bb195dd98b07785" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node" kindref="compound">GTcListNode</ref>&lt; GTcType &gt; *</type>
+        <definition>GTcListNode&lt; GTcType &gt;* GNCommon::NContainers::GTcListNode&lt; GTcType &gt;::MSGetPrev</definition>
+        <argsstring>(void)</argsstring>
+        <name>MSGetPrev</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" line="57" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a5a961a5367a0bfafe93e0946e22e583f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref></type>
+        <definition>Tb8 GNCommon::NContainers::GTcListNode&lt; GTcType &gt;::MInsertAfter</definition>
+        <argsstring>(GTcListNode&lt; GTcType &gt; &amp;aorNode)</argsstring>
+        <name>MInsertAfter</name>
+        <param>
+          <type><ref refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node" kindref="compound">GTcListNode</ref>&lt; GTcType &gt; &amp;</type>
+          <declname>aorNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" line="62" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" bodystart="62" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a67448d9e550da3acb51a1469bb21fcf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref></type>
+        <definition>Tb8 GNCommon::NContainers::GTcListNode&lt; GTcType &gt;::MInsertBefore</definition>
+        <argsstring>(GTcListNode&lt; GTcType &gt; &amp;aorNode)</argsstring>
+        <name>MInsertBefore</name>
+        <param>
+          <type><ref refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node" kindref="compound">GTcListNode</ref>&lt; GTcType &gt; &amp;</type>
+          <declname>aorNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" line="90" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" bodystart="90" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a688a9ed0ea087b16d18d8bedaffa2299" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref></type>
+        <definition>Tb8 GNCommon::NContainers::GTcListNode&lt; GTcType &gt;::MRemove</definition>
+        <argsstring>(void)</argsstring>
+        <name>MRemove</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" line="118" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" bodystart="118" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="12">
+        <label>GNCommon::NContainers::GTcListNode&lt; GTcType &gt;</label>
+        <link refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node"/>
+        <childnode refid="13" relation="usage">
+          <edgelabel>voObject</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>GTcType</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" line="12" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/ListNode.h" bodystart="11" bodyend="148"/>
+    <listofallmembers>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1aa00afe6fd00666a26c0db2402db9ca22" prot="public" virt="non-virtual"><scope>GNCommon::NContainers::GTcListNode</scope><name>GTcListNode</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a384f01990e3583745ad523f98cd9cb35" prot="public" virt="non-virtual"><scope>GNCommon::NContainers::GTcListNode</scope><name>MGetObject</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a5a961a5367a0bfafe93e0946e22e583f" prot="public" virt="non-virtual"><scope>GNCommon::NContainers::GTcListNode</scope><name>MInsertAfter</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a67448d9e550da3acb51a1469bb21fcf2" prot="public" virt="non-virtual"><scope>GNCommon::NContainers::GTcListNode</scope><name>MInsertBefore</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a688a9ed0ea087b16d18d8bedaffa2299" prot="public" virt="non-virtual"><scope>GNCommon::NContainers::GTcListNode</scope><name>MRemove</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a732112aa53aa5c90521fa195023934da" prot="public" virt="non-virtual"><scope>GNCommon::NContainers::GTcListNode</scope><name>MSetNext</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a86d95731366df231f1b666a1deea2452" prot="public" virt="non-virtual"><scope>GNCommon::NContainers::GTcListNode</scope><name>MSetObject</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a09704031a826c226800f987aabef2dad" prot="public" virt="non-virtual"><scope>GNCommon::NContainers::GTcListNode</scope><name>MSetPrev</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a06b8ad652f01c74533b1058ce2d3d67f" prot="public" virt="non-virtual"><scope>GNCommon::NContainers::GTcListNode</scope><name>MSGetNext</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1aa5a14106ad0daa010bb195dd98b07785" prot="public" virt="non-virtual"><scope>GNCommon::NContainers::GTcListNode</scope><name>MSGetPrev</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a44a4bdf6606a747e616753e68d211f76" prot="protected" virt="non-virtual"><scope>GNCommon::NContainers::GTcListNode</scope><name>vbAvailable</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1addaf7e3067ae969fde633b63be203bf8" prot="protected" virt="non-virtual"><scope>GNCommon::NContainers::GTcListNode</scope><name>voObject</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1af93509661668861bd31387c744451143" prot="protected" virt="non-virtual"><scope>GNCommon::NContainers::GTcListNode</scope><name>vopNext</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1aa5249ecdfe6ec1b7f0bd40df99fa071d" prot="protected" virt="non-virtual"><scope>GNCommon::NContainers::GTcListNode</scope><name>vopPrev</name></member>
+      <member refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node_1a33fcea43d0aa96b24ed16030695abc27" prot="public" virt="non-virtual"><scope>GNCommon::NContainers::GTcListNode</scope><name>~GTcListNode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

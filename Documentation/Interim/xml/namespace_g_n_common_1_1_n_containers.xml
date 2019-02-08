@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespace_g_n_common_1_1_n_containers" kind="namespace" language="C++">
+    <compoundname>GNCommon::NContainers</compoundname>
+    <innerclass refid="class_g_n_common_1_1_n_containers_1_1_g_tc_linked_list" prot="public">GNCommon::NContainers::GTcLinkedList</innerclass>
+    <innerclass refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list" prot="public">GNCommon::NContainers::GTcList</innerclass>
+    <innerclass refid="class_g_n_common_1_1_n_containers_1_1_g_tc_list_node" prot="public">GNCommon::NContainers::GTcListNode</innerclass>
+    <innerclass refid="class_g_n_common_1_1_n_containers_1_1_g_tc_queue" prot="public">GNCommon::NContainers::GTcQueue</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers/LinkedList.h" line="9" column="1"/>
+  </compounddef>
+</doxygen>

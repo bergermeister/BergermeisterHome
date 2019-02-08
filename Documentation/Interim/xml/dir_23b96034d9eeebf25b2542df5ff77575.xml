@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_23b96034d9eeebf25b2542df5ff77575" kind="dir">
+    <compoundname>C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc</compoundname>
+    <innerdir refid="dir_91689284b79f3df4c907435625139f8b">C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Component</innerdir>
+    <innerdir refid="dir_706641e6f9de9ed52f10f60eab97ae44">C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Containers</innerdir>
+    <innerdir refid="dir_2be62ebb0936fcc42568d8dc8b529d5f">C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication</innerdir>
+    <innerdir refid="dir_30f75d2ca253aa4cfde7d731dead6407">C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/Notification</innerdir>
+    <innerfile refid="_constants_8h">Constants.h</innerfile>
+    <innerfile refid="_stop_watch_8h">StopWatch.h</innerfile>
+    <innerfile refid="_types_8h">Types.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/"/>
+  </compounddef>
+</doxygen>

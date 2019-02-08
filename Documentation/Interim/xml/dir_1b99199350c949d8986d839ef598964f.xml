@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_1b99199350c949d8986d839ef598964f" kind="dir">
+    <compoundname>C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Notification</compoundname>
+    <innerfile refid="_alert_8cpp">Alert.cpp</innerfile>
+    <innerfile refid="_identifier_8cpp">Identifier.cpp</innerfile>
+    <innerfile refid="_status_8cpp">Status.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/Notification/"/>
+  </compounddef>
+</doxygen>

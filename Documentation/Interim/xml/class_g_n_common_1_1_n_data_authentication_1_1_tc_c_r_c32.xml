@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32" kind="class" language="C++" prot="public">
+    <compoundname>GNCommon::NDataAuthentication::TcCRC32</compoundname>
+    <includes refid="_c_r_c32_8h" local="no">CRC32.h</includes>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a520aaabe0f4ade7f38afd480281b2180" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>const Tu32 GNCommon::NDataAuthentication::TcCRC32::XuiTableSize</definition>
+        <argsstring></argsstring>
+        <name>XuiTableSize</name>
+        <initializer>= 256</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Number of 4-bit words in the CRC-32 table </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" line="18" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a2f822ac900cdba0a94b8e9361eb86b5c" compoundref="_c_r_c32_8cpp" startline="109" endline="124">MCompareTable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1ab4394051ff10830de29fa62cbb6f1490" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>const Tu32 GNCommon::NDataAuthentication::TcCRC32::XuiPolynomial</definition>
+        <argsstring></argsstring>
+        <name>XuiPolynomial</name>
+        <initializer>= 0xEDB88320</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Polynomial used to generate the CRC-32 table </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" line="19" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a07c2c3cd02a6f0eedc7a56565f7960c1" prot="protected" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>const Tu32 GNCommon::NDataAuthentication::TcCRC32::xuiDefaultSeed</definition>
+        <argsstring></argsstring>
+        <name>xuiDefaultSeed</name>
+        <initializer>= 0xFFFFFFFF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default Seed value when calculating a CRC </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" line="22" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1aafa160e99ae03386b426884450ba3796" prot="protected" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>const Tu32 GNCommon::NDataAuthentication::TcCRC32::xuiTableCRC</definition>
+        <argsstring></argsstring>
+        <name>xuiTableCRC</name>
+        <initializer>= 0x6FCF9E13</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CRC of the default look up table </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" line="23" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1aae1c17e2c8f312d0bf2e062a5412ada8" prot="protected" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>const Tu32 GNCommon::NDataAuthentication::TcCRC32::xuiShift8</definition>
+        <argsstring></argsstring>
+        <name>xuiShift8</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shift by 8 bits </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" line="24" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1ab156bd5eaab2fe267499870a8f6e4925" prot="protected" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>const Tu32 GNCommon::NDataAuthentication::TcCRC32::xuiMaskByte</definition>
+        <argsstring></argsstring>
+        <name>xuiMaskByte</name>
+        <initializer>= 0x000000FF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Single byte mask </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" line="25" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a4aafd40037856d1bd4ea6f6ce0928836" prot="protected" static="yes" mutable="no">
+        <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>const Tu32 TcCRC32::xuiTable</definition>
+        <argsstring>[XuiTableSize]</argsstring>
+        <name>xuiTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Lookup table</para><para>Table obtained from <ulink url="http://www.efg2.com/Lab/Mathematics/CRC.htm">http://www.efg2.com/Lab/Mathematics/CRC.htm</ulink> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" line="26" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a2f822ac900cdba0a94b8e9361eb86b5c" compoundref="_c_r_c32_8cpp" startline="109" endline="124">MCompareTable</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a92d89fa2eae48fedb6d596ce30798c48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TcCRC32::TcCRC32</definition>
+        <argsstring>(void)</argsstring>
+        <name>TcCRC32</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" line="29" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/DataAuthentication/CRC32.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a125172ccc1307fdeb7bf1d4dc95673da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TcCRC32::TcCRC32</definition>
+        <argsstring>(const TcCRC32 &amp;aorCRC)</argsstring>
+        <name>TcCRC32</name>
+        <param>
+          <type>const <ref refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32" kindref="compound">TcCRC32</ref> &amp;</type>
+          <declname>aorCRC</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" line="30" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/DataAuthentication/CRC32.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1ae23a03a04ef0dfca0c0402c266704877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TcCRC32::~TcCRC32</definition>
+        <argsstring>(void)</argsstring>
+        <name>~TcCRC32</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" line="31" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/DataAuthentication/CRC32.cpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a96fe7f4bb468dbab57189c5d9a39e3f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32" kindref="compound">TcCRC32</ref> &amp;</type>
+        <definition>TcCRC32 &amp; TcCRC32::operator=</definition>
+        <argsstring>(const TcCRC32 &amp;aorCRC)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32" kindref="compound">TcCRC32</ref> &amp;</type>
+          <declname>aorCRC</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" line="33" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/DataAuthentication/CRC32.cpp" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a170f6f898b26087d694d0e5163d4016b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+        <definition>Tu32 TcCRC32::MGet</definition>
+        <argsstring>(const Tu8 *aucpBuffer, const Tu32 auiBytes, const Tu32 auiSeed=xuiDefaultSeed, const Tu32 auiTable[XuiTableSize]=xuiTable) const</argsstring>
+        <name>MGet</name>
+        <param>
+          <type>const <ref refid="namespace_g_n_common_1a7939e251ddbf5d3a31832dcfdc8bde39" kindref="member">Tu8</ref> *</type>
+          <declname>aucpBuffer</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+          <declname>auiBytes</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+          <declname>auiSeed</declname>
+          <defval><ref refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a07c2c3cd02a6f0eedc7a56565f7960c1" kindref="member">xuiDefaultSeed</ref></defval>
+        </param>
+        <param>
+          <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+          <declname>auiTable</declname>
+          <array>[XuiTableSize]</array>
+          <defval><ref refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a4aafd40037856d1bd4ea6f6ce0928836" kindref="member">xuiTable</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" line="35" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/DataAuthentication/CRC32.cpp" bodystart="29" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a8d798a894e55e69f847392f72fc2e84d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref></type>
+        <definition>Tb8 TcCRC32::MVerify</definition>
+        <argsstring>(void) const</argsstring>
+        <name>MVerify</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" line="40" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/DataAuthentication/CRC32.cpp" bodystart="48" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a11a20f9425a6431b0f2eb72e126a3a0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TcCRC32::MGenerateTable</definition>
+        <argsstring>(Tu32 auiTable[XuiTableSize], const Tu32 auiPolynomial=XuiPolynomial)</argsstring>
+        <name>MGenerateTable</name>
+        <param>
+          <type><ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+          <declname>auiTable</declname>
+          <array>[XuiTableSize]</array>
+        </param>
+        <param>
+          <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+          <declname>auiPolynomial</declname>
+          <defval><ref refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1ab4394051ff10830de29fa62cbb6f1490" kindref="member">XuiPolynomial</ref></defval>
+        </param>
+        <briefdescription>
+<para>Generate a CRC Lookup Table. </para>        </briefdescription>
+        <detaileddescription>
+<para>Generate a CRC Lookup Table based on the given polynomial</para><para><simplesect kind="return"><para>None</para></simplesect>
+<simplesect kind="par"><title>Formal Parameters</title><para><preformatted><computeroutput>[ out ]  auiTable    Location to store the generated lookup table </computeroutput></preformatted></para></simplesect>
+<simplesect kind="par"><title>Local Symbols</title><para><preformatted><computeroutput> kuiBit          Index to iterate through bits </computeroutput></preformatted> <preformatted><computeroutput> kuiRemainder    Flag indicating if the tables match </computeroutput></preformatted> <preformatted><computeroutput> kucByte         Index into the lookup table </computeroutput></preformatted> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" line="42" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/DataAuthentication/CRC32.cpp" bodystart="70" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a2f822ac900cdba0a94b8e9361eb86b5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_g_n_common_1a8115dc7ed53b6e5b52e6bfde1632ea74" kindref="member">Tb8</ref></type>
+        <definition>Tb8 TcCRC32::MCompareTable</definition>
+        <argsstring>(const Tu32 auiTable[XuiTableSize])</argsstring>
+        <name>MCompareTable</name>
+        <param>
+          <type>const <ref refid="namespace_g_n_common_1a941b527ef318f318aed7903dc832b7e4" kindref="member">Tu32</ref></type>
+          <declname>auiTable</declname>
+          <array>[XuiTableSize]</array>
+        </param>
+        <briefdescription>
+<para>Compares the lookup table. </para>        </briefdescription>
+        <detaileddescription>
+<para>Compares the given lookup table to the default internal lookup table</para><para><simplesect kind="return"><para>True if all of the values in the given table match the internal lookup table, False otherwise</para></simplesect>
+<simplesect kind="par"><title>Formal Parameters</title><para><preformatted><computeroutput>[ in ]  auiTable    Lookup table to compare against the internal lookup table </computeroutput></preformatted></para></simplesect>
+<simplesect kind="par"><title>Local Symbols</title><para><preformatted><computeroutput> kbMatch     Flag indicating if the tables match </computeroutput></preformatted> <preformatted><computeroutput> kuiIndex    Table loop index </computeroutput></preformatted> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" line="43" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/DataAuthentication/CRC32.cpp" bodystart="109" bodyend="124"/>
+        <references refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a520aaabe0f4ade7f38afd480281b2180" compoundref="_c_r_c32_8h" startline="18">XuiTableSize</references>
+        <references refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a4aafd40037856d1bd4ea6f6ce0928836" compoundref="_c_r_c32_8h" startline="26">xuiTable</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>32-bit Cycle Redundancy Code (CRC) Class </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" line="16" column="1" bodyfile="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/inc/DataAuthentication/CRC32.h" bodystart="15" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a2f822ac900cdba0a94b8e9361eb86b5c" prot="public" virt="non-virtual"><scope>GNCommon::NDataAuthentication::TcCRC32</scope><name>MCompareTable</name></member>
+      <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a11a20f9425a6431b0f2eb72e126a3a0e" prot="public" virt="non-virtual"><scope>GNCommon::NDataAuthentication::TcCRC32</scope><name>MGenerateTable</name></member>
+      <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a170f6f898b26087d694d0e5163d4016b" prot="public" virt="non-virtual"><scope>GNCommon::NDataAuthentication::TcCRC32</scope><name>MGet</name></member>
+      <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a8d798a894e55e69f847392f72fc2e84d" prot="public" virt="non-virtual"><scope>GNCommon::NDataAuthentication::TcCRC32</scope><name>MVerify</name></member>
+      <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a96fe7f4bb468dbab57189c5d9a39e3f4" prot="public" virt="non-virtual"><scope>GNCommon::NDataAuthentication::TcCRC32</scope><name>operator=</name></member>
+      <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a92d89fa2eae48fedb6d596ce30798c48" prot="public" virt="non-virtual"><scope>GNCommon::NDataAuthentication::TcCRC32</scope><name>TcCRC32</name></member>
+      <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a125172ccc1307fdeb7bf1d4dc95673da" prot="public" virt="non-virtual"><scope>GNCommon::NDataAuthentication::TcCRC32</scope><name>TcCRC32</name></member>
+      <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a07c2c3cd02a6f0eedc7a56565f7960c1" prot="protected" virt="non-virtual"><scope>GNCommon::NDataAuthentication::TcCRC32</scope><name>xuiDefaultSeed</name></member>
+      <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1ab156bd5eaab2fe267499870a8f6e4925" prot="protected" virt="non-virtual"><scope>GNCommon::NDataAuthentication::TcCRC32</scope><name>xuiMaskByte</name></member>
+      <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1ab4394051ff10830de29fa62cbb6f1490" prot="public" virt="non-virtual"><scope>GNCommon::NDataAuthentication::TcCRC32</scope><name>XuiPolynomial</name></member>
+      <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1aae1c17e2c8f312d0bf2e062a5412ada8" prot="protected" virt="non-virtual"><scope>GNCommon::NDataAuthentication::TcCRC32</scope><name>xuiShift8</name></member>
+      <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a4aafd40037856d1bd4ea6f6ce0928836" prot="protected" virt="non-virtual"><scope>GNCommon::NDataAuthentication::TcCRC32</scope><name>xuiTable</name></member>
+      <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1aafa160e99ae03386b426884450ba3796" prot="protected" virt="non-virtual"><scope>GNCommon::NDataAuthentication::TcCRC32</scope><name>xuiTableCRC</name></member>
+      <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1a520aaabe0f4ade7f38afd480281b2180" prot="public" virt="non-virtual"><scope>GNCommon::NDataAuthentication::TcCRC32</scope><name>XuiTableSize</name></member>
+      <member refid="class_g_n_common_1_1_n_data_authentication_1_1_tc_c_r_c32_1ae23a03a04ef0dfca0c0402c266704877" prot="public" virt="non-virtual"><scope>GNCommon::NDataAuthentication::TcCRC32</scope><name>~TcCRC32</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

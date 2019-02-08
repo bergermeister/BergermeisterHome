@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_cc240ebaa75102e4b1860a41596d22fa" kind="dir">
+    <compoundname>C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/DataAuthentication</compoundname>
+    <innerfile refid="_c_r_c32_8cpp">CRC32.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/edwar/Projects/BergermeisterHome/Software/Common/src/DataAuthentication/"/>
+  </compounddef>
+</doxygen>
