@@ -36,7 +36,7 @@ namespace GNCommon
          void MProcess( const Tu8* aucpData, const Tu32 auiLength );
          void MFinalize( void );
 
-         virtual const Tu8* MGet( void ) const;
+         virtual const Tu8* MDigest( void ) const;
 
       protected:     // Protected Methods
          void mProcessBlock( void );

@@ -153,7 +153,7 @@ void TcSHA512::MFinalize( )
    }
 }
 
-const Tu8* TcSHA512::MGet( void ) const
+const Tu8* TcSHA512::MDigest( void ) const
 {
    return( reinterpret_cast< const Tu8* >( const_cast< const Tu64* >( this->vulHash ) ) );
 }

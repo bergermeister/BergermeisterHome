@@ -14,15 +14,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UnitTestApp.xaml.cpp" />
-    <ClCompile Include="..\..\..\..\Software\Common\DataAuthentication\SHA512.cpp">
-      <Filter>DataAuthentication</Filter>
-    </ClCompile>
     <ClCompile Include="UTHash.cpp">
       <Filter>DataAuthentication</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="UnitTestApp.xaml.h" />
+    <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
     <Xml Include="UnitTestApp.rd.xml" />

@@ -25,7 +25,7 @@ namespace GNCommon
          virtual void MProcess( const Tu8* aucpData, const Tu32 auiBytes ) = 0;
          virtual void MFinalize( void ) = 0;
 
-         virtual const Tu8* MGet( void ) const = 0;
+         virtual const Tu8* MDigest( void ) const = 0;
 
          inline Tu64 MSwap( const Tu64 aulVal )
          {
