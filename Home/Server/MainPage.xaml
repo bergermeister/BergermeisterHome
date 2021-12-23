@@ -1,0 +1,23 @@
+﻿<Page
+   x:Class="Server.MainPage"
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:local="using:Server"
+   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+   mc:Ignorable="d"
+   Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+   <Grid Background="Black" >
+      <Grid.RowDefinitions>
+         <RowDefinition Height="auto" />
+         <RowDefinition Height="auto" />
+         <RowDefinition Height="auto" />
+         <RowDefinition Height="auto" />
+      </Grid.RowDefinitions>
+      <TextBlock Grid.Row="0" Text="Bergermeister Home Server" Foreground="White" FontSize="60" />
+      <TextBlock Grid.Row="1" Name="txtDHTStatus" Text="Status:" Foreground="White" FontSize="40" />
+      <TextBlock Grid.Row="2" Name="txtDHTTemperature" Text="Temperature:" Foreground="White" FontSize="40" />
+      <TextBlock Grid.Row="3" Name="txtDHTHumidity" Text="Humidity:" Foreground="White" FontSize="40" />
+   </Grid>
+</Page>
