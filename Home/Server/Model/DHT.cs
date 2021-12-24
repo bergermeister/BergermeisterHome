@@ -1,6 +1,7 @@
 ﻿namespace Server.Model
 {
    using System;
+   using System.Collections;
    using System.Collections.Generic;
    using System.Diagnostics;
    using System.Linq;
@@ -12,32 +13,30 @@
    {
       public enum Status
       {
-         None = 0,
-         StartHigh,
-         StartLow,
-         Timeout,     // Timed out waiting for sample
-         MissingData, // Did not catch all falling edges
-         InvalidData, // Checksum validation failed
-         Success
+         Success = 0,
+         InitialPulseFailed,
+         RisingEdgeTimeout,
+         FallingEdgeTimeout,
+         ChecksumMismatch
       }
 
       private const int   delayHoldLow  = 20;
       private const int   delayHoldHigh = 40;
       private const ulong timeout       = 1000; // 1000 Microseconds
-      private const ulong byteCount     = 5;
+      private const int   byteCount     = 5;
 
       private GpioPin inputPin;
       private GpioPin outputPin;
       private GpioPinDriveMode inputDriveMode;
       private GpioChangeReader changeReader;
-      private byte[] data;
+      private long data;
 
       public DHT( )
       {
          this.inputPin = null;
          this.outputPin = null;
          this.inputDriveMode = GpioPinDriveMode.Input;
-         this.data = new byte[ byteCount ];
+         this.data = 0;
       }
       public void Initialize( GpioPin aInputPin, GpioPin aOutputPin )
       {
@@ -60,22 +59,114 @@
 
       public Status Sample( )
       {
-         return( Status.None );
+         // This is the threshold used to determine whether a bit is a '0' or a '1'.
+         // A '0' has a pulse time of 76 microseconds, while a '1' has a
+         // pulse time of 120 microseconds. 110 is chosen as a reasonable threshold.
+         // We convert the value to QPF units for later use.
+         const long oneThresholdTicks = 110 * ( TimeSpan.TicksPerMillisecond / 1000 );
+         const long initialRisingEdgeTimeoutMillis = 1;
+         const long sampleTimeoutMillis = 10;
+
+         Status       status = Status.Success;
+         GpioPinValue previousValue = GpioPinValue.Low;
+         GpioPinValue currentValue;
+         Stopwatch    timer = new Stopwatch( );
+         BitArray     bits = new BitArray( 40 );
+         int          index;
+         long         previousTicks;
+         long         currentTicks;
+         long         deltaTicks;
+         long[ ]      tempData = new long[ 1 ];
+
+         if( !this.sendInitialPulse( ) )
+         {
+            status = Status.InitialPulseFailed;
+         }
+         else
+         {
+            previousValue = this.inputPin.Read( );
+
+            // catch the first rising edge
+            timer.Start( );
+            while( status == Status.Success )
+            {
+               
+               if( timer.ElapsedMilliseconds > initialRisingEdgeTimeoutMillis )
+               {
+                  status = Status.RisingEdgeTimeout;
+               }
+               else
+               {
+                  currentValue = this.inputPin.Read( );
+                  if( currentValue != previousValue )
+                  {
+                     // rising edge?
+                     if( currentValue == GpioPinValue.High )
+                     {
+                        break;
+                     }
+                     previousValue = currentValue;
+                  }
+               }
+            }
+            timer.Stop( );
+         }
+
+         if( status == Status.Success )
+         {
+            // capture every falling edge until all bits are received or timeout occurs
+            previousTicks = 0;
+            timer.Start( );
+            for( index = 0; ( index < byteCount ) && ( status == Status.Success ); )
+            {
+               if( timer.ElapsedMilliseconds > sampleTimeoutMillis )
+               {
+                  status = Status.FallingEdgeTimeout;
+               }
+               else
+               {
+                  currentValue = this.inputPin.Read( );
+                  if( ( previousValue == GpioPinValue.High ) && ( currentValue == GpioPinValue.Low ) )
+                  {
+                     // A falling edge was detected
+                     currentTicks = timer.ElapsedTicks;
+                     if( index != 0 )
+                     {
+                        deltaTicks = currentTicks - previousTicks;
+                        bits[ byteCount - index ] = ( deltaTicks > oneThresholdTicks );
+                     }
+
+                     previousTicks = currentTicks;
+                     ++index;
+                  }
+
+                  previousValue = currentValue;
+               }
+            }
+
+            bits.CopyTo( tempData, 0 );
+            this.data = tempData[ 0 ];
+
+            if( !this.IsValid )
+            {
+               // checksum mismatch
+               status = Status.ChecksumMismatch;
+            }
+         }
+
+         return( status );
       }
 
       public bool IsValid
       {
          get
          {
-            uint index;
-            uint checksum = 0;
+            long checksum = ( ( this.data >> 32 ) & 0xFF ) +
+                            ( ( this.data >> 24 ) & 0xFF ) +
+                            ( ( this.data >> 16 ) & 0xFF ) +
+                            ( ( this.data >>  8 ) & 0xFF );
 
-            for( index = 0; index < ( byteCount - 1 ); index++ )
-            {
-               checksum += data[ index ];
-            }
-
-            return ( ( checksum & 0x000000FF ) == data[ byteCount - 1 ] );
+            return ( ( checksum & 0xFF ) == ( this.data & 0xFF ) );
          }
       }
 
@@ -83,7 +174,7 @@
       {
          get
          {
-            return( ( double )data[ 0 ] + ( ( double )data[ 1 ] / 100.0 ) );
+            return( ( ( this.data >> 24 ) & 0xFFFF ) * 0.1 );
          }
       }
 
@@ -91,7 +182,12 @@
       {
          get
          {
-            return( ( double )data[ 2 ] + ( ( double )data[ 3 ] ) );
+            double temp = ( ( this.data >> 8 ) & 0x7FFF ) * 0.1;
+            if( ( ( this.data >> 8 ) & 0x8000 ) == 0x8000 )
+            {
+               temp = -temp;
+            }
+            return( temp );
          }
       }
 
