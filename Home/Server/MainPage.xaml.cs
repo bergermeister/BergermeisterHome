@@ -31,12 +31,14 @@ namespace Server
       private DispatcherTimer timer;
       private SolidColorBrush redBrush = new SolidColorBrush(Windows.UI.Colors.Red);
       private SolidColorBrush grayBrush = new SolidColorBrush(Windows.UI.Colors.LightGray);
-      private Model.DHT sensor = new Model.DHT();
+      private Model.DHT11 sensor = new Model.DHT11();
+      private int tickCount;
 
       public MainPage( )
       {
          this.InitializeComponent( );
 
+         tickCount = 0;
          timer = new DispatcherTimer( );
          timer.Interval = TimeSpan.FromMilliseconds( 5000 );
          timer.Tick += Timer_Tick;
@@ -49,7 +51,7 @@ namespace Server
 
       private void InitGPIO( )
       {
-         var gpio = GpioController.GetDefault();
+         var gpio = GpioController.GetDefault( );
 
          // Show an error if there is no GPIO controller
          if( gpio == null )
@@ -63,15 +65,19 @@ namespace Server
          pinValue = GpioPinValue.High;
          pin.Write( pinValue );
          pin.SetDriveMode( GpioPinDriveMode.Output );
-         sensor.Initialize( gpio.OpenPin( 6 ), gpio.OpenPin( 13 ) );
+         sensor.Initialize( gpio.OpenPin( 6 ) );
       }
 
       private void Timer_Tick( object sender, object e )
       {
-         Model.DHT.Status status = sensor.Sample( );
-         txtDHTStatus.Text      = string.Format( "Status:      {0}", status );
-         txtDHTTemperature.Text = string.Format( "Temeprature: {0}", sensor.Temperature );
-         txtDHTHumidity.Text    = string.Format( "Humidity:    {0}", sensor.Humidity );
+         if( tickCount > 0 )
+         {
+            Model.DHT11.Status status = sensor.Sample( );
+            txtDHTStatus.Text      = string.Format( "Status:      {0}", status );
+            txtDHTTemperature.Text = string.Format( "Temperature: {0}C | {1}F", 
+                                                   sensor.Temperature, ( sensor.Temperature * ( 9.0 / 5.0 ) ) + 32.0 );
+            txtDHTHumidity.Text    = string.Format( "Humidity:    {0}%RH", sensor.Humidity );
+         }
 
          if( pinValue == GpioPinValue.High )
          {
@@ -85,6 +91,8 @@ namespace Server
             pin.Write( pinValue );
             //LED.Fill = grayBrush;
          }
+
+         this.tickCount++;
       }
    }
 }
