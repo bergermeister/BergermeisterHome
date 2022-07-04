@@ -10,6 +10,8 @@
  */
 // Sensor Includes
 #include <Sensor/DHT22.h>
+
+// Network Includes
 #include <Network/IPEndpoint.h>
 #include <Network/UDPClient.h>
 
@@ -33,6 +35,7 @@ int main( int argc, char** argv )
    std::string remoteHostname = "DESKTOP-PM4TGPJ.local";
    int port = 59200;
    Sensor::DHT22 sensor( 4 );
+   Bergermeister::Network::IPEndpoint receivedEndpoint;
    Bergermeister::Network::IPEndpoint remoteEndpoint( remoteHostname, port );
    Bergermeister::Network::UDPClient udpClient;
 
@@ -57,7 +60,7 @@ int main( int argc, char** argv )
    {
       do
       {
-         bytesReceived = udpClient.ReceiveFrom( rxBuffer, 256, remoteEndpoint );
+         bytesReceived = udpClient.ReceiveFrom( rxBuffer, 256, receivedEndpoint );
          if( bytesReceived > 0 )
          {
             std::cout << "Received " << bytesReceived << ": " << std::string( ( char* )rxBuffer ) << std::endl;

@@ -6,6 +6,7 @@ enable_testing( )
 
 add_subdirectory( Network )
 add_subdirectory( Sensor )
+add_subdirectory( Hub )
 
 set( CPACK_PROJECT_NAME ${PROJECT_NAME} )
 set( CPACK_PROJECT_VERSION ${PROJECT_VERSION} )
