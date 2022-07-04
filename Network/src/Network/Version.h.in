@@ -1,0 +1,3 @@
+// the configured options and settings for Tutorial
+#define Network_VERSION_MAJOR @Network_VERSION_MAJOR@
+#define Network_VERSION_MINOR @Network_VERSION_MINOR@
