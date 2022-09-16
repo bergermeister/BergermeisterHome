@@ -1,14 +1,7 @@
-// Sensor Includes
-#include <Network/UDPClient.h>
+// BDF Includes
+#include <BDF/Network/UDPClient.h>
 
-// StdLib Includes
-#include <cstring>
-#include <unistd.h>
-
-// Linux Includes
-#include <sys/socket.h>
-
-namespace Bergermeister
+namespace BDF
 {
    namespace Network
    {

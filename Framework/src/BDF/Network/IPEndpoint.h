@@ -8,17 +8,13 @@
  * @copyright Copyright (c) 2022
  * 
  */
-#ifndef Bergermeister_Network_IPEndpoint_h
-#define Bergermeister_Network_IPEndpoint_h
+#ifndef BDF_Network_IPEndpoint_h
+#define BDF_Network_IPEndpoint_h
 
-// StdLib Includes
-#include <cstdint>
-#include <string>
+// BDF Includes
+#include <BDF/Environment.h>
 
-// Linux Includes
-#include <netdb.h>
-
-namespace Bergermeister
+namespace BDF
 {
    namespace Network
    {

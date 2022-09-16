@@ -11,10 +11,10 @@
 #ifndef Bergermeister_Network_UDPSocket_h
 #define Bergermeister_Network_UDPSocket_h
 
-// Linux Includes
-#include <netdb.h>
+// BDF Includes
+#include <BDF/Environment.h>
 
-namespace Bergermeister
+namespace BDF
 {
    namespace Network
    {

@@ -1,23 +1,7 @@
-/**
- * @file UDPSocket.cpp
- * @author Eisenberger, Edward (Edward.Eisenberger@live.com)
- * @brief 
- * @version 0.1
- * @date 2022-07-01
- * 
- * @copyright Copyright (c) 2022
- * 
- */
 // Bergermeister Network Includes
-#include <Network/UDPSocket.h>
+#include <BDF/Network/UDPSocket.h>
 
-// StdLib Includes
-#include <cstring>
-
-// Linux Includes
-#include <unistd.h>
-
-namespace Bergermeister
+namespace BDF
 {
    namespace Network
    {

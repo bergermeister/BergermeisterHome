@@ -3,8 +3,10 @@
         {
             "name": "Linux",
             "includePath": [
+                "${workspaceFolder}/Framework/src",
                 "${workspaceFolder}/Network/src",
-                "${workspaceFolder}/Sensor/src"
+                "${workspaceFolder}/Sensor/src",
+                "${workspaceFolder}/build/_deps//googletest-src/googletest/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

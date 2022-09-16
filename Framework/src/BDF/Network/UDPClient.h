@@ -8,17 +8,15 @@
  * @copyright Copyright (c) 2022
  * 
  */
-#ifndef Sensor_UDPClient_h
-#define Sensor_UDPClient_h
+#ifndef BDF_Network_UDPClient_h
+#define BDF_Network_UDPClient_h
 
 // Bergermeister Network Includes
-#include <Network/UDPSocket.h>
-#include <Network/IPEndpoint.h>
+#include <BDF/Environment.h>
+#include <BDF/Network/UDPSocket.h>
+#include <BDF/Network/IPEndpoint.h>
 
-// StdLib Includes
-#include <cstdint>
-
-namespace Bergermeister
+namespace BDF
 {
    namespace Network
    {
