@@ -45,16 +45,16 @@ namespace BDF
          private:    // Private Attributes
             static constexpr uint32_t dataByteCount = 5;
 
-            uint32_t chipNumber;
-            uint32_t lineNumber;
+            struct gpiod_line* line;
             uint8_t data[ dataByteCount ];
 
          public:     // Public Methods
             DHT22( void );
             ~DHT22( void ) = default;
 
-            Status Open( const uint32_t ChipNumber, const uint32_t LineNumber );
+            Status Open( struct gpiod_chip* Chip, const uint32_t LineNumber );
             Status Sample( void );
+            void Close( void );
 
             inline bool IsValid( void ) const
             {
@@ -80,9 +80,6 @@ namespace BDF
                      ( static_cast< uint32_t >( this->data[ 3 ]                ) )
                   / 10.0 ) );
             }
-
-         private:    // Private Methods
-            Status readData( struct gpiod_line* line );
       };
    }
 }

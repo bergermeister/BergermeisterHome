@@ -18,36 +18,21 @@ namespace BDF
        */
       DHT22::DHT22( void )
       {
-         this->chipNumber = 0;
-         this->lineNumber = 0;
+         this->line = nullptr;
          std::memset( reinterpret_cast< void* >( this->data ), 0, dataByteCount );
       }
 
-      DHT22::Status DHT22::Open( const uint32_t ChipNumber, const uint32_t LineNumber )
+      /**
+       * @brief 
+       * 
+       * @param[in] Chip 
+       * @param[in] LineNumber 
+       * @return DHT22::Status 
+       */
+      DHT22::Status DHT22::Open( struct gpiod_chip* Chip, const uint32_t LineNumber )
       {
-         struct gpiod_chip* chip;
-         struct gpiod_line* line;
-         Status status = Status::Success;
-
-         this->chipNumber = ChipNumber;
-         this->lineNumber = LineNumber;
-
-         if( ( chip = gpiod_chip_open_by_number( this->chipNumber ) ) == nullptr )
-         {
-            status = Status::InvalidChip;
-         }
-         else if( ( line = gpiod_chip_get_line( chip, this->lineNumber ) ) == nullptr )
-         {
-            status = Status::InvalidLine;
-            gpiod_chip_close( chip );
-         }
-         else
-         {
-            gpiod_line_release( line );
-            gpiod_chip_close( chip );
-         }
-
-         return( status );
+         this->line = gpiod_chip_get_line( Chip, LineNumber);
+         return( ( this->line != nullptr ) ? Status::Success : Status::InvalidLine );
       }
 
       /**
@@ -69,35 +54,11 @@ namespace BDF
        * - A 0 data bit is  ~78us (50us start transmit + 28us of high-voltage-level)
        * - A 1 data bit is ~120us (50us start transmit + 70us of high-voltage-level)
        * 
+       * @param None
        * @return
        * 
        */
       DHT22::Status DHT22::Sample( void )
-      {
-         struct gpiod_chip* chip;
-         struct gpiod_line* line;
-         Status status = Status::Success;
-
-         if( ( chip = gpiod_chip_open_by_number( this->chipNumber ) ) == nullptr )
-         {
-            status = Status::InvalidChip;
-         }
-         else if( ( line = gpiod_chip_get_line( chip, this->lineNumber ) ) == nullptr )
-         {
-            status = Status::InvalidLine;
-         }
-         else
-         {
-            status = this->readData( line );
-         }
-
-         gpiod_line_release( line );
-         gpiod_chip_close( chip );
-
-         return( status );
-      }
-
-      DHT22::Status DHT22::readData( struct gpiod_line* line )
       {
          static constexpr uint32_t totalPulses = 41;
          static constexpr uint32_t maxCount = 36000;
@@ -109,21 +70,21 @@ namespace BDF
          int dataIndex;
          volatile int delayIndex;
 
-         gpiod_line_release( line );
-         if( gpiod_line_request_output( line, Consumer, 0 ) == -1 )
+         gpiod_line_release( this->line );
+         if( gpiod_line_request_output( this->line, Consumer, 0 ) == -1 )
          {
             return( Status::RequestOutputFailed );
          }
 
-         gpiod_line_set_value( line, 1 );
+         gpiod_line_set_value( this->line, 1 );
          usleep( 500000 );
 
-         gpiod_line_set_value( line, 0 );
+         gpiod_line_set_value( this->line, 0 );
          usleep( 20000 );
 
-         gpiod_line_release( line );
+         gpiod_line_release( this->line );
 
-         if( gpiod_line_request_input( line, Consumer ) == -1 )
+         if( gpiod_line_request_input( this->line, Consumer ) == -1 )
          {
             return( Status::RequestInputFailed );
          }
@@ -132,7 +93,7 @@ namespace BDF
          for( delayIndex = 0; delayIndex < 50; delayIndex++ );
 
          // Wait for sensor pin to pull low
-         while( gpiod_line_get_value( line ) == 1 )
+         while( gpiod_line_get_value( this->line ) == 1 )
          {
             count++;
             if( count >= maxCount )
@@ -143,7 +104,7 @@ namespace BDF
 
          for( pulseIndex = 0; pulseIndex < ( totalPulses * 2 ); pulseIndex += 2 )
          {
-            while( gpiod_line_get_value( line ) == 0 )
+            while( gpiod_line_get_value( this->line ) == 0 )
             {
                if( ( ++pulseCounts[ pulseIndex ] ) >= maxCount )
                {
@@ -151,7 +112,7 @@ namespace BDF
                }
             }
 
-            while( gpiod_line_get_value( line ) == 1 )
+            while( gpiod_line_get_value( this->line ) == 1 )
             {
                if( ( ++pulseCounts[ pulseIndex + 1 ] ) >= maxCount )
                {
@@ -178,6 +139,11 @@ namespace BDF
          }
 
          return( Status::Success );
+      }
+
+      void DHT22::Close( void )
+      {
+         gpiod_line_release( this->line );
       }
    }
 }
